@@ -1,4 +1,5 @@
 import os
+import asyncio
 from dotenv import load_dotenv
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
@@ -9,9 +10,7 @@ from llama_index.core import Document, VectorStoreIndex, Settings, StorageContex
 from llama_index.vector_stores.chroma import ChromaVectorStore
 import chromadb
 from llama_index.core.node_parser import SemanticSplitterNodeParser
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.gemini import Gemini
-import google.generativeai as genai
 from llama_index.core.embeddings import BaseEmbedding
 import google.generativeai as genai
 from typing import List
@@ -21,17 +20,25 @@ from fastapi.middleware.cors import CORSMiddleware
 # --- 0. CARGAR VARIABLES DE ENTORNO ---
 load_dotenv()
 
+# --- 1. CONFIGURAR EMBEDDINGS CON CACHÉ ---
+embedding_cache = {}
+
 class GeminiEmbedding(BaseEmbedding):
     def __init__(self, model: str = "models/embedding-001"):
         super().__init__()
-        self._model = model  # usar atributo privado en lugar de `self.model`
+        self._model = model
 
     def _get_query_embedding(self, query: str) -> List[float]:
+        if query in embedding_cache:
+            return embedding_cache[query]
+            
         result = genai.embed_content(
             model=self._model,
             content=query,
         )
-        return result["embedding"]
+        embedding = result["embedding"]
+        embedding_cache[query] = embedding
+        return embedding
 
     def _get_text_embedding(self, text: str) -> List[float]:
         result = genai.embed_content(
@@ -41,7 +48,12 @@ class GeminiEmbedding(BaseEmbedding):
         return result["embedding"]
 
     async def _aget_query_embedding(self, query: str) -> List[float]:
-        return self._get_query_embedding(query)
+        loop = asyncio.get_running_loop()
+        return await loop.run_in_executor(None, self._get_query_embedding, query)
+
+    async def _aget_text_embedding(self, text: str) -> List[float]:
+        loop = asyncio.get_running_loop()
+        return await loop.run_in_executor(None, self._get_text_embedding, text)
 
 if not os.getenv("GOOGLE_API_KEY"):
     print("❌ Error: La variable de entorno GOOGLE_API_KEY no fue encontrada.")
@@ -58,75 +70,47 @@ genai.configure(api_key=GEMINI_API_KEY)
 # --- 1. CONFIGURAR MODELOS LLAMA_INDEX ---
 print("⚙️ Configurando modelos...")
 
-Settings.llm = Gemini(model="gemini-2.5-flash", max_output_tokens=1024)
+Settings.llm = Gemini(model="gemini-2.5-flash-lite", max_output_tokens=1024)
 Settings.embed_model = GeminiEmbedding(model="models/embedding-001")
 
-# --- 2. CARGAR Y PROCESAR DOCUMENTOS (SI ES NECESARIO) ---
+# --- 2. CARGAR ÍNDICE EXISTENTE (MODO PRODUCCIÓN) ---
 PERSIST_DIR = "./chroma_db"
 
 if not os.path.exists(PERSIST_DIR):
-    print("📂 No se encontró un índice existente. Creando uno nuevo...")
-    print("📄 Cargando y procesando documentos...")
-    try:
-        with open("data/REGLAMENTO_ADMISION.txt", "r", encoding="utf-8") as f1, \
-             open("data/PROSPECTO_ADMISION.txt", "r", encoding="utf-8") as f2:
-            texto1 = f1.read()
-            texto2 = f2.read()
-    except FileNotFoundError as e:
-        print(f"❌ Error: No se encontró el archivo {e.filename}.")
-        exit()
+    print(f"❌ ERROR CRÍTICO: No se encontró el directorio '{PERSIST_DIR}'.")
+    print("👉 EJECUTA PRIMERO: python ingest.py")
+    print("   El servidor no puede iniciar sin el índice vectorial.")
+    # No usamos exit(1) directo para permitir reinicios en dev si se arregla, 
+    # pero en producción esto causará un crash loop (correcto behavior).
+    # Sin embargo, para uvicorn en reload, un raise es mejor.
+    raise RuntimeError(f"Falta el índice vectorial en {PERSIST_DIR}")
 
-    document1 = Document(text=texto1)
-    document2 = Document(text=texto2)
-
-    splitter = SemanticSplitterNodeParser(
-        buffer_size=1,
-        breakpoint_percentile_threshold=95,
-        embed_model=Settings.embed_model
-    )
-    nodes = splitter.get_nodes_from_documents([document1, document2])
-    print(f"✅ Documentos procesados en {len(nodes)} chunks semánticos.")
-
-    print("🧠 Creando y guardando el índice vectorial...")
-    db = chromadb.PersistentClient(path=PERSIST_DIR)
-    chroma_collection = db.get_or_create_collection("admision_unap")
-    vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
-    storage_context = StorageContext.from_defaults(vector_store=vector_store)
-    index = VectorStoreIndex(nodes, storage_context=storage_context)
-    print("✅ Índice vectorial creado y guardado.")
-else:
-    print(f"📂 Encontrado un índice existente en '{PERSIST_DIR}'. Cargándolo...")
+print(f"📂 Cargando índice vectorial desde '{PERSIST_DIR}'...")
+try:
     db = chromadb.PersistentClient(path=PERSIST_DIR)
     chroma_collection = db.get_or_create_collection("admision_unap")
     
     # Debug: Verificar contenido de la colección
-    try:
-        collection_count = chroma_collection.count()
-        print(f"🔍 DEBUG: Documentos en ChromaDB al cargar: {collection_count}")
-        
-        if collection_count > 0:
-            # Intentar obtener algunos documentos para verificar
-            sample_docs = chroma_collection.peek(limit=3)
-            print(f"🔍 DEBUG: Muestra de documentos: {len(sample_docs['ids'])} encontrados")
-            if sample_docs['documents']:
-                print(f"🔍 DEBUG: Primer documento (primeros 100 chars): {sample_docs['documents'][0][:100]}...")
-        else:
-            print("⚠️  WARNING: La colección está vacía!")
-            
-    except Exception as e:
-        print(f"❌ Error verificando ChromaDB: {e}")
+    collection_count = chroma_collection.count()
+    print(f"🔍 DEBUG: Documentos en ChromaDB al cargar: {collection_count}")
     
+    if collection_count == 0:
+         print("⚠️  WARNING: La colección está vacía! Ejecuta ingest.py")
+
     vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
     index = VectorStoreIndex.from_vector_store(
         vector_store,
         embed_model=Settings.embed_model
     )
     print("✅ Índice vectorial cargado.")
+except Exception as e:
+    print(f"❌ Error cargando ChromaDB: {e}")
+    raise e
 
 
 # --- 4. CONFIGURAR MOTOR DE CONSULTAS ---
 print("🚀 Configurando motor de consultas RAG...")
-query_engine = index.as_query_engine(similarity_top_k=7)
+query_engine = index.as_query_engine(similarity_top_k=4)
 
 print("✅ Sistema RAG listo para consultas.")
 
@@ -138,9 +122,7 @@ app = FastAPI()
 # se comunique con este backend.
 # Para producción, es recomendable restringir los orígenes.
 origins = [
-    "http://localhost",
-    "http://localhost:3000",
-    "http://localhost:5173",  # Puerto común para Vite
+    "*",  # Puerto común para Vite
 ]
 
 app.add_middleware(
@@ -160,17 +142,22 @@ class ChatRequest(BaseModel):
     message: str
     history: List[dict]
 
-def llamar_llm_streaming(prompt: str):
-    """Llamada a Gemini streaming por google.generativeai"""
+
+async def llamar_llm_streaming(prompt: str):
+    """Llamada a Gemini streaming por google.generativeai (Async)"""
     try:
-        model = genai.GenerativeModel('gemini-2.5-flash')
-        stream = model.generate_content(prompt, stream=True)
-        for chunk in stream:
-            if chunk.text:
-                yield chunk.text
+        model = genai.GenerativeModel('gemini-2.5-flash-lite')
+        response = await model.generate_content_async(prompt, stream=True)
+        async for chunk in response:
+            try:
+                if chunk.text:
+                    yield chunk.text
+            except ValueError:
+                # Si el chunk no tiene texto (por safety o finish_reason), lo ignoramos
+                pass
     except Exception as e:
         print(f"❌ Error llamando a Gemini: {e}")
-        yield "Error: no se pudo contactar al modelo de IA."
+        yield " "
 
 def generar_prompt(pregunta, contexto, historial):
     historial_texto = "\n".join(
@@ -178,7 +165,7 @@ def generar_prompt(pregunta, contexto, historial):
     )
     return f"""
 ## ROL Y OBJETIVO
-Actúa EXCLUSIVAMENTE como MIRAGE, un asistente virtual experto y amigable, cuyo único propósito es guiar a estudiantes de secundaria en el proceso de admisión universitaria. Tu tono debe ser siempre motivador, claro y alentador.
+Actúa EXCLUSIVAMENTE como Ayudante de Admision UNAM, un asistente virtual experto y amigable, cuyo único propósito es guiar a estudiantes de secundaria en el proceso de admisión universitaria. Tu tono debe ser siempre motivador, claro y alentador.
 ## REGLAS Y CONOCIMIENTO
 1. **Prioridad de Fuentes:** Tu fuente de verdad principal es el **"Historial de la Conversación"**. Úsalo SIEMPRE para responder preguntas sobre la conversación actual (ej: \"¿qué te pregunté antes?\", \"¿a qué te referías con...?\")
 2. **Uso del Contexto RAG:** Usa el **"Contexto Relevante"** únicamente para responder preguntas sobre el proceso de admisión universitaria (requisitos, fechas, costos, etc.).
@@ -342,7 +329,7 @@ Nunca uses expresiones en segunda persona como “¿Quieres...?”, “¿Te gust
 **Respuesta:**
 """
 
-def generar_respuesta_stream(pregunta: str, historial: list):
+async def generar_respuesta_stream(pregunta: str, historial: list):
     # Recuperar contexto: los top-k chunks relevantes
     print("\n" + "="*80)
     print(f"🔍 NUEVA CONSULTA: {pregunta}")
@@ -351,7 +338,8 @@ def generar_respuesta_stream(pregunta: str, historial: list):
     # Debug: Verificar si el query_engine está funcionando
     try:
         print(f"🔍 DEBUG: Ejecutando query...")
-        resultado = query_engine.query(pregunta)
+        # LlamaIndex soporta aquery para consultas asíncronas
+        resultado = await query_engine.aquery(pregunta)
         print(f"🔍 DEBUG: Tipo de resultado: {type(resultado)}")
         print(f"🔍 DEBUG: Resultado tiene source_nodes: {hasattr(resultado, 'source_nodes')}")
         
@@ -409,7 +397,8 @@ def generar_respuesta_stream(pregunta: str, historial: list):
     
     contexto = str(resultado)
     prompt = generar_prompt(pregunta, contexto, historial)
-    yield from llamar_llm_streaming(prompt)
+    async for chunk in llamar_llm_streaming(prompt):
+        yield chunk
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
@@ -424,12 +413,12 @@ async def chat(request: Request, chat_request: ChatRequest):
     if not pregunta:
         return StreamingResponse("Error: no se recibió ninguna pregunta.", status_code=400)
 
-    def response_generator():
+    async def response_generator():
         nonlocal historial
         full_response = ""
         suggested_questions = []
 
-        for chunk in generar_respuesta_stream(pregunta, historial):
+        async for chunk in generar_respuesta_stream(pregunta, historial):
             full_response += chunk
             if "---" in chunk:
                 parts = chunk.split("---")
