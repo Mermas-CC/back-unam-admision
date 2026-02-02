@@ -2,7 +2,7 @@ import os
 import asyncio
 from dotenv import load_dotenv
 from llama_index.core import Document, VectorStoreIndex, Settings, StorageContext
-from llama_index.vector_stores.chroma import ChromaVectorStore
+from llama_index.vector_stores.chroma import ChromaVectorStore  # From llama-index-vector-stores-chroma
 import chromadb
 from llama_index.core.node_parser import SemanticSplitterNodeParser
 from llama_index.llms.gemini import Gemini

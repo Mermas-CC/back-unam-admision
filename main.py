@@ -117,6 +117,13 @@ print("✅ Sistema RAG listo para consultas.")
 # --- 5. FASTAPI APP ---
 app = FastAPI()
 
+# --- HEALTH CHECK ENDPOINT ---
+@app.get("/health")
+async def health_check():
+    """Endpoint para verificar que el servicio está funcionando. 
+    Cloud Run usa esto para el startup probe."""
+    return {"status": "healthy", "message": "RAG System is running"}
+
 # --- CONFIGURAR CORS ---
 # Esto permite que el frontend de React (que se ejecutará en otro puerto)
 # se comunique con este backend.
