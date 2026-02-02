@@ -145,3 +145,5 @@ uvicorn[standard]
 python-multipart
 starlette
 itsdangerous
+chromadb
+llama-index-vector-stores-chroma
