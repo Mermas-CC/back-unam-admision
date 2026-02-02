@@ -8,8 +8,8 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-# Instalar dependencias del sistema si fueran necesarias para compilar
-# RUN apt-get update && apt-get install -y build-essential gcc
+# Instalar dependencias del sistema necesarias para compilar librerías de C/C++
+RUN apt-get update && apt-get install -y build-essential gcc --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 # Copiar requirements primero para aprovechar caché de docker
 COPY requirements.txt .
