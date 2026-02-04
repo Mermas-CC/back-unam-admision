@@ -5,6 +5,7 @@ FROM python:3.10-slim
 # Evitar que Python genere archivos .pyc y buffer de salida
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV ANONYMIZED_TELEMETRY=False
 
 WORKDIR /app
 
@@ -17,6 +18,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar el resto del código
 COPY . .
+
+# Copiar la base de datos pre-generada (si existe localmente)
+# Esto reduce el tiempo de arranque de minutos a segundos
+COPY chroma_db_v2 ./chroma_db_v2
 
 # Dar permisos de ejecución al script de inicio
 RUN chmod +x start.sh

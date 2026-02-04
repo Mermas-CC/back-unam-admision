@@ -6,9 +6,22 @@ import numpy as np
 # ==========================
 # CONFIGURACIÓN
 # ==========================
-API_URL = "http://localhost:8000/chat"
-USUARIOS_SIMULTANEOS = 100
+API_URL = "https://back-unam-admision-1001169872215.us-central1.run.app/chat"
+USUARIOS_POR_LOTE = 30
+INTERVALO_ENTRE_LOTES = 1
+NUMERO_DE_LOTES = 10  # Haremos 3 rondas por defecto
 TIMEOUT = None
+
+PREGUNTAS = [
+    # ... (Keep existing prompt list logic implicitly by not changing lines 13-64 if possible, 
+    # but I need to replace the config section which is at top, and the loop logic. 
+    # Since I can't easily skip lines in replace_file_content mid-file without exact context,
+    # I will replace the top config and the main async function.)
+]
+# I will make a smaller replacement for Config and a separate one for the function.
+
+# Replacement 1: CONFIG
+
 
 PREGUNTAS = [
 "¿Cuánto cuesta el examen ordinario?",
@@ -104,6 +117,10 @@ async def medir_usuario(client, user_id):
         primer_token = 0
         total = 0
 
+    # Print progress immediately
+    estado_icon = "✅" if status == 200 else "❌"
+    print(f"User {user_id:02d}: {estado_icon} (Total: {total:.2f}s)")
+    
     return {
         "user": user_id,
         "ttft": primer_token,
@@ -116,16 +133,29 @@ async def medir_usuario(client, user_id):
 # STRESS TEST
 # ==========================
 async def stress_test():
-    print(f"\n🚀 Lanzando {USUARIOS_SIMULTANEOS} usuarios simultáneos...\n")
+    print(f"\n🚀 Lanzando prueba de carga: {NUMERO_DE_LOTES} lotes de {USUARIOS_POR_LOTE} usuarios (Intervalo: {INTERVALO_ENTRE_LOTES}s)...\n")
+    
+    todos_resultados = []
 
     async with httpx.AsyncClient(timeout=TIMEOUT) as client:
-        tareas = [
-            medir_usuario(client, i)
-            for i in range(USUARIOS_SIMULTANEOS)
-        ]
+        for lote in range(NUMERO_DE_LOTES):
+            print(f"--- Lote {lote + 1}/{NUMERO_DE_LOTES} ---")
+            
+            # Offset user IDs to be unique across batches
+            offset = lote * USUARIOS_POR_LOTE
+            tareas = [
+                medir_usuario(client, offset + i)
+                for i in range(USUARIOS_POR_LOTE)
+            ]
 
-        resultados = await asyncio.gather(*tareas)
+            resultados_lote = await asyncio.gather(*tareas)
+            todos_resultados.extend(resultados_lote)
+            
+            if lote < NUMERO_DE_LOTES - 1:
+                print(f"⏳ Esperando {INTERVALO_ENTRE_LOTES} segundos para el siguiente lote...")
+                await asyncio.sleep(INTERVALO_ENTRE_LOTES)
 
+    resultados = todos_resultados
     exitosos = [r for r in resultados if r["status"] == 200]
     fallidos = [r for r in resultados if r["status"] != 200]
     
@@ -135,10 +165,10 @@ async def stress_test():
     # ==========================
     # RESULTADOS
     # ==========================
-    print("📊 RESULTADOS POR USUARIO (Muestra)")
+    print("\n📊 RESULTADOS POR USUARIO (Completo)")
     print("-" * 50)
 
-    for r in resultados[:10]: # Solo mostrar primeros 10 para no saturar
+    for r in resultados: # Mostrar todos
         estado = "✅" if r["status"] == 200 else "❌"
         info_extra = f"| Error: {r['error']}" if r["error"] else ""
         print(
@@ -154,7 +184,7 @@ async def stress_test():
     num_exitos = len(exitosos)
     num_fallos = len(fallidos)
     
-    print(f"Usuarios simultáneos: {USUARIOS_SIMULTANEOS}")
+    print(f"Usuarios simultáneos (Total): {USUARIOS_POR_LOTE * NUMERO_DE_LOTES}")
     print(f"TASA DE ÉXITO: {num_exitos}/{total_reqs} ({(num_exitos/total_reqs)*100:.1f}%)")
     print(f"FALLOS: {num_fallos}")
     

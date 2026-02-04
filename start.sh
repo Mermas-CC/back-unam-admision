@@ -2,16 +2,9 @@
 
 echo "🚀 Iniciando proceso de arranque..."
 
-# 1. Ejecutar Ingestión (Crear Index)
-# Cloud Run tiene un sistema de archivos efímero. Si el contenedor se reinicia, 
-# el índice borrado se recrea aquí.
-echo "📚 Verificando/Creando índice vectorial con ingest.py..."
-python ingest.py
-
-if [ $? -ne 0 ]; then
-    echo "❌ Error en ingestión. Abortando inicio."
-    exit 1
-fi
+# 1. Ejecutar Ingestión (Opcional - Ahora se maneja via Admin API o pre-generado)
+# Se ha eliminado la ejecución automática para acelerar el arranque.
+echo "ℹ️ Ingestión automática desactivada. Usa el Admin API para procesar archivos."
 
 echo "✅ Ingestión completada."
 

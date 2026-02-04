@@ -1,10 +1,12 @@
 import os
 import asyncio
 from dotenv import load_dotenv
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse, StreamingResponse
+from fastapi import FastAPI, Request, UploadFile, File, HTTPException, Depends
+from fastapi.responses import HTMLResponse, StreamingResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
+from fastapi.security import APIKeyHeader, HTTPBasic, HTTPBasicCredentials
+import secrets
 from pydantic import BaseModel
 from llama_index.core import Document, VectorStoreIndex, Settings, StorageContext
 from llama_index.vector_stores.chroma import ChromaVectorStore
@@ -13,9 +15,12 @@ from llama_index.core.node_parser import SemanticSplitterNodeParser
 from llama_index.llms.gemini import Gemini
 from llama_index.core.embeddings import BaseEmbedding
 import google.generativeai as genai
-from typing import List
+from typing import List, Optional
 from starlette.middleware.sessions import SessionMiddleware
 from fastapi.middleware.cors import CORSMiddleware
+import shutil
+# Importar nuestra función de ingestión
+from ingest import ingest_documents, DATA_DIR, PERSIST_DIR
 
 # --- 0. CARGAR VARIABLES DE ENTORNO ---
 load_dotenv()
@@ -70,52 +75,157 @@ genai.configure(api_key=GEMINI_API_KEY)
 # --- 1. CONFIGURAR MODELOS LLAMA_INDEX ---
 print("⚙️ Configurando modelos...")
 
-Settings.llm = Gemini(model="gemini-2.5-flash-lite", max_output_tokens=1024)
+Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=1024)
 Settings.embed_model = GeminiEmbedding(model="models/embedding-001")
 
-# --- 2. CARGAR ÍNDICE EXISTENTE (MODO PRODUCCIÓN) ---
-PERSIST_DIR = "./chroma_db"
+# --- 2. CARGAR/VERIFICAR ÍNDICE ---
+# Ya no crasheamos si no existe, para permitir subida inicial y primer ingest.
+# Pero intentamos cargar si existe.
 
-if not os.path.exists(PERSIST_DIR):
-    print(f"❌ ERROR CRÍTICO: No se encontró el directorio '{PERSIST_DIR}'.")
-    print("👉 EJECUTA PRIMERO: python ingest.py")
-    print("   El servidor no puede iniciar sin el índice vectorial.")
-    # No usamos exit(1) directo para permitir reinicios en dev si se arregla, 
-    # pero en producción esto causará un crash loop (correcto behavior).
-    # Sin embargo, para uvicorn en reload, un raise es mejor.
-    raise RuntimeError(f"Falta el índice vectorial en {PERSIST_DIR}")
+vector_index = None
+chroma_collection = None
 
-print(f"📂 Cargando índice vectorial desde '{PERSIST_DIR}'...")
-try:
-    db = chromadb.PersistentClient(path=PERSIST_DIR)
-    chroma_collection = db.get_or_create_collection("admision_unap")
+def cargar_indice():
+    global vector_index, chroma_collection
+    if not os.path.exists(PERSIST_DIR):
+        print(f"⚠️  Advertencia: No se encontró '{PERSIST_DIR}'. El sistema iniciará sin conocimiento RAG. Usa /admin/ingest.")
+        return False
     
-    # Debug: Verificar contenido de la colección
-    collection_count = chroma_collection.count()
-    print(f"🔍 DEBUG: Documentos en ChromaDB al cargar: {collection_count}")
-    
-    if collection_count == 0:
-         print("⚠️  WARNING: La colección está vacía! Ejecuta ingest.py")
+    print(f"📂 Cargando índice vectorial desde '{PERSIST_DIR}'...")
+    try:
+        db = chromadb.PersistentClient(path=PERSIST_DIR)
+        chroma_collection = db.get_or_create_collection("admision_unap")
+        
+        vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
+        vector_index = VectorStoreIndex.from_vector_store(
+            vector_store,
+            embed_model=Settings.embed_model
+        )
+        print("✅ Índice vectorial cargado exitosamente.")
+        return True
+    except Exception as e:
+        print(f"❌ Error cargando ChromaDB: {e}")
+        return False
 
-    vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
-    index = VectorStoreIndex.from_vector_store(
-        vector_store,
-        embed_model=Settings.embed_model
-    )
-    print("✅ Índice vectorial cargado.")
-except Exception as e:
-    print(f"❌ Error cargando ChromaDB: {e}")
-    raise e
+cargar_indice()
 
-
-# --- 4. CONFIGURAR MOTOR DE CONSULTAS ---
-print("🚀 Configurando motor de consultas RAG...")
-query_engine = index.as_query_engine(similarity_top_k=4)
-
-print("✅ Sistema RAG listo para consultas.")
-
-# --- 5. FASTAPI APP ---
+# --- 5. FASTAPI APP & ADMIN ROUTES ---
 app = FastAPI()
+
+# --- AUTH CON SEGURIDAD ---
+ADMIN_USER = os.getenv("ADMIN_USERNAME", "admin")
+ADMIN_PASS = os.getenv("ADMIN_PASSWORD", "secret_unam_2025")
+security = HTTPBasic()
+
+async def verify_admin(credentials: HTTPBasicCredentials = Depends(security)):
+    correct_username = secrets.compare_digest(credentials.username, ADMIN_USER)
+    correct_password = secrets.compare_digest(credentials.password, ADMIN_PASS)
+    if not (correct_username and correct_password):
+        raise HTTPException(
+            status_code=401,
+            detail="Credenciales inválidas",
+            headers={"WWW-Authenticate": "Basic"},
+        )
+    return credentials.username
+
+# --- ADMIN ENDPOINTS ---
+
+@app.get("/admin/status", dependencies=[Depends(verify_admin)])
+async def admin_status():
+    """Estado del sistema: archivos y vectores."""
+    files = []
+    if os.path.exists(DATA_DIR):
+        files = os.listdir(DATA_DIR)
+    
+    vectors = 0
+    if chroma_collection:
+        vectors = chroma_collection.count()
+        
+    return {
+        "status": "online",
+        "persisted_db": os.path.exists(PERSIST_DIR),
+        "vector_count": vectors,
+        "files_count": len(files),
+        "files": files
+    }
+
+@app.get("/admin/metrics", dependencies=[Depends(verify_admin)])
+async def admin_metrics():
+    """Métricas avanzadas de calidad RAG."""
+    if not chroma_collection:
+        return {"error": "Index not loaded"}
+    
+    results = chroma_collection.get(include=['metadatas'])
+    metadatas = results['metadatas']
+    
+    doc_distribution = {}
+    for m in metadatas:
+        fname = m.get('file_name', 'unknown')
+        doc_distribution[fname] = doc_distribution.get(fname, 0) + 1
+        
+    return {
+        "doc_distribution": doc_distribution,
+        "total_chunks": len(metadatas),
+        "avg_chunks_per_doc": len(metadatas) / len(doc_distribution) if doc_distribution else 0
+    }
+
+@app.post("/admin/ingest", dependencies=[Depends(verify_admin)])
+async def trigger_ingest(force: bool = False):
+    """Disparar proceso de ingestión manual."""
+    try:
+        print(f"🔧 Admin trigger: Ingest (Force={force})")
+        # Ejecutar ingestión (esto bloquea el thread, idealmente background task, pero RAG suele ser rápido si hay pocos files)
+        # Para evitar bloquear todo, usamos run_in_executor o background tasks de FastAPI
+        # Por simplicidad ahora: directo
+        ingest_documents(force_rebuild=force)
+        
+        # Recargar índice en memoria
+        if cargar_indice():
+            return {"message": "Ingestión completada y índice recargado.", "status": "ok"}
+        else:
+             return {"message": "Ingestión completada pero falló la recarga del índice.", "status": "error"}
+    except Exception as e:
+        return {"message": f"Error during ingest: {str(e)}", "status": "error"}
+
+@app.get("/admin/files", dependencies=[Depends(verify_admin)])
+async def list_files():
+    if not os.path.exists(DATA_DIR):
+        return []
+    return os.listdir(DATA_DIR)
+
+@app.post("/admin/files", dependencies=[Depends(verify_admin)])
+async def upload_file(file: UploadFile = File(...)):
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
+        
+    file_path = os.path.join(DATA_DIR, file.filename)
+    with open(file_path, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+        
+    return {"filename": file.filename, "message": "Archivo subido correctamente."}
+
+@app.delete("/admin/files/{filename}", dependencies=[Depends(verify_admin)])
+async def delete_file(filename: str):
+    file_path = os.path.join(DATA_DIR, filename)
+    if os.path.exists(file_path):
+        os.remove(file_path)
+        return {"message": f"Archivo {filename} eliminado."}
+    raise HTTPException(status_code=404, detail="Archivo no encontrado")
+
+# --- 4. CONFIGURAR MOTOR DE CONSULTAS (Helper dinámico) ---
+def get_retriever():
+    global vector_index
+    if vector_index:
+        return vector_index.as_retriever(similarity_top_k=4)
+    return None
+
+def get_query_engine():
+    global vector_index
+    if vector_index:
+        return vector_index.as_query_engine(similarity_top_k=4, streaming=True)
+    return None
+
+print("✅ Sistema RAG inicializado (esperando consultas).")
 
 # --- CONFIGURAR CORS ---
 # Esto permite que el frontend de React (que se ejecutará en otro puerto)
@@ -329,76 +439,77 @@ Nunca uses expresiones en segunda persona como “¿Quieres...?”, “¿Te gust
 **Respuesta:**
 """
 
+async def judge_context_sufficiency(query: str, nodes: list) -> dict:
+    """Usa el LLM para evaluar si el contexto recuperado es suficiente para responder."""
+    if not nodes:
+        return {"sufficient": False, "reason": "No se recuperaron documentos", "confidence": 1.0}
+    
+    context = "\n".join([n.text if hasattr(n, 'text') else n.get_content() for n in [getattr(node, 'node', node) for node in nodes]])
+    prompt = f"""
+    Eres un auditor de calidad RAG para la UNAM (Universidad Nacional de Moquegua). 
+    PREGUNTA DEL USUARIO: {query}
+    CONTEXTO RECUPERADO DE DOCUMENTOS:
+    ---
+    {context}
+    ---
+    ¿El CONTEXTO contiene información relevante y real para responder a la PREGUNTA?
+    Responde estrictamente en formato JSON: {{"sufficient": true/false, "confidence": 0.0-1.0}}
+    """
+    try:
+        # Usamos el modelo configurado en Settings
+        response = await Settings.llm.acomplete(prompt)
+        cleaned = response.text.strip().replace('```json', '').replace('```', '')
+        import json
+        return json.loads(cleaned)
+    except Exception as e:
+        print(f"⚠️ Error en LLM Judge: {e}")
+        return {"sufficient": True, "confidence": 0.5} # Fallback optimista
+
 async def generar_respuesta_stream(pregunta: str, historial: list):
     # Recuperar contexto: los top-k chunks relevantes
     print("\n" + "="*80)
     print(f"🔍 NUEVA CONSULTA: {pregunta}")
     print("="*80)
     
-    # Debug: Verificar si el query_engine está funcionando
+    # Obtener el motor y el retriever
+    retriever = get_retriever()
+    engine = get_query_engine()
+    
+    if not retriever or not engine:
+        print("⚠️  WARNING: No hay índice vectorial cargado. Respondiendo sin contexto RAG.")
+        yield "Lo siento, el sistema de conocimiento no está cargado actualmente. Inténtalo de nuevo más tarde."
+        yield " [DONE]"
+        return
+    
     try:
-        print(f"🔍 DEBUG: Ejecutando query...")
-        # LlamaIndex soporta aquery para consultas asíncronas
-        resultado = await query_engine.aquery(pregunta)
-        print(f"🔍 DEBUG: Tipo de resultado: {type(resultado)}")
-        print(f"🔍 DEBUG: Resultado tiene source_nodes: {hasattr(resultado, 'source_nodes')}")
+        print(f"🔍 DEBUG: Ejecutando retrieval...")
+        source_nodes = await retriever.aretrieve(pregunta)
+        print(f"🔍 DEBUG: Nodos recuperados: {len(source_nodes)}")
         
-        if hasattr(resultado, 'source_nodes'):
-            print(f"🔍 DEBUG: Número de source_nodes: {len(resultado.source_nodes)}")
-            if len(resultado.source_nodes) == 0:
-                print("⚠️  WARNING: No se encontraron source_nodes")
-                # Verificar si hay documentos en el índice
-                try:
-                    # Intentar acceder al vector store para diagnóstico
-                    collection_count = chroma_collection.count()
-                    print(f"🔍 DEBUG: Documentos en ChromaDB: {collection_count}")
-                except Exception as e:
-                    print(f"❌ Error accediendo a ChromaDB: {e}")
+        # 2. Juzgar Suficiencia
+        judge = await judge_context_sufficiency(pregunta, source_nodes)
+        print(f"⚖️ JUDGE RESULT: {judge}")
+
+        if not judge.get("sufficient") and judge.get("confidence", 0) > 0.7:
+            print("🚫 RECHAZADO: Contexto insuficiente.")
+            yield "Lo siento, no encontré información específica en los documentos oficiales de la UNAM que me permita responder a tu pregunta con seguridad. ¿Deseas consultar sobre requisitos, fechas de examen o carreras disponibles?\n\n---"
+            yield "\n* ¿Cuáles son los requisitos de admisión?\n* ¿Cuándo es el próximo examen?"
+            yield " [DONE]"
+            return
+
+        # 3. Generar respuesta (Si es suficiente)
+        contexto = "\n".join([n.text if hasattr(n, 'text') else n.get_content() for n in [getattr(node, 'node', node) for node in source_nodes]])
+        prompt = generar_prompt(pregunta, contexto, historial)
         
+        async for chunk in llamar_llm_streaming(prompt):
+            yield chunk
+            
     except Exception as e:
-        print(f"❌ Error ejecutando query: {e}")
-        print(f"❌ Tipo de error: {type(e)}")
+        print(f"❌ Error en flujo RAG: {e}")
         import traceback
         traceback.print_exc()
-        # Crear resultado vacío para continuar
-        class EmptyResult:
-            def __init__(self):
-                self.source_nodes = []
-        resultado = EmptyResult()
-    
-    # Mostrar chunks recuperados en terminal
-    source_nodes = getattr(resultado, 'source_nodes', [])
-    print(f"\n📚 CHUNKS RECUPERADOS ({len(source_nodes)} encontrados):")
-    print("-"*60)
-    
-    for i, node in enumerate(source_nodes, 1):
-        print(f"\n🔸 CHUNK #{i}:")
-        print(f"   Score: {getattr(node, 'score', 'N/A')}")
-        # Mostrar las primeras 200 caracteres del chunk
-        node_text = getattr(node, 'node', node)
-        if hasattr(node_text, 'text'):
-            text_content = node_text.text
-        elif hasattr(node_text, 'get_content'):
-            text_content = node_text.get_content()
-        else:
-            text_content = str(node_text)
-        
-        text_preview = text_content[:200] + "..." if len(text_content) > 200 else text_content
-        print(f"   Contenido: {text_preview}")
-        
-        # Mostrar metadata si está disponible
-        if hasattr(node_text, 'metadata') and node_text.metadata:
-            print(f"   Metadata: {node_text.metadata}")
-        
-        print("-"*40)
-    
-    print(f"\n✅ RESPUESTA GENERADA PARA: {pregunta}")
-    print("="*80 + "\n")
-    
-    contexto = str(resultado)
-    prompt = generar_prompt(pregunta, contexto, historial)
-    async for chunk in llamar_llm_streaming(prompt):
-        yield chunk
+        yield "Ocurrió un error procesando tu consulta. Por favor, intenta de nuevo."
+        yield " [DONE]"
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):

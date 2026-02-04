@@ -174,3 +174,13 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# Custom
+.env
+chroma_db*
+.chroma_db*
+rag_clusters.png
+intra_inter_sim_report.md
+check_collection.py
+diag_paths.py
+test_db_write.py

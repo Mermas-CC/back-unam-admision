@@ -3,20 +3,22 @@ fastapi==0.121.0
 uvicorn[standard]==0.38.0
 python-dotenv==1.0.1
 python-multipart==0.0.20
+# Dependencias de sesión
+itsdangerous==2.2.0
 
 # Google AI
 google-generativeai==0.8.5
 
 # Vector Store
-# Usamos 0.6.3 que es la estable reciente para evitar problemas con 1.3.0 que parece anómala
 chromadb==0.6.3
 
-# LlamaIndex (Versiones de tu entorno local 0.13.x)
-llama-index-core==0.13.0
-llama-index-llms-gemini==0.6.0
-llama-index-vector-stores-chroma==0.5.3
+# LlamaIndex
+llama-index-core>=0.12.0,<0.14.0
+llama-index-llms-gemini>=0.4.0
+llama-index-vector-stores-chroma>=0.4.0
 
 # Dependencias adicionales
 pydantic==2.11.7
 jinja2==3.1.6
 aiofiles==24.1.0
+posthog>=3.0.0
