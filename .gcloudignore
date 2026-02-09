@@ -1,0 +1,15 @@
+# .gcloudignore
+# This file specifies which files and directories should be ignored when
+# uploading to Google Cloud.
+
+# Default python ignores
+# (Replicating some common ignores)
+__pycache__/
+*.pyc
+.git/
+.venv/
+venv/
+.env
+
+# Explicitly ensure chroma_db_v2 is NOT ignored
+!chroma_db_v2/

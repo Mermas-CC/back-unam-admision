@@ -1,6 +1,6 @@
-# Usar imagen oficial ligera de Python 3.10
-# (Slim es mejor que Alpine para librerías de data science como pandas/numpy)
-FROM python:3.10-slim
+# Usar imagen oficial ligera de Python 3.11
+# (3.11 es más moderno y tiene mejor soporte para librerías de data science)
+FROM python:3.11-slim
 
 # Evitar que Python genere archivos .pyc y buffer de salida
 ENV PYTHONDONTWRITEBYTECODE=1

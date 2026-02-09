@@ -40,7 +40,7 @@ class GeminiEmbedding(BaseEmbedding):
 # --- CONFIGURACIÓN ---
 Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=1024)
 Settings.embed_model = GeminiEmbedding(model="models/embedding-001")
-PERSIST_DIR = "./.chroma_db_v2"
+PERSIST_DIR = "./chroma_db_v2"
 DATA_DIR = "./data"
 
 def ingest_documents(force_rebuild=False):
@@ -102,10 +102,9 @@ def ingest_documents(force_rebuild=False):
     
     # Crea el índice y persiste usando from_documents para mayor confiabilidad
     print("🧠 Creando índice vectorial (esto puede tardar unos segundos)...")
-    index = VectorStoreIndex.from_documents(
-        documentos_raw, 
+    index = VectorStoreIndex(
+        nodes, 
         storage_context=storage_context,
-        node_parser=splitter,
         show_progress=True
     )
     

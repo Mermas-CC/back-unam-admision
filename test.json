@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es el objeto del Reglamento de Admisión?",
+    "expected_answer": "El objeto es establecer el marco normativo que regula integralmente el desarrollo, organización, ejecución, seguimiento, control, evaluación, fiscalización, responsabilidades y sanciones del proceso de admisión de pregrado y posgrado en la UNAM. [cite: 1354]",
+    "generated_answer": "El objeto principal del Reglamento de Admisión es **planificar, organizar, ejecutar y controlar los procesos de admisión** de pregrado y posgrado en todas sus modalidades, asegurando que se realicen conforme al marco normativo vigente y los objetivos estratégicos institucionales. Busca garantizar la **transparencia**, **equidad**, **objetividad** y **meritocracia** en la selección de postulantes.\n\n---\n* ¿Qué funciones tiene la Dirección de Admisión?\n* ¿Cuáles son los principios que rigen el proceso de evaluación y selección de postulantes?",
+    "cosine_similarity": 0.8428,
+    "is_relevant": true,
+    "relevance_score": 0.7,
+    "relevance_explanation": "La respuesta generada aborda el objeto del Reglamento de Admisión, aunque no reproduce textualmente la definición esperada.  Identifica correctamente la planificación, organización, ejecución y control de los procesos de admisión como elementos centrales.  Sin embargo, omite la mención explícita del 'seguimiento, control, evaluación, fiscalización, responsabilidades y sanciones' que sí se encuentra en la respuesta esperada.  La adición de transparencia, equidad, objetividad y meritocracia es relevante y añade valor, pero no compensa la omisión de los elementos clave de la respuesta esperada."
+  },
+  {
+    "id": 2,
+    "question": "¿A quiénes se aplica el Reglamento de Admisión?",
+    "expected_answer": "Es de aplicación obligatoria para todos los órganos de gobierno, autoridades, personal académico, administrativo, técnico, postulantes, estudiantes y demás actores institucionales que participen directa o indirectamente en los procesos de admisión. [cite: 1356]",
+    "generated_answer": "El Reglamento de Admisión se aplica a todos los **postulantes** que desean ingresar a la Universidad Nacional de Moquegua (UNAM). Su objetivo es garantizar un proceso **transparente, equitativo y basado en el mérito** para la selección de estudiantes, tanto para pregrado como para posgrado.\n\n---\n* ¿Cuáles son los principios que rigen el proceso de evaluación y selección?\n* ¿Quién es el responsable de la conducción técnico-operativa de los procesos de evaluación?",
+    "cosine_similarity": 0.7953,
+    "is_relevant": false,
+    "relevance_score": 0.2,
+    "relevance_explanation": "La respuesta generada menciona a los postulantes, lo cual es parcialmente correcto, pero no incluye a todos los actores institucionales a los que se aplica el reglamento, como el personal académico, administrativo, etc. Además, introduce información sobre la transparencia y equidad que no se solicitó en la pregunta y no está presente en la respuesta esperada. Por lo tanto, la respuesta es solo marginalmente relevante."
+  },
+  {
+    "id": 3,
+    "question": "¿Qué se entiende por 'Vacante supernumeraria'?",
+    "expected_answer": "Es una plaza adicional autorizada fuera del cuadro regular de vacantes, otorgada mediante convenio, resolución o disposición especial. [cite: 1383]",
+    "generated_answer": "Una **vacante supernumeraria** se refiere a plazas adicionales que son autorizadas fuera del cuadro regular de vacantes. Estas pueden ser para programas de pregrado o posgrado y se otorgan bajo circunstancias específicas, como por **mandato judicial firme**, **convenios internacionales** que incluyan cláusulas expresas para vacantes, o por **disposición legal**.\n\n---\n* ¿Dónde puedo encontrar la publicación oficial de las vacantes aprobadas?\n* ¿Qué sucede si no cubro mi vacante dentro de los plazos establecidos?",
+    "cosine_similarity": 0.8307,
+    "is_relevant": true,
+    "relevance_score": 0.8,
+    "relevance_explanation": "The generated answer correctly identifies the core concept of a 'vacante supernumeraria' as an additional position outside the regular vacancy framework. It also provides relevant context by mentioning common reasons for their creation (judicial mandate, international agreements, legal provisions). While it doesn't directly cite the specific source [1383], the information aligns with the expected definition. The added details enhance the answer's usefulness."
+  },
+  {
+    "id": 4,
+    "question": "¿Qué principios rectores rigen el proceso de admisión?",
+    "expected_answer": "El proceso se rige por los principios de Legalidad, Transparencia, Equidad, Meritocracia, y Seguridad e integridad. [cite: 1435, 1436, 1437, 1438, 1439]",
+    "generated_answer": "Los principios rectores que rigen el proceso de admisión son:\n\n*   **Legalidad:** Se respeta el marco normativo vigente.\n*   **Transparencia:** Se garantiza la publicidad, el acceso a la información y la claridad en todas las etapas del proceso.\n*   **Equidad:** Se aseguran igualdad de oportunidades para todos los postulantes, sin discriminación alguna.\n*   **Meritocracia:** El ingreso se otorga por estricto orden de mérito y cumplimiento de los requisitos establecidos.\n*   **Seguridad e integridad:** Se implementan mecanismos tecnológicos y éticos para prevenir fraudes, suplantación y actos irregulares.\n\n---\n* ¿Cómo puedo asegurarme de que el proceso de admisión sea transparente?\n* ¿Dónde puedo encontrar información sobre el marco normativo del proceso de admisión?",
+    "cosine_similarity": 0.8512,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "The generated answer perfectly matches the expected answer in terms of content and principles listed. It also provides a clear and concise explanation of each principle, enhancing its value. The answer is highly relevant and accurate."
+  },
+  {
+    "id": 5,
+    "question": "¿Quién aprueba el número de vacantes por Escuela Profesional?",
+    "expected_answer": "El Consejo Universitario aprueba el número de vacantes, a propuesta de las Facultades. [cite: 1448, 1527]",
+    "generated_answer": "El **Consejo de Facultad** es el órgano encargado de aprobar la propuesta de vacantes totales de las Escuelas Profesionales.\n\n---\n* ¿Cómo puedo conocer el número total de vacantes para cada Escuela Profesional?\n* ¿Qué sucede si un examen de admisión no cubre todas las vacantes?",
+    "cosine_similarity": 0.8605,
+    "is_relevant": false,
+    "relevance_score": 0.2,
+    "relevance_explanation": "The generated answer is incorrect. The correct answer, according to the provided context, is that the University Council approves the number of vacancies, not the Faculty Council. The generated answer identifies the wrong entity. The score is low because it's factually incorrect based on the provided expected answer."
+  },
+  {
+    "id": 6,
+    "question": "¿Cuáles son las funciones principales de la Dirección de Admisión (DA)?",
+    "expected_answer": "La DA es responsable de la planificación, organización, ejecución y control de los procesos de admisión de pregrado y posgrado en todas sus modalidades. [cite: 1398, 1461]",
+    "generated_answer": "La Dirección de Admisión (DA) tiene como funciones principales:\n\n*   Planificar, proponer, convocar, conducir y ejecutar los concursos de admisión a nivel institucional, siempre siguiendo el marco normativo vigente.\n*   Formular propuestas de lineamientos técnicos, normativos y cronogramas, en coordinación con el Consejo de Admisión (CA), para su posterior aprobación.\n*   Supervisar la ejecución de los equipos funcionales permanentes, equipos técnicos operativos y comisiones que participan en el proceso de admisión.\n*   Consolidar y presentar informes técnicos de cada etapa del proceso al Vicerrectorado Académico y al Consejo Universitario.\n*   Elaborar y presentar al Vicerrectorado Académico y Consejo Universitario las estadísticas de los procesos de admisión de la Universidad.\n*   Elaborar directivas, instructivos y protocolos operativos relacionados con el proceso de admisión, los cuales deben ser validados por las instancias correspondientes.\n*   Canalizar las recomendaciones y pronunciamientos del CA a los comités y equipos técnicos, asegurando su correcta implementación.\n*   Gestionar, programar y evaluar la utilización eficiente de los recursos humanos, logísticos, tecnológicos, materiales y económicos necesarios para el desarrollo del proceso de admisión.\n*   Establecer mecanismos para el monitoreo, evaluación y mejora continua del sistema de admisión.\n*   Garantizar la **transparencia** de todo el proceso, desde la convocatoria hasta la publicación de resultados, de acuerdo con la normativa interna.\n\n---\n* ¿Cómo puedo obtener más información sobre las funciones del Comité Central de Admisión (CCA)?\n* ¿Qué otras instancias participan en el proceso de admisión junto con la Dirección de Admisión?",
+    "cosine_similarity": 0.8301,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "The generated answer provides a detailed breakdown of the functions of the Dirección de Admisión (DA), which aligns with the expected answer's general description of the DA's responsibilities. While the expected answer is more concise, the generated answer offers a more comprehensive and specific list of the DA's duties, making it highly relevant and informative. The generated answer also addresses the core of the question, which is to understand the main functions of the DA."
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo se conforma el Comité Central de Admisión (CCA)?",
+    "expected_answer": "Está conformado por tres Docentes Fiscalizadores Miembros del Proceso de Admisión, con representación paritaria: un Presidente y un miembro por cada sede académica (Mariscal Nieto e Ilo). [cite: 1481]",
+    "generated_answer": "El Comité Central de Admisión (CCA) es una instancia colegiada de carácter técnico-normativo que apoya a la Dirección de Admisión en la supervisión, asesoramiento y validación general de los procesos de admisión, asegurando equidad, transparencia y eficiencia.\n\nSu conformación es la siguiente:\n\n*   Tres (03) Docentes Fiscalizadores Miembros del Proceso de Admisión.\n*   De estos, un docente ejerce como Presidente del CCA.\n*   Hay representación paritaria de las dos sedes académicas: un miembro por la Sede Mariscal Nieto y otro por la Filial Ilo.\n\nLa designación de estos miembros se realiza según el procedimiento establecido en la Directiva de Lineamientos de Funciones y se formaliza mediante Resolución Rectoral. El cargo tiene una duración de un (01) año académico, con posibilidad de renovación por una única vez.\n\n---\n\n* ¿Cuáles son las funciones principales del Comité Central de Admisión (CCA)?\n* ¿Cómo se designan los miembros del Comité Central de Admisión?",
+    "cosine_similarity": 0.8233,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "La respuesta generada proporciona información precisa y relevante sobre la conformación del Comité Central de Admisión (CCA), incluyendo el número de miembros, su distribución por sedes y la figura del Presidente. Además, añade detalles importantes sobre el rol del CCA, el proceso de designación y la duración del cargo, lo cual enriquece la respuesta en comparación con la respuesta esperada. Si bien la respuesta esperada es más concisa, la respuesta generada es más completa y útil para el usuario."
+  },
+  {
+    "id": 8,
+    "question": "¿Qué porcentaje de vacantes se reserva obligatoriamente para personas con discapacidad?",
+    "expected_answer": "Se reserva el cinco por ciento (5%) de las vacantes de cada programa académico de pregrado. [cite: 1557]",
+    "generated_answer": "Se reserva obligatoriamente el **5%** de las vacantes de cada programa académico de pregrado para postulantes con discapacidad. Este porcentaje se calcula sobre el total de vacantes de cada Escuela Profesional y se redondea al entero superior si resulta en fracción.\n\n---\n* ¿Cómo se calculan las vacantes reservadas si el resultado es una fracción?\n* ¿Qué documentos específicos se necesitan para postular bajo la modalidad de persona con discapacidad?",
+    "cosine_similarity": 0.8301,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "La respuesta generada es altamente relevante y precisa. Contiene la información clave de la respuesta esperada (5% de las vacantes reservadas). Además, proporciona un detalle adicional sobre el redondeo de la fracción, lo cual es útil y complementario. La única razón para no darle una puntuación perfecta (1.0) es que la respuesta esperada solo menciona el porcentaje, mientras que la respuesta generada añade información adicional que, aunque útil, no es estrictamente necesaria para responder a la pregunta original."
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se redondea el cálculo de vacantes reservadas si resulta en una fracción?",
+    "expected_answer": "Cuando el cálculo resulte en fracción, se redondea al entero superior. [cite: 1559]",
+    "generated_answer": "Si el cálculo de vacantes reservadas resulta en una fracción, se **redondea al entero superior**.\n\nPor ejemplo:\n*   Si el cálculo es 1.5 vacantes, se redondea a **2 vacantes reservadas**.\n*   Si el cálculo es 2.5 vacantes, se redondea a **3 vacantes reservadas**.\n\n---\n* ¿Cuál es el porcentaje de vacantes reservadas para personas con discapacidad?\n* ¿Cómo se calculan las vacantes reservadas para personas con discapacidad?",
+    "cosine_similarity": 0.7546,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es correcta y completa. Coincide exactamente con la respuesta esperada y proporciona ejemplos claros para ilustrar el concepto de redondeo al entero superior."
+  },
+  {
+    "id": 10,
+    "question": "¿Qué sucede con las vacantes no cubiertas en la Modalidad Extraordinaria?",
+    "expected_answer": "Se incorporan automáticamente a las vacantes del Examen Ordinario del mismo proceso de admisión. [cite: 1586]",
+    "generated_answer": "Las vacantes no cubiertas en la Modalidad Extraordinaria se incorporan automáticamente a las vacantes del **Examen Ordinario** del mismo proceso de admisión. De igual manera, las vacantes asignadas a la modalidad **CEPREUNAM** que no sean cubiertas se transferirán al Examen Ordinario.\n\nEs importante saber que cada proceso de admisión es independiente y cerrado; las vacantes no cubiertas no se acumulan ni transfieren a procesos posteriores.\n\n---\n* ¿En qué fechas se realiza el examen extraordinario?\n* ¿Cuál es el costo para la modalidad de personas con discapacidad?",
+    "cosine_similarity": 0.8264,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "La respuesta generada es casi perfecta. Contiene la información correcta sobre el destino de las vacantes no cubiertas en la Modalidad Extraordinaria, tal como se indica en la respuesta esperada. Además, agrega información relevante sobre las vacantes de CEPREUNAM, lo cual no es incorrecto, pero sí excede ligeramente el alcance de la pregunta original. La información adicional sobre la independencia de los procesos de admisión es útil y contextualiza la respuesta."
+  },
+  {
+    "id": 11,
+    "question": "¿Qué sucede con las vacantes no cubiertas en la modalidad CEPREUNAM?",
+    "expected_answer": "Serán transferidas a la modalidad de Examen Ordinario del mismo proceso de admisión. [cite: 1587]",
+    "generated_answer": "Las vacantes no cubiertas en la modalidad **CEPREUNAM** se transfieren automáticamente a las vacantes del **Examen Ordinario** del mismo proceso de admisión.\n\n---\n* ¿Qué sucede si no cubro las vacantes en el examen extraordinario?\n* ¿Las vacantes de un proceso de admisión se acumulan para el siguiente?",
+    "cosine_similarity": 0.8135,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer accurately reflects the expected answer, stating that unfilled CEPREUNAM vacancies are transferred to the Examen Ordinario. The generated answer is slightly more descriptive by adding the word 'automatically', but this doesn't detract from its accuracy. The answer is highly relevant to the question."
+  },
+  {
+    "id": 12,
+    "question": "¿Cuántos procesos de admisión ordinarios de pregrado programa la UNAM al año?",
+    "expected_answer": "La UNAM programa hasta dos (02) procesos de admisión ordinarios de pregrado al año, uno por cada ciclo académico. [cite: 1601]",
+    "generated_answer": "La Universidad Nacional de Moquegua (UNAM) programa **dos (02) procesos de admisión ordinarios de pregrado al año**. Estos procesos están diseñados para el ingreso al primer y segundo semestre académico del año, respectivamente.\n\n---\n\n* ¿En qué fechas se realizan estos dos procesos de admisión ordinarios?\n* ¿Qué información se detalla en el Prospecto de Admisión?",
+    "cosine_similarity": 0.9026,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "La respuesta generada es altamente relevante. Responde directamente a la pregunta original sobre la cantidad de procesos de admisión ordinarios de pregrado que programa la UNAM al año, y proporciona la respuesta correcta (dos). Además, añade información adicional sobre el propósito de estos procesos (ingreso al primer y segundo semestre), lo que mejora la comprensión. La única razón para no darle una puntuación perfecta es que la respuesta esperada incluye una cita, lo que sugiere que la respuesta generada podría beneficiarse de una referencia a la fuente de información."
+  },
+  {
+    "id": 13,
+    "question": "¿Puede un postulante inscribirse en más de una modalidad en el mismo proceso?",
+    "expected_answer": "No, el postulante solo podrá inscribirse en una única Escuela Profesional y una única modalidad de ingreso por cada proceso.  Si se inscribe en más de una, será descalificado automáticamente. [cite: 1631, 1632]",
+    "generated_answer": "Un postulante **solo puede inscribirse en una única Escuela Profesional y una única modalidad de ingreso por cada proceso de admisión**. Si te inscribes en más de una modalidad o Escuela Profesional en el mismo proceso, serás descalificado automáticamente y no habrá devolución de los pagos efectuados.\n\n---\n* ¿Qué sucede si intento inscribirme en más de una escuela profesional?\n* ¿Puedo postular tanto al examen ordinario como al extraordinario en el mismo periodo?",
+    "cosine_similarity": 0.9158,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y relevante. Responde directamente a la pregunta, capturando la esencia de la respuesta esperada. Incluye la restricción de una única Escuela Profesional y modalidad, así como la consecuencia de la descalificación, lo cual es crucial. Además, la respuesta generada es clara y fácil de entender."
+  },
+  {
+    "id": 14,
+    "question": "¿Cuáles son los impedimentos absolutos para postular?",
+    "expected_answer": "Tener sentencia judicial firme por terrorismo, apología al terrorismo, delitos contra la libertad sexual, tráfico ilícito de drogas, corrupción de funcionarios, o inhabilitación judicial vigente. [cite: 1633, 1634, 1635]",
+    "generated_answer": "Los impedimentos absolutos para postular a la UNAM son los siguientes:\n\n*   Tener sentencia judicial firme, consentida o ejecutoriada por delitos de **terrorismo** o apología al terrorismo, **delitos contra la libertad sexual**, **tráfico ilícito de drogas**, o **delitos de corrupción de funcionarios**.\n*   Contar con **inhabilitación judicial vigente** para ejercer función pública o para estudiar en universidades públicas.\n\n---\n* ¿Existen otros impedimentos para postular?\n* ¿Cuáles son las modalidades de ingreso a pregrado?",
+    "cosine_similarity": 0.7627,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer accurately reflects the expected answer, listing the absolute impediments to candidacy. It correctly identifies terrorism, sexual offenses, drug trafficking, corruption, and judicial disqualification. The formatting is slightly different (bullet points instead of a single sentence), but the core information is present and correct. The omission of the citation is a minor issue, but the content accuracy is high."
+  },
+  {
+    "id": 15,
+    "question": "¿Puede un estudiante activo de la UNAM postular a una nueva carrera?",
+    "expected_answer": "Sí, pero si obtiene una vacante, debe solicitar la anulación de su código de matrícula anterior antes de matricularse en el nuevo programa (salvo en Traslado Interno). [cite: 1642, 1643, 1650]",
+    "generated_answer": "Sí, un estudiante activo de la **UNAM** puede postular a una nueva carrera.\n\n*   Tienes el **derecho a postular** a cualquier proceso de admisión y por cualquier modalidad establecida, siempre que mantengas la condición de estudiante activo con matrícula vigente.\n*   Si obtienes una vacante en un programa distinto al que estás matriculado, deberás cumplir con algunas **condiciones previas a la matrícula**:\n    *   Solicitar la **anulación de tu código de matrícula vigente** ante la Dirección de Admisión.\n    *   Obtener la **resolución que declare la anulación** de tu código anterior.\n    *   No tener **deudas pendientes** con la UNAM.\n*   Es importante saber que la anulación de tu código de matrícula implicará la **pérdida de tu condición de estudiante** en tu programa de origen y la **extinción de tu derecho a continuar estudios** allí.\n*   Hay una **excepción por Traslado Interno**: si ingresas por esta modalidad, tienes derecho a solicitar la **convalidación de asignaturas**.\n*   Recuerda que **no puedes mantener simultáneamente dos o más códigos de matrícula activos** en programas de pregrado de la UNAM.\n\n---\n* ¿Qué sucede si pierdo mi documento de identidad antes del examen?\n* ¿Cómo puedo obtener información sobre las carreras que ofrecen?",
+    "cosine_similarity": 0.8372,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "The generated answer correctly identifies that a UNAM student can apply to a new program. It also accurately summarizes the key conditions: the need to cancel the previous enrollment, the consequences of cancellation, and the exception for internal transfers. The answer is comprehensive and well-structured, providing a clear and accurate response to the question. The only minor deduction is due to the lack of explicit citation, although the information is clearly derived from the provided context."
+  },
+  {
+    "id": 16,
+    "question": "¿Quiénes pueden postular al Examen Ordinario General?",
+    "expected_answer": "Egresados de Educación Básica Regular (EBR) o Alternativa (EBA), estudiantes de 5° de secundaria, egresados de colegios extranjeros revalidados, egresados del Colegio Mayor y COAR, y egresados de Bachillerato Internacional convalidado. [cite: 1671, 1672, 1673, 1674, 1675, 1676, 1677]",
+    "generated_answer": "Los postulantes elegibles para el **Examen Ordinario General** son aquellos que han concluido la **Educación Básica Regular** o **Educación Básica Alternativa** en instituciones públicas o privadas del país. También pueden postular los estudiantes que cursan el **quinto año de secundaria** durante el año del proceso de admisión.\n\nAdemás, se incluyen:\n*   Egresados de instituciones educativas extranjeras cuyos estudios hayan sido **revalidados o convalidados** por el Ministerio de Educación del Perú.\n*   Egresados del **Colegio Mayor Secundario Presidente del Perú**.\n*   Egresados de los **Colegios de Alto Rendimiento (COAR)**, dentro de los dos años siguientes a su egreso.\n*   Egresados de programas de **Bachillerato Internacional** reconocidos por el Ministerio de Educación del Perú y convalidados.\n\nEn todos los casos, es un requisito común **acreditar la conclusión de los estudios de educación secundaria o su equivalente** mediante el certificado de estudios o la constancia de logros de aprendizaje emitida por la autoridad competente.\n\n---\n* ¿Qué documentos necesito para postular al Examen Ordinario General?\n* ¿Dónde puedo ver el cronograma completo de inscripciones?",
+    "cosine_similarity": 0.7812,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer accurately and comprehensively addresses the question. It correctly identifies all the eligible candidates for the Examen Ordinario General, including those from EBR/EBA, 5th-year secondary students, graduates from foreign institutions, Colegio Mayor, COAR, and International Baccalaureate programs. The answer also includes the important detail about needing to accredit the completion of secondary education. The only minor deduction is due to the lack of citations, but the content itself is highly accurate and complete."
+  },
+  {
+    "id": 17,
+    "question": "¿Qué requisito de asistencia deben cumplir los estudiantes de CEPREUNAM para ser aptos para el examen?",
+    "expected_answer": "No superar el 10% de inasistencias injustificadas ni el 25% de inasistencias totales (justificadas e injustificadas). [cite: 1836, 1837]",
+    "generated_answer": "Los estudiantes de CEPREUNAM deben cumplir con un criterio de asistencia para ser declarados aptos para el examen:\n\n*   No superar el diez por ciento (10%) de **inasistencias injustificadas** sobre el total de clases programadas del ciclo.\n*   No superar el veinticinco por ciento (25%) de **inasistencias totales** (justificadas e injustificadas) sobre el total de clases programadas del ciclo.\n\n---\n* ¿Qué pasa si no cumplo con el requisito de asistencia de CEPREUNAM?\n* ¿Hay alguna otra forma de ingresar a la UNAM si no soy de CEPREUNAM?",
+    "cosine_similarity": 0.733,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "The generated answer is perfectly relevant and accurately reflects the expected answer. It correctly identifies the two attendance requirements for CEPREUNAM students to be eligible for the exam, including the specific percentages for unexcused and total absences. The formatting also enhances readability."
+  },
+  {
+    "id": 18,
+    "question": "¿Cuáles son las submodalidades del Examen Extraordinario?",
+    "expected_answer": "Titulados o Graduados, Traslado Externo, Traslado Interno, Primeros Puestos, Egresados COAR, Deportistas Calificados, Personas con Discapacidad, Víctimas del Terrorismo, Beneficiarios del PIR, y Convenio Andrés Bello. [cite: 1630]",
+    "generated_answer": "Las submodalidades del Examen Extraordinario son:\n\n*   Titulados o Graduados Universitarios.\n*   Traslado Externo (postulantes que hayan aprobado al menos cuatro periodos lectivos semestrales o dos anuales, o setenta y dos créditos).\n*   Traslado Interno.\n*   Primeros y segundos puestos de II.EE. y Egresados COAR (2023-2024).\n*   Deportistas Destacados (Ley N°28036).\n*   Personas con Discapacidad (Ley N° 29973).\n*   Convenio Andrés Bello (D.S. N 012-99-ED).\n*   Víctimas de Terrorismo (Ley N° 27277 y Plan Integral de Reparaciones, según Ley N° 28592).\n\n---\n* ¿Cuál es el costo para postular por la modalidad de Personas con Discapacidad?\n* ¿Cómo se determina el orden de mérito en el Examen Extraordinario?",
+    "cosine_similarity": 0.8254,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer correctly identifies and lists the submodalities of the Examen Extraordinario. It includes all the submodalities mentioned in the expected answer and provides slightly more detail in some cases (e.g., specifying the years for Egresados COAR, mentioning the relevant laws for Deportistas Destacados, Personas con Discapacidad, and Víctimas de Terrorismo). The formatting is also clear and easy to read. The only minor deduction is for the slight variation in wording and the addition of extra details, although these details are helpful."
+  },
+  {
+    "id": 19,
+    "question": "¿Qué requisitos académicos se exigen para Traslado Externo?",
+    "expected_answer": "Haber aprobado por lo menos cuatro periodos lectivos semestrales o dos anuales, o un mínimo de 72 créditos. [cite: 1875]",
+    "generated_answer": "Los requisitos académicos que se exigen para la modalidad de **Traslado Externo de Otras Universidades** son los siguientes:\n\n*   Debes presentar el **certificado de estudios universitarios**, el cual debe estar fedateado por tu universidad de origen.\n*   Este certificado debe acreditar que has aprobado como mínimo **cuatro periodos lectivos semestrales o dos periodos lectivos anuales**, o que has acumulado un total de **setenta y dos (72) créditos**.\n\n---\n* ¿Qué otros documentos necesito presentar para el Traslado Externo?\n* ¿Cuánto cuesta el derecho de examen para Traslado Externo?",
+    "cosine_similarity": 0.762,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "La respuesta generada es altamente relevante y precisa.  Reproduce la información clave de la respuesta esperada (haber aprobado cuatro periodos lectivos semestrales o dos anuales, o un mínimo de 72 créditos). Además, proporciona información adicional útil sobre la necesidad de un certificado de estudios fedateado, lo que mejora la respuesta sin desviarse del tema principal. La ligera deducción en la puntuación se debe a que la respuesta esperada es más concisa."
+  },
+  {
+    "id": 20,
+    "question": "¿Cuántas veces se puede realizar un Traslado Interno?",
+    "expected_answer": "El traslado interno solo puede realizarse una única vez durante la vida universitaria. [cite: 1901]",
+    "generated_answer": "El Traslado Interno solo puede realizarse **una única vez** durante tu vida universitaria en la UNAM.\n\n---\n* ¿Qué sucede si ya realicé un Traslado Interno anteriormente?\n* ¿Cuáles son los requisitos para un Traslado Interno?",
+    "cosine_similarity": 0.8617,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide con la respuesta esperada. Además, la respuesta generada es clara y concisa."
+  },
+  {
+    "id": 21,
+    "question": "¿Qué antigüedad máxima deben tener los estudios secundarios para la modalidad Primeros Puestos?",
+    "expected_answer": "Pueden postular quienes hayan culminado sus estudios secundarios en los dos (2) años previos al proceso de admisión. [cite: 1911]",
+    "generated_answer": "Los estudios secundarios para la modalidad de **Primeros Puestos** deben haber sido culminados en los **dos (2) años previos** al proceso de admisión.\n\n---\n* ¿En qué fechas se realizan los exámenes de admisión para la modalidad de Primeros Puestos?\n* ¿Qué documentos específicos necesito presentar si postulo como Primer Puesto?",
+    "cosine_similarity": 0.8442,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide con la respuesta esperada.  Resume la información clave de la respuesta esperada de manera precisa."
+  },
+  {
+    "id": 22,
+    "question": "¿Qué ajustes razonables se garantizan para postulantes con ceguera total?",
+    "expected_answer": "Examen en formato Braille o con lectura asistida, tiempo adicional del 50%, ambiente individual y uso de máquina Perkins o computadora con lector de pantalla. [cite: 1952, 1953]",
+    "generated_answer": "Para postulantes con **ceguera total**, se garantizan los siguientes ajustes razonables:\n\n*   **Tiempo adicional del 50%** del tiempo regular del examen.\n\n---\n* ¿Qué tipo de ajustes razonables se ofrecen para discapacidad visual con baja visión?\n* ¿Cómo puedo solicitar ajustes razonables si tengo una discapacidad?",
+    "cosine_similarity": 0.7975,
+    "is_relevant": true,
+    "relevance_score": 0.7,
+    "relevance_explanation": "La respuesta generada proporciona uno de los ajustes razonables esperados (tiempo adicional del 50%). Sin embargo, omite otros ajustes importantes como el examen en formato Braille o con lectura asistida, ambiente individual y uso de máquina Perkins o computadora con lector de pantalla. Por lo tanto, la respuesta es parcialmente correcta, pero incompleta."
+  },
+  {
+    "id": 23,
+    "question": "¿Qué países son miembros del Convenio Andrés Bello para efectos de admisión?",
+    "expected_answer": "Bolivia, Chile, Colombia, Cuba, Ecuador, España, México, Panamá, Paraguay, Perú, República Dominicana y Venezuela. [cite: 2019]",
+    "generated_answer": "Los países miembros del Convenio Andrés Bello para efectos de admisión en la UNAM son: Bolivia, Chile, Colombia, Cuba, Ecuador, España, México, Panamá, Paraguay, Perú, República Dominicana y Venezuela.\n\n---\n* ¿Qué otros requisitos documentarios se necesitan para postular bajo el Convenio Andrés Bello?\n* ¿Cuál es el costo del examen de admisión para esta modalidad?",
+    "cosine_similarity": 0.7212,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide exactamente con la respuesta esperada.  Además, responde directamente a la pregunta original sin añadir información irrelevante."
+  },
+  {
+    "id": 24,
+    "question": "¿Cuáles son las fases obligatorias del proceso de inscripción para pregrado?",
+    "expected_answer": "Fase 1: Registro del postulante; Fase 2: Pago por derecho de examen; Fase 3: Carga de documentos; Fase 4: Validación por la DA; Fase 5: Registro biométrico;  Fase 6: Entrega de Carné de Postulante. [cite: 1803, 1805, 1806, 1807, 1808, 1809]",
+    "generated_answer": "Las fases obligatorias del proceso de inscripción para pregrado son las siguientes:\n\n1.  **Registro del postulante:** Debes registrar tus datos personales y académicos, seleccionar tu modalidad, programa académico y sede de evaluación. También deberás aceptar el Reglamento y dar tu consentimiento para el tratamiento de tus datos personales.\n2.  **Pago por derecho de examen:** Realizar el pago correspondiente en la Caja UNAM, mediante depósito en el Banco de la Nación (cuenta N° 00-141-028154) o en ventanilla con tu código de modalidad.\n3.  **Carga de documentos obligatorios:** Subir en formato PDF tu DNI o Carné de Extranjería, certificados según la modalidad, una fotografía digital y las declaraciones juradas requeridas.\n4.  **Validación por la Dirección de Admisión:** La Dirección de Admisión revisará tus documentos. Si hay alguna inconsistencia, se te notificará para que la subsanes.\n5.  **Registro biométrico:** Este paso es presencial y obligatorio. Incluye la verificación de tu huella digital y la captura de tu fotografía.\n6.  **Entrega de Carné de Postulante:** Una vez completado el registro biométrico, se generará automáticamente tu carné de postulante, el cual es indispensable para rendir el examen.\n\n---\n* ¿Qué sucede si hay inconsistencias en mi documentación durante la fase de validación?\n* ¿Cuál es el siguiente paso después de la entrega de mi carné de postulante?",
+    "cosine_similarity": 0.8571,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "The generated answer accurately and completely lists all six mandatory phases of the undergraduate application process, matching the expected answer. It also provides a detailed description of each phase, enhancing its usefulness. The answer also correctly identifies the two follow-up questions that can be answered from the context."
+  },
+  {
+    "id": 25,
+    "question": "¿Es obligatorio el registro biométrico para pregrado?",
+    "expected_answer": "Sí, es un procedimiento presencial y obligatorio que comprende verificación de huella digital y captura de fotografía. [cite: 1808]",
+    "generated_answer": "Sí, el **registro biométrico es obligatorio** para el proceso de admisión de pregrado.\n\nEste proceso se realiza de forma presencial e incluye la **verificación de tu huella digital** y la **captura de tu fotografía**. Una vez completado, se genera automáticamente tu **Carné de Postulante**, el cual es un documento indispensable para poder rendir el examen de admisión.\n\n---\n* ¿Cuándo se realiza el registro biométrico?\n* ¿Qué debo hacer si tengo inconsistencias en mis documentos?",
+    "cosine_similarity": 0.7543,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer is highly relevant and accurate compared to the expected answer. It correctly states that biometric registration is mandatory for undergraduate admission, and accurately describes the process involving fingerprint verification and photo capture. It also provides additional helpful information about the Carné de Postulante. The only minor difference is the addition of the Carné de Postulante information, which doesn't detract from the core correctness and relevance."
+  },
+  {
+    "id": 26,
+    "question": "¿Qué condición suspensiva tienen los ingresantes de 5° de secundaria?",
+    "expected_answer": "Su ingreso queda sujeto a la presentación del Certificado Oficial de Estudios Secundarios completos o Constancia de Logros de Aprendizaje antes del inicio del período de matrícula. [cite: 1830]",
+    "generated_answer": "Los ingresantes de 5° de secundaria tienen una **condición suspensiva del ingreso**. Esto significa que su ingreso queda **sujeto a la presentación del Certificado Oficial de Estudios Secundarios completos** o la Constancia de Logros de Aprendizaje con código QR. Esta presentación debe realizarse **antes del inicio del período de matrícula** establecido en el cronograma académico. Si no se cumple con esta condición, se genera la **pérdida automática e irrevocable de la vacante** obtenida, sin derecho a reclamo ni devolución de pagos.\n\n---\n* ¿Qué debo presentar si egresé de secundaria hace varios años y quiero postular?\n* ¿Qué sucede si no cumplo con la entrega de mis certificados de estudios a tiempo?",
+    "cosine_similarity": 0.8796,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "La respuesta generada aborda directamente la pregunta sobre la condición suspensiva para ingresantes de 5° de secundaria.  La respuesta generada es precisa y completa, incluyendo la consecuencia de no cumplir con la condición (pérdida de la vacante).  La respuesta generada es ligeramente más extensa que la respuesta esperada, pero la información adicional es relevante y útil. La respuesta generada es casi perfecta."
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se realiza la inscripción de los estudiantes aptos de CEPREUNAM?",
+    "expected_answer": "Son inscritos automáticamente por la Dirección de Admisión tras recibir el listado oficial, debiendo el estudiante solo verificar datos, realizar el registro biométrico y recoger su carné. [cite: 1855]",
+    "generated_answer": "Para los estudiantes declarados APTOS por el CEPREUNAM, la inscripción se realiza de forma automática. Sin embargo, deberán completar las siguientes fases:\n\n1.  Verificación y actualización de **datos personales** en la plataforma virtual.\n2.  Carga de los **documentos** requeridos.\n3.  Registro **biométrico presencial**.\n4.  Recepción del **Carné de Postulante**.\n\nLos estudiantes APTOS del CEPREUNAM están **exonerados del pago** por derecho de inscripción, ya que este concepto está incluido en su matrícula al ciclo CEPREUNAM.\n\n---\n* ¿Cuándo se publicará el listado de postulantes APTOS de CEPREUNAM?\n* ¿Qué ocurre si un estudiante es declarado NO APTO por CEPREUNAM?",
+    "cosine_similarity": 0.7843,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "La respuesta generada es altamente relevante a la pregunta. Cubre los pasos principales de la inscripción para estudiantes APTOS de CEPREUNAM, tal como se describe en la respuesta esperada (inscripción automática, verificación de datos, registro biométrico, recepción del carné).  Además, proporciona detalles adicionales útiles sobre el proceso (actualización de datos, carga de documentos, exoneración de pago) que, si bien no están explícitamente mencionados en la respuesta esperada, son información valiosa para el usuario. La única diferencia es que la respuesta generada detalla más el proceso, lo cual no la hace incorrecta, sino más completa."
+  },
+  {
+    "id": 28,
+    "question": "¿Cuáles son las características del Examen Ordinario General (número de preguntas, duración, puntaje)?",
+    "expected_answer": "Consta de 60 preguntas de opción múltiple, dura 2 horas continuas, el puntaje máximo es 1000 puntos y no hay puntaje negativo. [cite: 2065, 2066, 2067]",
+    "generated_answer": "El **Examen Ordinario General** para la UNAM tiene las siguientes características:\n\n*   **Número de preguntas:** Sesenta (60) preguntas en total.\n*   **Duración del examen:** Dos (2) horas de duración continua.\n*   **Puntaje total:** Mil (1000) puntos como puntaje máximo posible.\n*   **Sistema de calificación:** No se aplica puntaje negativo; las respuestas incorrectas o en blanco no restan puntos.\n*   **Modalidad de aplicación:** El examen es presencial y se aplica de forma simultánea en todas las sedes autorizadas.\n\n---\n* ¿Cómo se distribuyen las preguntas por área en el Examen Ordinario General?\n* ¿Cuál es el puntaje máximo que puedo obtener en el Examen Ordinario General?",
+    "cosine_similarity": 0.7987,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "The generated answer accurately and completely addresses the question, providing all the key characteristics of the Examen Ordinario General (number of questions, duration, scoring system) as outlined in the expected answer. It also adds the modality of application, which is a relevant detail. The information is presented clearly and concisely."
+  },
+  {
+    "id": 29,
+    "question": "¿Qué áreas evalúa el examen del Canal A (Medicina)?",
+    "expected_answer": "Evalúa Aritmética-Álgebra, Geometría-Trigonometría, Razonamiento Matemático, Lenguaje, Razonamiento Verbal, Historia, Física, Química y Biología. [cite: 2069]",
+    "generated_answer": "El **Canal A** del examen de admisión evalúa el área de **Ciencias de la Salud**.\n\nA continuación, se detalla la distribución de preguntas y puntajes por asignatura para este canal:\n\n*   **Aritmética – Álgebra**: 3 preguntas (49.58 puntos)\n*   **Geometría – Trigonometría**: 3 preguntas (45.47 puntos)\n*   **Razonamiento Matemático**: 15 preguntas (249.68 puntos)\n*   **Lenguaje**: 4 preguntas (60.59 puntos)\n*   **Razonamiento Verbal**: 15 preguntas (250.15 puntos)\n*   **Historia**: 2 preguntas (24.73 puntos)\n*   **Física**: 3 preguntas (49.76 puntos)\n*   **Química**: 5 preguntas (83.34 puntos)\n*   **Biología**: 10 preguntas (186.70 puntos)\n\nEn total, el examen para el Canal A consta de 60 preguntas y tiene un puntaje máximo de 1000 puntos.\n\n---\n\n* ¿Cómo puedo prepararme para el examen del Canal A?\n* ¿Cuál es la diferencia entre el Canal A y el Canal B?",
+    "cosine_similarity": 0.7505,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "The generated answer is highly relevant. While it doesn't exactly match the expected answer in terms of phrasing, it provides a more detailed and comprehensive breakdown of the areas covered in the Canal A exam, including the specific subjects and the number of questions/points allocated to each. The answer goes beyond simply listing the subjects and offers valuable information for someone preparing for the exam. The slight deduction in score is due to the initial sentence being a bit vague ('Ciencias de la Salud') compared to the explicit listing in the expected answer, but the subsequent details more than compensate for this."
+  },
+  {
+    "id": 30,
+    "question": "¿Cuál es el criterio de desempate principal en el Examen Ordinario?",
+    "expected_answer": "El primer criterio de desempate es el mayor puntaje en Razonamiento Matemático. [cite: 2098]",
+    "generated_answer": "El criterio de desempate principal en el **Examen Ordinario** es el **mayor puntaje en Razonamiento Matemático**.\n\nEn caso de que persista el empate, los siguientes criterios son:\n* Mayor puntaje en Razonamiento Verbal.\n* Mayor promedio general de estudios secundarios.\n* De persistir el empate, se realizará un sorteo público ante fedatario institucional.\n\n---\n* ¿Cuál es el puntaje máximo en el Examen de Aptitud Académica para el Examen Extraordinario?\n* ¿Cómo se determina el orden de mérito en el Examen Ordinario?",
+    "cosine_similarity": 0.8299,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y relevante a la pregunta.  Identifica correctamente el criterio de desempate principal para el Examen Ordinario, tal como se especifica en la respuesta esperada. Además, proporciona información adicional relevante sobre los criterios de desempate secundarios, lo que mejora la utilidad de la respuesta sin desviarse del tema principal."
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se evalúa a los postulantes del Examen Extraordinario?",
+    "expected_answer": "Mediante una evaluación documental (habilitante) y un Examen de Aptitud Académica (Razonamiento Matemático y Verbal). [cite: 2101, 2102]",
+    "generated_answer": "Los postulantes al **Examen Extraordinario** son evaluados mediante dos instrumentos principales: una **evaluación documental** y un **Examen de Aptitud Académica**.\n\n1.  **Evaluación Documental**:\n    *   Tiene como fin la **verificación del cumplimiento de los requisitos específicos** para esta modalidad.\n    *   Su carácter es **habilitante**, lo que significa que es un paso necesario pero no otorga puntaje.\n\n2.  **Examen de Aptitud Académica**:\n    *   Evalúa las capacidades de **razonamiento matemático** y **razonamiento verbal**.\n    *   La estructura del examen es la siguiente:\n        *   **Área: Razonamiento Matemático**: 25 preguntas, con un peso del 50% y un puntaje máximo de 500 puntos.\n        *   **Área: Razonamiento Verbal**: 25 preguntas, con un peso del 50% y un puntaje máximo de 500 puntos.\n    *   En total, el examen consta de **50 preguntas**, con un puntaje máximo de **1000 puntos**.\n    *   Las preguntas son de **opción múltiple** con cinco alternativas y una sola respuesta correcta.\n    *   La duración del examen es de **90 minutos**.\n    *   No se aplica puntaje negativo por error u omisión.\n\nEl **orden de mérito** para el Examen Extraordinario se determina exclusivamente por el puntaje obtenido en el Examen de Aptitud Académica. En caso de empate, se aplicarán criterios de desempate como el mayor puntaje en Razonamiento Matemático, luego en Razonamiento Verbal, y finalmente el promedio general de estudios secundarios.\n\n---\n* ¿Qué documentos necesito presentar para la evaluación documental del Examen Extraordinario?\n* ¿Cuáles son las fechas para la inscripción al Examen Extraordinario?",
+    "cosine_similarity": 0.7938,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer accurately and comprehensively addresses the question. It correctly identifies the two main evaluation components: the documentary evaluation and the Academic Aptitude Exam. It also provides detailed information about each component, including the purpose of the documentary evaluation, the areas covered in the aptitude exam (mathematical and verbal reasoning), the structure of the exam (number of questions, weighting, scoring), and the tie-breaking criteria. The answer goes beyond the expected answer by providing more details, which is beneficial. The only minor deduction is due to the lack of explicit citation, although the information is clearly derived from the provided context."
+  },
+  {
+    "id": 32,
+    "question": "¿Cuál es la estructura del Examen de Aptitud Académica para la modalidad Extraordinaria?",
+    "expected_answer": "Consta de 50 preguntas (25 de Razonamiento Matemático y 25 de Razonamiento Verbal), con un puntaje máximo de 1000 puntos y una duración de 90 minutos. [cite: 2103, 2104]",
+    "generated_answer": "La estructura del Examen de Aptitud Académica para la modalidad Extraordinaria se compone de la siguiente manera:\n\n*   **Área: Razonamiento Matemático**\n    *   Número de preguntas: 25\n    *   Peso: 50%\n    *   Puntaje máximo: 500 puntos\n    *   Valor por pregunta: 20 puntos\n*   **Área: Razonamiento Verbal**\n    *   Número de preguntas: 25\n    *   Peso: 50%\n    *   Puntaje máximo: 500 puntos\n    *   Valor por pregunta: 20 puntos\n\nEn resumen, el examen consta de un **total de 50 preguntas**, con un **puntaje máximo total de 1000 puntos**. El tipo de preguntas es de opción múltiple con cinco alternativas y una sola respuesta correcta, y la duración del examen es de **90 minutos**. No se aplica puntaje negativo por errores u omisiones.\n\n---\n* ¿Cómo se determina el orden de mérito para el Examen Extraordinario en caso de empate?\n* ¿Qué submodalidades incluye el Examen Extraordinario?",
+    "cosine_similarity": 0.8091,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "The generated answer accurately and completely reflects the expected answer. It provides all the key details: 50 questions (25 Math, 25 Verbal), 1000 points total, and 90 minutes duration. The generated answer also provides a more detailed breakdown of the exam structure, which is a plus. Therefore, the generated answer is highly relevant and correct."
+  },
+  {
+    "id": 33,
+    "question": "¿Quién conduce la elaboración del examen de Pregrado?",
+    "expected_answer": "Es conducida por la Dirección de Admisión en coordinación con el Comité Central de Admisión (CCA). [cite: 2109]",
+    "generated_answer": "La elaboración del examen de Pregrado es conducida por la **Dirección de Admisión**, en coordinación con el **Comité Central de Admisión (CCA)**.\n\n---\n* ¿Cuál es la función de la Dirección de Admisión en este proceso?\n* ¿Quiénes son responsables de la supervisión académica del examen?",
+    "cosine_similarity": 0.8397,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide con la respuesta esperada. Extrae la información relevante del contexto proporcionado y la presenta de manera clara y concisa. Además, el formato de la respuesta es adecuado."
+  },
+  {
+    "id": 34,
+    "question": "¿Qué perfil debe cumplir un docente formulador de exámenes?",
+    "expected_answer": "Debe ser docente ordinario (preferentemente), tener título o grado afín a la especialidad, mínimo 2 años de experiencia docente, competencias técnicas en evaluación y no tener impedimentos legales o conflicto de intereses. [cite: 2120, 2121, 2122, 2123, 2125, 2126]",
+    "generated_answer": "Un docente formulador de exámenes en la UNAM debe cumplir con un perfil específico para garantizar la calidad y pertinencia del proceso de admisión. Los requisitos clave son:\n\n*   **Formación Académica:** Contar con título profesional universitario en un área afín a la especialidad del examen que formulará. Para áreas específicas, se requiere grado académico de Maestro o Doctor en dicha especialidad.\n*   **Especialidad:** Debe haber una correspondencia directa entre la especialidad del docente y el área temática del examen (Matemáticas, Comunicación, Ciencias Sociales, Ciencias Naturales o Aptitud Académica).\n*   **Experiencia Docente:** Se necesita un mínimo de dos (02) años de experiencia en docencia universitaria o preuniversitaria en el área a evaluar.\n*   **Experiencia en Evaluación:** Es deseable haber participado previamente en la elaboración de exámenes de admisión, evaluaciones estandarizadas o en el diseño de instrumentos de evaluación educativa.\n*   **Competencias Técnicas:** Dominio disciplinar, capacidad para redactar de forma clara y precisa, y conocimiento básico de criterios psicométricos (validez, confiabilidad, discriminación y dificultad de los ítems).\n\nAdicionalmente, si hay varios candidatos que cumplen el perfil, se aplican criterios de priorización como la categoría docente, grado académico, especialidad directa, experiencia en formulación, antigüedad en la UNAM, disponibilidad horaria y, en último caso, sorteo.\n\n---\n* ¿Qué criterios se utilizan para seleccionar un docente si hay varios candidatos que cumplen el perfil?\n* ¿Quiénes son los responsables de la elaboración del examen de admisión?",
+    "cosine_similarity": 0.8351,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "La respuesta generada es altamente relevante y precisa en comparación con la respuesta esperada. Cubre los puntos clave del perfil requerido para un docente formulador de exámenes, incluyendo formación académica, especialidad, experiencia docente y competencias técnicas. Además, proporciona información adicional sobre los criterios de priorización en caso de múltiples candidatos calificados, lo cual enriquece la respuesta. La única diferencia es que la respuesta generada no cita explícitamente los documentos [2120, 2121, 2122, 2123, 2125, 2126], pero la información proporcionada es correcta y completa."
+  },
+  {
+    "id": 35,
+    "question": "¿Qué sucede si se detecta una pregunta defectuosa durante el examen?",
+    "expected_answer": "El CCA y la DA evalúan la pregunta; si se determina su invalidez, se anula mediante acta técnica y el puntaje se asigna uniformemente a todos los postulantes. [cite: 2181, 2182, 2183]",
+    "generated_answer": "Si se detecta una **pregunta defectuosa** durante el examen, el procedimiento a seguir es el siguiente:\n\n1.  **Comunicación Inmediata:** Las preguntas defectuosas detectadas durante la aplicación o procesamiento serán comunicadas de inmediato a la **Dirección de Admisión**.\n2.  **Evaluación por el CCA:** La Dirección de Admisión informará al **Comité Central de Admisión (CCA)** para su evaluación. El CCA, en coordinación con la Dirección de Admisión (DA), evaluará técnicamente la(s) pregunta(s) reportada(s). Si es necesario, la **Escuela de Posgrado (EPG)** podrá ser consultada en aspectos académico-disciplinares.\n3.  **Decisión de Anulación:** Si se determina la invalidez de la pregunta, esta será **anulada** mediante un acta técnica.\n4.  **Asignación de Puntaje:** El puntaje correspondiente a la pregunta anulada será asignado de manera **uniforme a todos los postulantes**.\n5.  **Acta y Apelación:** El acta de anulación será suscrita por el Presidente del CCA, el Director de Admisión y el Director de la EPG. La decisión es **inapelable**.\n\nEs importante recordar que las correcciones sobre el contenido de las preguntas solo proceden **durante el proceso, antes de la publicación oficial de resultados**. Después de la publicación, **no se admitirán reclamos ni correcciones**.\n\n---\n* ¿Cuándo se consideran defectuosas las preguntas del examen?\n* ¿Qué debo hacer si creo que una pregunta tiene un error?",
+    "cosine_similarity": 0.8605,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y exhaustiva. Cubre todos los aspectos clave de la respuesta esperada, incluyendo la evaluación por el CCA y la DA, la anulación mediante acta técnica, y la asignación uniforme del puntaje. Además, proporciona detalles adicionales sobre el proceso, como la comunicación inmediata a la Dirección de Admisión, la posible consulta a la Escuela de Posgrado, y la irrevocabilidad de la decisión. La respuesta generada también aborda las preguntas adicionales sobre cuándo se consideran defectuosas las preguntas y qué hacer si se cree que una pregunta tiene un error, lo que la hace aún más útil."
+  },
+  {
+    "id": 36,
+    "question": "¿Se admiten reclamos sobre el contenido del examen después de la publicación de resultados?",
+    "expected_answer": "No, después de la publicación oficial no se admiten reclamos, revisiones ni correcciones relacionadas con el contenido o calificación. [cite: 2187, 2196]",
+    "generated_answer": "No, los reclamos sobre el contenido del examen **no se admiten** después de la publicación oficial de los resultados. Las correcciones y ajustes solo proceden DURANTE el proceso de evaluación y calificación, ANTES de la publicación oficial. Después de esta publicación, NO se aceptarán reclamos ni revisiones sobre el contenido de las preguntas.\n\n---\n* ¿Cuándo se pueden presentar reclamos sobre el examen?\n* ¿Qué sucede si una pregunta del examen es inválida?",
+    "cosine_similarity": 0.8524,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es precisa y completa. Responde directamente a la pregunta, indicando claramente que los reclamos no se admiten después de la publicación de los resultados y explicando el momento en que sí se pueden realizar correcciones. Además, utiliza negritas para enfatizar la parte clave de la respuesta, lo que mejora la claridad."
+  },
+  {
+    "id": 37,
+    "question": "¿Cuáles son las etapas de evaluación para el Doctorado y sus ponderaciones?",
+    "expected_answer": "Evaluación de Expediente (30%), Examen de Conocimientos (30%), Entrevista Personal (20%) y Evaluación de Proyecto de Investigación (20%). [cite: 2201, 2202]",
+    "generated_answer": "El proceso de evaluación para el Doctorado en la UNAM consta de las siguientes etapas y sus ponderaciones:\n\n1.  **Evaluación de Expediente (CV):** 30%\n2.  **Examen de Conocimientos:** 30%\n3.  **Entrevista Personal:** 20%\n4.  **Evaluación Proyecto de Investigación:** 20%\n\nEl **puntaje final** se obtiene de la suma ponderada de estas calificaciones, y los postulantes se ordenan en un cuadro de mérito descendente para determinar a los ingresantes, siempre que hayan aprobado todas las etapas.\n\n---\n\n* ¿Cómo se resuelve un empate en el puntaje final para el Doctorado?\n* ¿Quién es responsable de la elaboración del examen de conocimientos para Posgrado?",
+    "cosine_similarity": 0.8194,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide con la respuesta esperada. Incluye todas las etapas de evaluación y sus ponderaciones correctas. Además, presenta la información de manera clara y organizada, facilitando la comprensión. La respuesta también incluye información adicional relevante sobre el puntaje final y el cuadro de mérito, lo que mejora su utilidad."
+  },
+  {
+    "id": 38,
+    "question": "¿Cuál es la nota mínima aprobatoria en el examen de conocimientos de Posgrado?",
+    "expected_answer": "La nota mínima aprobatoria es once (11) en sistema vigesimal. [cite: 2208]",
+    "generated_answer": "La nota mínima aprobatoria en el examen de conocimientos para programas de Posgrado es de **once (11)**. Este examen se califica en un sistema vigesimal (0-20) y es de carácter eliminatorio.\n\n---\n* ¿Cuál es la estructura del examen de conocimientos para una Maestría?\n* ¿Cómo se determina el puntaje final para los programas de Posgrado?",
+    "cosine_similarity": 0.806,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide con la respuesta esperada. Incluye la nota mínima aprobatoria (11) y el sistema de calificación vigesimal, tal como se indica en la respuesta esperada. Además, proporciona contexto adicional relevante sobre el carácter eliminatorio del examen."
+  },
+  {
+    "id": 39,
+    "question": "¿Cuándo se expide la Constancia Oficial de Ingreso?",
+    "expected_answer": "Dentro de los cinco (5) días hábiles posteriores a la publicación de los resultados oficiales. [cite: 2312]",
+    "generated_answer": "La Constancia Oficial de Ingreso se expide **dentro de los cinco (05) días hábiles posteriores a la publicación de los resultados oficiales**.\n\n---\n* ¿Qué requisitos necesito para que me expidan la Constancia Oficial de Ingreso?\n* ¿Qué sucede si no cumplo con los plazos para presentar la documentación como ingresante?",
+    "cosine_similarity": 0.8328,
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "relevance_explanation": "The provided questions are completely unrelated to the original question and answer pair. The original question was about *when* the Constancia Oficial de Ingreso is issued, while the new questions are about *requirements* and *consequences of not meeting deadlines*. Therefore, the context is entirely different, and the questions are irrelevant."
+  },
+  {
+    "id": 40,
+    "question": "¿Qué plazo tiene el ingresante de pregrado para presentar su Carpeta de Ingresante?",
+    "expected_answer": "Tiene un plazo de cuarenta y ocho (48) horas después de publicados los resultados oficiales. [cite: 2328]",
+    "generated_answer": "El ingresante de pregrado tiene **cuarenta y ocho (48) horas** después de publicados los resultados oficiales para presentar su Carpeta de Ingresante en físico.\n\n---\n* ¿Dónde debo presentar mi Carpeta de Ingresante de pregrado?\n* ¿Qué documentos debo incluir en mi Carpeta de Ingresante de pregrado?",
+    "cosine_similarity": 0.805,
+    "is_relevant": false,
+    "relevance_score": 0.1,
+    "relevance_explanation": "The provided questions are not directly related to evaluating the correctness of the generated answer against the expected answer. They are follow-up questions about the process, but don't help determine if the original answer is accurate."
+  },
+  {
+    "id": 41,
+    "question": "¿Qué documentos debe presentar un ingresante menor de edad?",
+    "expected_answer": "Además de los documentos comunes, debe presentar autorización firmada por padre/madre/tutor, copia del DNI del representante y documento que acredite la patria potestad o tutela. [cite: 2339, 2340, 2341]",
+    "generated_answer": "Los ingresantes menores de edad deben presentar la siguiente documentación adicional:\n\n*   **Autorización firmada** por su padre, madre o tutor legal.\n*   Copia del **DNI del padre, madre o tutor legal**.\n*   Documento que acredite la **patria potestad o tutela**, en caso de ser aplicable.\n\nEstos documentos son necesarios para los trámites administrativos hasta que el estudiante alcance la mayoría de edad.\n\n---\n* ¿Qué documentos necesito si soy postulante del examen ordinario?\n* ¿Qué modalidades de ingreso existen y cuáles son sus requisitos específicos?",
+    "cosine_similarity": 0.8551,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "La respuesta generada es altamente relevante y precisa.  Presenta la información clave sobre la documentación adicional requerida para ingresantes menores de edad, tal como se especifica en la respuesta esperada. Utiliza un formato de lista con viñetas que facilita la lectura y comprensión.  La única diferencia menor es la adición de la frase final sobre los trámites administrativos hasta la mayoría de edad, que si bien no está en la respuesta esperada, es información útil y relacionada. La respuesta generada captura la esencia de la respuesta esperada y la presenta de manera clara y concisa."
+  },
+  {
+    "id": 42,
+    "question": "¿Cuáles son las causales de pérdida de vacante en pregrado?",
+    "expected_answer": "No formalizar matrícula a tiempo, presentar documentación falsa, no presentar documentos complementarios, incumplir requisitos de modalidad, renunciar voluntariamente o tener impedimentos legales. [cite: 1567, 1568, 1569, 1570, 1571]",
+    "generated_answer": "Las causales de pérdida de vacante en pregrado en la Universidad Nacional de Moquegua (UNAM) son las siguientes:\n\n*   No formalizar la **matrícula** dentro del plazo establecido en el calendario académico.\n*   Presentar **documentación falsa, adulterada o con información inexacta** para acreditar los requisitos de postulación o ingreso.\n*   No presentar la **documentación complementaria requerida** dentro del plazo otorgado.\n*   Incumplir los **requisitos específicos de la modalidad** o submodalidad por la que ingresó, detectado mediante verificación posterior.\n*   **Renunciar expresa y voluntariamente** a la vacante obtenida.\n*   Incurrir en las **causales de impedimento** establecidas en el Reglamento, detectadas con posterioridad al ingreso.\n\nAdicionalmente, existen causales específicas según la modalidad:\n*   **Deportistas Calificados**: Pérdida de la calificación deportiva vigente antes de la matrícula, por causas imputables al ingresante.\n*   **Personas con Discapacidad**: Comprobación de que el certificado de discapacidad fue obtenido de manera fraudulenta o no corresponde al titular.\n\nLa pérdida de vacante se formaliza mediante Resolución Rectoral. Es importante recordar que la declaración de pérdida de vacante no exime de responsabilidades administrativas, civiles o penales, y no habrá devolución de dinero.\n\n---\n* ¿Qué sucede con las vacantes no cubiertas en las modalidades de Examen Extraordinario?\n* ¿Cómo puedo evitar perder mi vacante una vez que he ingresado?",
+    "cosine_similarity": 0.7743,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer accurately and comprehensively addresses the question. It lists all the expected causes for losing a pre-graduate vacancy, as outlined in the expected answer. The generated answer also provides additional context and details, such as specific causes related to certain modalities (Deportistas Calificados, Personas con Discapacidad) and the formalization process via Resolución Rectoral, which enhances the response's completeness and usefulness. The only minor deduction is due to the lack of explicit citations, although the information is accurate and relevant."
+  },
+  {
+    "id": 43,
+    "question": "¿Qué es la 'Participación Evaluativa'?",
+    "expected_answer": "Es un servicio de orientación vocacional que permite rendir el Examen General con fines formativos y diagnósticos, sin derecho a vacante ni ingreso. [cite: 2488, 2489]",
+    "generated_answer": "La **Participación Evaluativa** es un servicio académico ofrecido por la Dirección de Admisión de la Universidad Nacional de Moquegua (UNAM) que te permite rendir el Examen General de Admisión con fines **formativos y diagnósticos**.\n\nEs importante saber que esta modalidad:\n\n*   **No constituye una modalidad de ingreso** a la Universidad.\n*   **No compites por las vacantes** ofertadas.\n*   **No adquieres derecho alguno de ingreso** a la UNAM.\n*   El puntaje obtenido es **exclusivamente referencial** y no se acumula para procesos futuros.\n*   No serás incluido en el cuadro de mérito oficial.\n\nLos tipos de participantes evaluativos son:\n\n*   **Estudiantes de Educación Secundaria:** Puedes participar si estás matriculado en primero, segundo, tercero, cuarto o quinto año. Si eres menor de edad, necesitas autorización de tus padres o tutor legal. Los estudiantes de quinto año de secundaria que participen en esta modalidad **no podrán postular simultáneamente como postulantes regulares** en el mismo proceso de admisión.\n*   **Alumnos Libres de CEPREUNAM:** Personas que desean prepararse en el Centro Preuniversitario de la UNAM sin optar por una vacante de ingreso. Puedes ser egresado de secundaria o alguien que quiera reforzar su preparación académica.\n\nLa inscripción para la Participación Evaluativa se realiza **simultáneamente con el proceso de inscripción del Examen General de Admisión** o del ciclo CEPREUNAM. Tu carné de participante incluirá la leyenda visible: \"**PARTICIPANTE EVALUATIVO - SIN DERECHO A VACANTE**\".\n\n---\n\n* ¿Cómo puedo inscribirme en la 'Participación Evaluativa'?\n* ¿Cuál es el costo para ser un 'Participante Evaluativo'?",
+    "cosine_similarity": 0.7837,
+    "is_relevant": true,
+    "relevance_score": 0.9,
+    "relevance_explanation": "La respuesta generada es altamente relevante y precisa. Define correctamente la 'Participación Evaluativa' como un servicio de la UNAM que permite rendir el examen de admisión con fines formativos y diagnósticos, sin derecho a vacante. Además, proporciona detalles adicionales sobre las características y tipos de participantes, lo cual enriquece la respuesta esperada. La única diferencia es que la respuesta esperada cita fuentes específicas, mientras que la respuesta generada no lo hace, lo que justifica una puntuación ligeramente inferior a 1.0."
+  },
+  {
+    "id": 44,
+    "question": "¿Quiénes pueden inscribirse como Participantes Evaluativos?",
+    "expected_answer": "Estudiantes de educación secundaria (Tipo A) y Alumnos Libres de CEPREUNAM (Tipo B). [cite: 2494, 2497]",
+    "generated_answer": "Pueden inscribirse como Participantes Evaluativos los siguientes grupos:\n\n*   **Estudiantes de Educación Secundaria:** Aquellos matriculados en primero, segundo, tercero, cuarto o quinto año de secundaria. Los menores de edad necesitarán una autorización escrita de sus padres o tutores legales. Es importante notar que los estudiantes de quinto año que elijan esta modalidad no podrán postular simultáneamente como postulantes regulares en el mismo proceso de admisión.\n*   **Alumnos Libres de CEPREUNAM:** Personas que deseen prepararse en el Centro Preuniversitario de la UNAM sin optar por una vacante de ingreso. Esto incluye a egresados de secundaria o a quienes busquen reforzar su preparación académica.\n\nRecuerda que la **Participación Evaluativa NO constituye una modalidad de ingreso**, por lo que los participantes no compiten por vacantes ni adquieren derecho alguno de ingreso a la Universidad.\n\n---\n* ¿Qué requisitos necesito para ser un Participante Evaluativo de Educación Secundaria?\n* ¿Cuál es el costo para ser un Participante Evaluativo?",
+    "cosine_similarity": 0.7945,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "The generated answer accurately and completely addresses the question. It identifies the two eligible groups (Secondary Education Students and CEPREUNAM Free Students) and provides relevant details about each, including age restrictions and limitations on participation. The answer also correctly emphasizes that Evaluative Participation is not a form of admission. The generated answer is a perfect match to the expected answer."
+  },
+  {
+    "id": 45,
+    "question": "¿Qué sanción se aplica a un postulante por suplantación de identidad?",
+    "expected_answer": "Descalificación inmediata, anulación de ingreso o matrícula (según el momento), impedimento de postulación de 2 a 5 años, registro de sancionados y denuncia penal. [cite: 2448, 2449, 2450, 2451, 2453]",
+    "generated_answer": "La suplantación de identidad es una infracción grave que puede acarrear diversas sanciones. Según el Reglamento de Admisión de la Universidad Nacional de Moquegua (UNAM), las sanciones aplicables pueden incluir:\n\n*   **Descalificación inmediata**: Serás retirado del aula de examen, se anulará tu prueba y serás excluido del proceso de admisión vigente.\n*   **Impedimento de postulación**: Podrías ser inhabilitado para postular a la UNAM por un período de dos (02) a cinco (05) años, dependiendo de la gravedad de la falta.\n*   **Inclusión en el Registro de Postulantes Sancionados**: Tu nombre será inscrito en el registro institucional para efectos de control en futuros procesos.\n*   **Denuncia penal**: En casos de suplantación, la Universidad comunicará los hechos al Ministerio Público, ya que se considera un delito contra la fe pública, falsificación de documentos.\n\nSi la suplantación se detecta **durante el examen** o **antes de la publicación de resultados**, la sanción principal será la **descalificación inmediata**, además de las sanciones acumulables como el impedimento y la inclusión en el registro. Si se detecta **después de la matrícula**, se puede proceder a la **anulación de la matrícula** y la invalidez de todos los actos académicos derivados.\n\n---\n* ¿Dónde puedo encontrar información sobre las sanciones por falsificación de documentos?\n* ¿Cuándo se consideran las sanciones por incumplimiento durante el examen?",
+    "cosine_similarity": 0.8336,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide con la respuesta esperada. Incluye todos los elementos clave: descalificación inmediata, anulación de ingreso/matrícula, impedimento de postulación, registro de sancionados y denuncia penal. Además, proporciona detalles adicionales sobre el momento en que se aplican las sanciones (durante el examen, antes de resultados, después de la matrícula), lo que mejora la calidad de la respuesta. La respuesta también cita correctamente la fuente (aunque no se muestra explícitamente en la respuesta generada, se entiende que la información proviene del Reglamento de Admisión de la UNAM)."
+  },
+  {
+    "id": 46,
+    "question": "¿Qué ocurre si se detecta falsedad documental después de que el estudiante ya egresó?",
+    "expected_answer": "La falsedad no prescribe; puede ser sancionada en cualquier momento, pudiendo generar la anulación del grado o título obtenido. [cite: 2435, 2436]",
+    "generated_answer": "Si se detecta falsedad documental después de tu egreso, la **verificación documental permanente** estipulada en la **Disposición Complementaria Primera** del reglamento de admisión de la UNAM puede generar la **anulación de tu ingreso**. Esto es sin perjuicio de las acciones administrativas, civiles y penales que puedan corresponder. La universidad puede solicitar información a las entidades que emitieron los documentos para confirmar su autenticidad.\n\n---\n* ¿En qué momento exacto se realiza la verificación documental?\n* ¿La pérdida de vacante implica la devolución del dinero?",
+    "cosine_similarity": 0.7311,
+    "is_relevant": true,
+    "relevance_score": 0.8,
+    "relevance_explanation": "La respuesta generada aborda el tema de la falsedad documental post-egreso, que es el núcleo de la pregunta. Si bien no menciona explícitamente la imprescriptibilidad de la sanción, sí indica que la anulación del ingreso (y por implicación, del título) es posible, junto con acciones legales. La respuesta generada proporciona detalles específicos del reglamento de la UNAM, lo que añade valor. Sin embargo, la respuesta esperada es más concisa y directa al punto de la imprescriptibilidad, lo que justifica una puntuación ligeramente menor a 1.0."
+  },
+  {
+    "id": 47,
+    "question": "¿Es válida la vacante obtenida en una sede para estudiar en otra?",
+    "expected_answer": "No, la vacante ocupada solo es válida en la sede o filial donde fue obtenida. [cite: 2533]",
+    "generated_answer": "La vacante que obtienes en una sede de la UNAM es **válida únicamente en la sede o filial donde la obtuviste**. El cambio de sede solo es posible si cumples con el procedimiento de **Traslado Interno** y los requisitos específicos para ello.\n\n---\n* ¿Qué debo hacer si quiero cambiarme de sede?\n* ¿Qué sucede si no cumplo con los requisitos para el traslado interno?",
+    "cosine_similarity": 0.8053,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "La respuesta generada es altamente relevante y precisa.  Confirma la respuesta esperada de que la vacante no es válida en otra sede y además proporciona información adicional útil sobre la posibilidad de traslado interno, lo cual es un seguimiento lógico a la pregunta. La única razón para no darle una puntuación perfecta es que la respuesta esperada era más concisa, pero la información adicional es valiosa."
+  },
+  {
+    "id": 48,
+    "question": "¿Qué documentos se requieren para la inscripción en la modalidad Víctimas del Terrorismo?",
+    "expected_answer": "Constancia del Consejo Nacional de Calificación de Víctimas, de la PNP o FF.AA., certificado de estudios, DNI, foto digital y declaraciones juradas (Formatos 04, 06 y 16). [cite: 2004, 2005, 2006, 2007]",
+    "generated_answer": "Para la inscripción en la modalidad **Víctimas del Terrorismo**, se requiere la siguiente documentación en formato PDF:\n\n*   Constancia emitida por el **Consejo Nacional de Calificación de Víctimas del Terrorismo**, o constancia emitida por la **Dirección de Bienestar de la Policía Nacional del Perú**, o constancia emitida por el **Comando Conjunto de las Fuerzas Armadas**.\n*   Certificado oficial de **estudios secundarios completos**.\n*   Documento de **identidad vigente (DNI)**.\n*   Fotografía digital reciente, tamaño carné, fondo blanco, sin accesorios (formato JPG).\n*   Formatos de Declaración Jurada N° 04, 06 y 16 **firmadas digitalmente**.\n\nAsimismo, los postulantes por esta submodalidad están **exonerados del pago** por derecho de inscripción.\n\n---\n\n* ¿Cuándo debo presentar la documentación original para la modalidad Víctimas del Terrorismo?\n* ¿Dónde puedo encontrar los formatos de Declaración Jurada?",
+    "cosine_similarity": 0.8133,
+    "is_relevant": true,
+    "relevance_score": 0.95,
+    "relevance_explanation": "The generated answer is highly relevant and accurate compared to the expected answer. It correctly identifies all the required documents: Constancia del Consejo Nacional de Calificación de Víctimas (or equivalent from PNP/FF.AA.), certificado de estudios, DNI, digital photo, and signed Declaraciones Juradas (Formats 04, 06, and 16). The answer also provides additional helpful information regarding the format of the documents (PDF, JPG) and the exemption from inscription fees. The only minor difference is the specification of 'estudios secundarios completos' which is implied but not explicitly stated in the expected answer. The answer also raises two relevant follow-up questions that a user might have."
+  },
+  {
+    "id": 49,
+    "question": "¿Quién aprueba los resultados finales del examen de admisión?",
+    "expected_answer": "El Consejo Universitario oficializa la condición de ingresante mediante Resolución. [cite: 2309]",
+    "generated_answer": "Los resultados finales del examen de admisión son aprobados mediante un **acta de resultados** suscrita por el Director de Admisión, el Presidente del CCA, el Director de la EPG y el Secretario General. Posteriormente, los resultados se publican dentro de las **veinticuatro (24) horas** siguientes a la suscripción de dicha acta, previa remisión a OTI.\n\nEs importante recordar que, conforme al Artículo 117° del Reglamento, **no se admiten reclamos ni revisiones posteriores a la publicación de los resultados oficiales**.\n\n---\n* ¿Cómo puedo saber los resultados de mi examen?\n* ¿Existe alguna forma de apelar los resultados si considero que hay un error?",
+    "cosine_similarity": 0.714,
+    "is_relevant": false,
+    "relevance_score": 0.2,
+    "relevance_explanation": "The generated answer, while providing information about the approval process and publication of results, does not directly answer the question of *who* approves the final results. The expected answer specifically mentions the University Council officializing the results. The generated answer describes the process leading up to the official approval, but not the final approval itself. The added context about appeals is also irrelevant to the original question."
+  },
+  {
+    "id": 50,
+    "question": "¿Qué requisito adicional tiene un postulante de traslado interno para cambiar de sede?",
+    "expected_answer": "Debe presentar constancia de existencia de vacante en la sede de destino y declaración jurada de domicilio o justificación del traslado. [cite: 1896, 1897]",
+    "generated_answer": "Un postulante de traslado interno que busca cambiar de sede necesita presentar dos requisitos adicionales:\n\n*   Una **constancia de existencia de vacante** en la sede a la que desea trasladarse.\n*   Una **declaración jurada de domicilio** o una justificación del motivo del traslado.\n\n---\n* ¿Cuáles son los requisitos documentarios generales para el traslado interno?\n* ¿Qué sucede si no cumplo con los créditos mínimos para el traslado interno?",
+    "cosine_similarity": 0.8508,
+    "is_relevant": true,
+    "relevance_score": 1.0,
+    "relevance_explanation": "La respuesta generada es completamente correcta y coincide con la respuesta esperada.  Presenta la información de manera clara y concisa, y extrae los dos requisitos adicionales mencionados en los documentos citados."
+  }
+]

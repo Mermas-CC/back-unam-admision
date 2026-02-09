@@ -75,7 +75,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 # --- 1. CONFIGURAR MODELOS LLAMA_INDEX ---
 print("⚙️ Configurando modelos...")
 
-Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=1024)
+Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=512)
 Settings.embed_model = GeminiEmbedding(model="models/embedding-001")
 
 # --- 2. CARGAR/VERIFICAR ÍNDICE ---
@@ -256,8 +256,12 @@ class ChatRequest(BaseModel):
 async def llamar_llm_streaming(prompt: str):
     """Llamada a Gemini streaming por google.generativeai (Async)"""
     try:
-        model = genai.GenerativeModel('gemini-2.5-flash-lite')
-        response = await model.generate_content_async(prompt, stream=True)
+        model = genai.GenerativeModel('gemini-2.0-flash') # Corregido a un modelo existente si es necesario, pero manteniendo enfoque en tokens
+        response = await model.generate_content_async(
+            prompt, 
+            stream=True,
+            generation_config=genai.GenerationConfig(max_output_tokens=1024)
+        )
         async for chunk in response:
             try:
                 if chunk.text:
@@ -290,38 +294,27 @@ Actúa EXCLUSIVAMENTE como Ayudante de Admision UNAM, un asistente virtual exper
 ## CONTENIDO SITUACIONAL PARA FECHAS
 
 1. CRONOGRAMA DE INSCRIPCIÓN Y COSTOS
-CUADRO N° 1: CRONOGRAMA DE INSCRIPCIÓN DEL CONCURSO DE ADMISIÓN 2025-11
+CUADRO N° 1: CRONOGRAMA DE INSCRIPCIÓN DEL CONCURSO DE ADMISIÓN 2026-I
 Las fechas especificas para el proceso de admision se detallan en el siguiente cronograma:
 
+## Cronograma de Admisión 2026-I
 
-ITEM | DESCRIPCIÓN | FECHAS
---- | --- | ---
-1 | TOMA DE IMÁGENES, IDENTIFICACIÓN BIOMÉTRICA Y GENERACIÓN DE CARNET DE POSTULANTE CEPRE-III (sede Moquegua y Filial Ilo) | 21 al 24 de julio al de 2025
-2 | EXAMEN DE ADMISIÓN CENTRO DE ESTUDIOS PRE UNIVERSITARIO 2025-III | 27 de julio de 2025
-3 | PUBLICACION DE RESULTADOS | 27 de julio de 2025
-4 | INSCRIPCIÓN AL EXAMEN EXTRAORDINARIO 2025-11 | Del 27 de junio al 29 de julio 2025
-5 | INSCRIPCION AL EXAMEN EXTRAORDINARIO PLAN INTEGRAL DE REPARACIONES Y VICTIMAS DE TERRORISMO | Del 20 de junio al 18 de julio 2025
-6 | PROCESO DE EVALUACION Y VALIDACION DE DOCUMENTOS DE PERSONAS CON DISCAPACIDAD MODALIDAD EXTRAORDINARIO | 31 de julio 2025 (postulantes examen extraordinario)
-7 | TOMA DE IMÁGENES, IDENTIFICACION BIOMÉTRICA Y GENERACIÓN DE CARNET DE POSTULANTE (sede Moquegua) | 30 y 31 de julio 2025 (postulantes examen extraordinario)
-8 | EXAMEN DE ADMISIÓN EXTRAORDINARIO (solo en la sede de Moquegua) | 03 de agosto de 2025
-9 | PUBLICACIÓN DE RESULTADOS | 03 de agosto de 2025
-10 | INSCRIPCIÓN AL EXAMEN ORDINARIO GENERAL 2025-11 | Del 13 de junio al 01 de agosto 2025
-11 | INSCRIPCIÓN EXTEMPORANEO AL EXAMEN ORDINARIO GENERAL 2025-11 | 04 al 06 de agosto 2025 (para postulantes del examen extraordinario que no alcanzaron vacante y regiones lejanas)
-12 | TOMA DE IMÁGENES, IDENTIFICACIÓN BIOMÉTRICA Y GENERACIÓN DE CARNET DE POSTULANTE (sede Moquegua y Filial Ilo) | 04 al 08 de agosto 2025 (postulantes examen ordinario) 07 y 08 de agosto 2025 (regiones lejanas)
-13 | EXAMEN DE ADMISIÓN ORDINARIO-CANAL BY C (sede Moquegua y Filial Ilo) | 10 de agosto de 2025
-14 | PUBLICACIÓN DE RESULTADOS | 10 de agosto de 2025
+### Formato estructurado por ítems
 
-El Canal B corresponde a las carreras de ingenierías:
-o Ingeniería de Minas
-o Ingeniería Agroindustrial
-o Ingeniería Civil
-o Ingeniería Pesquera
-o Ingeniería Ambiental
-o Ingeniería de Sistemas e Informática
-
-El canal C corresponde a las carreras de ciencias sociales:
- o Gestión Pública y Desarrollo Social.
- o Administración
+| ITEM | DESCRIPCIÓN | FECHAS |
+|-----:|-------------|--------|
+| 1 | Inscripción al Examen Extraordinario 2026-I | Del 20 de enero al 11 de marzo de 2026 |
+| 2 | Inscripción al Examen Extraordinario – Plan Integral de Reparaciones y Víctimas de Terrorismo | Del 20 de enero al 27 de febrero de 2026 |
+| 3 | Toma de imágenes, identificación biométrica y generación de carnet de postulante (Sede Moquegua) | 12 y 13 de marzo de 2026 (postulantes examen extraordinario) |
+| 4 | Evaluación de expedientes y validación de condiciones por la Comisión de Evaluación de Personas con Discapacidad (Ley N.º 29973) | 13 de marzo de 2026 |
+| 5 | Examen de Admisión Extraordinario (solo en la sede Moquegua) | 15 de marzo de 2026 |
+| 6 | Publicación de resultados (Examen Extraordinario) | 15 de marzo de 2026 |
+| 7 | Inscripción al Examen Ordinario General | Del 20 de enero al 17 de marzo de 2026 |
+| 8 | Toma de imágenes, identificación biométrica y generación de carnet de postulante (Sede Moquegua y Filial Ilo) | - 16 al 18 de marzo de 2026 (postulantes examen ordinario)<br>- 19 y 20 de marzo de 2026 (regiones lejanas) |
+| 9 | Examen de Admisión Ordinario – Canal A (solo en la sede Moquegua) | 21 de marzo de 2026 |
+|10 | Publicación de resultados (Canal A) | 21 de marzo de 2026 |
+|11 | Examen de Admisión Ordinario – Canal B y C (Sede Moquegua y Filial Ilo) | 22 de marzo de 2026 |
+|12 | Publicación de resultados (Canal B y C) | 22 de marzo de 2026 |
 
 2. NUMEROS DE CONTACTO DIRECTO Y OFICINAS
 Para consultas directas, los postulantes pueden comunicarse a los siguientes números de contacto y oficinas:
@@ -362,32 +355,92 @@ Solo en el caso los pagos en el Banco de la Nación, luego el váucher deberá s
 
 
 2. CUADRO DE VACANTES
-CUADRO N° 2: CUADRO DE VACANTES PARA EL PROCESO DE ADMISIÓN 2025-11
-En la Sede Central Moquegua:
+## Datos de Admisión – Formato Estructurado
 
-Ingeniería de Minas: 40 vacantes (10 CEPRE, 12 Extraordinario, 18 Ordinario).
+### Categorías
+- ESCUELAS_PROFESIONALES
+- CEPRE_UNAM_FASE_I
+- CEPRE_UNAM_FASE_II
+- PRIMEROS_PUESTOS_COLEGIOS
+- EGRESADOS_COAR
+- TITULADOS_GRADUADOS
+- DEPORTISTAS_DESTACADOS
+- PERSONAS_CON_DISCAPACIDAD
+- VICTIMAS_TERRORISMO
+- PLAN_INTEGRAL_REPARACION
+- TRASLADOS_EXTERNOS
+- TRASLADOS_INTERNOS
+- CONVENIO_ANDRES_BELLO
+- TOTAL_EXTRAORDINARIO
+- TOTAL_ORDINARIO
+- TOTAL_INGRESANTES
 
-Ingeniería Agroindustrial: 35 vacantes (10 CEPRE, 11 Extraordinario, 14 Ordinario).
+---
 
-Ingeniería Civil: 50 vacantes (15 CEPRE, 17 Extraordinario, 18 Ordinario).
+### Sede Central Moquegua
 
-Gestión Pública y Desarrollo Social: 60 vacantes (13 CEPRE, 24 Extraordinario, 23 Ordinario).
+**Ingeniería de Minas**  
+Valores:  
+[5, 6, 2, 2, 1, 1, 3, 1, 1, 1, 1, 1, 14, 20, 45]
 
-En la Filial Ilo:
+**Ingeniería Agroindustrial**  
+Valores:  
+[5, 5, 2, 2, 1, 0, 2, 0, 0, 1, 1, 0, 9, 16, 35]
 
-Ingeniería Pesquera: 37 vacantes (14 CEPRE, 13 Extraordinario, 10 Ordinario).
+**Ingeniería Civil**  
+Valores:  
+[5, 6, 2, 2, 2, 1, 3, 1, 1, 1, 1, 0, 14, 25, 50]
 
-Ingeniería Ambiental: 46 vacantes (12 CEPRE, 12 Extraordinario, 22 Ordinario).
+**Medicina**  
+Valores:  
+[7, 6, 2, 2, 1, 1, 2, 0, 1, 1, 1, 0, 11, 11, 35]
 
-Ingeniería de Sistemas e Informática: 60 vacantes (14 CEPRE, 24 Extraordinario, 22 Ordinario).
+**Contabilidad**  
+Valores:  
+[5, 6, 2, 2, 0, 1, 2, 0, 1, 0, 0, 0, 8, 16, 35]
 
-Administración: 50 vacantes (13 CEPRE, 15 Extraordinario, 22 Ordinario).
+**Derecho**  
+Valores:  
+[5, 6, 2, 2, 2, 1, 2, 0, 0, 0, 0, 0, 9, 15, 35]
 
-Totales generales: 378 vacantes (101 CEPRE, 128 Extraordinario, 149 Ordinario).
-*(Nota: La tabla original contiene un desglose detallado de las vacantes del proceso extraordinario que aquí se presentan como un total por carrera para mantener la legibilidad).*
+**Gestión Pública y Desarrollo Social**  
+Valores:  
+[6, 7, 2, 2, 2, 1, 3, 1, 1, 2, 2, 1, 17, 30, 60]
 
-NOTA:
-1. Las vacantes no cubiertas en el proceso CEPREUNAM y Extraordinario, serán adicionadas al número de vacantes del proceso ordinario.
+---
+
+### Filial Ilo
+
+**Ingeniería Pesquera**  
+Valores:  
+[7, 7, 2, 2, 1, 0, 2, 0, 1, 1, 2, 1, 12, 14, 40]
+
+**Ingeniería Ambiental**  
+Valores:  
+[5, 6, 2, 2, 1, 0, 2, 0, 1, 1, 1, 0, 10, 24, 45]
+
+**Ingeniería de Sistemas e Informática**  
+Valores:  
+[6, 7, 2, 3, 1, 1, 3, 1, 0, 1, 1, 1, 14, 23, 50]
+
+**Contabilidad**  
+Valores:  
+[5, 6, 2, 2, 0, 1, 2, 1, 1, 0, 0, 0, 9, 15, 35]
+
+**Derecho**  
+Valores:  
+[5, 6, 2, 2, 2, 1, 2, 0, 0, 0, 0, 0, 9, 15, 35]
+
+**Administración**  
+Valores:  
+[5, 6, 3, 2, 1, 1, 3, 0, 1, 1, 1, 1, 14, 25, 50]
+
+---
+
+### Totales Generales
+
+Valores:  
+[71, 80, 27, 27, 15, 10, 31, 5, 9, 10, 11, 5, 150, 249, 550]
 
 5. DATOS EXTRA
 - La Universidad Nacional de Moquegua (UNAM) es una institución pública de educación superior
@@ -465,21 +518,52 @@ async def judge_context_sufficiency(query: str, nodes: list) -> dict:
         print(f"⚠️ Error en LLM Judge: {e}")
         return {"sufficient": True, "confidence": 0.5} # Fallback optimista
 
+def evaluar_necesidad_rag(pregunta: str) -> bool:
+    """Detecta si la pregunta requiere buscar en documentos de admisión."""
+    keywords_admision = [
+        "requisitos", "examen", "costo", "pago", "fecha", "cronograma", 
+        "vacante", "carrera", "inscripcion", "inscripción", "postular",
+        "documento", "voucher", "admisión", "ordinario", "extraordinario",
+        "cepre", "unt", "moquegua", "ilo", "filial", "sede"
+    ]
+    
+    pregunta_lower = pregunta.lower()
+    
+    # 1. Si contiene palabras clave de admisión, definitivamente necesita RAG
+    if any(kw in pregunta_lower for kw in keywords_admision):
+        return True
+        
+    # 2. Si es muy corta (ej: "hola", "buen día"), probablemente no necesita RAG
+    if len(pregunta_lower.split()) <= 2:
+        return False
+        
+    # 3. Preguntas de identidad suelen no necesitar RAG (ya están en el system prompt)
+    identidad = ["quien eres", "qué eres", "ayudame", "tu nombre", "ayudarme", "como te llamas"]
+    if any(id_kw in pregunta_lower for id_kw in identidad):
+        return False
+
+    # Por defecto, si no estamos seguros, usamos RAG por seguridad
+    return True
+
 async def generar_respuesta_stream(pregunta: str, historial: list):
     # Recuperar contexto: los top-k chunks relevantes
     print("\n" + "="*80)
     print(f"🔍 NUEVA CONSULTA: {pregunta}")
     print("="*80)
     
-    # Obtener el motor y el retriever
+    # 0. Traffic Controller: ¿Realmente necesitamos RAG?
+    necesita_rag = evaluar_necesidad_rag(pregunta)
+    
+    if not necesita_rag:
+        print("⚡ TRAFFIC: Saltando RAG (Conversacional)")
+        prompt = generar_prompt(pregunta, "No se requiere contexto para esta interacción conversacional.", historial)
+        async for chunk in llamar_llm_streaming(prompt):
+            yield chunk
+        return
+
+    # 1. Recuperar contexto...
     retriever = get_retriever()
     engine = get_query_engine()
-    
-    if not retriever or not engine:
-        print("⚠️  WARNING: No hay índice vectorial cargado. Respondiendo sin contexto RAG.")
-        yield "Lo siento, el sistema de conocimiento no está cargado actualmente. Inténtalo de nuevo más tarde."
-        yield " [DONE]"
-        return
     
     try:
         print(f"🔍 DEBUG: Ejecutando retrieval...")
@@ -494,7 +578,6 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
             print("🚫 RECHAZADO: Contexto insuficiente.")
             yield "Lo siento, no encontré información específica en los documentos oficiales de la UNAM que me permita responder a tu pregunta con seguridad. ¿Deseas consultar sobre requisitos, fechas de examen o carreras disponibles?\n\n---"
             yield "\n* ¿Cuáles son los requisitos de admisión?\n* ¿Cuándo es el próximo examen?"
-            yield " [DONE]"
             return
 
         # 3. Generar respuesta (Si es suficiente)
@@ -509,7 +592,6 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
         import traceback
         traceback.print_exc()
         yield "Ocurrió un error procesando tu consulta. Por favor, intenta de nuevo."
-        yield " [DONE]"
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
