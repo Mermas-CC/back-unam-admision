@@ -254,24 +254,41 @@ class ChatRequest(BaseModel):
 
 
 async def llamar_llm_streaming(prompt: str):
-    """Llamada a Gemini streaming por google.generativeai (Async)"""
-    try:
-        model = genai.GenerativeModel('gemini-2.0-flash') # Corregido a un modelo existente si es necesario, pero manteniendo enfoque en tokens
-        response = await model.generate_content_async(
-            prompt, 
-            stream=True,
-            generation_config=genai.GenerationConfig(max_output_tokens=2048)
-        )
-        async for chunk in response:
-            try:
-                if chunk.text:
-                    yield chunk.text
-            except ValueError:
-                # Si el chunk no tiene texto (por safety o finish_reason), lo ignoramos
-                pass
-    except Exception as e:
-        print(f"❌ Error llamando a Gemini: {e}")
-        yield " "
+    """Llamada a Gemini streaming por google.generativeai (Async) con reintentos para error 429"""
+    max_retries = 3
+    retry_delay = 2  # segundos
+
+    for attempt in range(max_retries):
+        try:
+            model = genai.GenerativeModel('gemini-2.0-flash')
+            response = await model.generate_content_async(
+                prompt, 
+                stream=True,
+                generation_config=genai.GenerationConfig(max_output_tokens=2048)
+            )
+            async for chunk in response:
+                try:
+                    if chunk.text:
+                        yield chunk.text
+                except ValueError:
+                    # Si el chunk no tiene texto (por safety o finish_reason), lo ignoramos
+                    pass
+            return  # Éxito, salimos del bucle de reintentos
+
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str and attempt < max_retries - 1:
+                print(f"⚠️ Cuota agotada (429). Reintento {attempt + 1}/{max_retries} en {retry_delay}s...")
+                await asyncio.sleep(retry_delay)
+                retry_delay *= 2  # Exponential backoff
+                continue
+            
+            print(f"❌ Error llamando a Gemini: {e}")
+            if "429" in error_str:
+                yield "El servidor está temporalmente saturado (límite de cuota alcanzado). Por favor, espera unos segundos e intenta de nuevo."
+            else:
+                yield "Lo siento, hubo un problema al conectar con el servicio de IA."
+            break
 
 def generar_prompt(pregunta, contexto, historial):
     historial_texto = "\n".join(
@@ -495,7 +512,7 @@ Nunca uses expresiones en segunda persona como “¿Quieres...?”, “¿Te gust
 """
 
 async def judge_context_sufficiency(query: str, nodes: list) -> dict:
-    """Usa el LLM para evaluar si el contexto recuperado es suficiente para responder."""
+    """Usa el LLM para evaluar si el contexto recuperado es suficiente para responder (con reintentos)."""
     if not nodes:
         return {"sufficient": False, "reason": "No se recuperaron documentos", "confidence": 1.0}
     
@@ -510,15 +527,22 @@ async def judge_context_sufficiency(query: str, nodes: list) -> dict:
     ¿El CONTEXTO contiene información relevante y real para responder a la PREGUNTA?
     Responde estrictamente en formato JSON: {{"sufficient": true/false, "confidence": 0.0-1.0}}
     """
-    try:
-        # Usamos el modelo configurado en Settings
-        response = await Settings.llm.acomplete(prompt)
-        cleaned = response.text.strip().replace('```json', '').replace('```', '')
-        import json
-        return json.loads(cleaned)
-    except Exception as e:
-        print(f"⚠️ Error en LLM Judge: {e}")
-        return {"sufficient": True, "confidence": 0.5} # Fallback optimista
+    
+    max_retries = 2
+    for attempt in range(max_retries):
+        try:
+            # Usamos el modelo configurado en Settings
+            response = await Settings.llm.acomplete(prompt)
+            cleaned = response.text.strip().replace('```json', '').replace('```', '')
+            import json
+            return json.loads(cleaned)
+        except Exception as e:
+            if "429" in str(e) and attempt < max_retries - 1:
+                print(f"⚠️ Error 429 en Judge. Reintentando...")
+                await asyncio.sleep(1)
+                continue
+            print(f"⚠️ Error en LLM Judge: {e}")
+            return {"sufficient": True, "confidence": 0.5} # Fallback optimista para no bloquear al usuario
 
 def evaluar_necesidad_rag(pregunta: str) -> bool:
     """Detecta si la pregunta requiere buscar en documentos de admisión."""
