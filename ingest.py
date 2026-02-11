@@ -22,7 +22,7 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # --- CLASES DE UTILIDAD (Replicada de main.py para independencia) ---
 class GeminiEmbedding(BaseEmbedding):
-    def __init__(self, model: str = "models/embedding-001"):
+    def __init__(self, model: str = "models/gemini-embedding-001"):
         super().__init__()
         self._model = model
 
@@ -39,7 +39,7 @@ class GeminiEmbedding(BaseEmbedding):
 
 # --- CONFIGURACIÓN ---
 Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=1024)
-Settings.embed_model = GeminiEmbedding(model="models/embedding-001")
+Settings.embed_model = GeminiEmbedding(model="models/gemini-embedding-001")
 PERSIST_DIR = "./chroma_db_v2"
 DATA_DIR = "./data"
 

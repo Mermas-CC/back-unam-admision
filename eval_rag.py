@@ -25,7 +25,7 @@ from typing import List
 Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=1024)
 
 class GeminiEmbedding(BaseEmbedding):
-    def __init__(self, model_name: str = "models/embedding-001"):
+    def __init__(self, model_name: str = "models/gemini-embedding-001"):
         super().__init__()
         self._model = model_name
 

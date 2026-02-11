@@ -27,7 +27,7 @@ genai.configure(api_key=api_key)
 
 # --- 1. CLASE EMBEDDING (Para Similitud Local) ---
 class GeminiEmbedding(BaseEmbedding):
-    def __init__(self, model_name: str = "models/embedding-001"):
+    def __init__(self, model_name: str = "models/gemini-embedding-001"):
         super().__init__()
         self._model = model_name
 

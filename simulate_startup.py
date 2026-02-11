@@ -17,7 +17,7 @@ PERSIST_DIR = "./chroma_db"
 embedding_cache = {}
 
 class GeminiEmbedding(BaseEmbedding):
-    def __init__(self, model: str = "models/embedding-001"):
+    def __init__(self, model: str = "models/gemini-embedding-001"):
         super().__init__()
         self._model = model
     def _get_query_embedding(self, query: str) -> List[float]:
@@ -44,7 +44,7 @@ def simulate():
     t1 = time.time()
     genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
     Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=1024)
-    Settings.embed_model = GeminiEmbedding(model="models/embedding-001")
+    Settings.embed_model = GeminiEmbedding(model="models/gemini-embedding-001")
     t_models = time.time() - t1
     print(f"⏱️  Configuración de modelos: {t_models:.4f}s")
     

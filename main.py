@@ -29,7 +29,7 @@ load_dotenv()
 embedding_cache = {}
 
 class GeminiEmbedding(BaseEmbedding):
-    def __init__(self, model: str = "models/embedding-001"):
+    def __init__(self, model: str = "models/gemini-embedding-001"):
         super().__init__()
         self._model = model
 
@@ -75,8 +75,8 @@ genai.configure(api_key=GEMINI_API_KEY)
 # --- 1. CONFIGURAR MODELOS LLAMA_INDEX ---
 print("⚙️ Configurando modelos...")
 
-Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=512)
-Settings.embed_model = GeminiEmbedding(model="models/embedding-001")
+Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=2048)
+Settings.embed_model = GeminiEmbedding(model="models/gemini-embedding-001")
 
 # --- 2. CARGAR/VERIFICAR ÍNDICE ---
 # Ya no crasheamos si no existe, para permitir subida inicial y primer ingest.
@@ -238,7 +238,7 @@ origins = [
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -260,7 +260,7 @@ async def llamar_llm_streaming(prompt: str):
         response = await model.generate_content_async(
             prompt, 
             stream=True,
-            generation_config=genai.GenerationConfig(max_output_tokens=1024)
+            generation_config=genai.GenerationConfig(max_output_tokens=2048)
         )
         async for chunk in response:
             try:
@@ -288,7 +288,7 @@ Actúa EXCLUSIVAMENTE como Ayudante de Admision UNAM, un asistente virtual exper
 5. **Manejo de Incertidumbre:** Si ninguna fuente contiene la respuesta, admítelo claramente y sugiere al usuario consultar las fuentes oficiales.
 6. **Privacidad Absoluta:** NUNCA pidas, almacenes o repitas información personal del usuario.
 7. **Enfoque Único:** Si el usuario pregunta por temas no relacionados con la admisión, redirige amablemente la conversación a tu propósito principal.
-8. **Comportamiento** No des saludo a menos que el usuario lo haga primero. Responde de manera concisa y directa, evitando redundancias.
+8. **Comportamiento:** Responde de manera profesional, amable y concisa. Si el usuario te saluda, responde al saludo cordialmente y ofrece tu ayuda. Evita respuestas robóticas o mencionar tus propias reglas de comportamiento.
 
 
 ## CONTENIDO SITUACIONAL PARA FECHAS
@@ -453,6 +453,8 @@ Valores:
 ## FORMATO Y ESTRUCTURA DE LA RESPUESTA
 Tu respuesta DEBE seguir esta estructura de formato para ser clara y visualmente atractiva:
 1. **Cuerpo de la Respuesta:**
+   - **Concisión Extrema:** Sé extremadamente directo y evita introducciones largas.
+   - **Optimización Vertical:** Prioriza el uso de listas cortas para que la respuesta sea legible en pantallas pequeñas.
    - **Si la respuesta describe un proceso o una secuencia de pasos, DEBES usar una lista numerada (1., 2., 3.) para guiar al usuario.**
    - # CÓDIGO CORREGIDO
    # PROMPT CORREGIDO Y MÁS PRECISO
@@ -588,10 +590,10 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
             yield chunk
             
     except Exception as e:
-        print(f"❌ Error en flujo RAG: {e}")
         import traceback
-        traceback.print_exc()
-        yield "Ocurrió un error procesando tu consulta. Por favor, intenta de nuevo."
+        error_msg = traceback.format_exc()
+        print(f"❌ Error CRÍTICO en flujo RAG:\n{error_msg}")
+        yield "Ocurrió un error procesando tu consulta. Por favor, intenta de nuevo. (Detalle técnico: error en motor RAG)"
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
