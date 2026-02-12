@@ -1,0 +1,983 @@
+
+--- PÁGINA 1 ---
+
+“GUÍA DE MANEJO DE DETECTOR DE RADIOFRECUENCIAS”
+G-PM01.01-DA-004 Versión: 01 Página 1 de 11
+“GUÍA DE MANEJO DE DETECTOR DE RADIOFRECUENCIAS”
+MULTI USE RF BUG DETECTOR
+Equipo de Rastreo de Señales de Comunicación
+Procesos de Admisión de Pregrado y Posgrado
+ROL NOMBRE CARGO FECHA Y FIRMA
+DIRECTOR DE LA
+ELABORADO DR. JOSÉ ANTONIO
+DIRECCIÓN DE
+POR: VALERIANO ZAPANA
+ADMISIÓN
+Dr. ALEJANDRO MANUEL VICERRECTOR
+ECOS ESPINO ACADÉMICO
+JEFE DE LA
+REVISADO ECO. EDEN VICENTE OFICINA DE
+POR: CORI PLANEAMIENTO Y
+PRESUPUESTO
+JEFE DE LA OFICINA
+Abog. RICHARD ALEX
+DE ASESORÍA
+FLORES PÉREZ
+JURÍDICA
+APROBADO DR. HUGO RUBEN
+RECTOR
+POR: MARCA MAQUERA
+MOQUEGUA
+2026
+
+[TABLA 1 en página 1]
+
+--- Interpretación de Tabla por LLM ---
+Este documento es la "Guía de Manejo de Detector de Radiofrecuencias", identificada como G-PM01.01-DA-004. Es la versión 01 y corresponde a la página 1 de 11.
+---------------------------------------
+
+
+[TABLA 2 en página 1]
+
+--- Interpretación de Tabla por LLM ---
+El documento describe la aprobación de una acción, donde distintas personas tienen diferentes roles:
+
+*   **Elaborado por:** Dr. José Antonio Valeriano Zapana, Director de la Dirección de Admisión.
+*   **Revisado por:**
+    *   Dr. Alejandro Manuel Ecos Espino, Vicerrector Académico.
+    *   Eco. Eden Vicente Cori, Jefe de la Oficina de Planeamiento y Presupuesto.
+    *   Abog. Richard Alex Flores Pérez, Jefe de la Oficina de Asesoría Jurídica.
+*   **Aprobado por:** Dr. Hugo Ruben Marca Maquera, Rector.
+---------------------------------------
+
+
+--- PÁGINA 2 ---
+
+“GUÍA DE MANEJO DE DETECTOR DE RADIOFRECUENCIAS”
+G-PM01.01-DA-004 Versión: 01 Página 2 de 11
+CONTROL DE CAMBIOS
+Revisión Sección/ítem Descripción del cambio
+01 --- Nuevo
+
+[TABLA 1 en página 2]
+
+--- Interpretación de Tabla por LLM ---
+Este documento, identificado como "GUÍA DE MANEJO DE DETECTOR DE RADIOFRECUENCIAS" con el código G-PM01.01-DA-004, corresponde a la versión 01 y es la página 2 de un total de 11 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 2]
+
+--- Interpretación de Tabla por LLM ---
+La tabla "CONTROL DE CAMBIOS" registra las modificaciones realizadas en un documento.
+
+*   **Revisión 01:** Se introduce una nueva entrada (indicado por "Nuevo"). La sección o ítem específico al que se refiere el cambio no está especificado (indicado por "---").
+---------------------------------------
+
+
+--- PÁGINA 3 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 3 de 11
+1. OBJETO
+Establecer los procedimientos y técnicas para el correcto manejo del Detector de
+Radiofrecuencias Multiuso (Multi Use RF Bug Detector) durante los procesos de admisión de
+Pregrado y Posgrado de la Universidad Nacional de Moquegua, garantizando que el rastreo de
+señales de comunicación (WiFi, Bluetooth, GSM, 3G, 4G/LTE, 5G) se realice de manera eficiente
+y conforme al Protocolo para el Rastreo de Señales de Comunicación del Examen de Admisión.
+2. ALCANCE
+Guía de aplicación obligatoria para el Operador del Equipo de Rastreo de Señales de
+Comunicación designado por la Comisión de Admisión (Pregrado o Posgrado) para participar en
+la detección de señales de radiofrecuencia antes y durante el desarrollo del Examen de Admisión,
+tanto en la Sede Central Moquegua como en la Filial Ilo.
+3. BASE NORMATIVA
+• Reglamento General de Admisión de la UNAM (vigente).
+• Protocolo para el Rastreo de Señales de Comunicación en el Examen de Admisión.
+• Protocolos Internos del Examen de Admisión de Pregrado y Posgrado.
+• Directiva de Lineamientos de Funciones para los Procesos de Admisión (DR-PM02.02-
+DA-002).
+4. DESCRIPCIÓN DEL EQUIPO
+4.1. Ficha técnica
+CARACTERÍSTICA DESCRIPCIÓN
+Nombre Multi Use RF Bug Detector (Detector de Radiofrecuencias
+Multiuso)
+Tipo Detector portátil de señales de radiofrecuencia
+Rango de frecuencia 50 MHz ~ 6.0 GHz
+Compatibilidad 5G Sí (sub6 detection)
+Señales que detecta WiFi, Bluetooth, GSM, 3G, 4G/LTE, 5G sub6, cámaras espía,
+micrófonos ocultos (bugs), trackers GPS
+Alimentación Batería seca o recargable (NO conectar cargador con batería
+seca)
+Fabricación Taiwán
+
+[TABLA 1 en página 3]
+
+--- Interpretación de Tabla por LLM ---
+Esta tabla describe la "Guía de Orientación para el Docente Aplicador" y contiene información de metadatos del documento.
+
+*   **Título del documento:** “GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+*   **Código del documento:** G-PM01.01-DA-004
+*   **Versión:** 01
+*   **Página:** 3 de 11 (esto indica que es la página 3 de un total de 11 páginas)
+---------------------------------------
+
+
+[TABLA 2 en página 3]
+
+--- Interpretación de Tabla por LLM ---
+El dispositivo Multi Use RF Bug Detector (Detector de Radiofrecuencias Multiuso) es un detector portátil de señales de radiofrecuencia.  Su rango de frecuencia es de 50 MHz a 6.0 GHz. Es compatible con 5G (detección sub6). Detecta las siguientes señales: WiFi, Bluetooth, GSM, 3G, 4G/LTE, 5G sub6, cámaras espía, micrófonos ocultos (bugs) y trackers GPS.  Se alimenta con una batería seca o recargable, con la importante advertencia de NO conectar el cargador si se está utilizando una batería seca. Está fabricado en Taiwán.
+---------------------------------------
+
+
+--- PÁGINA 4 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 4 de 11
+4.2. Sistema de indicadores LED
+El equipo cuenta con dos grupos de indicadores que proporcionan información en tiempo real:
+INDICADOR TIPO SIGNIFICADO
+Power LED de estado Equipo encendido y operativo.
+Vibration LED de modo Modo vibración activo (silencioso).
+Beep LED de modo Modo pitido activo (sonido breve por cada
+detección).
+Acoustic LED de modo Modo acústico activo (reproduce el sonido
+interceptado de la señal).
+CAM / Bug / LTE LED de tipo de señal Se ha detectado una señal de cámara,
+micrófono oculto o señal celular LTE.
+WiFi LED de tipo de señal Se ha detectado una señal WiFi o Bluetooth.
+Battery Low LED de estado Batería baja. Reemplazar o recargar antes
+de continuar.
+Charging LED de estado Equipo en proceso de carga (solo con
+batería recargable).
+4.3. Barra de intensidad de señal
+La barra LED horizontal (Low → High) muestra en 8 niveles la intensidad de la señal detectada.
+A mayor cantidad de LEDs encendidos, más cerca se encuentra la fuente de emisión. Esta barra
+es fundamental para localizar con precisión el origen de una señal sospechosa.
+4.4. Tres modalidades de funcionamiento
+Conforme al Protocolo para el Rastreo de Señales de Comunicación, el equipo opera en tres
+modalidades:
+MODO DESCRIPCIÓN USO RECOMENDADO
+VIBRACIÓN Cuando detecta una señal, el DURANTE EL EXAMEN: Para rastrear
+equipo vibra sin emitir sonido. dentro de las aulas sin distraer a los
+postulantes.
+BEEP (VIP) Al detectar una señal, emite un EN EL CONTROL DE INGRESO: Para
+pitido y se enciende la barra LED verificar señales en la zona de
+según la intensidad. detección de metales y
+radiofrecuencias.
+ACÚSTICO Al detectar una señal de PARA CONFIRMAR: Cuando se ha
+comunicación, el equipo intercepta detectado una señal sospechosa y se
+y reproduce el sonido del necesita confirmar que es una
+dispositivo transmisor. transmisión activa.
+
+[TABLA 1 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+Esta tabla, identificada como "GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR" con código "G-PM01.01-DA-004", corresponde a la Versión 01 y se encuentra en la Página 4 de un total de 11 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+El dispositivo utiliza LEDs para indicar diversos estados y detecciones.
+
+**Indicadores de Power (Alimentación):**
+
+*   **Indicador:** Power
+*   **Tipo de LED:** LED de estado
+*   **Significado:** El equipo está encendido y operativo.
+
+**Indicadores de Modo:**
+
+*   **Indicador:** Vibration (Vibración)
+*   **Tipo de LED:** LED de modo
+*   **Significado:** Modo vibración activo (silencioso).
+
+*   **Indicador:** Beep (Pitido)
+*   **Tipo de LED:** LED de modo
+*   **Significado:** Modo pitido activo (sonido breve por cada detección).
+
+*   **Indicador:** Acoustic (Acústico)
+*   **Tipo de LED:** LED de modo
+*   **Significado:** Modo acústico activo (reproduce el sonido interceptado de la señal).
+
+**Indicadores de Tipo de Señal:**
+
+*   **Indicador:** CAM / Bug / LTE (Cámara / Micrófono Oculto / LTE)
+*   **Tipo de LED:** LED de tipo de señal
+*   **Significado:** Se ha detectado una señal de cámara, micrófono oculto o señal celular LTE.
+
+*   **Indicador:** WiFi / Bluetooth
+*   **Tipo de LED:** LED de tipo de señal
+*   **Significado:** Se ha detectado una señal WiFi o Bluetooth.
+
+**Indicadores de Batería:**
+
+*   **Indicador:** Battery Low (Batería Baja)
+*   **Tipo de LED:** LED de estado
+*   **Significado:** Batería baja. Reemplazar o recargar antes de continuar.
+
+*   **Indicador:** Charging (Cargando)
+*   **Tipo de LED:** LED de estado
+*   **Significado:** El equipo está en proceso de carga (solo con batería recargable).
+---------------------------------------
+
+
+[TABLA 3 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+El equipo de detección tiene tres modos principales de operación: Vibración, Beep (VIP) y Acústico.
+
+**Vibración:** En este modo, el equipo vibra silenciosamente al detectar una señal. Se recomienda su uso durante el examen para rastrear señales dentro de las aulas sin distraer a los postulantes.
+
+**Beep (VIP):** En este modo, el equipo emite un pitido y enciende una barra LED cuya intensidad varía según la fuerza de la señal detectada. Este modo es recomendado en el control de ingreso, específicamente para verificar señales en la zona de detección de metales y radiofrecuencias.
+
+**Acústico:** En este modo, al detectar una señal de comunicación, el equipo intercepta y reproduce el sonido del dispositivo transmisor. Su uso recomendado es para confirmar la naturaleza de una señal sospechosa, asegurando que se trata de una transmisión activa.
+---------------------------------------
+
+
+[TABLA 4 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+Cuando el dispositivo detecta una señal, realiza dos acciones:
+
+*   **Emite un pitido.**
+*   **Enciende una barra LED.** La intensidad con la que se enciende la barra LED es proporcional a la intensidad de la señal detectada. En otras palabras, una señal más fuerte resulta en una barra LED más brillante.
+---------------------------------------
+
+
+--- PÁGINA 5 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 5 de 11
+IMPORTANTE: Para el uso durante el examen, el Operador DEBE colocarse el audífono del
+equipo para que los sonidos no distraigan a los postulantes (Protocolo de Rastreo,
+procedimiento 1).
+5. ROL DEL OPERADOR DEL EQUIPO DE RASTREO
+El Operador del Equipo de Rastreo de Señales de Comunicación es el responsable de detectar
+y reportar señales de radiofrecuencia como posibles actos de fraude antes y durante el desarrollo
+del Examen de Admisión. Es designado por la Comisión de Admisión correspondiente.
+5.1. Obligaciones del Operador
+• Apersonarse al campus en el horario indicado por la Comisión de Admisión.
+• Identificarse con DNI original.
+• Presentarse con vestimenta sencilla (sin objetos metálicos) y sin accesorios.
+• Pasar por el arco detector de metales y ser auscultado con el Garrett antes de iniciar
+funciones.
+5.2. Prohibiciones del Operador
+• Portar celulares, audífonos propios, tablets, microcámaras, USB, MP3, MP4, relojes,
+calculadoras, smartwatch o cualquier dispositivo electrónico.
+• Llevar aretes, collares, pulseras, piercing, anillos o cualquier accesorio.
+• Portar carteras, mochilas, billeteras, estuches o similares.
+• Llevar monedas, llaveros o cualquier objeto metálico.
+• Asistir bajo efectos de alcohol o drogas.
+• Divulgar información sobre incidentes detectados.
+6. PROCEDIMIENTO OPERATIVO PASO A PASO
+FASE 1: Recepción y prueba del equipo
+N° ACCIÓN DETALLE
+1 Recepcionar el equipo Recoger el equipo de rastreo en la Dirección de
+Admisión (o Escuela de Posgrado, según
+corresponda). Verificar que incluya: equipo detector,
+audífono con cable y baterías.
+2 Encender y verificar Encender el equipo. Verificar que se encienda el LED
+Power. Si se enciende Battery Low, reemplazar la
+batería antes de continuar.
+
+[TABLA 1 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+A continuación, presento una interpretación narrativa y estructurada de la tabla proporcionada, diseñada para ser fácilmente comprensible por un LLM:
+
+**Título del Documento:** Guía de Orientación para el Docente Aplicador
+
+**Código del Documento:** G-PM01.01-DA-004
+
+**Versión:** 01
+
+**Ubicación:** Página 5 de 11
+---------------------------------------
+
+
+[TABLA 2 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+**Contexto General:**
+
+*   **Importante:** El operador DEBE usar un audífono durante el examen.
+*   **Razón:** Para evitar que los sonidos del equipo distraigan a los postulantes.
+*   **Referencia:** Protocolo de Rastreo, procedimiento 1.
+---------------------------------------
+
+
+[TABLA 3 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+El procedimiento implica dos acciones principales relacionadas con un equipo de rastreo.
+
+**Acción 1: Recepcionar el equipo**
+
+*   **Detalle:** El equipo de rastreo debe recogerse en la Dirección de Admisión (o Escuela de Posgrado, según corresponda).
+*   **Verificación:** Al recibir el equipo, se debe verificar que incluya: un equipo detector, un audífono con cable y baterías.
+
+**Acción 2: Encender y verificar**
+
+*   **Detalle:** Se debe encender el equipo.
+*   **Verificación:** Verificar que el LED de Power se encienda. Si el indicador de Battery Low está encendido, reemplazar la batería antes de continuar.
+---------------------------------------
+
+
+--- PÁGINA 6 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 6 de 11
+3 Probar modo Vibración Activar modo Vibración. Acercar un celular encendido
+(de prueba) al equipo. Verificar que el equipo vibre y
+que la barra de intensidad suba.
+4 Probar modo Beep (VIP) Activar modo Beep. Con el celular de prueba, verificar
+que emita pitido y encienda LEDs de intensidad y tipo
+de señal (CAM/Bug/LTE o WiFi).
+5 Probar modo Acústico Activar modo Acústico. Realizar una llamada con el
+celular de prueba. Verificar que el equipo intercepte y
+reproduzca el sonido de la transmisión.
+6 Ajustar sensibilidad Regular la sensibilidad del equipo a través de las
+pruebas con el celular de prueba. Encontrar el nivel
+adecuado para no generar falsas detecciones.
+7 Conectar audífono Conectar el audífono al equipo. Verificar que el sonido
+se escuche solo por el audífono y no por el altavoz del
+equipo.
+ADVERTENCIA: NUNCA conectar el cargador cuando se usa batería seca. Solo cargar con
+batería recargable instalada.
+FASE 2: Rastreo preventivo (día previo al examen)
+N° ACCIÓN DETALLE
+8 Rastrear ambiente de Inspeccionar pausadamente la zona cercana al
+formulación ambiente donde se formula el examen. Buscar
+dispositivos de transmisión ocultos.
+9 Rastrear zonas de control Recorrer la zona de control de ingreso y detección de
+radiofrecuencias verificando que no haya dispositivos
+preplantados.
+10 Rastrear aulas de examen Inspeccionar todas las aulas asignadas para el
+examen. Recorrer cada aula lentamente, prestando
+atención a la barra de intensidad.
+11 Registrar hallazgos Si se detecta alguna señal sospechosa, reportar al
+Supervisor e indicar la ubicación exacta para su
+investigación.
+FASE 3: Rastreo en zona de control de ingreso (día del examen)
+N° ACCIÓN DETALLE
+12 Ubicarse en zona de control Posicionarse en el área del Tercer Control (Detección
+de Metales y Radiofrecuencias) con el equipo en
+modo BEEP.
+
+[TABLA 1 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+Aquí hay una representación narrativa de la tabla, diseñada para facilitar su comprensión por un modelo de lenguaje grande:
+
+"Este documento es una 'Guía de Orientación para el Docente Aplicador'. Su código de identificación es G-PM01.01-DA-004.  Es la Versión 01 de este documento. Esta tabla corresponde a la página 6 de un total de 11 páginas del documento."
+---------------------------------------
+
+
+[TABLA 2 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe una serie de pruebas funcionales que se deben realizar en un equipo, probablemente un dispositivo de detección o análisis de señales.  Cada prueba está numerada implícitamente (3 al 7) y se describe en detalle.
+
+**Prueba 3: Modo Vibración**
+
+*   **Acción:** Activar el modo de Vibración.
+*   **Procedimiento:** Acercar un teléfono celular encendido (de prueba) al equipo.
+*   **Verificación:** Verificar que el equipo vibre y que la barra de intensidad suba.
+
+**Prueba 4: Modo Beep (VIP)**
+
+*   **Acción:** Activar el modo Beep.
+*   **Procedimiento:** Utilizar un teléfono celular de prueba.
+*   **Verificación:** Verificar que el equipo emita un pitido y encienda los LEDs de intensidad y tipo de señal (CAM/Bug/LTE o WiFi).
+
+**Prueba 5: Modo Acústico**
+
+*   **Acción:** Activar el modo Acústico.
+*   **Procedimiento:** Realizar una llamada con el teléfono celular de prueba.
+*   **Verificación:** Verificar que el equipo intercepte y reproduzca el sonido de la transmisión.
+
+**Prueba 6: Ajustar Sensibilidad**
+
+*   **Acción:** Ajustar la sensibilidad del equipo.
+*   **Procedimiento:** Regular la sensibilidad del equipo a través de pruebas con el teléfono celular de prueba.
+*   **Objetivo:** Encontrar el nivel adecuado para no generar falsas detecciones.
+
+**Prueba 7: Conectar Audífono**
+
+*   **Acción:** Conectar un audífono al equipo.
+*   **Verificación:** Verificar que el sonido se escuche solo por el audífono y no por el altavoz del equipo.
+
+**Advertencia:**
+
+*   NUNCA conectar el cargador cuando se usa batería seca. Solo cargar con batería recargable instalada.
+---------------------------------------
+
+
+[TABLA 3 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+Análisis de acciones de rastreo:
+
+Acción N° 8: Rastrear ambiente de formulación. Detalle: Inspeccionar pausadamente la zona cercana al ambiente donde se formula el examen. Buscar dispositivos de transmisión ocultos.
+
+Acción N° 9: Rastrear zonas de control. Detalle: Recorrer la zona de control de ingreso y detección de radiofrecuencias verificando que no haya dispositivos preplantados.
+
+Acción N° 10: Rastrear aulas de examen. Detalle: Inspeccionar todas las aulas asignadas para el examen. Recorrer cada aula lentamente, prestando atención a la barra de intensidad.
+
+Acción N° 11: Registrar hallazgos. Detalle: Si se detecta alguna señal sospechosa, reportar al Supervisor e indicar la ubicación exacta para su investigación.
+---------------------------------------
+
+
+[TABLA 4 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+La acción número 12 implica ubicarse en la zona de control. Específicamente, esto requiere posicionarse en el área del Tercer Control (Detección de Metales y Radiofrecuencias) con el equipo configurado en modo BEEP.
+---------------------------------------
+
+
+--- PÁGINA 7 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 7 de 11
+13 Rastrear postulantes en cola Mientras los postulantes esperan para pasar el arco
+detector, pasar el equipo cerca de ellos para detectar
+señales de celulares, audífonos u otros dispositivos.
+14 Complementar al arco y Garrett El detector RF complementa al arco (metales) y al
+Garrett (metales de precisión). El RF detecta señales
+INALÁMBRICAS que los detectores de metales no
+captan.
+FASE 4: Rastreo durante el desarrollo del examen
+N° ACCIÓN DETALLE
+15 Colocarse audífono OBLIGATORIO: Colocar el audífono del equipo para
+que los sonidos del rastreador no distraigan a los
+postulantes.
+16 Configurar modo VIBRACIÓN Cambiar a modo Vibración para operar
+silenciosamente dentro de las aulas.
+17 Ajustar sensibilidad Ajustar la sensibilidad para no detectar señales más
+allá de la zona deseada. Se recomienda usar en
+espacios cerrados.
+18 Mantener distancia entre Si hay más de un equipo de rastreo, mantener
+equipos distancia mayor a 10 metros entre ellos para evitar
+interferencias mutuas.
+19 Recorrer aulas sigilosamente Ingresar a cada aula de forma sigilosa, desplazándose
+lentamente entre los postulantes, observando la barra
+de intensidad y las vibraciones del equipo.
+20 Inspeccionar TODAS las aulas Cada aula asignada debe ser inspeccionada al menos
+UNA VEZ durante el examen. Adicionalmente, cuando
+el Docente Aplicador lo solicite ante una acción
+sospechosa.
+BUENA PRÁCTICA: Mantenerse en movimiento constante, escudriñando lentamente. No
+quedarse estático en un punto. El rastreo pausado pero continuo es la clave para una
+detección efectiva.
+FASE 5: Cuando se detecta una señal sospechosa
+N° ACCIÓN DETALLE
+21 Concentrarse en la zona Si se registra un sonido/vibración fuera de lo normal,
+detenerse y concentrarse en la zona. Observar la
+barra de intensidad para localizar la fuente.
+22 Confirmar la señal Pasar lentamente el equipo varias veces por la zona
+sospechosa. Si la barra de intensidad sube
+consistentemente, la señal es confirmada.
+
+[TABLA 1 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la representación estructurada de los datos de la tabla, optimizada para que un LLM la comprenda:
+
+**Metadatos del documento:**
+
+*   **Título:** GUÍA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR
+*   **Identificador del documento:** G-PM01.01-DA-004
+*   **Versión:** 01
+*   **Página:** 7 de 11
+---------------------------------------
+
+
+[TABLA 2 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe dos procedimientos de seguridad, numerados como 13 y 14.
+
+**Procedimiento 13:**
+
+*   **Número:** 13
+*   **Título:** Rastrear postulantes en cola
+*   **Descripción:** Mientras los postulantes esperan para pasar el arco detector, se debe pasar un equipo cerca de ellos para detectar señales de celulares, audífonos u otros dispositivos.
+
+**Procedimiento 14:**
+
+*   **Número:** 14
+*   **Título:** Complementar al arco y Garrett
+*   **Descripción:** El detector RF complementa al arco (detectores de metales) y al Garrett (detectores de metales de precisión). El detector RF detecta señales INALÁMBRICAS que los detectores de metales no captan.
+---------------------------------------
+
+
+[TABLA 3 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la tabla convertida a un formato narrativo, diseñado para facilitar la comprensión por parte de un LLM, manteniendo toda la información clave:
+
+**Procedimientos de Rastreo:**
+
+Este documento describe los procedimientos de rastreo, numerados del 15 al 20, y una buena práctica para la detección efectiva.
+
+*   **Procedimiento 15:** *Acción*: Colocarse audífono. *Detalle*: Es OBLIGATORIO colocar el audífono del equipo para que los sonidos del rastreador no distraigan a los postulantes.
+
+*   **Procedimiento 16:** *Acción*: Configurar modo VIBRACIÓN. *Detalle*: Cambiar a modo Vibración para operar silenciosamente dentro de las aulas.
+
+*   **Procedimiento 17:** *Acción*: Ajustar sensibilidad. *Detalle*: Ajustar la sensibilidad para no detectar señales más allá de la zona deseada. Se recomienda usar en espacios cerrados.
+
+*   **Procedimiento 18:** *Acción*: Mantener distancia entre equipos. *Detalle*: Si hay más de un equipo de rastreo, mantener distancia mayor a 10 metros entre ellos para evitar interferencias mutuas.
+
+*   **Procedimiento 19:** *Acción*: Recorrer aulas sigilosamente. *Detalle*: Ingresar a cada aula de forma sigilosa, desplazándose lentamente entre los postulantes, observando la barra de intensidad y las vibraciones del equipo.
+
+*   **Procedimiento 20:** *Acción*: Inspeccionar TODAS las aulas. *Detalle*: Cada aula asignada debe ser inspeccionada al menos UNA VEZ durante el examen. Adicionalmente, inspeccionar cuando el Docente Aplicador lo solicite ante una acción sospechosa.
+
+*   **Buena Práctica:** Mantenerse en movimiento constante, escudriñando lentamente. No quedarse estático en un punto. El rastreo pausado pero continuo es la clave para una detección efectiva.
+---------------------------------------
+
+
+[TABLA 4 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+Registro de Acciones:
+
+**Acción N° 21:**
+
+*   **Objetivo:** Concentrarse en la zona.
+*   **Detalle:** Si se registra un sonido/vibración fuera de lo normal, detenerse y concentrarse en la zona. Observar la barra de intensidad para localizar la fuente.
+
+**Acción N° 22:**
+
+*   **Objetivo:** Confirmar la señal.
+*   **Detalle:** Pasar lentamente el equipo varias veces por la zona sospechosa. Si la barra de intensidad sube consistentemente, la señal es confirmada.
+---------------------------------------
+
+
+--- PÁGINA 8 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 8 de 11
+23 Verificar tipo de señal Observar los LEDs indicadores: CAM/Bug/LTE indica
+celular o dispositivo transmisor. WiFi indica señal
+inalámbrica. En modo Acústico (con audífono), se
+puede escuchar la transmisión.
+24 Notificar al Orientador NO confrontar directamente al postulante. Notificar a
+un Orientador para que realice la verificación
+respectiva.
+25 Levantamiento de acta El personal de seguridad realizará el registro para
+ubicar el equipo de transmisión. Se levantará acta de
+incidencia. Si se confirma dispositivo prohibido: parte
+policial.
+ADVERTENCIA: El Operador NUNCA debe confrontar directamente al postulante ni realizar
+registros personales. Su rol es DETECTAR y REPORTAR. La verificación física la realiza el
+personal de seguridad.
+7. SEÑALES QUE DEBE DETECTAR Y SU INTERPRETACIÓN
+TIPO DE SEÑAL INDICADOR LED FUENTE ACCIÓN
+PROBABLE
+GSM / 3G / LTE / 5G CAM/Bug/LTE Celular realizando o ALTA PRIORIDAD:
+recibiendo llamada, Notificar inmediatamente.
+enviando datos, SMS
+WiFi WiFi Celular con WiFi PRIORIDAD: Notificar.
+activo, hotspot, Puede ser celular oculto
+dispositivo IoT transmitiendo datos.
+Bluetooth WiFi Audífono ALTA PRIORIDAD: Puede
+inalámbrico, indicar audífono espía para
+smartwatch, recibir respuestas.
+dispositivo de
+transmisión oculto
+Cámara espía / Bug CAM/Bug/LTE Microcrámara, ALTA PRIORIDAD: Posible
+micrófono oculto sistema de plagio
+transmitiendo sofisticado.
+Señal débil estable Barra baja (1-2 Señal de fondo: BAJA PRIORIDAD:
+LEDs) router del edificio, Normal. Registrar como
+antena cercana línea base.
+NOTA: El Operador debe familiarizarse con la “línea base” de señales del campus (routers
+WiFi institucionales, antenas celulares cercanas) para distinguir señales normales de
+señales sospechosas. Esto se logra durante el rastreo preventivo del día previo (Fase 2).
+8. DIFERENCIA CON LOS OTROS EQUIPOS DE SEGURIDAD
+
+[TABLA 1 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la interpretación de la tabla, formateada para ser fácilmente procesable por un LLM:
+
+**Contexto del Documento:**
+
+*   **Título del Documento:** “GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+*   **Código del Documento:** G-PM01.01-DA-004
+*   **Versión:** 01
+*   **Página:** 8 de 11
+---------------------------------------
+
+
+[TABLA 2 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la tabla convertida a un formato descriptivo, fácil de entender para un LLM, manteniendo toda la información clave:
+
+**Procedimiento de Seguridad:**
+
+*   **Paso 23: Verificar tipo de señal.**  Se debe observar los LEDs indicadores. CAM/Bug/LTE indica señal celular o de dispositivo transmisor. WiFi indica señal inalámbrica. En modo Acústico (con audífono), se puede escuchar la transmisión.
+
+*   **Paso 24: Notificar al Orientador.** NO confrontar directamente al postulante.  Notificar a un Orientador para que realice la verificación respectiva.
+
+*   **Paso 25: Levantamiento de acta.** El personal de seguridad realizará el registro para ubicar el equipo de transmisión. Se levantará acta de incidencia. Si se confirma dispositivo prohibido, se realizará un parte policial.
+
+**ADVERTENCIA:** El Operador NUNCA debe confrontar directamente al postulante ni realizar registros personales. Su rol es DETECTAR y REPORTAR. La verificación física la realiza el personal de seguridad.
+---------------------------------------
+
+
+[TABLA 3 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Aquí tienes una representación estructurada de la tabla, optimizada para su uso con un LLM, manteniendo toda la información clave:
+
+**Tipo de Señal: GSM / 3G / LTE / 5G**
+*   **Indicador LED:** CAM/Bug/LTE
+*   **Fuente Probable:** Celular realizando o recibiendo llamada, enviando datos, SMS.
+*   **Acción:** ALTA PRIORIDAD: Notificar inmediatamente.
+
+**Tipo de Señal: WiFi**
+*   **Indicador LED:** WiFi
+*   **Fuente Probable:** Celular con WiFi activo, hotspot, dispositivo IoT.
+*   **Acción:** PRIORIDAD: Notificar. Puede ser celular oculto transmitiendo datos.
+
+**Tipo de Señal: Bluetooth**
+*   **Indicador LED:** WiFi
+*   **Fuente Probable:** Audífono inalámbrico, smartwatch, dispositivo de transmisión oculto.
+*   **Acción:** ALTA PRIORIDAD: Puede indicar audífono espía para recibir respuestas.
+
+**Tipo de Señal: Cámara espía / Bug**
+*   **Indicador LED:** CAM/Bug/LTE
+*   **Fuente Probable:** Micro cámara, micrófono oculto transmitiendo.
+*   **Acción:** ALTA PRIORIDAD: Posible sistema de plagio sofisticado.
+
+**Tipo de Señal: Señal débil estable**
+*   **Indicador LED:** Barra baja (1-2 LEDs)
+*   **Fuente Probable:** Señal de fondo: router del edificio, antena cercana.
+*   **Acción:** BAJA PRIORIDAD: Normal. Registrar como línea base.
+
+**NOTA:** El Operador debe familiarizarse con la “línea base” de señales del campus (routers WiFi institucionales, antenas celulares cercanas) para distinguir señales normales de señales sospechosas. Esto se logra durante el rastreo preventivo del día previo (Fase 2).
+---------------------------------------
+
+
+--- PÁGINA 9 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 9 de 11
+EQUIPO DETECTA NO DETECTA USO EN ADMISIÓN
+Arco detector de Objetos metálicos Electrónicos 1° filtro en zona de
+metales grandes pequeños sin metal, ingreso
+señales inalámbricas
+Garrett Super Objetos metálicos Señales inalámbricas, 2° filtro
+Scanner V pequeños con dispositivos apagados complementario
+precisión de plástico
+RF Bug Detector Señales de Objetos metálicos sin 3° filtro + rastreo móvil
+radiofrecuencia: WiFi, transmisión activa durante examen
+Bluetooth, GSM, LTE,
+5G
+ATENCIÓN: Los tres equipos son COMPLEMENTARIOS. Ningún equipo por sí solo
+garantiza la detección total. El RF Bug Detector es el úNICO que detecta señales
+inalámbricas activas, lo que lo hace indispensable para detectar audífonos inalámbricos y
+celulares ocultos transmitiendo datos.
+9. MANTENIMIENTO Y CUIDADO DEL EQUIPO
+ASPECTO PROCEDIMIENTO
+Batería seca Reemplazar cuando se encienda Battery Low. Retirar si no se
+usará por tiempo prolongado.
+Batería recargable Cargar completamente antes de cada jornada. Verificar LED
+Charging durante la carga.
+PRECAUCIÓN CRÍTICA NUNCA conectar el cargador cuando se usa batería seca. Esto
+DAÑA el equipo irreversiblemente.
+Limpieza Paño seco o ligeramente húmedo. NO sumergir ni usar solventes.
+Almacenamiento Lugar seco, temperatura ambiente, lejos de fuentes de
+interferencia electromagnética.
+Audífono Verificar cable y conexión antes de cada uso. Reemplazar si hay
+cortes o falso contacto.
+Prueba previa Realizar prueba funcional completa (3 modos) antes de cada
+jornada de examen.
+10. LISTA DE VERIFICACIÓN DEL OPERADOR
+Antes del rastreo:
+☐ Equipo recepcionado con audífono y baterías
+☐ LED Power encendido (no Battery Low)
+
+[TABLA 1 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+El documento se titula G-PM01.01-DA-004 y corresponde a la versión 01.
+---------------------------------------
+
+
+[TABLA 2 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la conversión de la tabla en un formato más amigable para LLM:
+
+**Resumen General:**
+
+La tabla describe tres equipos de detección utilizados en un proceso de admisión, resaltando su complementariedad. Ningún equipo individualmente asegura la detección total. El RF Bug Detector es único en su capacidad para detectar señales inalámbricas activas.
+
+**Análisis por Equipo:**
+
+*   **Arco Detector de Metales:**
+    *   **Función:** Primer filtro en la zona de ingreso.
+    *   **Detecta:** Objetos metálicos grandes.
+    *   **No Detecta:** Electrónicos pequeños sin metal y señales inalámbricas.
+
+*   **Garrett Super Scanner V:**
+    *   **Función:** Segundo filtro complementario.
+    *   **Detecta:** Objetos metálicos pequeños con precisión.
+    *   **No Detecta:** Señales inalámbricas, dispositivos apagados y objetos de plástico.
+
+*   **RF Bug Detector:**
+    *   **Función:** Tercer filtro y rastreo móvil durante el examen.
+    *   **Detecta:** Señales de radiofrecuencia (WiFi, Bluetooth, GSM, LTE, 5G).
+    *   **No Detecta:** Objetos metálicos sin transmisión activa.
+
+**Puntos Clave:**
+
+*   **Complementariedad:** Los tres equipos son complementarios para una detección integral.
+*   **RF Bug Detector - Detección Inalámbrica Única:** El RF Bug Detector es el único capaz de detectar señales inalámbricas activas, haciéndolo crucial para detectar audífonos inalámbricos y celulares ocultos transmitiendo datos.
+* **Uso en Admisión**:
+    * Arco detector de metales: 1er filtro en zona de ingreso.
+    * Garrett Super Scanner V: 2do filtro complementario.
+    * RF Bug Detector: 3er filtro + rastreo móvil durante examen.
+---------------------------------------
+
+
+[TABLA 3 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+El producto Garrett Super Scanner V está siendo descrito.
+---------------------------------------
+
+
+[TABLA 4 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+**Resumen de Mantenimiento y Precauciones del Dispositivo**
+
+**Batería:**
+
+*   **Batería Seca:** Reemplazar cuando el indicador muestre "Battery Low". Retirar la batería si el dispositivo no se usará por un tiempo prolongado.
+*   **Batería Recargable:** Cargar completamente la batería recargable antes de cada jornada de uso. Verificar el LED "Charging" durante el proceso de carga para confirmar que la carga está en curso.
+*   **PRECAUCIÓN CRÍTICA:** Nunca conectar el cargador cuando se está utilizando una batería seca. Esta acción provocará daños irreversibles al equipo.
+
+**Limpieza:**
+
+*   Limpiar el dispositivo con un paño seco o ligeramente húmedo. No sumergir el dispositivo en agua ni utilizar solventes para la limpieza.
+
+**Almacenamiento:**
+
+*   Almacenar el dispositivo en un lugar seco, a temperatura ambiente, y lejos de fuentes de interferencia electromagnética.
+
+**Audífono:**
+
+*   Antes de cada uso, verificar el cable y la conexión del audífono. Reemplazar el audífono si se detectan cortes o falso contacto en el cable o la conexión.
+
+**Prueba Previa al Uso:**
+
+*   Realizar una prueba funcional completa del dispositivo, abarcando los tres modos disponibles, antes de cada jornada de examen. Esta prueba asegura el correcto funcionamiento del equipo antes de su uso.
+---------------------------------------
+
+
+[TABLA 5 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+El documento lista dos criterios de verificación para un equipo que ha sido recepcionado:
+
+1.  **Presencia de audífono y baterías:** Se verifica si el equipo recepcionado incluye un audífono y sus baterías.
+2.  **Estado del LED de encendido:** Se verifica si el LED de encendido (Power) está encendido y no indica batería baja (Battery Low).
+---------------------------------------
+
+
+--- PÁGINA 10 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 10 de 11
+☐ Prueba funcional en 3 modos completada
+☐ Sensibilidad ajustada correctamente
+☐ Audífono conectado y funcionando
+☐ Línea base de señales del campus conocida
+☐ Operador sin dispositivos electrónicos personales
+Durante el rastreo:
+☐ Modo VIBRACIÓN dentro de aulas
+☐ Audífono colocado en todo momento
+☐ Distancia >10m entre equipos RF
+☐ Todas las aulas inspeccionadas al menos 1 vez
+☐ Movimiento continuo y sigiloso
+☐ Incidencias reportadas al Orientador/Supervisor
+Al finalizar:
+☐ Equipo apagado
+☐ Batería retirada o equipo puesto a cargar (solo si recargable)
+☐ Equipo y audífono devueltos a la Comisión de Admisión
+☐ Bitácora de incidencias entregada al Supervisor
+
+[TABLA 1 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+Esta tabla es en realidad una cabecera de documento, conteniendo metadatos sobre un documento llamado "GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR".
+
+*   **Título del Documento:** “GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+*   **Código del Documento:** G-PM01.01-DA-004
+*   **Versión:** 01
+*   **Número de Página:** Página 10 de 11
+---------------------------------------
+
+
+[TABLA 2 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+Aquí hay una versión narrativa y estructurada de la tabla, optimizada para facilitar la comprensión por parte de un modelo de lenguaje:
+
+**Resumen de Pruebas Funcionales:**
+
+Esta tabla resume los resultados de una serie de pruebas funcionales. Una marca de verificación (☐) indica que la prueba se ha pasado/completado satisfactoriamente.
+
+**Resultados Detallados de las Pruebas:**
+
+*   **Prueba 1: Prueba funcional en 3 modos completada:** Completada (☐). Esto indica que la prueba funcional en tres modos diferentes fue exitosa.
+*   **Prueba 2: Sensibilidad ajustada correctamente:** Completada (☐). La sensibilidad del sistema se ajustó de manera satisfactoria.
+*   **Prueba 3: Audífono conectado y funcionando:** Completada (☐). El audífono está conectado correctamente y funciona como se espera.
+*   **Prueba 4: Línea base de señales del campus conocida:** Completada (☐). La línea base de las señales del campus ha sido establecida y es conocida.
+*   **Prueba 5: Operador sin dispositivos electrónicos personales:** Completada (☐). Se verificó que el operador no portaba dispositivos electrónicos personales durante la prueba.
+
+**Resumen general:**
+
+Todas las pruebas enumeradas se completaron satisfactoriamente.
+
+**Formato alternativo estructurado (más formal, también adecuado para LLMs):**
+
+```json
+[
+  {
+    "prueba": "Prueba funcional en 3 modos completada",
+    "resultado": "completada"
+  },
+  {
+    "prueba": "Sensibilidad ajustada correctamente",
+    "resultado": "completada"
+  },
+  {
+    "prueba": "Audífono conectado y funcionando",
+    "resultado": "completada"
+  },
+  {
+    "prueba": "Línea base de señales del campus conocida",
+    "resultado": "completada"
+  },
+  {
+    "prueba": "Operador sin dispositivos electrónicos personales",
+    "resultado": "completada"
+  }
+]
+```
+
+**Explicación de las elecciones de formato:**
+
+*   **Claridad:** El texto es directo y evita la jerga.
+*   **Estructura:** Los resultados se presentan de forma organizada, tanto en el resumen narrativo como en el formato JSON.
+*   **Contexto:** Cada resultado está vinculado directamente a la prueba correspondiente.
+*   **JSON:** El formato JSON permite a un LLM procesar los datos fácilmente y extraer información específica (por ejemplo, qué pruebas se completaron).
+*   **'Completada' vs Booleanos:** Se usó la palabra 'completada' en lugar de booleanos (True/False) en el JSON para minimizar la confusión potencial en la comprensión.  Si se necesita una representación booleana explícita, podría cambiarse "completada" a `true` o agregarse un campo adicional como `"aprobada": true`.
+---------------------------------------
+
+
+[TABLA 3 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+A continuación, se presenta un resumen narrativo de las condiciones y requisitos observados en las aulas, extraídos de la tabla proporcionada:
+
+**Condiciones relativas a la Vibración:** Se requiere el modo de VIBRACIÓN dentro de las aulas.
+
+**Condiciones relativas al Uso de Audífonos:** Se requiere que el audífono esté colocado en todo momento.
+
+**Condiciones relativas a la Distancia entre equipos RF:** Se requiere una distancia mayor a 10 metros entre los equipos de Radiofrecuencia (RF).
+
+**Condiciones relativas a la Inspección de Aulas:** Se requiere que todas las aulas sean inspeccionadas al menos una vez.
+
+**Condiciones relativas al Movimiento:** Se requiere un movimiento continuo y sigiloso.
+
+**Condiciones relativas al Reporte de Incidencias:** Se requiere que las incidencias sean reportadas al Orientador/Supervisor.
+
+Este formato describe cada requisito de forma clara e individual, facilitando la comprensión por parte de un LLM.
+---------------------------------------
+
+
+[TABLA 4 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+*   **Equipo apagado:** Estado marcado como "Sí" (casilla marcada).
+*   **Batería retirada o equipo puesto a cargar (solo si recargable):** Estado marcado como "Sí" (casilla marcada).
+*   **Equipo y audífono devueltos a la Comisión de Admisión:** Estado marcado como "Sí" (casilla marcada).
+*   **Bitácora de incidencias entregada al Supervisor:** Estado marcado como "Sí" (casilla marcada).
+---------------------------------------
+
+
+--- PÁGINA 11 ---
+
+“GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR”
+G-PM01.01-DA-004 Versión: 01 Página 11 de 11
+11. DISPOSICIONES FINALES
+Primera. La presente guía es obligatoria y complementaria al Protocolo para el Rastreo de
+Señales de Comunicación en el Examen de Admisión.
+Segunda. La Dirección de Admisión organizará una sesión práctica de capacitación sobre el
+manejo del equipo RF antes de cada proceso de admisión, incluyendo ejercicios de detección
+con dispositivos de prueba.
+Tercera. En caso de avería o mal funcionamiento, comunicar al Supervisor para gestionar
+reemplazo. No continuar el rastreo con equipo defectuoso.
+Cuarta. Los aspectos no contemplados serán resueltos por la Dirección de Admisión, en
+coordinación con el CCA o la Comisión de Admisión de Posgrado, según corresponda.
+
+[TABLA 1 en página 11]
+
+--- Interpretación de Tabla por LLM ---
+Esta tabla contiene información de control de un documento, específicamente una "GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR".
+
+*   **Título del Documento:** GUIA DE ORIENTACIÓN PARA EL DOCENTE APLICADOR
+*   **Código del Documento:** G-PM01.01-DA-004
+*   **Versión:** 01
+*   **Página:** Página 11 de 11
+---------------------------------------
+
+
+[TABLA 2 en página 11]
+
+--- Interpretación de Tabla por LLM ---
+Necesito la tabla cruda para poder ayudarte con la interpretación y conversión a un formato amigable para LLMs. Por favor, proporciona la tabla para que pueda analizarla y reformularla. Una vez que la tenga, seguiré los siguientes pasos:
+
+1.  **Analizar la estructura y el contenido:** Determinaré las columnas, filas, encabezados, tipos de datos y relaciones entre los elementos de la tabla. Identificaré las variables clave y las posibles tendencias.
+
+2.  **Convertir a un formato narrativo, descriptivo o estructurado:** Elegiré el formato más adecuado dependiendo del contenido de la tabla. Las opciones incluyen:
+
+    *   **Formato narrativo:** Describir los datos en oraciones completas, destacando los puntos clave y las relaciones importantes.  Ejemplo: "La tabla muestra las ventas mensuales de diferentes productos. En enero, el producto A tuvo las mayores ventas con un valor de X, mientras que el producto B solo vendió Y unidades."
+
+    *   **Formato descriptivo:**  Presentar los datos de forma concisa y estructurada, utilizando frases cortas y palabras clave. Ejemplo: "Ventas mensuales: Producto A: Enero - X, Febrero - Z; Producto B: Enero - Y, Febrero - W."
+
+    *   **Formato estructurado (JSON/YAML):** Convertir la tabla a un formato de datos estructurado que preserve la información y sea fácil de analizar para una máquina.  Ejemplo (JSON):
+
+        ```json
+        [
+          {
+            "Producto": "A",
+            "Enero": "X",
+            "Febrero": "Z"
+          },
+          {
+            "Producto": "B",
+            "Enero": "Y",
+            "Febrero": "W"
+          }
+        ]
+        ```
+
+    El formato JSON/YAML es muy bueno para RAG, porque permite generar fragmentos de texto muy específicos y relevantes al contexto de la pregunta del usuario.
+
+3.  **Asegurar que no se pierda información numérica o clave:**  Me aseguraré de que todos los valores numéricos y datos importantes se incluyan en la conversión.  Prestaré especial atención a las unidades de medida, las fechas y cualquier otra información que pueda ser relevante para la interpretación.
+
+4.  **Usar los encabezados para dar contexto:**  Los encabezados de las columnas y filas se utilizarán para dar contexto a cada valor y facilitar la comprensión del LLM.
+
+Espera a que me proporciones la tabla y te daré una respuesta completa.
+---------------------------------------
+

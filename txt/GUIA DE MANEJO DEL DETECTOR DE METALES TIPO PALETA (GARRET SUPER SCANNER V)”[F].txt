@@ -1,0 +1,830 @@
+
+--- PÁGINA 1 ---
+
+“GUIA DE MANEJO DEL DETECTOR DE METALES TIPO
+PALETA (GARRET SUPER SCANNER V)”
+G-PM01.01-DA-002 Versión: 01 Página 1 de 9
+“GUIA DE MANEJO DEL DETECTOR DE METALES TIPO PALETA”
+(GARRET SUPER SCANNER V)
+Diferenciado por género: Postulantes Hombres y Mujeres
+ROL NOMBRE CARGO FECHA Y FIRMA
+DIRECTOR DE LA
+ELABORADO DR. JOSÉ ANTONIO
+DIRECCIÓN DE
+POR: VALERIANO ZAPANA
+ADMISIÓN
+Dr. ALEJANDRO MANUEL VICERRECTOR
+ECOS ESPINO ACADÉMICO
+JEFE DE LA OFICINA
+REVISADO ECO. EDEN VICENTE
+DE PLANEAMIENTO Y
+POR: CORI
+PRESUPUESTO
+JEFE DE LA OFICINA
+Abog. RICHARD ALEX
+DE ASESORÍA
+FLORES PÉREZ
+JURÍDICA
+APROBADO DR. HUGO RUBEN
+RECTOR
+POR: MARCA MAQUERA
+MOQUEGUA
+2026
+
+[TABLA 1 en página 1]
+
+--- Interpretación de Tabla por LLM ---
+Guía de Manejo del Detector de Metales Tipo Paleta (Garret Super Scanner V):
+
+*   **Documento:** G-PM01.01-DA-002
+*   **Versión:** 01
+*   **Página:** 1 de 9
+---------------------------------------
+
+
+[TABLA 2 en página 1]
+
+--- Interpretación de Tabla por LLM ---
+El documento registra las firmas de aprobación y revisión de un proceso (no especificado). Los roles, nombres y cargos de los responsables son los siguientes:
+
+*   **Elaborado por:** Dr. José Antonio Valeriano Zapana, Director de la Dirección de Admisión.
+*   **Revisado por:**
+    *   Dr. Alejandro Manuel Ecos Espino, Vicerrector Académico.
+    *   Eco. Eden Vicente Cori, Jefe de la Oficina de Planeamiento y Presupuesto.
+    *   Abog. Richard Alex Flores Pérez, Jefe de la Oficina de Asesoría Jurídica.
+*   **Aprobado por:** Dr. Hugo Ruben Marca Maquera, Rector.
+
+La columna "FECHA Y FIRMA" se encuentra vacía en todas las filas, indicando que la información de fecha y firma no fue registrada en esta tabla.
+---------------------------------------
+
+
+--- PÁGINA 2 ---
+
+“GUIA DE MANEJO DEL DETECTOR DE METALES TIPO
+PALETA (GARRET SUPER SCANNER V)”
+G-PM01.01-DA-002 Versión: 01 Página 2 de 9
+CONTROL DE CAMBIOS
+Revisión Sección/ítem Descripción del cambio
+01 --- Nuevo
+
+[TABLA 1 en página 2]
+
+--- Interpretación de Tabla por LLM ---
+Aquí hay una versión interpretada y estructurada de la tabla, diseñada para ser fácilmente procesada por un LLM:
+
+**Título del Documento:** "GUIA DE MANEJO DEL DETECTOR DE METALES TIPO PALETA (GARRET SUPER SCANNER V)"
+
+**Identificador del Documento:** G-PM01.01-DA-002
+
+**Versión:** 01
+
+**Página:** 2 de 9
+---------------------------------------
+
+
+[TABLA 2 en página 2]
+
+--- Interpretación de Tabla por LLM ---
+Aquí tienes una representación narrativa de la tabla de control de cambios, optimizada para que un LLM la comprenda fácilmente:
+
+"Esta tabla registra el control de cambios del documento. La tabla contiene las columnas 'Revisión', 'Sección/ítem' y 'Descripción del cambio'.
+
+*   **Revisión 01:** Esta es la revisión inicial del documento. La columna 'Sección/ítem' no especifica un ítem, y la 'Descripción del cambio' indica que el documento es 'Nuevo'."
+---------------------------------------
+
+
+--- PÁGINA 3 ---
+
+Guía Garrett Super Scanner V | UNAM – Admisión
+1. OBJETO
+Establecer los procedimientos y técnicas para el correcto manejo del detector de metales tipo
+paleta Garrett Super Scanner V durante los controles de seguridad en los procesos de admisión
+de Pregrado y Posgrado de la Universidad Nacional de Moquegua, garantizando que la detección
+de objetos metálicos prohibidos se realice de manera eficiente, respetuosa y conforme a los
+Protocolos Internos del Examen de Admisión.
+2. ALCANCE
+Guía de aplicación obligatoria para todo el personal designado para operar el detector de metales
+tipo paleta (Garrett) en los puntos de control de seguridad durante los procesos de admisión,
+incluyendo al personal de seguridad, orientadores, supervisores y demás personal que participe
+en el Tercer Control (Detección de Metales y Señales de Radiofrecuencias), en la Sede Central
+Moquegua y la Filial Ilo.
+3. BASE NORMATIVA
+• Reglamento General de Admisión de la UNAM (vigente).
+• Protocolos Internos del Examen de Admisión de Pregrado y Posgrado.
+• Directiva de Lineamientos de Funciones para los Procesos de Admisión (DR-PM02.02-
+DA-002).
+4. DESCRIPCIÓN DEL EQUIPO
+4.1. Ficha técnica
+CARACTERÍSTICA DESCRIPCIÓN
+Nombre Garrett Super Scanner V
+Tipo Detector manual tipo paleta (hand-held)
+Fabricante Garrett Metal Detectors (EE.UU.)
+Alimentación Batería 9V (100 h) o NiMH recargable (45 h)
+Superficie de escaneo 20 cm (8 pulgadas)
+Dimensiones 42 x 8.3 x 4.13 cm
+Certificación Mil-Std-810F (prueba de caída)
+Temperatura operativa -35°C a 70°C
+Calibración Automática (microprocesador digital)
+4.2. Capacidad de detección
+OBJETO DISTANCIA RELEVANCIA
+Dirección de Admisión – UNAM | Pág. 3
+
+[TABLA 1 en página 3]
+
+--- Interpretación de Tabla por LLM ---
+El dispositivo Garrett Super Scanner V es un detector de metales manual (hand-held). Es fabricado por Garrett Metal Detectors, una empresa de los Estados Unidos (EE.UU.). Se alimenta con una batería de 9V, que proporciona una duración de 100 horas, o con una batería NiMH recargable, que dura 45 horas. La superficie de escaneo es de 20 cm (8 pulgadas). Sus dimensiones son 42 x 8.3 x 4.13 cm.  El dispositivo está certificado bajo el estándar Mil-Std-810F (prueba de caída). Puede operar en un rango de temperatura de -35°C a 70°C. La calibración es automática y controlada por un microprocesador digital.
+---------------------------------------
+
+
+[TABLA 2 en página 3]
+
+--- Interpretación de Tabla por LLM ---
+Para facilitar la interpretación por un LLM, transformaré esta tabla asumiendo que cada fila representa un objeto con datos asociados. La tabla parece contener información sobre "OBJETOS", su "DISTANCIA" y su "RELEVANCIA".  Convertiré esto en una serie de descripciones de objetos individuales, proporcionando contexto para cada valor numérico.
+
+**Formato Narrativo/Estructurado:**
+
+*   **OBJETO [Valor del objeto]:**
+    *   DISTANCIA: [Valor de DISTANCIA]
+    *   RELEVANCIA: [Valor de RELEVANCIA]
+
+**Ejemplo Ilustrativo (Asumiendo datos ficticios):**
+
+*   **OBJETO A:**
+    *   DISTANCIA: 10 metros
+    *   RELEVANCIA: 0.95
+*   **OBJETO B:**
+    *   DISTANCIA: 25 metros
+    *   RELEVANCIA: 0.62
+*   **OBJETO C:**
+    *   DISTANCIA: 5 metros
+    *   RELEVANCIA: 0.99
+
+**Explicación:**
+
+*   Cada objeto se introduce explícitamente con "OBJETO [Nombre del Objeto]:".
+*   Las métricas "DISTANCIA" y "RELEVANCIA" se presentan con sus valores numéricos correspondientes y unidades (si se conocen, como "metros" en el ejemplo).
+*   El formato es altamente estructurado, permitiendo al LLM identificar fácilmente el tipo de datos asociados a cada objeto.
+
+**Nota:** Este formato requiere que se completen los datos faltantes en la tabla original. En el caso de que los encabezados de columna tengan subniveles (que no se muestran aquí), se incorporarán para dar contexto a los datos. Por ejemplo: Si existieran encabezados como "DISTANCIA (metros)" y "RELEVANCIA (escala 0-1)", los formatos serían:
+
+*   DISTANCIA (metros): [Valor de DISTANCIA]
+*   RELEVANCIA (escala 0-1): [Valor de RELEVANCIA]
+---------------------------------------
+
+
+--- PÁGINA 4 ---
+
+Guía Garrett Super Scanner V | UNAM – Admisión
+Pistola mediana 22 cm (9") N/A
+Cuchillo grande / navaja 15 cm (6") Prohibido
+Hojas de afeitar / cúteres 7 cm (3") Prohibido
+Celulares, audífonos, USB, electrónicos 2.5 cm (1") CRÍTICO
+Joyas, monedas, llaveros 2.5 cm (1") No permitido
+4.3. Sistema de indicadores LED
+LED ESTADO SIGNIFICADO
+VERDE ENCENDIDO Equipo operativo y listo.
+ÁMBAR BATERÍA BAJA Reemplazar batería ANTES de continuar.
+ROJO ALARMA Metal detectado. Se activa sonido y/o vibración.
+4.4. Controles del equipo
+CONTROL FUNCIÓN
+Interruptor de encendido Tres posiciones: Audible / Apagado / Silencioso (vibración).
+Usar modo AUDIBLE durante admisión.
+Botón eliminación momentánea Anula temporalmente la detección de metal ambiental (paredes
+metálicas, barras).
+Tapa de batería Se retira sin herramientas para reemplazo de batería 9V.
+5. SISTEMA DE CONTROLES DE SEGURIDAD
+El ingreso al campus durante el proceso de admisión se realiza a través de tres controles
+sucesivos. El Garrett se utiliza en el TERCER CONTROL:
+CONTROL UBICACIÓN ACTIVIDAD
+1° CONTROL Zona exterior DNI + verificación de
+obligaciones/prohibiciones
+2° CONTROL Puerta de acceso Verificación visual por personal de
+seguridad
+3° CONTROL Zona de detección Arco detector + auscultación con
+Garrett
+IMPORTANTE: El Garrett es COMPLEMENTARIO al arco detector. Toda persona debe ser
+escaneada con el Garrett después de pasar por el arco, independientemente de si el arco
+emitió alarma o no.
+6. PERSONAS SUJETAS AL CONTROL
+PERSONA OBSERVACIONES
+Dirección de Admisión – UNAM | Pág. 4
+
+[TABLA 1 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+La siguiente es una descripción de los objetos y sus restricciones:
+
+*   **Pistola mediana:** Longitud de 22 cm (9"). Estado: No Aplica.
+*   **Cuchillo grande / navaja:** Longitud de 15 cm (6"). Estado: Prohibido.
+*   **Hojas de afeitar / cúteres:** Longitud de 7 cm (3"). Estado: Prohibido.
+*   **Celulares, audífonos, USB, electrónicos:** Longitud de 2.5 cm (1"). Estado: CRÍTICO.
+*   **Joyas, monedas, llaveros:** Longitud de 2.5 cm (1"). Estado: No permitido.
+---------------------------------------
+
+
+[TABLA 2 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+El sistema utiliza tres indicadores LED de color: verde, ámbar y rojo, cada uno asociado a un estado específico y un significado particular.
+
+*   **LED Verde:** Cuando el LED verde está ENCENDIDO, indica que el equipo está operativo y listo para usarse.
+
+*   **LED Ámbar:** Cuando el LED ámbar indica BATERÍA BAJA, se debe reemplazar la batería ANTES de continuar operando el equipo.
+
+*   **LED Rojo:** Cuando el LED rojo indica ALARMA, significa que se ha detectado metal, lo cual activa una señal sonora y/o vibración.
+---------------------------------------
+
+
+[TABLA 3 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+**Interruptor de Encendido:**
+
+*   Tipo: Interruptor de tres posiciones
+*   Posiciones: Audible / Apagado / Silencioso (vibración)
+*   Uso recomendado: Modo AUDIBLE durante la admisión.
+
+**Botón de Eliminación Momentánea:**
+
+*   Función: Anula temporalmente la detección de metal ambiental (paredes metálicas, barras).
+
+**Tapa de Batería:**
+
+*   Tipo: Tapa removible
+*   Herramientas requeridas para remover: Ninguna
+*   Batería compatible: 9V
+*   Propósito: Para reemplazo de batería 9V.
+---------------------------------------
+
+
+[TABLA 4 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+**Estructura de Control de Acceso:**
+
+La tabla describe una serie de controles de seguridad, detallando la ubicación y la actividad realizada en cada punto.
+
+*   **1° CONTROL:** Ubicado en la **Zona exterior**. La actividad realizada es la **verificación del DNI + verificación de obligaciones/prohibiciones**.
+
+*   **2° CONTROL:** Ubicado en la **Puerta de acceso**. La actividad realizada es la **verificación visual por personal de seguridad**.
+
+*   **3° CONTROL:** Ubicado en la **Zona de detección**. La actividad realizada es **Arco detector + auscultación con Garrett**.  **IMPORTANTE:** El uso del Garrett es complementario al arco detector. **Toda persona debe ser escaneada con el Garrett después de pasar por el arco, independientemente de si el arco emitió alarma o no.**
+---------------------------------------
+
+
+[TABLA 5 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+Okay, necesito la tabla cruda para poder analizarla y transformarla en un formato más amigable para un LLM.  Por favor, proporciona la tabla cruda. Una vez que la tenga, seguiré los pasos que has delineado:
+
+1. **Análisis de la Estructura y el Contenido:** Identificaré las columnas, los tipos de datos presentes (numéricos, texto, fechas, etc.), las relaciones entre las columnas y cualquier patrón o jerarquía dentro de los datos.  También buscaré valores nulos o inconsistencias que podrían afectar la interpretación.
+
+2. **Conversión a Formato Amigable para LLM:** Basándome en el análisis, transformaré la tabla en uno de los siguientes formatos (o una combinación):
+
+    *   **Formato Narrativo (Textual):**  Convertir la tabla en párrafos de texto coherentes.  Por ejemplo: "Para la persona A, la característica X tiene el valor Y y la característica Z tiene el valor W. Las observaciones asociadas son..."
+
+    *   **Formato Descriptivo (Más Estructurado):** Un formato ligeramente más estructurado que el narrativo, pero aún legible:
+
+        ```json
+        [
+            {
+                "persona": "Nombre de la Persona",
+                "caracteristica_x": "Valor de X",
+                "caracteristica_z": "Valor de Z",
+                "observaciones": "Lista de Observaciones"
+            },
+            {
+                "persona": "Otra Persona",
+                "caracteristica_x": "Otro Valor",
+                "caracteristica_z": "Aún Otro Valor",
+                "observaciones": "Otras Observaciones"
+            }
+        ]
+        ```
+
+    *   **Formato Estructurado (Tabla en JSON o CSV con contexto):**  Mantener la estructura de la tabla pero agregar contexto a través de metadatos o descripciones en el JSON. CSV no es ideal para agregar contexto, pero puede ser útil si el LLM está entrenado específicamente para manejarlo.
+
+3. **Preservación de Información:** Me aseguraré de que todos los valores numéricos y los datos clave (nombres, identificadores, categorías) se conserven en la transformación.
+
+4. **Uso de Encabezados para Contexto:**  Los encabezados de las columnas se usarán como etiquetas o claves en los formatos JSON o como referencia en el texto narrativo para proporcionar contexto al LLM.
+
+**En resumen, dame la tabla y te daré una representación optimizada para un LLM.**
+---------------------------------------
+
+
+--- PÁGINA 5 ---
+
+Guía Garrett Super Scanner V | UNAM – Admisión
+Postulantes (Pregrado/Posgrado) Al ingreso y al retornar del baño durante el examen.
+Docentes Vestimenta formal, sin electrónicos. Arco + Garrett.
+Aplicadores/Supervisores
+Equipo Técnico Arco + Garrett antes del internamiento.
+Procesadores de Examen Vestimenta sin metálicos. Arco + Garrett.
+Operadores de Rastreo Vestimenta sencilla. Arco + Garrett.
+7. OBJETOS PROHIBIDOS A DETECTAR
+OBJETO ALERTA ESPERADA ACCIÓN
+Celulares, smartphones Fuerte en bolsillos/cintura Derivar a Área de Control
+Audífonos En zona de oídos/cuello Solicitar retiro + segundo
+escaneo
+Smartwatch, relojes En muñecas Custodia temporal
+Tablets, USB, MP3, MP4 Bolsillos, cintura, espalda Derivar a Área de Control
+Microcrámaras, transmisores Leve en diversas zonas Escaneo detallado
+Calculadoras En bolsillos Custodia temporal
+Aretes, collares, pulseras, Zonas correspondientes Área de Control
+anillos
+Monedas, llaveros Bolsillos Custodia temporal
+ADVERTENCIA: Si se detecta dispositivo de transmisión de datos: dar parte al efectivo
+policial → Acta de Detención → inhabilitación del examen → custodia al Ministerio Público.
+8. TÉCNICA DE ESCANEO CORPORAL
+8.1. Preparación del equipo
+N° ACCIÓN DETALLE
+1 Encender el Garrett Interruptor en AUDIBLE. Verificar LED VERDE. Si
+LED ÁMBAR, cambiar batería.
+2 Prueba funcional Pasar cerca de objeto metálico conocido. Verificar
+alarma sonora + LED ROJO.
+3 Verificar ambiente Usar botón de eliminación momentánea si hay
+estructuras metálicas cercanas.
+8.2. Secuencia de escaneo (cabeza a pies)
+La persona debe estar de pie, brazos extendidos a los costados, piernas ligeramente separadas.
+Mantener el Garrett a 2-5 cm del cuerpo, desplazándolo lentamente:
+N° ZONA TÉCNICA
+Dirección de Admisión – UNAM | Pág. 5
+
+[TABLA 1 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+El procedimiento de seguridad para el ingreso y retorno del baño durante el examen varía según el rol del personal.
+
+*   **Postulantes (Pregrado/Posgrado):** Se les aplica el protocolo estándar.
+*   **Docentes:** Deben usar vestimenta formal sin dispositivos electrónicos y pasar por un arco detector de metales y un escáner Garrett.
+*   **Aplicadores/Supervisores:**  (Información no especificada en la tabla, pero se entiende que se les aplica un protocolo).
+*   **Equipo Técnico - Procesadores de Examen:** Deben usar vestimenta sin elementos metálicos y pasar por un arco detector de metales y un escáner Garrett.
+*   **Equipo Técnico - Operadores de Rastreo:** Deben usar vestimenta sencilla y pasar por un arco detector de metales y un escáner Garrett.
+*   **Equipo Técnico:** Antes del internamiento deben pasar por un arco detector de metales y un escáner Garrett.
+---------------------------------------
+
+
+[TABLA 2 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+Dispositivos y Protocolos de Alerta y Acción:
+
+*   **Celulares y Smartphones:** Si se detectan con alta intensidad en bolsillos o cintura, la acción esperada es derivar al Área de Control.
+*   **Audífonos:** Si se detectan en la zona de oídos/cuello, se debe solicitar el retiro del objeto y realizar un segundo escaneo.
+*   **Smartwatch y Relojes:** Si se detectan en las muñecas, se procederá a la custodia temporal.
+*   **Tablets, USB, MP3, MP4:** Si se detectan en bolsillos, cintura o espalda, la acción esperada es derivar al Área de Control.
+*   **Microcrámaras y Transmisores:** Si se detectan con baja intensidad en diversas zonas, se debe realizar un escaneo detallado.
+*   **Calculadoras:** Si se detectan en bolsillos, se procederá a la custodia temporal.
+*   **Aretes, Collares, Pulseras y Anillos:** Si se detectan en las zonas correspondientes (donde normalmente se usan estos objetos), la acción esperada es derivar al Área de Control.
+*   **Monedas y Llaveros:** Si se detectan en bolsillos, se procederá a la custodia temporal.
+
+**ADVERTENCIA:** Si se detecta un dispositivo de transmisión de datos, se debe dar parte al efectivo policial, levantar un acta de detención, inhabilitar al sospechoso para realizar el examen y ponerlo bajo custodia del Ministerio Público.
+---------------------------------------
+
+
+[TABLA 3 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+Aquí tienes una versión procesada de la tabla, optimizada para un modelo de lenguaje, conservando toda la información clave:
+
+**Garrett: Procedimiento de Verificación**
+
+El procedimiento de verificación del Garrett consta de los siguientes pasos:
+
+1.  **Encendido:**
+    *   **Acción:** Encender el Garrett.
+    *   **Detalle:** Colocar el interruptor en la posición AUDIBLE. Verificar que el LED esté en VERDE. Si el LED muestra color ÁMBAR, es necesario cambiar la batería.
+
+2.  **Prueba Funcional:**
+    *   **Acción:** Realizar una prueba funcional.
+    *   **Detalle:** Acercar el Garrett a un objeto metálico conocido. Verificar la activación de la alarma sonora y la iluminación del LED ROJO.
+
+3.  **Verificación del Ambiente:**
+    *   **Acción:** Verificar el ambiente.
+    *   **Detalle:** Utilizar el botón de eliminación momentánea si hay estructuras metálicas cercanas que puedan interferir con la detección.
+---------------------------------------
+
+
+[TABLA 4 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+Para facilitar la comprensión por un LLM, la tabla se representa como una serie de enunciados estructurados. Cada enunciado especifica la zona y la técnica asociadas, utilizando la información implícita de las columnas como contexto. Asumo que cada fila representa una relación zona-técnica, aunque falta la información sobre los números.
+
+Dado que la tabla proporcionada está incompleta, solo puedo ofrecer una estructura general. Si se proporciona la tabla completa, podría completar la información faltante.
+
+```
+"Información extraída de la tabla sobre Zonas y Técnicas:"
+"Registro 1: Zona = [Valor Zona 1], Técnica = [Valor Técnica 1]."
+"Registro 2: Zona = [Valor Zona 2], Técnica = [Valor Técnica 2]."
+"Registro 3: Zona = [Valor Zona 3], Técnica = [Valor Técnica 3]."
+... (repita para cada fila en la tabla original) ...
+"Nota: Cada registro representa la asociación entre una Zona y una Técnica específica."
+```
+
+**Explicación y justificación del formato:**
+
+*   **Formato de "Registro":**  Estructura los datos en unidades discretas (registros) que son fáciles de procesar para un LLM.  Cada registro representa una fila de la tabla original (una vez que se completa).
+*   **Etiquetas claras:**  "Zona" y "Técnica" se usan explícitamente para etiquetar los valores correspondientes.  Esto elimina la ambigüedad y permite que el LLM entienda el significado de cada valor.
+*   **Consistencia:**  El mismo formato se aplica a cada registro, lo que facilita el procesamiento por lotes o iterativo.
+*   **No se pierde información:**  Todos los valores de la tabla original se conservan. La información numérica asociada a los registros (N°) está incluida, aunque genérica por la tabla incompleta.
+*   **Contexto adicional:** La nota final proporciona contexto sobre la relación entre las Zonas y las Técnicas.
+*   **Facilidad de expansión:** Si hay columnas adicionales en la tabla original, se pueden agregar fácilmente al formato de "Registro" con etiquetas apropiadas.
+
+**Beneficios para un LLM:**
+
+*   **Extracción fácil:** El LLM puede extraer fácilmente pares zona-técnica usando la estructura uniforme.
+*   **Razonamiento sencillo:**  El LLM puede razonar sobre las relaciones entre zonas y técnicas, por ejemplo, "La técnica X se usa en la zona Y".
+*   **Generación coherente:** El LLM puede generar texto sobre las zonas y técnicas usando la información estructurada.
+*   **Adaptabilidad:** Este formato es fácilmente adaptable a tablas con diferentes columnas.  Simplemente agregue más etiquetas y valores al formato "Registro".
+
+Cuando se complete la tabla, se remplazarían los valores genéricos con los valores reales. Por ejemplo:
+
+```
+"Información extraída de la tabla sobre Zonas y Técnicas:"
+"Registro 1: Número = 1, Zona = Norte, Técnica = Irrigación por goteo."
+"Registro 2: Número = 2, Zona = Sur, Técnica = Cultivo en terrazas."
+"Registro 3: Número = 3, Zona = Este, Técnica = Rotación de cultivos."
+...
+"Nota: Cada registro representa la asociación entre una Zona y una Técnica específica."
+```
+---------------------------------------
+
+
+--- PÁGINA 6 ---
+
+Guía Garrett Super Scanner V | UNAM – Admisión
+1 Cabeza y cuello Alrededor de la cabeza (frente, lados, nuca), descender
+por cuello. Detecta audífonos ocultos, micrófonos.
+2 Hombros y brazos Exterior brazo derecho hasta mano, subir por interior.
+Repetir brazo izquierdo. Detecta relojes, smartwatch.
+3 Torso frontal Desde cuello por pecho hasta cintura, ambos lados.
+Detecta celulares en bolsillos de camisa.
+4 Torso posterior Desde nuca por centro de espalda y costados hasta
+cintura. Detecta dispositivos adheridos.
+5 Cintura y cadera Circunferencia completa de cintura: bolsillos laterales,
+traseros, pretina. ZONA CRÍTICA.
+6 Piernas Exterior pierna derecha hasta tobillo, subir por interior.
+Repetir izquierda. Detecta objetos en bolsillos.
+7 Pies y calzado Parte superior de cada zapato. Detecta objetos ocultos en
+calzado.
+BUENA PRÁCTICA: Movimiento fluido y continuo. No detengas el Garrett sobre un punto;
+puede generar falsas alarmas.
+8.3. Cuando se activa la alarma
+N° ACCIÓN DETALLE
+1 Localizar el punto exacto Retroceder lentamente sobre la zona de alarma.
+2 Solicitar identificación "Por favor, indíqueme qué tiene en [zona]."
+voluntaria
+3 Verificar si es falsa alarma Si es botón, cierre o hebilla: segundo escaneo lento
+para confirmar.
+4 Si es objeto prohibido Derivar al Área de Control de Seguridad.
+5 Registrar incidencia Comunicar al Supervisor. Si es dispositivo de
+transmisión: parte policial.
+ATENCIÓN: El operador NUNCA debe realizar cacheos, tocar a la persona ni retirar objetos
+del cuerpo. El retiro lo realiza la propia persona voluntariamente.
+9. SITUACIONES ESPECIALES
+9.1. Falsas alarmas por vestimenta
+ELEMENTO CÓMO DIFERENCIARLO
+Cierres/cremalleras Alarma solo en la línea del cierre. Segundo pase confirma
+posición fija.
+Hebillas de cinturón Alarma localizada. Solicitar separar ligeramente el cinturón.
+Botones metálicos de jean Alarma puntual y repetible en mismos puntos fijos.
+Dirección de Admisión – UNAM | Pág. 6
+
+[TABLA 1 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+**Protocolo de Escaneo Corporal Detallado**
+
+Este documento describe un protocolo para escanear el cuerpo en busca de objetos ocultos, utilizando un dispositivo Garrett (o similar). Cada sección del cuerpo debe ser escaneada siguiendo las instrucciones específicas.
+
+**1. Cabeza y Cuello:**
+
+*   **Área de Escaneo:** Alrededor de la cabeza (frente, lados, nuca) y descenso por el cuello.
+*   **Objetivos:** Detectar audífonos ocultos y micrófonos.
+
+**2. Hombros y Brazos:**
+
+*   **Área de Escaneo:** Exterior del brazo derecho hasta la mano, luego subir por el interior del mismo brazo. Repetir el proceso en el brazo izquierdo.
+*   **Objetivos:** Detectar relojes y smartwatches.
+
+**3. Torso Frontal:**
+
+*   **Área de Escaneo:** Desde el cuello, a lo largo del pecho hasta la cintura, en ambos lados del torso.
+*   **Objetivos:** Detectar celulares en bolsillos de camisa.
+
+**4. Torso Posterior:**
+
+*   **Área de Escaneo:** Desde la nuca, a lo largo del centro de la espalda y los costados hasta la cintura.
+*   **Objetivos:** Detectar dispositivos adheridos a la espalda.
+
+**5. Cintura y Cadera:**
+
+*   **Área de Escaneo:** Circunferencia completa de la cintura, incluyendo bolsillos laterales y traseros, y la pretina del pantalón.
+*   **Importancia:** Esta zona se considera CRÍTICA para la detección de objetos ocultos.
+
+**6. Piernas:**
+
+*   **Área de Escaneo:** Exterior de la pierna derecha hasta el tobillo, luego subir por el interior de la misma pierna. Repetir el proceso en la pierna izquierda.
+*   **Objetivos:** Detectar objetos en los bolsillos del pantalón.
+
+**7. Pies y Calzado:**
+
+*   **Área de Escaneo:** Parte superior de cada zapato.
+*   **Objetivos:** Detectar objetos ocultos en el calzado.
+
+**Buena Práctica General:**
+
+*   Mantener un movimiento fluido y continuo durante el escaneo.
+*   Evitar detener el dispositivo Garrett (o similar) sobre un punto fijo, ya que esto puede generar falsas alarmas.
+---------------------------------------
+
+
+[TABLA 2 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+**Protocolo de Actuación ante Alarmas (Resumen Narrativo Estructurado):**
+
+Este protocolo describe el procedimiento a seguir cuando se activa una alarma. El operador debe seguir estos pasos en orden secuencial:
+
+1.  **Localización:** El operador debe localizar el punto exacto donde se activó la alarma, retrocediendo lentamente sobre la zona de alarma.
+
+2.  **Solicitud de Identificación Voluntaria:** El operador debe solicitar al individuo que identifique voluntariamente la causa de la alarma, usando la frase: "Por favor, indíqueme qué tiene en [zona]."
+
+3.  **Verificación de Falsa Alarma:** Si la alarma fue causada por un botón, cierre o hebilla, el operador debe realizar un segundo escaneo lento para confirmar la falsa alarma.
+
+4.  **Identificación de Objeto Prohibido:** Si se identifica un objeto prohibido, el operador debe derivar al individuo al Área de Control de Seguridad.
+
+5.  **Registro de Incidencia:** El operador debe registrar la incidencia comunicándola al Supervisor. Si el objeto es un dispositivo de transmisión, se debe realizar una parte policial.
+
+**IMPORTANTE:** El operador NUNCA debe realizar cacheos, tocar a la persona ni retirar objetos del cuerpo. El retiro del objeto debe ser realizado voluntariamente por la propia persona.
+---------------------------------------
+
+
+[TABLA 3 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+Aquí hay una versión narrativa y estructurada de la tabla, optimizada para que un LLM la comprenda fácilmente:
+
+**Descripción general:** Esta tabla describe cómo identificar diferentes objetos metálicos durante un control de seguridad, probablemente en un aeropuerto u otro punto de control. Describe el objeto y luego la manera en que se identifica.
+
+**Análisis detallado por objeto:**
+
+*   **Cierres/Cremalleras:**  Se detectan por una alarma que se activa *únicamente* a lo largo de la línea donde se encuentra el cierre. Para confirmar, un segundo pase del detector confirma la posición fija del objeto.
+
+*   **Hebillas de Cinturón:** Se detectan por una alarma localizada.  La acción a seguir es solicitar al individuo que separe ligeramente el cinturón del cuerpo para una mejor inspección.
+
+*   **Botones Metálicos de Jeans:** Se detectan por una alarma puntual (específica) y repetible en los mismos puntos fijos.  Esto significa que la alarma se activa exactamente en la ubicación de cada botón metálico y se repite si se vuelve a pasar el detector.
+---------------------------------------
+
+
+--- PÁGINA 7 ---
+
+Guía Garrett Super Scanner V | UNAM – Admisión
+Varillas de soporte (ropa interior) Alarma bilateral en zona del pecho. Tratar con total
+discreción.
+Implantes / prótesis metálicas La persona puede informar. Registrar como incidencia. No
+insistir.
+9.2. Postulantes con discapacidad
+Escanear las zonas accesibles con sensibilidad y respeto. Registrar situación como incidencia
+sin impedir ingreso si no hay objetos prohibidos adicionales.
+9.3. Negativa al control
+Informar que el control es obligatorio. De persistir la negativa: NO permitir ingreso, registrar
+incidencia, comunicar al Supervisor y Coordinador.
+9.4. Retorno del baño durante el examen
+El postulante que sale del aula al baño debe pasar nuevamente por arco + Garrett al retornar.
+Escaneo completo según Sección 8.2.
+10. MANTENIMIENTO BÁSICO
+ASPECTO PROCEDIMIENTO
+Cambio de batería Retirar tapa (sin herramientas), reemplazar 9V, verificar LED
+VERDE.
+LED ámbar Cambiar batería de inmediato. NO escanear con batería baja.
+Limpieza Paño húmedo suave. NO sumergir ni usar solventes.
+Almacenamiento Lugar seco, temperatura ambiente. Retirar batería si no se usará.
+Prueba diaria Prueba funcional antes de cada turno.
+Evitar golpes Aunque cumple Mil-Std-810F, los golpes afectan la calibración.
+11. PROHIBICIONES DEL OPERADOR
+• Realizar cacheos o contacto físico con las personas.
+• Usar el Garrett de forma agresiva o intimidante.
+• Permitir ingreso sin completar escaneo.
+• Portar dispositivos electrónicos personales durante el servicio.
+• Asistir bajo efectos de alcohol o estupefacientes.
+• Divulgar información sobre incidentes.
+• Manipular la configuración interna del equipo.
+12. PROTOCOLO DE ACTUACIÓN RÁPIDA
+Dirección de Admisión – UNAM | Pág. 7
+
+[TABLA 1 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+El documento detalla protocolos de seguridad relacionados con la detección de objetos específicos en el contexto de, presumiblemente, un entorno de seguridad (como un aeropuerto).
+
+*   **Varillas de soporte (ropa interior):** La detección de varillas de soporte en la zona del pecho activa una alarma bilateral. El protocolo indica que este evento debe tratarse con total discreción.
+
+*   **Implantes / prótesis metálicas:** Si una persona informa sobre la presencia de implantes o prótesis metálicas, esto debe registrarse como una incidencia. El protocolo indica que no se debe insistir con la persona con respecto a la existencia de estos implantes/prótesis.
+---------------------------------------
+
+
+[TABLA 2 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+El documento describe los procedimientos de mantenimiento y cuidado para un dispositivo.
+
+**Cambio de Batería:**
+
+*   **Procedimiento:** Retirar la tapa sin herramientas, reemplazar la batería de 9V, y verificar que el LED esté en color VERDE.
+*   **LED Ámbar:** Si el LED muestra color Ámbar, la batería debe reemplazarse inmediatamente. No escanear con una batería baja.
+
+**Limpieza:**
+
+*   **Procedimiento:** Utilizar un paño húmedo suave para limpiar el dispositivo. NO sumergir el dispositivo en agua ni usar solventes.
+
+**Almacenamiento:**
+
+*   **Procedimiento:** Almacenar el dispositivo en un lugar seco a temperatura ambiente. Retirar la batería si el dispositivo no se va a usar por un tiempo prolongado.
+
+**Prueba Diaria:**
+
+*   **Procedimiento:** Realizar una prueba funcional antes de cada turno de uso.
+
+**Evitar Golpes:**
+
+*   **Procedimiento:** Aunque el dispositivo cumple con la norma Mil-Std-810F, los golpes pueden afectar la calibración del dispositivo. Por lo tanto, se deben evitar los golpes.
+---------------------------------------
+
+
+--- PÁGINA 8 ---
+
+Guía Garrett Super Scanner V | UNAM – Admisión
+SITUACIÓN ACCIÓN
+Alarma en cierre/botón/hebilla Segundo escaneo lento. Si es fija y puntual: falsa alarma.
+Permitir ingreso.
+Alarma en bolsillo (no muestra Solicitar vaciado voluntario en Área de Control. Segundo
+objeto) escaneo.
+Objeto no electrónico Entrega voluntaria. Custodia temporal. Devolución al final.
+(monedas, llavero)
+DISPOSITIVO ELECTRÓNICO POSTULANTE: Acta inhabilitación + parte policial + Ministerio
+detectado Público. PERSONAL: Inhabilitación del servicio + sin pago +
+sanciones.
+Persona se niega al escaneo Informar obligatoriedad. NO permitir ingreso. Registrar
+incidencia.
+13. LISTA DE VERIFICACIÓN
+Antes del control:
+☐ Garrett encendido, LED VERDE activo
+☐ Prueba funcional realizada
+☐ Batería OK (no ámbar)
+☐ Baterías de repuesto disponibles
+☐ Punto de control sin interferencias metálicas
+☐ Área de Control habilitada + efectivo policial presente
+Durante el control:
+☐ Escaneo sistemático cabeza → pies
+☐ Trato respetuoso y no discriminatorio
+☐ Registro de incidencias
+☐ LED VERDE verificado periódicamente
+☐ Sin contacto físico con personas
+Al finalizar:
+☐ Garrett apagado
+☐ Equipo limpio y almacenado
+Dirección de Admisión – UNAM | Pág. 8
+
+[TABLA 1 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+A continuación, se presenta una descripción estructurada de los procedimientos a seguir en función de las situaciones detectadas en un control de seguridad:
+
+**1. Situación: Alarma en cierre/botón/hebilla**
+
+*   **Acción:** Realizar un segundo escaneo lento. Si la alarma es fija y puntual, se considera una falsa alarma. Permitir el ingreso.
+
+**2. Situación: Alarma en bolsillo (no muestra objeto)**
+
+*   **Acción:** Solicitar vaciado voluntario del bolsillo en el Área de Control. Realizar un segundo escaneo.
+
+**3. Situación: Objeto no electrónico (monedas, llavero)**
+
+*   **Acción:** Solicitar la entrega voluntaria del objeto. Ofrecer custodia temporal y devolución al final del proceso.
+
+**4. Situación: DISPOSITIVO ELECTRÓNICO detectado**
+
+*   **Acción (Postulante):** Levantar acta de inhabilitación, elaborar parte policial e informar al Ministerio Público.
+*   **Acción (Personal):** Inhabilitación del servicio, suspensión de pago y sanciones adicionales.
+
+**5. Situación: Persona se niega al escaneo**
+
+*   **Acción:** Informar sobre la obligatoriedad del escaneo. NO permitir el ingreso. Registrar la incidencia.
+---------------------------------------
+
+
+[TABLA 2 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+El documento contiene información sobre dispositivos electrónicos detectados. No hay información adicional presente.
+---------------------------------------
+
+
+[TABLA 3 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Aquí hay una versión narrativamente estructurada de la tabla, optimizada para la comprensión de un modelo de lenguaje:
+
+**Estado del Detector Garrett:**
+
+*   **Encendido y LED VERDE activo:** Sí. El detector Garrett está encendido y el LED VERDE está activo, indicando un estado operativo normal.
+
+**Prueba Funcional:**
+
+*   **Prueba funcional realizada:** Sí. Se ha realizado una prueba funcional en el dispositivo.
+
+**Estado de la Batería:**
+
+*   **Batería OK (no ámbar):** Sí. El estado de la batería es OK y no muestra una advertencia (ámbar).
+*   **Baterías de repuesto disponibles:** Sí. Hay baterías de repuesto disponibles.
+
+**Entorno Operativo:**
+
+*   **Punto de control sin interferencias metálicas:** Sí. El punto de control está libre de interferencias metálicas.
+*   **Área de Control habilitada + efectivo policial presente:** Sí. El área de control está habilitada y hay presencia policial.
+---------------------------------------
+
+
+[TABLA 4 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Se han registrado las siguientes observaciones, indicadas con una marca (☐) en la tabla:
+
+*   **Escaneo sistemático de cabeza a pies:** Observado.
+*   **Registro de incidencias:** Observado.
+*   **Sin contacto físico con personas:** Observado.
+
+Las siguientes acciones/estados **NO** se han marcado como observados:
+
+*   **Trato respetuoso y no discriminatorio.**
+*   **LED VERDE verificado periódicamente.**
+---------------------------------------
+
+
+[TABLA 5 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la tabla convertida en un formato fácil de entender para un LLM:
+
+**Interpretación de la Tabla:**
+
+La tabla representa dos posibles acciones o estados con marcadores de verificación (☐) que indican si la acción se ha completado o no.
+
+*   **Fila 1:**
+    *   "Garrett apagado": No marcado (☐), lo que indica que Garrett **no** está apagado.
+*   **Fila 2:**
+    *   "Equipo limpio y almacenado": No marcado (☐), lo que indica que el equipo **no** está limpio y almacenado.
+
+**Representación estructurada (JSON-like):**
+
+```json
+[
+  {
+    "acción": "Garrett apagado",
+    "estado": false
+  },
+  {
+    "acción": "Equipo limpio y almacenado",
+    "estado": false
+  }
+]
+```
+
+**Representación narrativa:**
+
+"La tarea de 'Garrett apagado' no se ha completado. El estado de 'Equipo limpio y almacenado' es también incompleto."
+---------------------------------------
+
+
+--- PÁGINA 9 ---
+
+Guía Garrett Super Scanner V | UNAM – Admisión
+☐ Batería retirada si no se usará
+☐ Objetos custodiados entregados a Comisión
+☐ Bitácora entregada al Supervisor
+14. DISPOSICIONES FINALES
+Primera. La presente guía es obligatoria y complementaria a los Protocolos Internos del Examen
+de Admisión.
+Segunda. La Dirección de Admisión organizará capacitación práctica sobre el manejo del Garrett
+antes de cada proceso de admisión.
+Tercera. En caso de avería, comunicar al Supervisor para reemplazo. No continuar con equipo
+defectuoso.
+Cuarta. Los aspectos no contemplados serán resueltos por la Dirección de Admisión, en
+coordinación con el CCA o la Comisión de Admisión de Posgrado.
+Dirección de Admisión – UNAM | Pág. 9
+
+[TABLA 1 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+Se presenta un registro de tres acciones o verificaciones, indicando si se han completado o no.
+
+1.  **Batería retirada si no se usará:**  La casilla correspondiente a esta acción está marcada (☐), lo que indica que esta acción **NO** se ha realizado.
+
+2.  **Objetos custodiados entregados a Comisión:** La casilla correspondiente a esta acción está marcada (☐), lo que indica que esta acción **NO** se ha realizado.
+
+3.  **Bitácora entregada al Supervisor:** La casilla correspondiente a esta acción está marcada (☐), lo que indica que esta acción **NO** se ha realizado.
+
+En resumen, ninguna de las tres acciones indicadas (retirar la batería, entregar los objetos custodiados y entregar la bitácora) se ha completado.
+---------------------------------------
+
