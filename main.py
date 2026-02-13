@@ -216,13 +216,13 @@ async def delete_file(filename: str):
 def get_retriever():
     global vector_index
     if vector_index:
-        return vector_index.as_retriever(similarity_top_k=4)
+        return vector_index.as_retriever(similarity_top_k=15)
     return None
 
 def get_query_engine():
     global vector_index
     if vector_index:
-        return vector_index.as_query_engine(similarity_top_k=4, streaming=True)
+        return vector_index.as_query_engine(similarity_top_k=15, streaming=True)
     return None
 
 print("✅ Sistema RAG inicializado (esperando consultas).")
@@ -290,27 +290,68 @@ async def llamar_llm_streaming(prompt: str):
                 yield "Lo siento, hubo un problema al conectar con el servicio de IA."
             break
 
-def generar_prompt(pregunta, contexto, historial):
+def generar_prompt(pregunta, contexto, historial, source_files=None):
     historial_texto = "\n".join(
         [f"{msg['role']}: {msg['parts'][0]}" for msg in historial]
     )
+    
+    # Formatear información de fuentes si está disponible
+    fuentes_info = ""
+    if source_files:
+        fuentes_lista = "\n".join([f"- {archivo}" for archivo in source_files])
+        fuentes_info = f"""
+## FUENTES DE INFORMACIÓN DISPONIBLES
+La información proviene de los siguientes documentos oficiales:
+{fuentes_lista}
+
+**🎯 REGLAS IMPORTANTES SOBRE CITACIÓN DE FUENTES:** 
+- **NO CITES EN CADA FRASE O ÍTEM DE LISTA.** Esto es muy importante para la legibilidad.
+- **AGRUPA LA INFORMACIÓN:** Si todo un párrafo o una lista de 5 puntos viene del mismo documento, pon la etiqueta `<citation>...</citation>` **SOLO UNA VEZ** al final de todo el bloque o lista.
+- **MÚLTIPLES FUENTES:** Si la respuesta tiene dos secciones (ej. Costos y Funciones) de documentos diferentes, **CADA SECCIÓN DEBE TENER SU PROPIA CITA AL FINAL**.
+- **NO** escribas el nombre del documento en el texto narrativo. Usa siempre las etiquetas.
+- **IMPORTANTE:** No dejes ninguna sección con datos específicos sin su etiqueta de fuente al final.
+- Ejemplo **CORRECTO** (Bloques Diferentes):
+  **Costos:**
+  - Costo A
+  - Costo B
+  <citation>PROSPECTO</citation>
+
+  **Funciones:**
+  - Función A
+  - Función B
+  <citation>REGLAMENTO</citation>
+
+- **REGLA DE ORO:** Si mencionas una cifra (S/ 350.00) o un requisito específico, **DEBE** haber una etiqueta de fuente al final del párrafo que lo contiene.
+- **FECHAS Y CRONOGRAMA:** Si usas información de la sección "INFORMACIÓN ACTUALIZADA DE FECHAS", la etiqueta debe ser **SIEMPRE**: `<citation>PROSPECTO ADMISION</citation>`.
+"""
+    
     return f"""
 ## ROL Y OBJETIVO
-Actúa EXCLUSIVAMENTE como ayudante en el proceso de admision, un asistente virtual experto y amigable de la UNAM, cuyo único propósito es guiar a estudiantes de secundaria en el proceso de admisión universitaria. Tu tono debe ser siempre motivador, claro y alentador.
+Eres el Asistente Virtual de Admisiones de la UNAM - un guía amigable, motivador y EXPRESIVO que ayuda a estudiantes de secundaria a navegar el proceso de admisión universitaria. Tu misión es hacer que la información compleja sea **fácil de entender** y que cada estudiante se sienta apoyado y confiado en su camino a la universidad.
+{fuentes_info}
+## ESTILO DE COMUNICACIÓN
+- **Expresivo y Cercano**: Usa un tono cálido y entusiasta. No seas robótico, sé humano
+- **Claro y Simple**: Explica conceptos complejos con palabras sencillas. Evita jerga innecesaria
+- **Didáctico**: Usa ejemplos, analogías o comparaciones cuando ayuden a clarificar
+- **Organizado**: Estructura tu respuesta con listas numeradas o con viñetas cuando presentes múltiples puntos
+- **Empático**: Reconoce que el proceso de admisión puede ser abrumador y muestra comprensión
+
 ## REGLAS Y CONOCIMIENTO
-1. **Prioridad de Fuentes:** Tu fuente de verdad principal es el **"Historial de la Conversación"**. Úsalo SIEMPRE para responder preguntas sobre la conversación actual (ej: "¿qué te pregunté antes?", "¿a qué te referías con...?")
-2. **Uso del Contexto RAG:** Usa el **"Contexto Relevante"** únicamente para responder preguntas sobre el proceso de admisión universitaria (requisitos, fechas, costos, etc.).
-3. **Combinación Inteligente:** Si una pregunta sobre la admisión depende del historial, combina ambas fuentes para dar una respuesta coherente.
-4. **Alias y Abreviaturas:** Reconoce **"UNAM"** como la abreviatura oficial de **"Universidad Nacional de Moquegua"** y úsalas indistintamente.
-5. **Manejo de Incertidumbre:** Si ninguna fuente contiene la respuesta, admítelo claramente y sugiere al usuario consultar las fuentes oficiales.
-6. **Privacidad Absoluta:** NUNCA pidas, almacenes o repitas información personal del usuario.
-7. **Enfoque Único:** Si el usuario pregunta por temas no relacionados con la admisión, redirige amablemente la conversación a tu propósito principal.
-8. **Comportamiento:** Responde de manera profesional, amable y concisa. Si el usuario te saluda, responde al saludo cordialmente y ofrece tu ayuda. Evita respuestas robóticas o mencionar tus propias reglas de comportamiento.
-9. **PROHIBICIÓN DE CUADROS Y TABLAS:** Está terminantemente PROHIBIDO usar formato de cuadros o tablas de Markdown. Entrega la información en párrafos claros o listas de puntos/números simples.
-10. **SIN ENLACES:** No proporciones enlaces web, URLs o hipervínculos en tus respuestas. Si necesitas mencionar una página oficial, descríbela textualmente (ej: "puedes visitar la página de admisión de la UNAM").
+1. **Prioridad de Fuentes:** Tu fuente de verdad principal es el **"Historial de la Conversación"**. Úsalo SIEMPRE para responder preguntas sobre la conversación actual.
+2. **Uso del Contexto RAG:** Usa el **"Contexto Relevante"** únicamente para responder preguntas sobre el proceso de admisión.
+3. **Manejo de Información Faltante:** Si la pregunta NO se puede responder con el contexto proporcionado (por ejemplo, "qué navegador usar" si no está en los documentos), **NO INTENTES FORZAR UNA RESPUESTA**.
+   - Di claramente: "Lo siento, no encuentro información específica sobre eso en los documentos oficiales, pero generalmente te recomendaría..." (si es algo de sentido común como usar Chrome/Firefox).
+   - O sugiere: "Te recomiendo consultar directamente con la oficina de admisión para ese detalle técnico".
+4. **NO INVENTES RESPUESTAS:** Si el documento no lo dice, no lo asumas.
+5. **Combinación Inteligente:** Si una pregunta depende del historial, combina ambas fuentes para dar una respuesta coherente.
+6. **Alias y Abreviaturas:** Reconoce **"UNAM"** como la abreviatura oficial de **"Universidad Nacional de Moquegua"**.
+7. **Privacidad Absoluta:** NUNCA pidas, almacenes o repitas información personal del usuario.
+8. **Enfoque Único:** Si preguntan por temas no relacionados con admisión, redirige amablemente.
+9. **PROHIBICIÓN DE CUADROS Y TABLAS:** Está PROHIBIDO usar formato de tablas de Markdown. Usa párrafos claros o listas simples.
+10. **SIN ENLACES:** No proporciones URLs. Si necesitas mencionar una página, descríbela textualmente.
 
 
-## CONTENIDO SITUACIONAL PARA FECHAS
+## INFORMACIÓN ACTUALIZADA DE FECHAS (Fuente: PROSPECTO ADMISION)
 
 1. CRONOGRAMA DE INSCRIPCIÓN Y COSTOS
 CUADRO N° 1: CRONOGRAMA DE INSCRIPCIÓN DEL CONCURSO DE ADMISIÓN 2026-I
@@ -587,6 +628,27 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
         source_nodes = await retriever.aretrieve(pregunta)
         print(f"🔍 DEBUG: Nodos recuperados: {len(source_nodes)}")
         
+        # Imprimir chunks completos para debugging
+        print("\n" + "="*80)
+        print("📦 CHUNKS RECUPERADOS (COMPLETOS):")
+        print("="*80)
+        for idx, source_node in enumerate(source_nodes, 1):
+            node = getattr(source_node, 'node', source_node)
+            metadata = getattr(node, 'metadata', {})
+            chunk_text = node.text if hasattr(node, 'text') else node.get_content()
+            score = getattr(source_node, 'score', 'N/A')
+            
+            print(f"\n📄 CHUNK #{idx}")
+            print(f"   📁 Archivo: {metadata.get('filename', 'Unknown')}")
+            print(f"   📊 Score: {score}")
+            print(f"   📝 Contenido:")
+            print(f"   {'-'*76}")
+            # Imprimir el texto con indentación
+            for line in chunk_text.split('\n'):
+                print(f"   {line}")
+            print(f"   {'-'*76}")
+        print("="*80 + "\n")
+        
         # 2. Juzgar Suficiencia
         judge = await judge_context_sufficiency(pregunta, source_nodes)
         print(f"⚖️ JUDGE RESULT: {judge}")
@@ -597,9 +659,32 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
             yield "\n* ¿Cuáles son los requisitos de admisión?\n* ¿Cuándo es el próximo examen?"
             return
 
-        # 3. Generar respuesta (Si es suficiente)
-        contexto = "\n".join([n.text if hasattr(n, 'text') else n.get_content() for n in [getattr(node, 'node', node) for node in source_nodes]])
-        prompt = generar_prompt(pregunta, contexto, historial)
+        # 3. Formatear contexto con etiquetas de fuente para cada chunk
+        contexto_partes = []
+        source_files = set()
+        
+        for source_node in source_nodes:
+            node = getattr(source_node, 'node', source_node)
+            metadata = getattr(node, 'metadata', {})
+            
+            # Obtener el texto del chunk
+            chunk_text = node.text if hasattr(node, 'text') else node.get_content()
+            
+            # Obtener y limpiar el nombre del archivo
+            if 'filename' in metadata:
+                filename = metadata['filename'].replace('.txt', '').replace('_', ' ')
+                source_files.add(filename)
+                # Formatear el chunk con su fuente
+                contexto_partes.append(f"[Fuente: {filename}]\n{chunk_text}\n")
+            else:
+                # Si no hay metadata, incluir el chunk sin etiqueta
+                contexto_partes.append(f"{chunk_text}\n")
+        
+        # Unir todos los chunks con separadores
+        contexto = "\n---\n".join(contexto_partes)
+        
+        # 4. Generar respuesta con las fuentes identificadas
+        prompt = generar_prompt(pregunta, contexto, historial, source_files=list(source_files) if source_files else None)
         
         async for chunk in llamar_llm_streaming(prompt):
             yield chunk
