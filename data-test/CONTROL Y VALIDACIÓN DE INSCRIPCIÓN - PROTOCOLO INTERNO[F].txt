@@ -1,0 +1,3586 @@
+
+--- PÁGINA 1 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 1 de 38
+INTERNOS
+PROTOCOLOS INTERNOS DEL PROCESO DE ADMISIÓN
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+ROL NOMBRE CARGO FECHA Y FIRMA
+DIRECTOR DE LA
+ELABORADO DR. JOSÉ ANTONIO
+DIRECCIÓN DE
+POR: VALERIANO ZAPANA
+ADMISIÓN
+Dr. ALEJANDRO MANUEL VICERRECTOR
+ECOS ESPINO ACADÉMICO
+JEFE DE LA OFICINA
+REVISADO ECO. EDEN VICENTE
+DE PLANEAMIENTO Y
+POR: CORI
+PRESUPUESTO
+Abog. RICHARD ALEX JEFE DE LA OFICINA DE
+FLORES PÉREZ ASESORÍA JURÍDICA
+APROBADO DR. HUGO RUBEN
+RECTOR
+POR: MARCA MAQUERA
+Moquegua
+2026
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 1 de 38
+
+[TABLA 1 en página 1]
+
+--- Interpretación de Tabla por LLM ---
+El documento "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN" utiliza "PROTOCOLOS INTERNOS", corresponde a la Versión 01 y comprende desde la página 1 hasta la 38.
+---------------------------------------
+
+
+[TABLA 2 en página 1]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la tabla convertida a un formato narrativo y estructurado optimizado para LLMs:
+
+**Roles y Responsabilidades:**
+
+*   **Elaborado por:**
+    *   **Nombre:** DR. JOSÉ ANTONIO VALERIANO ZAPANA
+    *   **Cargo:** DIRECTOR DE LA DIRECCIÓN DE ADMISIÓN
+*   **Revisado por:**
+    *   **Nombre:** Dr. ALEJANDRO MANUEL ECOS ESPINO
+    *   **Cargo:** VICERRECTOR ACADÉMICO
+    *   **Nombre:** ECO. EDEN VICENTE CORI
+    *   **Cargo:** JEFE DE LA OFICINA DE PLANEAMIENTO Y PRESUPUESTO
+    *   **Nombre:** Abog. RICHARD ALEX FLORES PÉREZ
+    *   **Cargo:** JEFE DE LA OFICINA DE ASESORÍA JURÍDICA
+*   **Aprobado por:**
+    *   **Nombre:** DR. HUGO RUBEN MARCA MAQUERA
+    *   **Cargo:** RECTOR
+
+**Información Adicional (Tabla original):** La columna "FECHA Y FIRMA" estaba vacía en todos los registros de la tabla original. Esto indica que la información sobre fechas y firmas no fue proporcionada o capturada.
+---------------------------------------
+
+
+[TABLA 3 en página 1]
+
+--- Interpretación de Tabla por LLM ---
+⚠️ Error al procesar con LLM: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+---------------------------------------
+
+
+--- PÁGINA 2 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 2 de 38
+INTERNOS
+CONTROL DE CAMBIOS
+Revisión Sección/ítem Descripción del cambio
+01 --- Nuevo
+ALCANCE: Pregrado (Ordinario, CEPREUNAM, Extraordinario) y Posgrado.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 2 de 38
+
+[TABLA 1 en página 2]
+
+--- Interpretación de Tabla por LLM ---
+**Descripción General del Documento:**
+
+El documento se titula "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN" y forma parte de los "PROTOCOLOS INTERNOS". Es la versión 01 del documento. La página actual es la 2 de un total de 38 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 2]
+
+--- Interpretación de Tabla por LLM ---
+La tabla de control de cambios tiene la siguiente estructura:
+
+*   **Revisión:** Indica el número de revisión del documento.
+*   **Sección/Ítem:** Especifica la sección o ítem del documento afectado por el cambio.
+*   **Descripción del cambio:** Detalla la naturaleza del cambio realizado.
+
+**Detalles de las revisiones:**
+
+*   **Revisión 01:**  Se crea una nueva revisión del documento. No se especifican secciones/ítems afectados, indicando probablemente que es la versión inicial. La descripción del cambio es "Nuevo".
+---------------------------------------
+
+
+[TABLA 3 en página 2]
+
+--- Interpretación de Tabla por LLM ---
+Por favor, proporciona la tabla cruda que extrajiste del documento PDF. Sin la tabla, no puedo analizar su estructura, contenido, ni convertirla a un formato narrativo o estructurado adecuado para un LLM.  Necesito los datos para poder cumplir con tu misión.
+---------------------------------------
+
+
+--- PÁGINA 3 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 3 de 38
+INTERNOS
+Índice Pág.
+1. GENERALIDADES ..................................................................................................... 5
+2. FINALIDAD .................................................................................................................... 5
+3. OBJETIVOS ................................................................................................................... 5
+3.1. Objetivo General ..................................................................................................... 5
+3.2. Objetivos Específicos .............................................................................................. 6
+4. ALCANCE ...................................................................................................................... 6
+4.1. Por modalidad de admisión ..................................................................................... 6
+5. BASE LEGAL Y ARTICULACIÓN NORMATIVA ............................................................ 6
+6. DEFINICIONES OPERATIVAS ...................................................................................... 7
+7. FASES DEL PROCESO DE INSCRIPCIÓN .................................................................. 8
+7.1. Pregrado - 6 Fases (Art. 80°) ................................................................................... 8
+7.2. Posgrado - 6 Fases (Art. 107°) ................................................................................ 8
+8. PROCEDIMIENTO OPERATIVO ................................................................................... 8
+8.1. RECEPCIÓN Y REGISTRO (Fases 1-3) ................................................................. 8
+8.2. VALIDACIÓN DOCUMENTAL (Fase 4) ................................................................... 9
+8.3. SUBSANACIÓN DE OBSERVACIONES (Art. 81°, 111°) ........................................ 9
+8.4. REGISTRO BIOMÉTRICO Y CARNÉ (Fases 5-6) .................................................. 9
+8.5. DECLARACIÓN DE APTOS Y CIERRE ................................................................ 10
+9. ENTREGABLES Y ANEXOS ....................................................................................... 10
+10. GUÍA DE USO DE ANEXOS ...................................................................................... 10
+ANEXO I-01: Checklist de Documentos por Modalidad ................................................ 10
+ANEXO I-02: Ficha de Verificación Documental ........................................................... 11
+ANEXO I-03: Constancia de Verificación de Autenticidad ............................................ 11
+ANEXO I-04: Ficha de Verificación de Requisitos Específicos ..................................... 12
+ANEXO I-05: Notificación de Observación al Postulante .............................................. 12
+ANEXO I-06: Ficha de Revisión de Subsanación ......................................................... 13
+ANEXO I-07: Constancia de Exclusión por Incumplimiento .......................................... 14
+ANEXO I-08: Base de Datos de Postulantes APTOS ................................................... 15
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 3 de 38
+
+[TABLA 1 en página 3]
+
+--- Interpretación de Tabla por LLM ---
+**Contexto General:** Este documento se titula "Control y Validación de Inscripción" y se trata de un conjunto de Protocolos Internos. La versión actual del documento es la 01, y esta sección específica corresponde a la página 3 de un total de 38 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 3]
+
+--- Interpretación de Tabla por LLM ---
+Necesito ver la tabla cruda para poder analizarla y transformarla en un formato adecuado para un LLM. Por favor, proporciona la tabla cruda. Sin la tabla, no puedo realizar la tarea solicitada.
+---------------------------------------
+
+
+--- PÁGINA 4 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 4 de 38
+INTERNOS
+ANEXO I-09: Informe Estadístico de Inscripción .......................................................... 16
+ANEXO I-10: Acta de Cierre del Proceso de Inscripción .............................................. 17
+ANEXO I-01: CHECKLIST DE DOCUMENTOS POR MODALIDAD ................................ 19
+ANEXO I-02: FICHA DE VERIFICACIÓN DOCUMENTAL ............................................... 20
+ANEXO I-03: CONSTANCIA DE VERIFICACIÓN DE AUTENTICIDAD ........................... 22
+ANEXO I-04: FICHA DE VERIFICACIÓN DE REQUISITOS ESPECÍFICOS ................... 24
+ANEXO I-05: NOTIFICACIÓN DE OBSERVACIÓN AL POSTULANTE ........................... 26
+ANEXO I-06: FICHA DE REVISIÓN DE SUBSANACIÓN ................................................ 28
+ANEXO I-07: CONSTANCIA DE EXCLUSIÓN POR INCUMPLIMIENTO ........................ 30
+ANEXO I-08: BASE DE DATOS DE POSTULANTES APTOS ......................................... 33
+ANEXO I-09: INFORME ESTADÍSTICO DE INSCRIPCIÓN ............................................ 34
+ANEXO I-10: ACTA DE CIERRE DEL PROCESO DE INSCRIPCIÓN ............................. 36
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 4 de 38
+
+[TABLA 1 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+El documento "Control y Validación de Inscripción" sigue los protocolos internos de la organización. Este documento corresponde a la Versión 01 y se encuentra en la página 4 de un total de 38 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 4]
+
+--- Interpretación de Tabla por LLM ---
+Por favor, proporciona la tabla cruda que has extraído del documento PDF. Necesito ver los datos para poder analizar la estructura, el contenido y convertirlos en un formato fácil de entender para un LLM. Una vez que me proporciones la tabla, realizaré las siguientes tareas:
+
+1.  **Analizar la estructura y el contenido:** Examinaré las filas, columnas, encabezados (si los hay) y los tipos de datos presentes en la tabla. Identificaré las relaciones entre las diferentes columnas.
+2.  **Convertir la tabla a un formato narrativo/descriptivo/estructurado:**  Dependiendo de la naturaleza de los datos, elegiré el formato más adecuado. Las opciones incluyen:
+    *   **Narrativo:** Una descripción en lenguaje natural de la información de la tabla.  Esto es útil para tablas sencillas y para enfatizar tendencias o conclusiones.
+    *   **Descriptivo:**  Frases concisas que describen el contenido de cada fila, columna o celda.  Útil para datos con una estructura clara.
+    *   **Estructurado (JSON o YAML):**  Representar los datos en un formato de datos estándar.  Ideal para tablas complejas que requieren un procesamiento posterior por parte del LLM. También podría generar una lista de pares clave-valor.
+3.  **Preservar la información numérica y clave:**  Me aseguraré de que todos los datos numéricos y la información importante se mantengan en la representación convertida.  Los datos numéricos se incluirán con sus unidades (si están disponibles) y se usarán las palabras clave relevantes.
+4.  **Usar los encabezados para el contexto:**  Si la tabla tiene encabezados de columna o fila, los usaré para contextualizar los datos de cada celda en el formato de salida.  Por ejemplo, si una columna se llama "Ingresos", diré "Los ingresos fueron de X" en lugar de simplemente "X".
+
+Espero tu tabla para poder ayudarte.
+---------------------------------------
+
+
+--- PÁGINA 5 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 5 de 38
+INTERNOS
+1. GENERALIDADES
+1.1. La Dirección de Admisión, en el marco de sus funciones de planificación, organización,
+ejecución y control del proceso de admisión, ha elaborado y/o actualizado Protocolos
+Internos para estandarizar actividades críticas del proceso (instrumentos de evaluación,
+inscripción, ejecución en sede, procesamiento de resultados y seguridad).
+1.2. La implementación de protocolos internos constituye un mecanismo de aseguramiento
+de la calidad y mitigación de riesgos, especialmente en etapas sensibles como la cadena
+de custodia del examen, el control de identidad, la lectura/digitación, la validación y la
+publicación de resultados.
+1.3. Base normativa y documentos de referencia
+• Constitución Política del Perú.
+• Ley N.° 30220 – Ley Universitaria.
+• Ley N.° 27444 – Ley del Procedimiento Administrativo General.
+• Estatuto de la UNAM (vigente).
+• Reglamento de Organización y Funciones (ROF) de la UNAM (vigente).
+• Reglamento General de Admisión de la UNAM (vigente).
+• Directiva de Lineamientos de Funciones del Proceso de Admisión (vigente).
+• Régimen de infracciones y sanciones aplicable a la integridad del proceso de admisión.
+• Protocolos Internos PI-01 al PI-05 (Anexos del presente expediente).
+2. FINALIDAD
+Establecer el procedimiento estandarizado para el control y validación del proceso de
+inscripción al examen de admisión de la Universidad Nacional de Moquegua, garantizando
+que solo los postulantes que cumplan con todos los requisitos documentales, académicos
+y administrativos sean declarados APTOS para rendir el examen.
+El presente protocolo desarrolla operativamente lo establecido en:
+• Disposiciones comunes: Artículos 74° al 79° del Reglamento (plataforma,
+responsabilidad, declaraciones juradas, protección de datos, exclusión, discapacidad).
+• Pregrado: Artículos 80° al 103° (fases de inscripción, subsanación, requisitos por
+modalidad).
+• Posgrado: Artículos 104° al 114° (requisitos generales, fases, verificación documental,
+plazos).
+3. OBJETIVOS
+3.1. Objetivo General
+Garantizar la integridad y transparencia del proceso de inscripción mediante un sistema de
+control documental que permita validar el cumplimiento de requisitos, identificar
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 5 de 38
+
+[TABLA 1 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+**Sección:** Control y Validación de Inscripción
+
+**Protocolos Internos:**
+
+*   **Versión:** 01
+*   **Ubicación:** Página 5 de 38
+---------------------------------------
+
+
+[TABLA 2 en página 5]
+
+--- Interpretación de Tabla por LLM ---
+Necesito la tabla RAW para poder convertirla en un formato narrativo, descriptivo o estructurado. Por favor, proporciona la tabla extraída del PDF. Sin la tabla, no puedo realizar el análisis, la conversión ni asegurarme de que la información se conserva.
+---------------------------------------
+
+
+--- PÁGINA 6 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 6 de 38
+INTERNOS
+observaciones subsanables, aplicar plazos preclusivos y generar la Base de Datos oficial
+de postulantes APTOS.
+3.2. Objetivos Específicos
+a) Verificar el cumplimiento de las 6 fases de inscripción establecidas en el Art. 80°
+(Pregrado) y Art. 107° (Posgrado).
+b) Validar la autenticidad y completitud de los documentos presentados por cada
+postulante.
+c) Gestionar el proceso de subsanación de observaciones dentro del plazo de 48 horas
+(Art. 81°, 111°).
+d) Aplicar los impedimentos de postulación establecidos en el Reglamento.
+e) Generar y publicar la relación oficial de postulantes APTOS para cada modalidad.
+f) Coordinar el registro biométrico obligatorio como requisito previo al examen.
+g) Documentar el proceso mediante anexos ejecutables que evidencien cada etapa.
+4. ALCANCE
+4.1. Por modalidad de admisión
+MODALIDAD REQUISITOS ARTÍCULOS
+ESPECÍFICOS APLICABLES
+Examen Ordinario General Certificado Secundaria, Arts. 83°-86°
+DNI, foto, DJ
+CEPREUNAM Declaración APTO por Arts. 87°-89°
+CEPREUNAM, asistencia
+mín.
+Extraordinario Según submodalidad Arts. 90°-103°
+(Traslado, Titulados, PcD,
+etc.)
+Posgrado Grado Bachiller/Maestro, Arts. 104°-114°
+CV documentado, proyecto
+5. BASE LEGAL Y ARTICULACIÓN NORMATIVA
+ARTÍCULO CONTENIDO APLICACIÓN EN EL PROTOCOLO
+Art. 74° Plataforma de inscripción https://unam.edu.pe/admision.
+Inscripción válida = "Postulante
+validado".
+Art. 75° Responsabilidad del postulante Veracidad de datos = Declaración
+Jurada bajo responsabilidad.
+Art. 76° Declaraciones juradas digitales Aceptación digital = firma digital con
+validez jurídica (Ley 27269).
+Art. 78° Exclusión por incumplimiento No admite postulaciones
+extemporáneas ni documentación
+incompleta.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 6 de 38
+
+[TABLA 1 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe los protocolos internos de "Control y Validación de Inscripción". Este documento es la versión 01 y corresponde a la página 6 de un total de 38 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe las modalidades de admisión a una institución (presumiblemente una universidad), sus requisitos y los artículos aplicables en el reglamento.
+
+**Modalidades de Admisión y Requisitos:**
+
+*   **Examen Ordinario General:** Requiere Certificado de Secundaria, Documento Nacional de Identidad (DNI), fotografía y Declaración Jurada (DJ). Se rige por los artículos 83° a 86°.
+*   **CEPREUNAM:** Requiere una Declaración de APTO emitida por CEPREUNAM y una asistencia mínima a las clases. Se rige por los artículos 87° a 89°.
+*   **Extraordinario:** Los requisitos varían según la submodalidad específica, incluyendo Traslado, Titulados, Personas con Discapacidad (PcD), etc. Se rige por los artículos 90° a 103°.
+*   **Posgrado:** Requiere el Grado de Bachiller o Maestro, un Currículum Vitae (CV) documentado y un proyecto. Se rige por los artículos 104° a 114°.
+---------------------------------------
+
+
+[TABLA 3 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+Aquí hay una representación de los datos de la tabla diseñada para ser fácilmente consumida por un LLM:
+
+**Artículo 74:**
+
+*   **Título:** Plataforma de Inscripción
+*   **Contenido:** La plataforma de inscripción se encuentra en la siguiente URL: https://unam.edu.pe/admision.
+*   **Aplicación en el Protocolo:** Una inscripción válida se define como un "Postulante validado".
+
+**Artículo 75:**
+
+*   **Título:** Responsabilidad del Postulante
+*   **Contenido:** La veracidad de los datos proporcionados por el postulante se considera una Declaración Jurada y es responsabilidad del mismo.
+*   **Aplicación en el Protocolo:** Implica la responsabilidad legal del postulante sobre la información proporcionada.
+
+**Artículo 76:**
+
+*   **Título:** Declaraciones Juradas Digitales
+*   **Contenido:** La aceptación digital de las declaraciones juradas se considera una firma digital con validez jurídica, conforme a la Ley 27269.
+*   **Aplicación en el Protocolo:** Equivalencia legal de la firma digital a una firma manuscrita para las declaraciones juradas.
+
+**Artículo 78:**
+
+*   **Título:** Exclusión por Incumplimiento
+*   **Contenido:** El protocolo no admite postulaciones extemporáneas ni documentación incompleta.
+*   **Aplicación en el Protocolo:** Se rechazarán las postulaciones que no cumplan con los plazos o que presenten documentación faltante.
+---------------------------------------
+
+
+[TABLA 4 en página 6]
+
+--- Interpretación de Tabla por LLM ---
+Necesito la tabla cruda para poder cumplir con tu misión. Proporcióname la tabla que extrajiste del PDF y la convertiré en un formato más amigable para LLMs.
+---------------------------------------
+
+
+--- PÁGINA 7 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 7 de 38
+INTERNOS
+Art. 79° Postulantes con discapacidad Ajustes razonables. Carné
+CONADIS. Certificado de
+discapacidad.
+Art. 80° 6 Fases de inscripción Pregrado Registro → Pago → Carga docs →
+Validación DA → Biométrico →
+Carné.
+Art. 81° Subsanación de observaciones Plazo: 48 HORAS. Vencido =
+exclusión automática sin devolución.
+Art. 82° Modificación de datos NO procede cambio de Escuela,
+modalidad ni sede. Solo errores
+materiales.
+Art. 103° Causales de eliminación Documentos falsos detectados =
+eliminación del proceso.
+Art. 107° 6 Fases inscripción Posgrado Registro → Pago → Carga digital →
+Expediente físico → Verificación →
+Publicación.
+Art. 111° Subsanación Posgrado Plazo: 48 HORAS. Vencido =
+exclusión del proceso.
+Art. 112° Declaración de aptitud Publicación de APTOS: máximo 5
+días hábiles después del cierre.
+6. DEFINICIONES OPERATIVAS
+• Postulante registrado: Persona que ha completado el registro de datos en la
+plataforma (Fase 1).
+• Postulante inscrito: Persona que ha realizado el pago del derecho de inscripción
+(Fase 2).
+• Postulante validado: Persona cuya documentación ha sido verificada y aprobada
+por la DA (Fase 4).
+• Postulante APTO: Persona que ha completado todas las fases incluyendo el
+registro biométrico. Habilitado para rendir el examen.
+• Observación subsanable: Inconsistencia documental que puede ser corregida
+dentro del plazo de 48 horas.
+• Observación no subsanable: Incumplimiento de requisito esencial que impide la
+inscripción (impedimento).
+• Carné de Postulante: Documento obligatorio para rendir el examen, generado tras
+el registro biométrico.
+• Registro biométrico: Verificación presencial de huella digital y captura de fotografía
+(Fase 5).
+• Base de Datos de Aptos: Listado oficial de postulantes habilitados para rendir el
+examen por modalidad.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 7 de 38
+
+[TABLA 1 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+La siguiente es una representación estructurada del documento "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN", específicamente los "PROTOCOLOS INTERNOS", versión 01, página 7 de 38.
+---------------------------------------
+
+
+[TABLA 2 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+El artículo 79° se refiere a postulantes con discapacidad. Requieren ajustes razonables y deben presentar el Carné CONADIS y el Certificado de Discapacidad.
+
+El artículo 80° describe las 6 fases de inscripción para pregrado: Registro, Pago, Carga de documentos, Validación por la Dirección Académica (DA), Biométrico y obtención del Carné.
+
+El artículo 81° trata sobre la subsanación de observaciones. El plazo para subsanar es de 48 HORAS. Si se vence el plazo, la exclusión es automática y no hay devolución de lo pagado.
+
+El artículo 82° indica que NO procede el cambio de Escuela, modalidad ni sede. Solo se permiten modificaciones por errores materiales.
+
+El artículo 103° establece que la detección de documentos falsos es causal de eliminación del proceso.
+
+El artículo 107° describe las 6 fases de inscripción para posgrado: Registro, Pago, Carga digital, Presentación del Expediente físico, Verificación y Publicación.
+
+El artículo 111° se refiere a la subsanación en Posgrado.  El plazo es de 48 HORAS. Si se vence el plazo, resulta en la exclusión del proceso.
+
+El artículo 112° indica que la publicación de los postulantes APTOS se realizará en un máximo de 5 días hábiles después del cierre del proceso.
+---------------------------------------
+
+
+[TABLA 3 en página 7]
+
+--- Interpretación de Tabla por LLM ---
+Debido a que proporcionaste una tabla vacía, no puedo completar tu solicitud. Necesito la tabla cruda para analizarla, estructurarla y convertirla en un formato narrativo para un LLM.
+
+Por favor, proporciona la tabla que extrajiste para que pueda ayudarte. Una vez que la tengas, podré:
+
+1.  **Analizar la estructura y el contenido:** Identificar las columnas, los encabezados, los tipos de datos y las relaciones entre ellos.
+2.  **Convertirla en un formato narrativo:** Reformular la información de la tabla en oraciones claras y concisas, conservando la precisión numérica y el contexto.
+3.  **Asegurarme de no perder información:** Incluir todos los datos importantes, incluyendo valores atípicos o excepciones.
+4.  **Usar los encabezados para dar contexto:** Incorporar los encabezados de las columnas en la narrativa para explicar el significado de cada valor.
+
+Espero tu tabla para poder ayudarte mejor.
+---------------------------------------
+
+
+--- PÁGINA 8 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 8 de 38
+INTERNOS
+7. FASES DEL PROCESO DE INSCRIPCIÓN
+7.1. Pregrado - 6 Fases (Art. 80°)
+FASE NOMBRE DESCRIPCIÓN RESPONSABLE
+1 Registro del Datos personales, académicos, selección Postulante
+postulante de modalidad, programa y sede.
+Aceptación del Reglamento.
+2 Pago de Caja UNAM, depósito Banco de la Nación Postulante
+derecho (Cta. 00-141-028154) o ventanilla.
+3 Carga de DNI/CE, certificados según modalidad, Postulante
+documentos fotografía digital, declaraciones juradas
+(PDF).
+4 Validación Revisión documental. Observación de DA
+por DA inconsistencias. Aprobación o notificación.
+5 Registro Presencial y obligatorio. Verificación de DA + OTI
+biométrico huella digital y captura de fotografía.
+6 Entrega de Generación automática tras validación Sistema
+Carné biométrica. Documento OBLIGATORIO
+para el examen.
+7.2. Posgrado - 6 Fases (Art. 107°)
+FASE NOMBRE DESCRIPCIÓN RESPONSABLE
+1 Registro de datos En plataforma oficial, Postulante
+seleccionando el programa de
+posgrado.
+2 Pago de inscripción Conforme al Art. 80° literal b) y Postulante
+TUPA vigente.
+3 Carga digital Documentos Arts. 105°-106° en Postulante
+formato PDF.
+4 Expediente físico Presentación en Mesa de Partes Postulante
+de la Escuela de Posgrado dentro
+del plazo.
+5 Verificación EPG + DA verifican cumplimiento EPG + DA
+documental de requisitos.
+6 Publicación de Relación de postulantes APTOS DA
+aptos para examen y entrevista.
+8. PROCEDIMIENTO OPERATIVO
+8.1. RECEPCIÓN Y REGISTRO (Fases 1-3)
+N° RESP. ACTIVIDAD REGISTRO
+1 Postulante Accede a la plataforma Sistema
+https://unam.edu.pe/admision. Registra
+datos personales, académicos, selecciona
+modalidad, programa y sede.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 8 de 38
+
+[TABLA 1 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+El documento "Protocolos Internos", versión 01, con un total de 38 páginas, dedica la página 8 a la sección de "Control y Validación de Inscripción".
+---------------------------------------
+
+
+[TABLA 2 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la conversión de la tabla a un formato narrativo optimizado para un LLM:
+
+**Descripción del Proceso de Postulación:**
+
+El proceso de postulación consta de las siguientes fases:
+
+1.  **Registro del Postulante:** El postulante debe registrar sus datos personales y académicos, seleccionar la modalidad, el programa y la sede deseados, y aceptar el reglamento. El responsable de esta fase es el propio postulante.
+
+2.  **Pago de Derecho:** El postulante debe realizar el pago del derecho de postulación en la Caja UNAM, a través de un depósito en el Banco de la Nación (Cuenta 00-141-028154) o en ventanilla.  El responsable de esta fase es el propio postulante.
+
+3.  **Carga de Documentos:** El postulante debe cargar los siguientes documentos en formato PDF: DNI/CE, certificados según la modalidad de postulación, una fotografía digital y las declaraciones juradas requeridas. El responsable de esta fase es el propio postulante.
+
+4.  **Validación por DA:** La Dirección Académica (DA) realiza una revisión documental.  Observa y notifica cualquier inconsistencia.  Aprueba la postulación o notifica al postulante sobre la necesidad de correcciones.  El responsable de esta fase es la Dirección Académica (DA).
+
+5.  **Registro Biométrico:** El postulante debe realizar el registro biométrico de manera presencial y obligatoria.  Se verifica la huella digital y se captura una fotografía. Los responsables de esta fase son la Dirección Académica (DA) y la Oficina de Tecnologías de la Información (OTI).
+
+6.  **Entrega de Carné:** Tras la validación biométrica, el sistema genera automáticamente el carné de postulante. Este documento es OBLIGATORIO para poder rendir el examen de admisión. El responsable de esta fase es el Sistema (automático).
+---------------------------------------
+
+
+[TABLA 3 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+**Registro de datos:** El postulante debe registrar los datos en la plataforma oficial, seleccionando el programa de posgrado.
+
+**Pago de inscripción:** El postulante debe realizar el pago de inscripción conforme al Art. 80° literal b) y el TUPA vigente.
+
+**Carga digital:** El postulante debe cargar digitalmente los documentos especificados en los Artículos 105° y 106° en formato PDF.
+
+**Expediente físico:** El postulante debe presentar el expediente físico en la Mesa de Partes de la Escuela de Posgrado dentro del plazo establecido.
+
+**Verificación documental:** La Escuela de Posgrado (EPG) y la Dirección Académica (DA) verifican el cumplimiento de los requisitos.
+
+**Publicación de aptos:** La Dirección Académica (DA) publica la relación de postulantes APTOS para el examen y la entrevista.
+---------------------------------------
+
+
+[TABLA 4 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+El postulante debe acceder a la plataforma https://unam.edu.pe/admision. En esta plataforma, el postulante debe registrar sus datos personales, datos académicos y seleccionar la modalidad de postulación, el programa al que postula y la sede correspondiente. Esta actividad es responsabilidad del sistema. El registro se guarda en el sistema.
+---------------------------------------
+
+
+[TABLA 5 en página 8]
+
+--- Interpretación de Tabla por LLM ---
+Necesito la tabla cruda para poder completar la tarea. Proporcióname la tabla y la analizaré para convertirla en un formato narrativo o estructurado que sea fácil de entender para un LLM.
+---------------------------------------
+
+
+--- PÁGINA 9 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 9 de 38
+INTERNOS
+2 Postulante Acepta el Reglamento General de Check digital
+Admisión y el consentimiento para
+tratamiento de datos personales.
+3 Postulante Realiza el pago del derecho de inscripción. Voucher
+Guarda comprobante.
+4 Postulante Carga documentos obligatorios en formato Anexo I-01
+PDF: DNI/CE, certificados, foto,
+declaraciones juradas.
+5 Sistema Genera código de postulante y constancia Constancia
+de inscripción preliminar.
+8.2. VALIDACIÓN DOCUMENTAL (Fase 4)
+N° RESP. ACTIVIDAD REGISTRO
+6 DA Descarga expediente digital del postulante. Verifica Checklist I-02
+completitud de documentos.
+7 DA Verifica autenticidad: DNI (RENIEC), certificados Anexo I-03
+(UGEL/MINEDU), grados (SUNEDU).
+8 DA Verifica cumplimiento de requisitos específicos según Anexo I-04
+modalidad (Arts. 83°-103° o 105°-106°).
+9 DA Verifica impedimentos de postulación (Art. 113° Consulta BD
+Posgrado, infracciones previas).
+10 DA Si CONFORME: Actualiza estado a "VALIDADO". Sistema
+Continúa a Fase 5.
+11 DA Si OBSERVADO: Notifica al postulante indicando Anexo I-05
+observación(es). Inicia plazo 48h.
+8.3. SUBSANACIÓN DE OBSERVACIONES (Art. 81°, 111°)
+N° RESP. ACTIVIDAD REGISTRO
+12 Postulante Recibe notificación de observación(es) vía Notificación
+correo electrónico y plataforma.
+13 Postulante Tiene MÁXIMO 48 HORAS para cargar Plazo
+documento(s) subsanado(s).
+14 DA Revisa documentación subsanada. Si Anexo I-06
+conforme → Valida. Si persiste → Paso
+15.
+15 DA Vencido plazo SIN subsanación: Anexo I-07
+EXCLUSIÓN AUTOMÁTICA sin
+devolución de pagos (Art. 81.2°).
+8.4. REGISTRO BIOMÉTRICO Y CARNÉ (Fases 5-6)
+N° RESP. ACTIVIDAD REGISTRO
+16 DA Convoca a postulantes validados para Cronograma
+registro biométrico según cronograma.
+17 Postulante Acude presencialmente con DNI original. —
+Verifica datos en pantalla.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 9 de 38
+
+[TABLA 1 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+**Sección del documento:** Control y Validación de Inscripción
+
+**Documento:** Protocolos Internos
+
+**Versión:** 01
+
+**Página:** 9 de 38
+---------------------------------------
+
+
+[TABLA 2 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+Para el proceso de postulación, se definen los siguientes pasos, indicando el actor principal, la acción y la evidencia generada:
+
+*   **Paso 2:** El **Postulante** debe **Aceptar el Reglamento General de Admisión y el consentimiento para tratamiento de datos personales**. La evidencia de esta acción es un **Check digital**.
+
+*   **Paso 3:** El **Postulante** debe **Realizar el pago del derecho de inscripción** y **Guardar el comprobante**. La evidencia de esta acción es el **Voucher** de pago.
+
+*   **Paso 4:** El **Postulante** debe **Cargar documentos obligatorios en formato PDF: DNI/CE, certificados, foto, declaraciones juradas**.  Esta acción se realiza mediante el **Anexo I-01**.
+
+*   **Paso 5:** El **Sistema** **Genera código de postulante y constancia de inscripción preliminar**. La evidencia de esta acción es la **Constancia** de inscripción.
+---------------------------------------
+
+
+[TABLA 3 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la representación narrativo-estructurada de la tabla, diseñada para facilitar la comprensión por un LLM:
+
+**Actividad de Validación de Postulantes (Fase 4)**
+
+Esta sección detalla las actividades de la fase 4 del proceso de validación de postulantes, ejecutadas por el responsable "DA" (presumiblemente, "Departamento Académico" o similar). Cada actividad genera un registro específico.
+
+*   **Actividad 6:** Descarga el expediente digital del postulante y verifica la completitud de los documentos. **Registro:** Checklist I-02.
+
+*   **Actividad 7:** Verifica la autenticidad de los siguientes documentos: Documento Nacional de Identidad (DNI) utilizando la base de datos de RENIEC, certificados utilizando la base de datos de UGEL/MINEDU y grados académicos utilizando la base de datos de SUNEDU. **Registro:** Anexo I-03.
+
+*   **Actividad 8:** Verifica el cumplimiento de los requisitos específicos según la modalidad de postulación, refiriéndose a los artículos 83° a 103° o 105° a 106°. **Registro:** Anexo I-04.
+
+*   **Actividad 9:** Verifica la existencia de impedimentos para la postulación, incluyendo el Artículo 113° (relacionado con Posgrado) e infracciones previas. Esta verificación se realiza consultando una base de datos (Consulta BD). **Registro:** Consulta BD.
+
+*   **Actividad 10:** Si el expediente es CONFORME, el estado del postulante se actualiza a "VALIDADO" en el sistema. El proceso continúa a la Fase 5. **Registro:** Sistema.
+
+*   **Actividad 11:** Si el expediente es OBSERVADO, se notifica al postulante indicando las observaciones detectadas. Se inicia un plazo de 48 horas para subsanar las observaciones. **Registro:** Anexo I-05.
+---------------------------------------
+
+
+[TABLA 4 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la tabla convertida en un formato narrativo/estructurado adecuado para un LLM:
+
+**Registro de Actividades del Proceso de Postulación (Subsanación de Observaciones):**
+
+*   **Actividad 12:** El **Postulante** **recibe notificación de observación(es)** vía correo electrónico y plataforma. El registro asociado a esta actividad es la **Notificación** de observaciones.
+*   **Actividad 13:** El **Postulante** tiene un **plazo MÁXIMO de 48 HORAS** para cargar el/los **documento(s) subsanado(s)**. El registro asociado es el seguimiento del **Plazo** de 48 horas.
+*   **Actividad 14:** El **DA (Departamento Académico)** **revisa la documentación subsanada**. Si está conforme, la **valida**. Si persiste la observación, se procede al Paso 15. El registro asociado es el **Anexo I-06**.
+*   **Actividad 15:** El **DA (Departamento Académico)** determina que, **vencido el plazo SIN subsanación**, se produce la **EXCLUSIÓN AUTOMÁTICA** del postulante **sin devolución de pagos** (Art. 81.2°). El registro asociado es el **Anexo I-07**.
+---------------------------------------
+
+
+[TABLA 5 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+Actividad 16: El responsable (DA) convoca a los postulantes validados para el registro biométrico, siguiendo el cronograma establecido. El registro asociado es el cronograma mismo.
+
+Actividad 17: El postulante, en calidad de responsable, acude presencialmente con su DNI original y verifica los datos mostrados en la pantalla. No hay registro específico asociado a esta actividad.
+---------------------------------------
+
+
+[TABLA 6 en página 9]
+
+--- Interpretación de Tabla por LLM ---
+Por favor, proporciona la tabla cruda para que pueda ayudarte. Necesito la tabla para poder analizarla, estructurarla y convertirla a un formato fácil de entender para un LLM. Una vez que me proporciones la tabla, podré darte una respuesta que cumpla con tus requisitos.
+---------------------------------------
+
+
+--- PÁGINA 10 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 10 de 38
+INTERNOS
+18 DA + OTI Captura huella digital y fotografía. Sistema biométrico
+Compara con foto del expediente.
+19 Sistema Genera CARNÉ DE POSTULANTE con Carné
+código, foto, programa, sede y fecha de
+examen.
+20 DA Entrega Carné al postulante. Informa que Cargo entrega
+es OBLIGATORIO para rendir el examen.
+8.5. DECLARACIÓN DE APTOS Y CIERRE
+N° RESP. ACTIVIDAD REGISTRO
+21 DA Consolida Base de Datos de postulantes Anexo I-08
+APTOS por modalidad y programa.
+22 DA Genera estadísticas: inscritos, validados, Anexo I-09
+observados, excluidos, aptos.
+23 DA PUBLICA relación oficial de postulantes Portal web
+APTOS (máx. 5 días hábiles - Art. 112°).
+24 DA Remite BD oficial a CEE (cantidad de Oficio
+exámenes) y OTI (configuración sistema).
+25 DA Archiva expedientes digitales y físicos Anexo I-10
+(Posgrado) para auditoría.
+9. ENTREGABLES Y ANEXOS
+ANEXO DESCRIPCIÓN RESPONSABLE
+I-01 Checklist de Documentos por Modalidad Postulante / DA
+I-02 Ficha de Verificación Documental DA
+I-03 Constancia de Verificación de Autenticidad DA
+(RENIEC/SUNEDU)
+I-04 Ficha de Verificación de Requisitos Específicos DA
+I-05 Notificación de Observación al Postulante DA
+I-06 Ficha de Revisión de Subsanación DA
+I-07 Constancia de Exclusión por Incumplimiento DA
+I-08 Base de Datos de Postulantes APTOS DA
+I-09 Informe Estadístico de Inscripción DA
+I-10 Acta de Cierre del Proceso de Inscripción DA
+10. GUÍA DE USO DE ANEXOS
+Esta guía establece el uso correcto de cada anexo del protocolo, detallando: momento
+de aplicación, responsable de llenado, distribución y archivo.
+ANEXO I-01: Checklist de Documentos por Modalidad
+En la Fase 4 (Validación Documental) para verificar que el postulante haya
+¿Cuándo se usa?
+cargado TODOS los documentos obligatorios según su modalidad.
+¿Quién lo llena? Personal de la Dirección de Admisión asignado a verificación documental.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 10 de 38
+
+[TABLA 1 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe los protocolos internos para el "Control y Validación de Inscripción".  Se encuentra en la Versión 01 del documento, específicamente en la página 10 de un total de 38 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la conversión de la tabla a un formato narrativo, descriptivo y estructurado, optimizado para LLMs:
+
+**Registro 18:**
+
+*   **Tipo de Proceso:** DA + OTI
+*   **Descripción de la Acción:** Captura de huella digital y fotografía del postulante. Comparación con la foto del expediente.
+*   **Sistema Utilizado:** Sistema biométrico
+*   **Resultado:** No especificado en la tabla.
+
+**Registro 19:**
+
+*   **Tipo de Proceso:** Sistema
+*   **Descripción de la Acción:** Generación del Carné de Postulante. El carné incluye código, foto, programa al que postula, sede del examen y fecha del examen.
+*   **Sistema Utilizado:** Carné
+*   **Resultado:** Generación del Carné de Postulante.
+
+**Registro 20:**
+
+*   **Tipo de Proceso:** DA
+*   **Descripción de la Acción:** Entrega del Carné al postulante. Se informa al postulante que el carné es OBLIGATORIO para rendir el examen.
+*   **Sistema Utilizado:** Cargo de entrega.
+*   **Resultado:** Entrega del Carné y notificación de obligatoriedad.
+---------------------------------------
+
+
+[TABLA 3 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la versión narrativa y estructurada de la tabla, diseñada para facilitar la comprensión por parte de un LLM:
+
+**Descripción General:**
+
+La tabla describe una serie de actividades numeradas,  relacionadas con la gestión de postulantes. La responsabilidad de estas actividades recae en "DA" (asumo que significa un departamento o rol específico). Cada actividad genera un registro específico.
+
+**Detalle de las Actividades:**
+
+*   **Actividad N° 21:**  DA consolida la Base de Datos de postulantes APTOS por modalidad y programa. El registro asociado es el Anexo I-08.
+
+*   **Actividad N° 22:** DA genera estadísticas detalladas de los postulantes, incluyendo el número de inscritos, validados, observados, excluidos y aptos. El registro asociado es el Anexo I-09.
+
+*   **Actividad N° 23:** DA PUBLICA la relación oficial de postulantes APTOS.  Esta publicación debe realizarse en un plazo máximo de 5 días hábiles, según el Artículo 112°. El registro asociado es el Portal web.
+
+*   **Actividad N° 24:** DA remite la BD oficial a CEE (para determinar la cantidad de exámenes) y a OTI (para la configuración del sistema). El registro asociado es un Oficio.
+
+*   **Actividad N° 25:** DA archiva expedientes digitales y físicos (específicamente de Posgrado) para fines de auditoría. El registro asociado es el Anexo I-10.
+---------------------------------------
+
+
+[TABLA 4 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe documentos, sus descripciones y el responsable de cada uno.
+
+*   **I-01:** Checklist de Documentos por Modalidad. Responsable: Postulante / DA.
+*   **I-02:** Ficha de Verificación Documental. Responsable: DA.
+*   **I-03:** Constancia de Verificación de Autenticidad (RENIEC/SUNEDU). Responsable: DA.
+*   **I-04:** Ficha de Verificación de Requisitos Específicos. Responsable: DA.
+*   **I-05:** Notificación de Observación al Postulante. Responsable: DA.
+*   **I-06:** Ficha de Revisión de Subsanación. Responsable: DA.
+*   **I-07:** Constancia de Exclusión por Incumplimiento. Responsable: DA.
+*   **I-08:** Base de Datos de Postulantes APTOS. Responsable: DA.
+*   **I-09:** Informe Estadístico de Inscripción. Responsable: DA.
+*   **I-10:** Acta de Cierre del Proceso de Inscripción. Responsable: DA.
+---------------------------------------
+
+
+[TABLA 5 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+En la fase de Validación Documental (Fase 4), el objetivo es verificar que cada postulante haya subido todos los documentos requeridos según su modalidad de postulación. Esta tarea es realizada por el personal de la Dirección de Admisión asignado específicamente a la verificación documental.
+---------------------------------------
+
+
+[TABLA 6 en página 10]
+
+--- Interpretación de Tabla por LLM ---
+Por favor, proporciona la tabla cruda para que pueda analizarla y convertirla en un formato amigable para LLM.  Una vez que me des la tabla, la analizaré y te proporcionaré el contenido interpretado según tus instrucciones. Necesito los datos de la tabla para poder cumplir con tu petición.
+---------------------------------------
+
+
+--- PÁGINA 11 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 11 de 38
+INTERNOS
+Se marca con ✓ en la columna SÍ/NO según la presencia del documento.
+¿Cómo se llena? En la columna OBS. se anota cualquier irregularidad detectada
+(documento ilegible, incompleto, vencido).
+Si todos los documentos están conformes → Continúa a verificación de
+¿Qué se hace
+autenticidad (Anexo I-03). Si falta alguno → Se genera Notificación de
+después?
+Observación (Anexo I-05).
+1 copia en expediente digital del postulante. 1 copia impresa archivada por
+Distribución
+código de postulante.
+Digital: En carpeta del postulante. Físico: Clasificado por modalidad y fecha
+Archivo
+de verificación.
+ANEXO I-02: Ficha de Verificación Documental
+Inmediatamente después del Checklist (I-01), para realizar una revisión
+¿Cuándo se usa?
+detallada del CONTENIDO de cada documento.
+Personal técnico de DA capacitado en verificación de documentos
+¿Quién lo llena?
+académicos.
+Se verifica: (1) Legibilidad, (2) Vigencia, (3) Datos coincidentes con registro,
+¿Cómo se llena?
+(4) Firmas y sellos institucionales, (5) Formato válido según normativa.
+DNI: Verificar vigencia. Certificados: Verificar emisor oficial
+Criterios clave (UGEL/MINEDU). Fotos: Formato carné, fondo blanco. Declaraciones
+juradas: Firma digital válida.
+Si TODO conforme → Continúa a Anexo I-03 (Autenticidad). Si hay
+¿Qué se hace
+observaciones menores → Anexo I-05. Si hay documentos
+después?
+falsos/adulterados → Exclusión inmediata (Anexo I-07).
+Digital: Carpeta del postulante. Impreso: Legajo de verificación por proceso
+Archivo
+de admisión.
+ANEXO I-03: Constancia de Verificación de Autenticidad
+Después de verificar contenido documental (Anexo I-02), para CONTRASTAR la
+¿Cuándo se usa?
+información con fuentes oficiales externas.
+Personal de DA con acceso a sistemas de verificación: RENIEC, SUNEDU,
+¿Quién lo llena?
+MINEDU, CONADIS.
+• RENIEC: Validación de DNI/CE vigentes.
+• SUNEDU: Grados académicos (Bachiller, Maestro, Doctor).
+Sistemas utilizados
+• MINEDU: Certificados de estudios secundarios.
+• • CONADIS: Carné de discapacidad.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 11 de 38
+
+[TABLA 1 en página 11]
+
+--- Interpretación de Tabla por LLM ---
+**Formato Narrativo Descriptivo:**
+
+Esta sección describe el "Control y Validación de Inscripción" según los "Protocolos Internos". La tabla que presenta esta información corresponde a la Versión 01 de los protocolos, y está ubicada en la Página 11 de un documento que tiene un total de 38 páginas.
+
+**Formato Estructurado (Dict/JSON):**
+
+```json
+{
+  "document_section": "Control y Validación de Inscripción",
+  "document_type": "Protocolos Internos",
+  "version": "01",
+  "page_number": 11,
+  "total_pages": 38
+}
+```
+
+**Formato Tripleta Sujeto-Predicado-Objeto (para grafo de conocimiento):**
+
+*   "Control y Validación de Inscripción" is_a document_section
+*   "Control y Validación de Inscripción" part_of "Protocolos Internos"
+*   "Protocolos Internos" has_version "01"
+*   "Control y Validación de Inscripción" appears_on_page 11
+*   "Protocolos Internos" has_total_pages 38
+
+**Explicación de las decisiones:**
+
+*   **Claridad para LLM:** El formato narrativo prioriza el lenguaje natural.  El formato JSON y las tripletas priorizan la estructura, facilitando el acceso a datos específicos.
+*   **Contexto Preservado:**  Todos los valores, incluyendo "Control y Validación de Inscripción", "Protocolos Internos", el número de versión, el número de página y el número total de páginas, están representados.
+*   **Encabezados Utilizados:** Los encabezados de las columnas implícitas (título principal y etiquetas) se usaron para estructurar la información.
+*   **Facilidad de Análisis:**  El formato JSON ofrece la mayor facilidad para la manipulación programática y el análisis por parte de un LLM, mientras que las tripletas permiten construir un grafo de conocimiento.  El formato narrativo es más accesible para la comprensión humana pero puede requerir más procesamiento por parte del LLM para extraer información específica.
+---------------------------------------
+
+
+[TABLA 2 en página 11]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe el proceso de revisión y archivo de documentos de un postulante.
+
+**Llenado:** Se verifica la presencia de cada documento. Se marca con un "✓" en la columna "SÍ/NO" para indicar si el documento está presente. En la columna "OBS." se anotan irregularidades como documentos ilegibles, incompletos o vencidos.
+
+**Acciones posteriores a la revisión:** Si todos los documentos están presentes y conformes, el proceso continúa con la verificación de autenticidad (siguiendo el Anexo I-03). Si falta algún documento o hay irregularidades, se genera una Notificación de Observación (siguiendo el Anexo I-05).
+
+**Distribución de copias:** Se genera una copia para el expediente digital del postulante y una copia impresa que se archiva por código de postulante.
+
+**Archivo:** La copia digital se guarda en la carpeta del postulante. La copia física se clasifica por modalidad y fecha de verificación.
+---------------------------------------
+
+
+[TABLA 3 en página 11]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la conversión de la tabla a un formato narrativo y estructurado, optimizado para LLMs, preservando toda la información relevante:
+
+**Formato General:**
+
+Cada fila de la tabla se representa como una descripción detallada que responde a una pregunta específica.  El formato de cada descripción es:
+
+"[Pregunta]: [Respuesta estructurada y detallada]"
+
+**Descripción Detallada:**
+
+*   **¿Cuándo se usa?:** Este proceso de verificación detallada del contenido documental (posterior al Checklist I-01) se realiza inmediatamente después de completar el Checklist I-01. Su objetivo es una revisión exhaustiva del contenido de cada documento.
+
+*   **¿Quién lo llena?:** El personal técnico de DA (Dirección Académica), capacitado en la verificación de documentos académicos, es el responsable de completar este proceso.
+
+*   **¿Cómo se llena?:** El proceso de verificación implica revisar los siguientes aspectos de cada documento:
+    *   **(1) Legibilidad:**  Asegurar que el documento sea legible y comprensible.
+    *   **(2) Vigencia:** Comprobar que el documento se encuentre dentro de su período de validez.
+    *   **(3) Datos coincidentes con registro:** Verificar que los datos contenidos en el documento coincidan con la información registrada.
+    *   **(4) Firmas y sellos institucionales:** Confirmar la presencia y autenticidad de las firmas y sellos institucionales correspondientes.
+    *   **(5) Formato válido según normativa:** Asegurar que el documento cumple con el formato establecido por la normativa vigente.
+
+*   **Criterios clave:** Los siguientes criterios son especialmente importantes durante la verificación:
+    *   **DNI:** Verificar la vigencia del Documento Nacional de Identidad.
+    *   **Certificados:** Verificar que el emisor del certificado sea una entidad oficial (UGEL/MINEDU).
+    *   **Fotos:** Comprobar que las fotografías tengan formato carné y fondo blanco.
+    *   **Declaraciones juradas:**  Verificar que la firma digital de las declaraciones juradas sea válida.
+
+*   **¿Qué se hace después?:** El resultado de la verificación determina el siguiente paso:
+    *   **Si TODO conforme:**  Si todos los documentos cumplen con los criterios de verificación, se continúa al Anexo I-03 (Autenticidad).
+    *   **Si hay observaciones menores:** Si se identifican observaciones menores, se procede al Anexo I-05.
+    *   **Si hay documentos falsos/adulterados:** Si se detectan documentos falsos o adulterados, se procede a la exclusión inmediata del postulante (Anexo I-07).
+
+*   **Archivo:** El archivo de la documentación se realiza de la siguiente manera:
+    *   **Digital:** Se guarda una copia digital en la carpeta del postulante.
+    *   **Impreso:** Se crea un legajo impreso de verificación por cada proceso de admisión.
+---------------------------------------
+
+
+[TABLA 4 en página 11]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe el uso y la responsabilidad de un proceso de verificación de información, contrastándola con fuentes externas oficiales.
+
+**Cuándo se usa:** Este proceso se utiliza después de verificar el contenido documental según el Anexo I-02, con el propósito de contrastar la información extraída con fuentes oficiales externas.
+
+**Quién lo llena:** El proceso es llevado a cabo por personal del Departamento Académico (DA) que tiene acceso a los sistemas de verificación. Específicamente, personal con acceso a: RENIEC, SUNEDU, MINEDU, y CONADIS.
+
+**Sistemas utilizados:** Los sistemas empleados para la verificación son:
+
+*   **RENIEC:** Utilizado para la validación de Documentos Nacionales de Identidad (DNI) y Carnets de Extranjería (CE) vigentes.
+*   **SUNEDU:** Utilizado para la verificación de grados académicos, incluyendo Bachiller, Maestro y Doctor.
+*   **MINEDU:** Utilizado para la verificación de certificados de estudios secundarios.
+*   **CONADIS:** Utilizado para la verificación del carné de discapacidad.
+---------------------------------------
+
+
+[TABLA 5 en página 11]
+
+--- Interpretación de Tabla por LLM ---
+Necesito la tabla cruda para poder cumplir con tu misión. Por favor, proporciona el contenido de la tabla para poder analizarla, convertirla a un formato amigable para LLMs y asegurar que no se pierda información.
+---------------------------------------
+
+
+--- PÁGINA 12 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 12 de 38
+INTERNOS
+Se registra: (1) Sistema consultado, (2) Resultado de validación (VÁLIDO/NO
+¿Cómo se llena?
+VÁLIDO), (3) Capturas de pantalla como evidencia, (4) Fecha y hora de consulta.
+Si TODO VÁLIDO → Continúa a Anexo I-04 (Requisitos Específicos). Si hay
+¿Qué se hace
+inconsistencias → Notificación de Observación (Anexo I-05) o Exclusión (Anexo I-
+después?
+07) según gravedad.
+Digital: Carpeta del postulante con capturas de pantalla adjuntas. Físico: Legajo de
+Archivo
+verificación con firma del responsable.
+ANEXO I-04: Ficha de Verificación de Requisitos Específicos
+Después de verificar autenticidad (Anexo I-03), para validar que el postulante cumple
+¿Cuándo se usa? los requisitos PARTICULARES de su modalidad (Arts. 83°-103° Pregrado o Arts.
+105°-106° Posgrado).
+Personal técnico de DA con conocimiento del Reglamento de Admisión y los
+¿Quién lo llena?
+requisitos específicos de cada modalidad.
+• Ordinario: Certificado de secundaria completa.
+• CEPREUNAM: Declaración de APTO, asistencia mínima.
+• Traslado: Constancia de estudios, sílabos.
+¿Qué se verifica? • Titulados: Título profesional universitario.
+• PcD: Carné CONADIS, certificado de discapacidad.
+• Posgrado: Grado académico previo, CV documentado, proyecto de
+investigación.
+Marca con ✓ cada requisito cumplido. Si falta alguno, especifica en observaciones
+¿Cómo se llena?
+qué documento adicional se requiere.
+Si CUMPLE TODOS los requisitos → Estado: VALIDADO, continúa a Fase 5
+¿Qué se hace
+(Registro Biométrico). Si NO cumple → Notificación de Observación (Anexo I-05) con
+después?
+plazo de 48h.
+Archivo Digital: Carpeta del postulante. Físico: Legajo de admisión clasificado por modalidad.
+ANEXO I-05: Notificación de Observación al Postulante
+¿Cuándo se Cuando en la Fase 4 (Validación) se detectan observaciones
+usa? SUBSANABLES en el expediente del postulante.
+¿Quién lo Dirección de Admisión, tras completar los Anexos I-01, I-02, I-03 o
+genera? I-04 y detectar inconsistencias corregibles.
+• Código de postulante
+¿Qué debe • Nombre completo
+contener? • Listado DETALLADO de observaciones
+• Documento(s) específico(s) a subsanar
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 12 de 38
+
+[TABLA 1 en página 12]
+
+--- Interpretación de Tabla por LLM ---
+El documento titulado "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN", versión 01, página 12 de 38, describe los protocolos internos.
+---------------------------------------
+
+
+[TABLA 2 en página 12]
+
+--- Interpretación de Tabla por LLM ---
+**Procedimiento de Llenado del Registro:**
+
+El registro se completa consultando un sistema (1), documentando el resultado de la validación como VÁLIDO o NO VÁLIDO (2), adjuntando capturas de pantalla como evidencia (3) y registrando la fecha y hora de la consulta (4).
+
+**Acciones Posteriores a la Validación:**
+
+Si la validación resulta en "TODO VÁLIDO", se procede al Anexo I-04 (Requisitos Específicos). En caso de inconsistencias, se genera una Notificación de Observación (Anexo I-05) o una Exclusión (Anexo I-07), dependiendo de la gravedad de la inconsistencia.
+
+**Almacenamiento del Archivo:**
+
+El archivo se guarda en formato digital en la carpeta del postulante, incluyendo las capturas de pantalla. Adicionalmente, se mantiene una copia física en el Legajo de verificación, con la firma del responsable.
+---------------------------------------
+
+
+[TABLA 3 en página 12]
+
+--- Interpretación de Tabla por LLM ---
+Aquí hay una representación narrativa y estructurada de la tabla, optimizada para ser interpretada por un LLM:
+
+**Estructura General:** La tabla describe una serie de acciones y sus consecuencias o el siguiente paso a seguir. La columna "¿Qué se hace después?" indica la acción o resultado que sucede inmediatamente después de la acción o evento implícito en la primera columna.
+
+**Representación Narrativa Detallada:**
+
+La tabla se interpreta como una lista de acciones y sus secuelas:
+
+*   Si la acción se refiere a un suceso o evento que ha ocurrido, la columna "¿Qué se hace después?" describe la respuesta inmediata o el siguiente paso lógico.
+*   Dado que la primera columna está vacía y solo la segunda tiene datos, entendemos que los datos en la segunda columna son las acciones que se toman después de algo.
+
+**Ejemplos (basados en las filas de la tabla, aunque vacías, para mostrar el formato):**
+
+*   "Después de [Acción/Evento]", se realiza/sucede "[Valor de la celda correspondiente]". Por ejemplo: "Después de [un error en el sistema]", se realiza "[notificar al administrador]".
+*   "[Valor de la celda correspondiente]" es la acción o paso que se toma después de "[Acción/Evento]". Por ejemplo: "[Enviar correo electrónico de confirmación]" es la acción que se toma después de "[que el usuario complete el registro]".
+
+**Formato estructurado (JSON-like para mayor claridad):**
+
+```json
+[
+  {
+    "acción_previa": "[Acción/Evento]",
+    "acción_posterior": "[Valor de la celda correspondiente]"
+  }
+  // repetir para cada fila de la tabla
+]
+```
+
+**Consideraciones importantes para el LLM:**
+
+*   El LLM debe ser capaz de inferir el contexto de "acción previa" basándose en el contexto general del documento del que se extrajo esta tabla.
+*   Si la tabla contiene datos en la segunda columna, cada una de ellas debe ser interpretada como la "acción_posterior" en el formato JSON.
+*   La ausencia de valores en la columna "acción_previa" implica que se deben inferir del contexto o pueden ser explícitamente indicadas en el texto circundante al momento de la extracción.
+---------------------------------------
+
+
+[TABLA 4 en página 12]
+
+--- Interpretación de Tabla por LLM ---
+El proceso de validación de postulantes se realiza después de verificar su autenticidad (Anexo I-03) para asegurar que cumplen los requisitos PARTICULARES de su modalidad (Arts. 83°-103° Pregrado o Arts. 105°-106° Posgrado). Este proceso es llevado a cabo por personal técnico de la Dirección de Admisión (DA) con conocimiento del Reglamento de Admisión y los requisitos específicos de cada modalidad.
+
+Durante la validación, se verifican los siguientes requisitos, dependiendo de la modalidad de postulación:
+
+*   **Ordinario:** Certificado de secundaria completa.
+*   **CEPREUNAM:** Declaración de APTO y asistencia mínima.
+*   **Traslado:** Constancia de estudios y sílabos.
+*   **Titulados:** Título profesional universitario.
+*   **Personas con Discapacidad (PcD):** Carné CONADIS y certificado de discapacidad.
+*   **Posgrado:** Grado académico previo, Curriculum Vitae (CV) documentado y proyecto de investigación.
+
+El proceso de validación se realiza marcando con un símbolo de verificación (✓) cada requisito cumplido. Si falta algún requisito, se debe especificar en las observaciones qué documento adicional se requiere.
+
+Una vez completada la validación, se procede de la siguiente manera:
+
+*   Si el postulante CUMPLE TODOS los requisitos, el estado se establece como VALIDADO y continúa a la Fase 5 (Registro Biométrico).
+*   Si el postulante NO cumple con los requisitos, se emite una Notificación de Observación (Anexo I-05) con un plazo de 48 horas para subsanar las observaciones.
+
+La documentación de este proceso se archiva de la siguiente manera:
+
+*   **Digital:** En la carpeta del postulante.
+*   **Físico:** En el legajo de admisión clasificado por modalidad.
+---------------------------------------
+
+
+[TABLA 5 en página 12]
+
+--- Interpretación de Tabla por LLM ---
+Tras la columna "Qué se hace", la columna "Después?" describe la acción o evento que ocurre a continuación. La tabla esencialmente define una secuencia de eventos, donde la columna "Qué se hace" representa un paso y "Después?" representa el siguiente paso en la secuencia.
+---------------------------------------
+
+
+[TABLA 6 en página 12]
+
+--- Interpretación de Tabla por LLM ---
+El siguiente documento describe el proceso de subsanación de observaciones detectadas en la Fase 4 (Validación) del expediente de un postulante.
+
+*   **¿Cuándo se usa?** Se usa cuando en la Fase 4 (Validación) se detectan observaciones SUBSANABLES en el expediente del postulante.
+*   **¿Quién lo genera?** La Dirección de Admisión genera este documento después de completar los Anexos I-01, I-02, I-03 o I-04 y detectar inconsistencias corregibles.
+*   **¿Qué debe contener?** El documento debe contener la siguiente información:
+    *   Código de postulante
+    *   Nombre completo
+    *   Listado DETALLADO de observaciones
+    *   Documento(s) específico(s) a subsanar
+---------------------------------------
+
+
+[TABLA 7 en página 12]
+
+--- Interpretación de Tabla por LLM ---
+Okay, necesito ver la tabla cruda para poder cumplir con tu misión. Por favor, proporciona la tabla que extrajiste del documento PDF. Una vez que la tenga, la analizaré y la transformaré en un formato optimizado para LLMs. Necesito la tabla real para poder darte la mejor respuesta posible.
+---------------------------------------
+
+
+--- PÁGINA 13 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 13 de 38
+INTERNOS
+• Fecha y hora límite (48 horas exactas desde notificación)
+• Advertencia legal del Art. 81.2°: exclusión automática sin
+devolución si no subsana.
+DOBLE VÍA OBLIGATORIA:
+¿Cómo se 1. Correo electrónico registrado en la plataforma.
+notifica? 2. Mensaje en el panel del postulante en
+https://unam.edu.pe/admision.
+CUARENTA Y OCHO (48) HORAS desde la notificación. Vencido el
+Plazo
+plazo → Exclusión automática (Anexo I-07). NO se aceptan
+PRECLUSIVO
+subsanaciones fuera de plazo bajo NINGUNA circunstancia.
+Ingresa a la plataforma, carga el/los documento(s) corregido(s) en
+¿Qué hace el
+la misma sección donde subió originalmente. El sistema registra
+postulante?
+fecha y hora de carga.
+DA revisa subsanación con Anexo I-06. Si conforme → Actualiza a
+Seguimiento
+VALIDADO. Si persiste o vence plazo → Anexo I-07.
+Digital: Carpeta del postulante con acuse de recibo del correo.
+Archivo
+Físico: Legajo de observaciones por proceso.
+ANEXO I-06: Ficha de Revisión de Subsanación
+¿Cuándo se Cuando un postulante OBSERVADO (Anexo I-05) ha cargado
+usa? documentos subsanados DENTRO del plazo de 48 horas.
+El mismo personal de DA que realizó la verificación inicial y emitió
+¿Quién lo llena?
+el Anexo I-05.
+• Que el documento cargado corresponde a la observación
+notificada.
+¿Qué se • Que el documento subsanado CUMPLE con el requisito
+verifica? señalado.
+• Que se cargó DENTRO del plazo de 48 horas.
+• Calidad del documento: legible, completo, con firmas/sellos.
+CONFORME: Documento subsanado correctamente → Estado:
+VALIDADO, continúa a Fase 5.
+Criterios de NO CONFORME: Documento sigue incorrecto → Nueva notificación
+decisión I-05 (si hay tiempo) o Exclusión I-07.
+FUERA DE PLAZO: Aunque subsane → Exclusión I-07 automática
+por Art. 81.2°.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 13 de 38
+
+[TABLA 1 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+El documento "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN" bajo protocolos internos, versión 01, tiene una tabla ubicada en la página 13 de 38.
+---------------------------------------
+
+
+[TABLA 2 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la conversión de la tabla a un formato más amigable para un LLM, manteniendo la estructura y la información clave:
+
+**Notificación de Subsanaciones:**
+
+*   **Plazo Límite:** El postulante tiene un plazo de 48 horas exactas a partir de la notificación para subsanar la observación.
+    *   **Advertencia Legal (Art. 81.2°):** El incumplimiento del plazo resulta en la exclusión automática del postulante sin devolución de documentos.
+
+*   **Método de Notificación:** La notificación se realiza obligatoriamente por doble vía:
+    1.  Correo electrónico registrado en la plataforma.
+    2.  Mensaje en el panel del postulante en el sitio web https://unam.edu.pe/admision.
+
+*   **Plazo Preclusivo:** El plazo para subsanar es de CUARENTA Y OCHO (48) HORAS desde la notificación.
+    *   **Consecuencia del Vencimiento:** Vencido el plazo, se aplica la exclusión automática (Anexo I-07). No se aceptan subsanaciones fuera de plazo bajo ninguna circunstancia.
+
+*   **Acción del Postulante:** El postulante debe:
+    *   Ingresar a la plataforma.
+    *   Cargar el/los documento(s) corregido(s) en la misma sección donde realizó la carga original.
+    *   El sistema registra automáticamente la fecha y hora de carga.
+
+*   **Seguimiento de la Subsanación:**
+    *   La Dirección Académica (DA) revisa la subsanación utilizando el Anexo I-06.
+    *   **Resultado:**
+        *   Si la subsanación es conforme: Se actualiza el estado a "VALIDADO".
+        *   Si persiste la observación o vence el plazo: Se aplica el Anexo I-07.
+
+*   **Archivo de la Información:**
+    *   **Digital:** Carpeta digital del postulante, incluyendo el acuse de recibo del correo electrónico de notificación.
+    *   **Físico:** Legajo físico de observaciones por proceso de admisión.
+---------------------------------------
+
+
+[TABLA 3 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe el método de notificación. No hay información adicional proporcionada, por lo que la tabla solo indica que existe un método de notificación, pero no especifica cuál es ese método.
+---------------------------------------
+
+
+[TABLA 4 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+El documento establece un plazo denominado "PRECLUSIVO". Este plazo implica la pérdida de una oportunidad o derecho si no se ejerce dentro del periodo especificado. Es crucial respetar este plazo, ya que su incumplimiento conlleva consecuencias irreversibles.
+---------------------------------------
+
+
+[TABLA 5 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+Dado que la tabla proporcionada solo contiene el encabezado "¿Qué hace el postulante?", no puedo extraer datos específicos ni convertirlos en un formato narrativo o estructurado. La tabla está incompleta y carece de datos.
+
+Para poder ayudar, necesito la tabla completa con la información sobre lo que hacen los postulantes.  Sin esa información, cualquier respuesta sería especulativa.
+
+Por favor, proporciona la tabla completa para que pueda analizarla y convertirla en un formato útil para un LLM.
+---------------------------------------
+
+
+[TABLA 6 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+El documento describe el proceso de verificación de documentos subsanados por postulantes.
+
+**¿Cuándo se usa?** Cuando un postulante observado (Anexo I-05) ha cargado documentos subsanados DENTRO del plazo de 48 horas.
+
+**¿Quién lo llena?** El mismo personal de DA (Dirección Académica, presumiblemente) que realizó la verificación inicial y emitió el Anexo I-05.
+
+**¿Qué se verifica?**
+*   Que el documento cargado corresponde a la observación notificada.
+*   Que el documento subsanado CUMPLE con el requisito señalado.
+*   Que se cargó DENTRO del plazo de 48 horas.
+*   Calidad del documento: legible, completo, con firmas/sellos.
+
+**Criterios de decisión:**
+
+*   **CONFORME:** Si el documento subsanado es correcto, el estado cambia a VALIDADO y continúa a la Fase 5.
+*   **NO CONFORME:** Si el documento sigue siendo incorrecto, se genera una nueva notificación I-05 (si hay tiempo) o una Exclusión I-07.
+*   **FUERA DE PLAZO:** Aunque el documento sea subsanado correctamente, si se cargó fuera del plazo de 48 horas, se produce una Exclusión I-07 automática por el Artículo 81.2°.
+---------------------------------------
+
+
+[TABLA 7 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+Necesito la tabla cruda para poder ayudarte con la interpretación y conversión a un formato amigable para LLM. Por favor, proporciona la tabla que has extraído del PDF. Una vez que la vea, podré analizar su estructura y contenido, y luego transformarla en un formato narrativo, descriptivo o estructurado que sea fácil de entender para un LLM, sin perder información clave.
+---------------------------------------
+
+
+[TABLA 8 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+Para proporcionar una respuesta útil, necesito la tabla extraída. Por favor, proporciona la tabla cruda. Una vez que la tenga, analizaré su estructura, contenido y la convertiré en un formato narrativo/estructurado optimizado para LLMs.
+---------------------------------------
+
+
+[TABLA 9 en página 13]
+
+--- Interpretación de Tabla por LLM ---
+Bien, necesito la tabla cruda para poder realizar la tarea. Por favor, proporciona la tabla que has extraído del PDF. Una vez que la tenga, la analizaré y la convertiré a un formato narrativo, descriptivo o estructurado optimizado para LLMs, manteniendo toda la información relevante.
+---------------------------------------
+
+
+--- PÁGINA 14 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 14 de 38
+INTERNOS
+Si APRUEBA subsanación → Actualiza sistema, notifica al
+¿Qué se hace
+postulante vía email: "Su documentación ha sido validada".
+después?
+Si NO APRUEBA → Genera Anexo I-07 (Constancia de Exclusión).
+Digital: Carpeta del postulante, junto con evidencia de documento
+Archivo
+subsanado. Físico: Legajo de subsanaciones.
+ANEXO I-07: Constancia de Exclusión por Incumplimiento
+Cuando se configura alguna de las siguientes causales:
+• Vencimiento del plazo de 48h sin subsanar (Art. 81.2°)
+¿Cuándo se usa? • Documentación incompleta fuera de plazo (Art. 78°)
+• Documentos falsos o adulterados detectados (Art. 103.2°)
+• • Impedimento de postulación verificado (Art. 113° Posgrado)
+¿Quién lo genera? Director(a) de Admisión, con firma y sello institucional.
+• Datos completos del postulante
+• Causal específica de exclusión (marcar con ✓)
+• Detalle de observaciones notificadas y no subsanadas
+• Fechas: notificación y vencimiento de plazo
+Contenido
+obligatorio Efectos legales (Art. 81.2°):
+• Impedido de rendir examen
+• NO devolución de pagos
+• - NO admite reclamo posterior
+TRIPLE VÍA:
+¿Cómo se 1. Correo electrónico certificado con acuse de lectura.
+notifica? 2. Publicación en portal de postulante (mensaje destacado).
+3. Publicación en portal web institucional (listado de excluidos).
+• Sistema bloquea acceso del postulante a etapas siguientes.
+Efectos • No puede registrar datos biométricos.
+INMEDIATOS • No puede obtener carné.
+• • Queda INHABILITADO para este proceso de admisión.
+El postulante puede solicitar RECONSIDERACIÓN solo si demuestra:
+• Error material en la notificación de observaciones.
+Recursos
+• Causa de fuerza mayor debidamente acreditada.
+Plazo: 48 horas desde notificación de exclusión.
+¿Se puede SÍ, la exclusión solo aplica al proceso actual. El postulante puede
+postular en otro inscribirse en procesos futuros cumpliendo todos los requisitos desde cero.
+proceso?
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 14 de 38
+
+[TABLA 1 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+Aquí tienes una interpretación narrativa y estructurada de la tabla, diseñada para facilitar su comprensión por un LLM:
+
+**Contexto General:**
+
+*   El documento es un conjunto de "PROTOCOLOS INTERNOS" titulado "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN".
+*   Este documento corresponde a la Versión 01.
+*   La tabla específica que se está interpretando se encuentra en la Página 14 de un total de 38 páginas.
+
+**Formato Alternativo (JSON):**
+
+Este formato representa la información de manera estructurada, ideal para que un LLM pueda procesarla y acceder a datos específicos fácilmente.
+
+```json
+{
+  "document_title": "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN",
+  "document_type": "PROTOCOLOS INTERNOS",
+  "version": "01",
+  "page_number": 14,
+  "total_pages": 38
+}
+```
+
+**Justificación de las decisiones:**
+
+*   **Claridad y Concisión:** La información se presenta de manera directa, evitando ambigüedades.
+*   **Estructura:** El uso de JSON proporciona una estructura clara y predecible para el LLM.
+*   **Completitud:**  Toda la información original de la tabla se conserva en la representación.
+*   **Contexto:**  Se proporciona el contexto del documento (título, tipo, versión, página) para que el LLM pueda situar la información adecuadamente.
+---------------------------------------
+
+
+[TABLA 2 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+**Subsanación y Resultados:**
+
+El proceso de subsanación tiene dos posibles resultados:
+
+*   **Aprobación:** Si la subsanación es aprobada, el sistema se actualiza y se notifica al postulante por correo electrónico con el mensaje: "Su documentación ha sido validada".
+*   **No Aprobación:** Si la subsanación no es aprobada, se genera un Anexo I-07 (Constancia de Exclusión).
+
+**Almacenamiento de Archivos:**
+
+*   **Digital:** Los documentos relacionados con la subsanación se almacenan en la carpeta digital del postulante, junto con la evidencia del documento subsanado.
+*   **Físico:** Los documentos relacionados con la subsanación se almacenan en un legajo de subsanaciones físico.
+---------------------------------------
+
+
+[TABLA 3 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+Después de la ejecución de una acción (implícita en la columna "¿Qué se hace después?"), las siguientes opciones representan las posibles etapas subsiguientes o acciones:
+
+*   **[Valor faltante]**:  Si la columna solo incluye "¿Qué se hace después?", sin ningún otro dato en la fila, implica que no hay información adicional disponible sobre qué acción o etapa sigue. Se podría interpretar como un "final del proceso" o un "resultado indeterminado". Para mejorar esto, idealmente, se debería registrar una descripción de qué se hace después o, si no existe una acción, indicarlo explícitamente con un valor como "Fin" o "No aplica".
+---------------------------------------
+
+
+[TABLA 4 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la tabla convertida a un formato narrativo y estructurado optimizado para un LLM:
+
+**Título:** Exclusión de Postulantes en Procesos de Admisión
+
+**Descripción general:** Esta tabla detalla las causales, el procedimiento y las consecuencias de la exclusión de postulantes en procesos de admisión.
+
+**Detalles por sección:**
+
+*   **Causales de Exclusión:**
+    *   Vencimiento del plazo de 48 horas sin subsanar observaciones (Art. 81.2°).
+    *   Documentación incompleta fuera de plazo (Art. 78°).
+    *   Documentos falsos o adulterados detectados (Art. 103.2°).
+    *   Impedimento de postulación verificado (Art. 113° Posgrado).
+
+*   **Responsable de la Exclusión:** El Director(a) de Admisión, quien genera la notificación con firma y sello institucional.
+
+*   **Contenido Obligatorio de la Notificación:**
+    *   Datos completos del postulante.
+    *   Causal específica de exclusión (marcada).
+    *   Detalle de observaciones notificadas y no subsanadas.
+    *   Fechas de notificación y vencimiento del plazo de subsanación.
+    *   **Efectos Legales (Art. 81.2°):**
+        *   Impedimento para rendir el examen.
+        *   No hay devolución de pagos.
+        *   No se admite reclamo posterior.
+
+*   **Método de Notificación (TRIPLE VÍA):**
+    1.  Correo electrónico certificado con acuse de lectura.
+    2.  Publicación en el portal del postulante (mensaje destacado).
+    3.  Publicación en el portal web institucional (listado de excluidos).
+
+*   **Efectos Inmediatos de la Exclusión:**
+    *   El sistema bloquea el acceso del postulante a etapas siguientes.
+    *   No puede registrar datos biométricos.
+    *   No puede obtener el carné.
+    *   Queda inhabilitado para este proceso de admisión.
+
+*   **Recursos del Postulante:**
+    *   Puede solicitar reconsideración si demuestra:
+        *   Error material en la notificación de observaciones.
+        *   Causa de fuerza mayor debidamente acreditada.
+    *   Plazo para la reconsideración: 48 horas desde la notificación de la exclusión.
+
+*   **Posibilidad de Postulación Futura:** Sí, la exclusión solo aplica al proceso actual. El postulante puede inscribirse en procesos futuros cumpliendo todos los requisitos desde cero.
+
+**Formato Alternativo (estructurado en clave-valor para facilitar el parsing):**
+
+```json
+[
+  {
+    "Pregunta": "¿Cuándo se usa?",
+    "Respuesta": "Cuando se configura alguna de las siguientes causales: Vencimiento del plazo de 48h sin subsanar (Art. 81.2°), Documentación incompleta fuera de plazo (Art. 78°), Documentos falsos o adulterados detectados (Art. 103.2°), Impedimento de postulación verificado (Art. 113° Posgrado)"
+  },
+  {
+    "Pregunta": "¿Quién lo genera?",
+    "Respuesta": "Director(a) de Admisión, con firma y sello institucional."
+  },
+  {
+    "Pregunta": "Contenido obligatorio",
+    "Respuesta": "Datos completos del postulante, Causal específica de exclusión (marcar con ✓), Detalle de observaciones notificadas y no subsanadas, Fechas: notificación y vencimiento de plazo. Efectos legales (Art. 81.2°): Impedido de rendir examen, NO devolución de pagos, NO admite reclamo posterior"
+  },
+  {
+    "Pregunta": "¿Cómo se notifica?",
+    "Respuesta": "TRIPLE VÍA: Correo electrónico certificado con acuse de lectura, Publicación en portal de postulante (mensaje destacado), Publicación en portal web institucional (listado de excluidos)."
+  },
+  {
+    "Pregunta": "Efectos INMEDIATOS",
+    "Respuesta": "Sistema bloquea acceso del postulante a etapas siguientes, No puede registrar datos biométricos, No puede obtener carné, Queda INHABILITADO para este proceso de admisión."
+  },
+  {
+    "Pregunta": "Recursos",
+    "Respuesta": "El postulante puede solicitar RECONSIDERACIÓN solo si demuestra: Error material en la notificación de observaciones, Causa de fuerza mayor debidamente acreditada. Plazo: 48 horas desde notificación de exclusión."
+  },
+  {
+    "Pregunta": "¿Se puede postular en otro proceso?",
+    "Respuesta": "SÍ, la exclusión solo aplica al proceso actual. El postulante puede inscribirse en procesos futuros cumpliendo todos los requisitos desde cero."
+  }
+]
+```
+
+**Justificación de la Elección:**
+
+*   La versión narrativa facilita la comprensión del contexto general.
+*   La versión estructurada (clave-valor) en formato JSON permite al LLM acceder a información específica de forma directa y programática. Los LLMs pueden ser entrenados para responder preguntas leyendo estos datos estructurados.
+*   Se ha mantenido toda la información numérica (plazos, artículos) y los detalles sobre los efectos legales, ya que son cruciales.
+*   Se utilizan las cabeceras originales de la tabla para organizar la información, preservando el contexto original.
+---------------------------------------
+
+
+[TABLA 5 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+El único contenido extraído de la tabla es la palabra "obligatorio".  Esto implica que la tabla original probablemente tenía una columna o fila con la etiqueta "Contenido", y que una de las entradas bajo esa columna/fila era la palabra "obligatorio". Podríamos inferir que la tabla original describe si un determinado contenido es obligatorio o no. Sin embargo, sin más información, esta es la única interpretación posible. Para un LLM, esto podría representarse como:
+
+"El contenido es obligatorio."
+---------------------------------------
+
+
+[TABLA 6 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+La tabla parece incompleta, solo muestra una columna con el encabezado "¿Cómo se notifica?".  Para que un LLM comprenda completamente esta tabla incompleta, se puede describir de la siguiente manera:
+
+**Interpretación Narrativa:**
+
+La tabla examina los métodos de notificación.  La columna única presente, "¿Cómo se notifica?", implica que la tabla completa enumeraría diferentes métodos utilizados para la notificación de algún evento o proceso.  Sin la información de las filas, es imposible determinar a qué se refiere la notificación o las opciones específicas de notificación consideradas.
+
+**Interpretación Estructurada (lista con el encabezado y una nota sobre la información faltante):**
+
+*   **¿Cómo se notifica?:** Esta columna describe los métodos usados para dar aviso. La tabla actualmente carece de datos en las filas, por lo que no se pueden listar métodos de notificación específicos. Es necesaria información adicional para completar la tabla y entender completamente los métodos de notificación que se están analizando.
+---------------------------------------
+
+
+[TABLA 7 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la interpretación narrativa y estructurada de la tabla, optimizada para un LLM:
+
+**Título general:** Efectos Inmediatos
+
+**Interpretación:**
+
+La tabla proporciona información sobre los efectos que se manifiestan inmediatamente.  Como solo hay una columna con el encabezado "INMEDIATOS", asumimos que las filas debajo de este encabezado contienen la descripción de estos efectos.  Sin ejemplos de datos, la interpretación es limitada. Sin embargo, podemos estructurarlo de la siguiente manera para el LLM:
+
+**Formato estructurado (JSON-like):**
+
+```json
+{
+  "efecto": "INMEDIATO",
+  "descripcion": "[DESCRIPCIÓN DEL EFECTO INMEDIATO AQUÍ.  Si hay varias filas debajo del encabezado 'INMEDIATO', cada fila corresponde a una descripción diferente de un efecto inmediato. Por ejemplo: Aumento de la frecuencia cardiaca, sudoración, etc.]"
+}
+```
+
+**Notas:**
+
+*   El campo `"efecto": "INMEDIATO"` sirve como contexto para todos los efectos descritos. Si existiesen otros encabezados de columna, se podrían crear otras etiquetas de "efecto".
+*   El campo `"descripcion"` está reservado para el texto específico que se encuentra directamente debajo del encabezado "INMEDIATO" en la tabla original.  Si hubiese varios efectos listados, se podrían representar como una lista dentro del JSON.  Por ejemplo:
+
+```json
+{
+  "efecto": "INMEDIATO",
+  "descripcion": [
+    "Aumento de la frecuencia cardiaca",
+    "Sudoración",
+    "Pupilas dilatadas"
+  ]
+}
+```
+
+Esta representación estructurada permite que el LLM comprenda fácilmente la relación entre el encabezado "INMEDIATO" y las descripciones de los efectos, maximizando la utilidad de los datos extraídos para cualquier tarea posterior.
+---------------------------------------
+
+
+[TABLA 8 en página 14]
+
+--- Interpretación de Tabla por LLM ---
+Por favor, proporciona la tabla cruda para que pueda analizarla y convertirla en un formato narrativo, descriptivo o estructurado optimizado para LLMs.  Necesito la tabla para cumplir con mi misión.
+---------------------------------------
+
+
+--- PÁGINA 15 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 15 de 38
+INTERNOS
+Digital: Carpeta del postulante + Carpeta de excluidos del proceso. Físico:
+Archivo Legajo especial de exclusiones con todos los antecedentes (I-05, I-06,
+evidencias).
+ANEXO I-08: Base de Datos de Postulantes APTOS
+Al finalizar la Fase 5 (Registro Biométrico) y antes de la Fase 6
+¿Cuándo se
+(Entrega de Carné). Es el documento OFICIAL que habilita a los
+genera?
+postulantes para rendir el examen.
+¿Quién lo Dirección de Admisión, con validación del Comité Central de
+elabora? Admisión y V°B° del Vicerrectorado Académico.
+• N° correlative
+• Código de postulante (único)
+• Apellidos y nombres completes
+Campos • DNI/CE
+obligatorios • Programa académico (Escuela Profesional o Posgrado)
+• Sede de examen
+• Modalidad de admission
+• • Estado: APTO
+DOBLE FORMATO:
+Formato de 1. Excel/CSV: Para procesamiento por CEE y OTI.
+entrega 2. PDF firmado digitalmente: Para publicación web y archivo
+oficial.
+DESTINATARIOS OBLIGATORIOS:
+• CEE: Para cálculo de cantidad de exámenes a aplicar.
+¿A quiénes se • OTI: Para configuración del sistema de evaluación.
+remite? • Portal web: Publicación pública.
+• Vicerrectorado Académico: Supervisión.
+• • Oficina de Calidad: Auditoría.
+Plazo de Máximo 5 días hábiles después del cierre del proceso de inscripción
+publicación (Art. 112°).
+• Firma digital del Director de Admisión.
+• Código de verificación QR.
+Características
+• Numeración correlativa sin saltos.
+de seguridad
+• Total de APTOS al final de cada modalidad.
+• • Fecha y hora de generación.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 15 de 38
+
+[TABLA 1 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está una representación narrativa y estructurada de la tabla, optimizada para la comprensión por un LLM.  Se mantiene toda la información clave, y se presenta de manera que el LLM pueda inferir relaciones fácilmente.
+
+**Contexto General:**
+
+Este documento corresponde a la sección "Control y Validación de Inscripción" dentro de un conjunto de "Protocolos Internos".  La versión actual de este documento es la 01.  Esta página específica es la página 15 de un total de 38 páginas.
+---------------------------------------
+
+
+[TABLA 2 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+Archivo: Este documento comprende información tanto en formato digital como físico.
+
+Formato Digital: La información digital se organiza en dos carpetas:
+*   Carpeta del postulante: Contiene información sobre los candidatos que participan en el proceso.
+*   Carpeta de excluidos del proceso: Contiene información sobre los candidatos que fueron excluidos del proceso.
+
+Formato Físico: La información física se organiza en un legajo especial de exclusiones. Este legajo contiene todos los antecedentes relevantes para las exclusiones, incluyendo los formularios I-05 e I-06, y las evidencias correspondientes.
+---------------------------------------
+
+
+[TABLA 3 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+El documento generado al finalizar la Fase 5 (Registro Biométrico) y antes de la Fase 6 (Entrega de Carné) es el documento OFICIAL que habilita a los postulantes para rendir el examen.
+
+La Dirección de Admisión, con validación del Comité Central de Admisión y V°B° del Vicerrectorado Académico, elabora este documento.
+
+Los campos obligatorios que contiene son: N° correlative, Código de postulante (único), Apellidos y nombres completos, DNI/CE, Programa académico (Escuela Profesional o Posgrado), Sede de examen, Modalidad de admisión, y Estado: APTO.
+
+El formato de entrega es doble: Excel/CSV para procesamiento por CEE y OTI, y PDF firmado digitalmente para publicación web y archivo oficial.
+
+Los destinatarios obligatorios de este documento son: CEE (para cálculo de cantidad de exámenes a aplicar), OTI (para configuración del sistema de evaluación), Portal web (para publicación pública), Vicerrectorado Académico (para supervisión) y Oficina de Calidad (para auditoría).
+
+El plazo de publicación es de máximo 5 días hábiles después del cierre del proceso de inscripción (Art. 112°).
+
+Las características de seguridad del documento son: Firma digital del Director de Admisión, Código de verificación QR, Numeración correlativa sin saltos, Total de APTOS al final de cada modalidad, y Fecha y hora de generación.
+---------------------------------------
+
+
+[TABLA 4 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+La tabla contiene una única columna titulada "¿Cuándo se genera?". Esta columna presumiblemente lista los momentos o condiciones en los que se produce un evento, documento o dato específico. Para que un LLM comprenda esta información de manera más efectiva, sería útil conocer *a qué* se refiere la generación en cada fila. Sin esta información contextual, la tabla por sí sola es ambigua.
+
+Por ejemplo, si la tabla estuviera describiendo la generación de informes, la información podría ser representada de la siguiente manera, asumiendo algunas entradas de muestra (aunque las entradas reales faltan en la tabla proporcionada):
+
+*   **Informe Semanal:** Se genera todos los lunes a las 9:00 AM.
+*   **Informe Mensual:** Se genera el primer día hábil de cada mes a las 10:00 AM.
+*   **Informe Trimestral:** Se genera el último día hábil del trimestre a las 5:00 PM.
+*   **Informe Anual:** Se genera el 31 de enero del año siguiente.
+*   **Informe Ad Hoc:** Se genera a petición del gerente.
+
+En ausencia de datos concretos, esto muestra cómo el contenido de la columna "¿Cuándo se genera?" podría interpretarse y formatearse para facilitar la comprensión de un LLM. La adición del tipo de "Informe" añade el contexto que falta. Sin embargo, la tabla proporcionada está incompleta y carece de datos concretos en las filas. Si la tabla fuera sobre otro tema, como "Pedidos", las entradas contextuales serían diferentes.
+---------------------------------------
+
+
+[TABLA 5 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe los campos que son obligatorios. No se proporcionan datos adicionales sobre cuáles campos son obligatorios, ni contexto alguno sobre el documento al que pertenece la tabla. La tabla indica, de forma binaria, la existencia de campos obligatorios, pero carece de especificación sobre qué campos son. Para que un LLM entienda la información, se necesita más contexto sobre el dominio o los campos específicos que se están considerando.
+---------------------------------------
+
+
+[TABLA 6 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+Dado que la tabla proporcionada contiene únicamente "| Formato de |" y "| entrega |" y está incompleta, no puedo realizar un análisis completo ni una conversión significativa a un formato narrativo o estructurado.  Necesito los datos *reales* dentro de la tabla para poder procesarlos.
+
+Asumo que la tabla pretende listar los formatos de entrega para algo (un producto, un informe, etc.).  Si esa es la suposición correcta, entonces se espera que la tabla tenga filas debajo de los encabezados "Formato de" y "Entrega", conteniendo datos relevantes.
+
+**Para poder completar la tarea, necesito la tabla completa con los datos.**
+
+Sin los datos, lo mejor que puedo hacer es dar una estructura general esperada para la salida, asumiendo que la tabla contuviera algo más de información:
+
+**Suposición: La tabla lista diferentes formatos de entrega y una descripción (quizás el método de entrega asociado).**
+
+**Formato Narrativo Esperado (EJEMPLO, RECUERDA QUE NO TENGO LOS DATOS REALES):**
+
+"La tabla describe varios formatos de entrega. Por ejemplo, el formato de *informe PDF* se entrega a través de *correo electrónico*. El formato de *archivo CSV* se entrega mediante *descarga desde un portal seguro*. Para *presentaciones interactivas*, el formato es *en línea a través de la plataforma Zoom*."
+
+**Formato Estructurado Esperado (JSON, por ejemplo - EJEMPLO):**
+
+```json
+[
+  {
+    "formato": "Informe PDF",
+    "entrega": "Correo electrónico"
+  },
+  {
+    "formato": "Archivo CSV",
+    "entrega": "Descarga desde un portal seguro"
+  },
+  {
+    "formato": "Presentación Interactiva",
+    "entrega": "En línea a través de la plataforma Zoom"
+  }
+]
+```
+
+Por favor, proporciona la tabla completa para que pueda realizar el análisis y la conversión correctamente.
+---------------------------------------
+
+
+[TABLA 7 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+El documento especifica a quién se deben remitir determinados asuntos o información. Debido a que la tabla solo contiene el encabezado "¿A quiénes se remite?", es imposible determinar a qué remite la información. Para interpretar la tabla y proporcionar una respuesta útil para un LLM, se requiere información adicional, por ejemplo:
+
+**Supuestos basados en encabezados comunes de tablas de remisión (Ejemplo 1):**
+
+Si la tabla se refiere a la remisión de *documentos* o *información*, y contiene las siguientes columnas:
+
+*   **Tipo de Documento/Información:** Descripción del tipo de documento o información en cuestión.
+*   **Destinatario Primario:** Persona o departamento al que se remite inicialmente.
+*   **Destinatarios Secundarios (CC):** Personas o departamentos que reciben una copia para su información.
+*   **Instrucciones Adicionales:** Cualquier instrucción especial sobre la remisión (ej: "requiere aprobación", "solo para información").
+
+Entonces, un formato narrativo posible sería:
+
+"La remisión de documentos se realiza de la siguiente manera: Los documentos/información de tipo '[Tipo de Documento/Información]' se remiten a '[Destinatario Primario]' como destinatario primario. Adicionalmente, se envía una copia a '[Destinatarios Secundarios (CC)]' para su información. Se deben considerar las siguientes instrucciones: '[Instrucciones Adicionales]'."
+
+**Supuestos basados en encabezados comunes de tablas de remisión (Ejemplo 2):**
+
+Si la tabla se refiere a la remisión de *casos* o *solicitudes*, y contiene las siguientes columnas:
+
+*   **Tipo de Caso/Solicitud:**  Descripción del tipo de caso o solicitud.
+*   **Departamento Responsable:** El departamento principal encargado de atender el caso.
+*   **Persona de Contacto (Departamento):** Persona específica dentro del departamento responsable, a quien se remite el caso.
+*   **SLA (Tiempo de Respuesta):** Tiempo máximo permitido para responder al caso, en días.
+
+Entonces, un formato narrativo posible sería:
+
+"El manejo de casos/solicitudes funciona de la siguiente manera: Los casos/solicitudes de tipo '[Tipo de Caso/Solicitud]' se remiten al '[Departamento Responsable]'. Dentro de este departamento, la persona de contacto es '[Persona de Contacto (Departamento)]'. El tiempo de respuesta máximo permitido para este tipo de casos es de '[SLA (Tiempo de Respuesta)]' días."
+
+**En resumen:  Necesito más datos (columnas) para crear un formato narrativo significativo para el LLM.**  Proporciona las columnas restantes de la tabla y el LLM creará una salida en formato narrativo.
+---------------------------------------
+
+
+[TABLA 8 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+Sin datos en la tabla cruda para interpretar. Por favor, proporciona la tabla completa para que pueda analizarla y convertirla en un formato comprensible para un LLM. Necesito las filas y columnas de la tabla, no solo el encabezado "Características de seguridad".
+---------------------------------------
+
+
+[TABLA 9 en página 15]
+
+--- Interpretación de Tabla por LLM ---
+Por favor, proporciona la tabla cruda para que pueda analizarla y transformarla en un formato adecuado para un LLM.  Necesito la tabla para poder cumplir con tu misión. Una vez que me la proporciones, te devolveré el contenido interpretado.
+---------------------------------------
+
+
+--- PÁGINA 16 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 16 de 38
+INTERNOS
+Digital: Servidor institucional con backup. Físico: Legajo oficial del
+Archivo
+proceso con firmas de aprobación.
+ANEXO I-09: Informe Estadístico de Inscripción
+¿Cuándo se Al cierre del proceso de inscripción, simultáneamente con el Anexo
+elabora? I-08 (BD de APTOS) y antes del Anexo I-10 (Acta de Cierre).
+¿Quién lo Dirección de Admisión, área de estadística o responsable de
+elabora? análisis de datos del proceso.
+RESUMEN GENERAL:
+• Total de registros iniciados (Fase 1)
+• Pagos confirmados (Fase 2)
+• Documentación cargada (Fase 3)
+• Validados sin observaciones
+• Observados (en plazo subsanación)
+• Subsanados correctamente
+• EXCLUIDOS por incumplimiento
+Contenido
+• Con registro biométrico (Fase 5)
+obligatorio
+• TOTAL APTOS PARA EXAMEN
+POR MODALIDAD:
+Tabulación de inscritos, validados, excluidos y aptos para:
+• Ordinario General
+• CEPREUNAM
+• Extraordinario (desglosado por submodalidad)
+• • Posgrado
+• % de conversión (Inscritos → Aptos)
+• % de exclusión por incumplimiento
+Indicadores
+• % de subsanación exitosa
+clave
+• Tasa de observaciones por modalidad
+• Tiempo promedio de validación documental
+• Tablas con datos numéricos y porcentuales.
+Formato de • Gráficos: barras (por modalidad), torta (distribución %), línea
+presentación de tiempo (evolución diaria).
+• Análisis comparativo con procesos anteriores (si aplica).
+• Evaluación de eficiencia del proceso.
+• Identificación de cuellos de botella.
+¿Para qué sirve? • Mejora continua de procedimientos.
+• Rendición de cuentas ante autoridades.
+• • Planificación de recursos para futuros procesos.
+• Consejo Universitario
+Distribución
+• Vicerrectorado Académico
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 16 de 38
+
+[TABLA 1 en página 16]
+
+--- Interpretación de Tabla por LLM ---
+La tabla, referenciada como "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN" en un documento, describe protocolos internos. El documento al que pertenece tiene la versión 01. Específicamente, esta tabla se encuentra en la página 16 de un total de 38 páginas del documento.
+---------------------------------------
+
+
+[TABLA 2 en página 16]
+
+--- Interpretación de Tabla por LLM ---
+El tipo de archivo no está especificado en la tabla. Sin embargo, la tabla detalla dónde se almacena cada archivo. Los archivos digitales se guardan en un servidor institucional con copias de seguridad, mientras que los archivos físicos se almacenan en un legajo oficial del proceso que contiene las firmas de aprobación.
+---------------------------------------
+
+
+[TABLA 3 en página 16]
+
+--- Interpretación de Tabla por LLM ---
+Aquí está la representación de la tabla optimizada para ser consumida por un LLM:
+
+**Análisis del Proceso de Inscripción: Resumen General, Modalidades, Indicadores Clave, Formato y Distribución**
+
+Esta sección describe el informe generado al cierre del proceso de inscripción, simultáneamente con el Anexo I-08 (BD de APTOS) y antes del Anexo I-10 (Acta de Cierre). Este informe es elaborado por la Dirección de Admisión, específicamente por el área de estadística o el responsable del análisis de datos del proceso.
+
+**Contenido Obligatorio (Resumen General):**
+
+*   **Total de registros iniciados (Fase 1):** Número total de inscripciones que comenzaron.
+*   **Pagos confirmados (Fase 2):** Número de pagos de inscripción confirmados.
+*   **Documentación cargada (Fase 3):** Número de inscripciones con la documentación requerida cargada.
+*   **Validados sin observaciones:** Número de inscripciones validadas sin necesidad de corrección.
+*   **Observados (en plazo de subsanación):** Número de inscripciones que requieren correcciones (en plazo).
+*   **Subsanados correctamente:** Número de inscripciones que fueron corregidas exitosamente.
+*   **EXCLUIDOS por incumplimiento:** Número de inscripciones excluidas por no cumplir con los requisitos.
+*   **Con registro biométrico (Fase 5):** Número de inscripciones con registro biométrico completado.
+*   **TOTAL APTOS PARA EXAMEN:** Número total de inscritos que cumplen con todos los requisitos y son aptos para el examen.
+
+**Contenido Obligatorio (Por Modalidad):**
+
+*   Tabulación de inscritos, validados, excluidos y aptos para cada una de las siguientes modalidades:
+    *   Ordinario General
+    *   CEPREUNAM
+    *   Extraordinario (desglosado por submodalidad)
+        *   Posgrado
+
+**Indicadores Clave:**
+
+*   **% de conversión (Inscritos → Aptos):** Porcentaje de inscripciones iniciales que terminan siendo aptos para el examen.
+*   **% de exclusión por incumplimiento:** Porcentaje de inscripciones excluidas debido al incumplimiento de los requisitos.
+*   **% de subsanación exitosa:** Porcentaje de inscripciones observadas que fueron corregidas con éxito.
+*   **Tasa de observaciones por modalidad:** Frecuencia de observaciones requeridas por modalidad de inscripción.
+*   **Tiempo promedio de validación documental:** Tiempo promedio necesario para validar la documentación de un inscrito.
+
+**Formato de Presentación:**
+
+*   Tablas con datos numéricos y porcentuales.
+*   Gráficos:
+    *   Barras (comparación entre modalidades).
+    *   Torta (distribución porcentual).
+    *   Línea de tiempo (evolución diaria de las inscripciones).
+*   Análisis comparativo con procesos anteriores (si está disponible).
+
+**Propósito del Informe:**
+
+*   Evaluación de la eficiencia del proceso de inscripción.
+*   Identificación de cuellos de botella.
+*   Mejora continua de los procedimientos.
+*   Rendición de cuentas ante las autoridades pertinentes.
+*   Planificación de recursos para futuros procesos de inscripción.
+
+**Distribución del Informe:**
+
+*   Consejo Universitario
+*   Vicerrectorado Académico
+---------------------------------------
+
+
+[TABLA 4 en página 16]
+
+--- Interpretación de Tabla por LLM ---
+El documento contiene una tabla simple que indica que el campo "Contenido" tiene un estado de "obligatorio". En resumen, el campo "Contenido" es un campo requerido.
+---------------------------------------
+
+
+[TABLA 5 en página 16]
+
+--- Interpretación de Tabla por LLM ---
+Necesito la tabla cruda para poder analizarla y transformarla en un formato más amigable para un LLM. Por favor, proporciona la tabla. Una vez que la tenga, podré analizar su estructura, contenido y convertirla a un formato narrativo, descriptivo o estructurado, preservando la información numérica y clave, y utilizando los encabezados para dar contexto.
+---------------------------------------
+
+
+[TABLA 6 en página 16]
+
+--- Interpretación de Tabla por LLM ---
+Para procesar la tabla, necesito su contenido. La tabla proporcionada solo contiene el texto "| Formato de |\n| presentación |".  Por favor, proporciona la tabla completa para que pueda analizarla, estructurarla y convertirla en un formato entendible para un LLM. Necesito los datos reales dentro de la tabla para poder ofrecerte una respuesta útil.
+---------------------------------------
+
+
+[TABLA 7 en página 16]
+
+--- Interpretación de Tabla por LLM ---
+Necesito ver la tabla RAW para poder transformarla en un formato adecuado para LLMs. Por favor, proporciona la tabla RAW que has extraído. Una vez que la tenga, podré analizar su estructura, contenido y transformarla en una representación narrativa, descriptiva o estructurada, optimizada para ser entendida fácilmente por un modelo de lenguaje, sin perder información numérica ni claves.
+---------------------------------------
+
+
+--- PÁGINA 17 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 17 de 38
+INTERNOS
+• Comité Central de Admisión
+• Oficina de Calidad y Acreditación
+• Dirección de Planificación
+Digital: Repositorio institucional con acceso restringido. Físico:
+Archivo
+Legajo del proceso de admisión con firma del Director de Admisión.
+ANEXO I-10: Acta de Cierre del Proceso de Inscripción
+Al FINALIZAR todas las actividades del proceso de inscripción,
+incluyendo:
+• Validación documental completa
+¿Cuándo se
+• Subsanaciones procesadas
+elabora?
+• Exclusiones notificadas
+• Registros biométricos realizados
+• • Base de Datos de APTOS generada y publicada
+FIRMAS OBLIGATORIAS:
+• Director(a) de Admisión (elabora y firma)
+¿Quién la • Responsable de OTI (firma por validación técnica)
+suscribe? • Presidente del Comité Central de Admisión (V°B°)
+• OPCIONAL:
+• • Vicerrector(a) Académico(a) (supervisión)
+1. CUMPLIMIENTO DE PLAZOS:
+• Verificación de cumplimiento del cronograma aprobado
+• Verificación de plazos de subsanación (48h)
+• Verificación de notificaciones oportunas
+2. RESULTADOS FINALES:
+• Total de postulantes APTOS
+• Total de postulantes EXCLUIDOS
+3. DOCUMENTACIÓN GENERADA:
+Contenido • Anexo I-08 (BD de APTOS)
+obligatorio • Anexo I-09 (Informe Estadístico)
+• Anexos I-07 (Constancias de Exclusión)
+• Expedientes digitales respaldados
+4. REMISIÓN DE BD:
+• Envío a CEE para cálculo de exámenes
+• Envío a OTI para configuración de sistemas
+5. PUBLICACIÓN:
+• Relación de APTOS publicada en portal web
+• Fecha y hora exacta de publicación
+Declaraciones El Acta DECLARA FORMALMENTE:
+del Acta
+• El cierre del proceso de inscripción.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 17 de 38
+
+[TABLA 1 en página 17]
+
+--- Interpretación de Tabla por LLM ---
+**Descripción General:**
+
+La tabla se titula "CONTROL Y VALIDACIÓN DE INSCRIPCIÓN" y forma parte de los "PROTOCOLOS INTERNOS".  Es la versión 01 de este protocolo y se encuentra en la página 17 de un documento que tiene un total de 38 páginas.
+
+**Interpretación Detallada (asumiendo que esta es la única información proporcionada):**
+
+Debido a la falta de datos en la tabla, no puedo continuar con la descripción. La tabla parece ser un encabezado o un título de una sección dentro de un documento más grande.  Para proporcionar una descripción más completa, necesito el contenido real de la tabla, incluyendo las columnas, filas y valores específicos relacionados con el "Control y Validación de Inscripción".
+---------------------------------------
+
+
+[TABLA 2 en página 17]
+
+--- Interpretación de Tabla por LLM ---
+El documento describe el almacenamiento y acceso a información relacionada con admisiones. Hay dos áreas principales involucradas: el Comité Central de Admisión, la Oficina de Calidad y Acreditación, y la Dirección de Planificación.
+
+La información se almacena en dos formatos: digital y físico.
+
+*   **Digital:** Se guarda en un repositorio institucional con acceso restringido.
+
+*   **Físico:** Se guarda en un legajo del proceso de admisión, el cual incluye la firma del Director de Admisión.
+---------------------------------------
+
+
+[TABLA 3 en página 17]
+
+--- Interpretación de Tabla por LLM ---
+**Formato Narrativo Descriptivo para LLM:**
+
+El documento describe el acta de cierre del proceso de inscripción. Esta acta se elabora al finalizar todas las actividades del proceso, incluyendo la validación documental, las subsanaciones, las exclusiones notificadas y los registros biométricos, además de la generación y publicación de la Base de Datos de APTOS.
+
+La suscripción del acta requiere las siguientes firmas OBLIGATORIAS: el Director(a) de Admisión (quien la elabora y firma), el Responsable de OTI (firma por validación técnica) y el Presidente del Comité Central de Admisión (V°B°).  Opcionalmente, puede incluir la firma del Vicerrector(a) Académico(a) (supervisión).
+
+El acta debe contener obligatoriamente la siguiente información:
+
+1.  **CUMPLIMIENTO DE PLAZOS:** Verificación del cumplimiento del cronograma aprobado, verificación de los plazos de subsanación (48h) y verificación de que las notificaciones se realizaron de manera oportuna.
+2.  **RESULTADOS FINALES:** El total de postulantes APTOS y el total de postulantes EXCLUIDOS.
+3.  **DOCUMENTACIÓN GENERADA:** Referencia al Anexo I-08 (BD de APTOS), al Anexo I-09 (Informe Estadístico), a los Anexos I-07 (Constancias de Exclusión) y confirmación de que los expedientes digitales están respaldados.
+4.  **REMISIÓN DE BD:** Confirmación del envío de la base de datos a la CEE para el cálculo de exámenes y el envío a la OTI para la configuración de sistemas.
+5.  **PUBLICACIÓN:**  Constancia de que la relación de APTOS fue publicada en el portal web, indicando la fecha y hora exacta de la publicación.
+
+El acta declara formalmente el cierre del proceso de inscripción.
+---------------------------------------
+
+
+[TABLA 4 en página 17]
+
+--- Interpretación de Tabla por LLM ---
+La tabla parece incompleta y solo contiene una columna con el encabezado "¿Cuándo se elabora?".  Sin más información, no puedo generar un formato narrativo útil. Necesito la tabla completa o más detalles sobre su propósito. Por ejemplo:
+
+**Posibles interpretaciones y formatos si tuviéramos más columnas:**
+
+**Escenario 1: Si la columna adyacente se refiriera a nombres de documentos:**
+
+Formato:
+
+"El documento [Nombre del Documento 1] se elaboró en [Fecha de Elaboración 1]. El documento [Nombre del Documento 2] se elaboró en [Fecha de Elaboración 2]. ... "
+
+**Escenario 2: Si la columna adyacente se refiriera a tipo de documento:**
+
+Formato estructurado (JSON):
+
+```json
+[
+  {
+    "tipo_documento": "Informe Mensual",
+    "fecha_elaboracion": "2023-10-27"
+  },
+  {
+    "tipo_documento": "Acta de Reunión",
+    "fecha_elaboracion": "2023-10-26"
+  }
+]
+```
+
+**Escenario 3: Si la tabla registra la fecha de elaboración de diferentes etapas de un proyecto**
+
+Formato:
+
+"La etapa [Nombre de la etapa 1] del proyecto se elaboró el [Fecha de Elaboración 1]. La etapa [Nombre de la etapa 2] del proyecto se elaboró el [Fecha de Elaboración 2]..."
+
+**Por favor, proporciona la tabla completa para que pueda generar una respuesta útil.**
+---------------------------------------
+
+
+[TABLA 5 en página 17]
+
+--- Interpretación de Tabla por LLM ---
+Dado que la tabla proporcionada solo contiene un encabezado ("¿Quién la suscribe?"), la interpretación narrativa debe centrarse en describir los posibles valores que podrían aparecer debajo de este encabezado. Asumiré que las filas debajo del encabezado contienen nombres de personas o entidades. Aquí hay una posible representación narrativa:
+
+**Interpretación Narrativa:**
+
+La tabla rastrea a los suscriptores de algo (un documento, una membresía, etc.). La columna "Quién la suscribe?" enumera a los individuos o entidades responsables de la suscripción.  Cada fila debajo de este encabezado representa un suscriptor individual. Los valores dentro de esta columna denotan los nombres o identificadores de estos suscriptores.  Por ejemplo, una fila podría contener el nombre "Juan Pérez," indicando que Juan Pérez es un suscriptor.  De manera similar, otra fila podría contener el nombre de una organización, como "Empresa ABC,"  significando que la Empresa ABC es un suscriptor.  La tabla, por lo tanto, sirve como un registro de quién está suscrito a un servicio o acuerdo en particular. La información contenida es un listado de los suscriptores, entendiendo que cada fila representaría a un suscriptor individual o corporativo.
+---------------------------------------
+
+
+[TABLA 6 en página 17]
+
+--- Interpretación de Tabla por LLM ---
+El único contenido presente en la tabla es la palabra "obligatorio". Esto indica que se trata de un atributo o característica que debe cumplirse. Por lo tanto, el contenido, sea lo que sea, es **obligatorio**.
+---------------------------------------
+
+
+[TABLA 7 en página 17]
+
+--- Interpretación de Tabla por LLM ---
+Por favor, proporciona la tabla cruda para que pueda analizarla y transformarla en un formato adecuado para un LLM. Necesito ver la tabla para poder completar la tarea. Una vez que me la proporciones, seguiré las siguientes pautas:
+
+1.  **Análisis de la estructura y el contenido:** Identificaré las filas, columnas, encabezados, tipos de datos y relaciones entre los datos.
+2.  **Conversión a formato narrativo/descriptivo/estructurado:**
+    *   **Narrativo:** Si los datos representan tendencias o historias, los describiré en un formato legible, resaltando los puntos clave.
+    *   **Descriptivo:** Si los datos son más estáticos, los describiré fila por fila o columna por columna, utilizando los encabezados para proporcionar contexto.
+    *   **Estructurado (JSON/YAML):** Si la estructura es clara y se beneficia de la representación clave-valor, usaré JSON o YAML para preservar la información de manera organizada.
+3.  **Preservación de información numérica y clave:** Me aseguraré de que todos los valores numéricos, fechas, identificadores y cualquier otra información crítica se incluyan en la salida.
+4.  **Uso de encabezados para contexto:** Usaré los encabezados de las columnas para etiquetar y dar contexto a cada valor en la narración o estructura.
+
+Espero la tabla para poder ayudarte!
+---------------------------------------
+
+
+--- PÁGINA 18 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 18 de 38
+INTERNOS
+• Que NO se admitirán más inscripciones.
+• Que los postulantes EXCLUIDOS quedan inhabilitados.
+• Que solo los postulantes en la BD de APTOS pueden rendir
+examen.
+• Que toda la documentación generada queda bajo custodia
+de DA.
+Una vez firmada el Acta:
+• El proceso de inscripción queda CERRADO.
+• NO se aceptan subsanaciones tardías.
+Efectos legales
+• NO se admiten nuevas inscripciones.
+• Los datos de la BD de APTOS quedan CONGELADOS.
+• • Cualquier modificación requiere Resolución del CU.
+Si durante el proceso ocurrieron incidentes (fallas de sistema,
+Observaciones suspensión de plazos, ampliaciones, etc.), deben quedar
+registrados en la sección "OBSERVACIONES" del Acta.
+• Consejo Universitario (para conocimiento)
+• Vicerrectorado Académico
+Distribución • Comité Central de Admisión
+• Comité Especial de Examen (CEE)
+• • Archivo central de la universidad
+ORIGINAL: Archivo de la Dirección de Admisión en legajo del
+proceso.
+Archivo
+COPIAS: Vicerrectorado Académico, CCA, CEE.
+DIGITAL: Repositorio institucional con firma digital.
+NOTA IMPORTANTE: Todos los anexos son de USO OBLIGATORIO y forman parte
+integral del sistema de trazabilidad del proceso de admisión. Su omisión o llenado incorrecto
+puede comprometer la validez jurídica del proceso y generar responsabilidades
+administrativas.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 18 de 38
+
+[TABLA 1 en página 18]
+
+--- Interpretación de Tabla por LLM ---
+**Título general del documento:** Control y Validación de Inscripción
+
+**Sección del documento:** Protocolos Internos
+
+**Versión del documento:** 01
+
+**Página:** 18 de 38
+---------------------------------------
+
+
+[TABLA 2 en página 18]
+
+--- Interpretación de Tabla por LLM ---
+La tabla describe diferentes aspectos relacionados con el cierre de un proceso de inscripción y el manejo de la documentación asociada. A continuación, se presenta una descripción detallada:
+
+**Columna 1 (Vacía):** Esta columna no tiene encabezado y proporciona información adicional a cada fila.
+
+**Columna 2 (Aspectos Clave):**
+
+*   **Restricciones Post-Cierre de Inscripción:** Se enfatiza que no se aceptarán más inscripciones, los postulantes excluidos no podrán continuar en el proceso, solo los postulantes registrados en la base de datos de "APTOS" podrán rendir el examen, y toda la documentación generada quedará bajo custodia de la Dirección de Admisión (DA).
+
+*   **Efectos Legales:** Una vez firmada el acta de cierre de inscripción, el proceso de inscripción se considera cerrado. No se aceptarán subsanaciones tardías ni nuevas inscripciones. Los datos contenidos en la base de datos de "APTOS" quedan congelados y cualquier modificación posterior requerirá una Resolución del Consejo Universitario (CU).
+
+*   **Observaciones:** Cualquier incidente ocurrido durante el proceso de inscripción, como fallas en el sistema, suspensiones de plazos o ampliaciones, debe ser registrado en la sección de "OBSERVACIONES" del acta.
+
+*   **Distribución:** La documentación generada será distribuida al Consejo Universitario (para conocimiento), al Vicerrectorado Académico, al Comité Central de Admisión (CCA), al Comité Especial de Examen (CEE) y al Archivo central de la universidad.
+
+*   **Archivo:** El documento original se archiva en la Dirección de Admisión, en el legajo correspondiente al proceso. Se distribuirán copias al Vicerrectorado Académico, al CCA, al CEE. Una copia digital se guardará en el Repositorio institucional con firma digital.
+---------------------------------------
+
+
+[TABLA 3 en página 18]
+
+--- Interpretación de Tabla por LLM ---
+La tabla parece incompleta y sin datos. Para poder cumplir con la misión, necesito la tabla completa y con datos. Sin embargo, puedo ofrecer un ejemplo de cómo abordaría la tarea una vez que tenga la tabla completa.
+
+**EJEMPLO ILUSTRATIVO (SUPONIENDO UNA TABLA DE VENTAS):**
+
+**Tabla Cruda (Ejemplo):**
+
+| Región | Producto | Q1 Ventas | Q2 Ventas | Q3 Ventas | Q4 Ventas | Total Anual |
+|---|---|---|---|---|---|---|
+| Norte  | A       | 100        | 120        | 150        | 130        | 500        |
+| Norte  | B       | 50         | 60         | 70         | 80         | 260        |
+| Sur    | A       | 80         | 90         | 100        | 110        | 380        |
+| Sur    | B       | 120        | 130        | 140        | 150        | 540        |
+
+**Respuesta (Contenido Interpretado):**
+
+"El análisis de ventas se divide por región (Norte y Sur) y producto (A y B) para cada trimestre del año (Q1, Q2, Q3, Q4), además del total anual.
+
+*   **Región Norte:**
+    *   **Producto A:** Las ventas en el primer trimestre (Q1) fueron de 100 unidades.  Aumentaron a 120 en el segundo trimestre (Q2), a 150 en el tercer trimestre (Q3) y finalmente a 130 en el cuarto trimestre (Q4), resultando en un total anual de 500 unidades.
+    *   **Producto B:**  Las ventas en el primer trimestre (Q1) fueron de 50 unidades.  Aumentaron a 60 en el segundo trimestre (Q2), a 70 en el tercer trimestre (Q3) y finalmente a 80 en el cuarto trimestre (Q4), resultando en un total anual de 260 unidades.
+
+*   **Región Sur:**
+    *   **Producto A:** Las ventas en el primer trimestre (Q1) fueron de 80 unidades.  Aumentaron a 90 en el segundo trimestre (Q2), a 100 en el tercer trimestre (Q3) y finalmente a 110 en el cuarto trimestre (Q4), resultando en un total anual de 380 unidades.
+    *   **Producto B:** Las ventas en el primer trimestre (Q1) fueron de 120 unidades.  Aumentaron a 130 en el segundo trimestre (Q2), a 140 en el tercer trimestre (Q3) y finalmente a 150 en el cuarto trimestre (Q4), resultando en un total anual de 540 unidades.
+
+En resumen, las ventas totales del Producto B en la región Sur (540) fueron las más altas, mientras que las ventas del Producto B en la región Norte (260) fueron las más bajas."
+
+**Explicación del Enfoque:**
+
+1.  **Claridad en la Estructura:**  La salida está estructurada por las principales categorías (Región y Producto).
+2.  **Contexto para Cada Valor:** Se especifica a qué trimestre corresponde cada valor de ventas.
+3.  **Mantenimiento de Números Clave:**  Todos los valores de ventas originales se conservan.
+4.  **Resumen Conciso:** Se añade un resumen al final para destacar los puntos más importantes, facilitando la comprensión del LLM.
+5.  **Lenguaje Narrativo:** Se transforma la información tabular en un lenguaje más narrativo, lo que facilita la comprensión por parte del LLM.  Se evitan frases cortas y se utiliza una sintaxis clara y completa.
+
+Por favor, proporciona la tabla completa para que pueda generar una respuesta precisa y útil para tu caso específico.
+---------------------------------------
+
+
+--- PÁGINA 19 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 19 de 38
+INTERNOS
+ANEXO I-01: CHECKLIST DE DOCUMENTOS POR MODALIDAD
+DIRECCIÓN DE ADMISIÓN – UNAM
+CÓDIGO POSTULANTE:
+APELLIDOS Y NOMBRES:
+MODALIDAD: ☐ Ordinario ☐ CEPREUNAM ☐
+Extraordinario ☐ Posgrado
+PROGRAMA:
+DOCUMENTOS OBLIGATORIOS (todos):
+DOCUMENTO SÍ NO OBS.
+DNI o Carné de Extranjería
+☐ ☐
+(vigente)
+Fotografía digital (carné, fondo
+☐ ☐
+blanco, JPG)
+Declaración Jurada de
+☐ ☐
+Autenticidad (Formato N° 01)
+Voucher de pago de derecho de
+☐ ☐
+inscripción
+DOCUMENTOS SEGÚN MODALIDAD:
+PREGRADO - ORDINARIO (Arts. 83°-85°) SÍ NO N/A
+Certificado de Estudios Secundaria (UGEL/MINEDU) o
+☐ ☐ ☐
+CLA
+Constancia de egreso (si aún no tiene certificado) ☐ ☐ ☐
+CEPREUNAM (Arts. 87°-89°) SÍ NO N/A
+Declaración de APTO emitida por CEPREUNAM ☐ ☐ ☐
+Constancia de asistencia mínima (85%) ☐ ☐ ☐
+POSGRADO (Arts. 105°-106°) SÍ NO N/A
+Diploma de Grado de Bachiller/Maestro (legalizado) ☐ ☐ ☐
+Currículum Vitae documentado ☐ ☐ ☐
+VERIFICADO POR: FECHA: ____/____/2026
+_________________________
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 19 de 38
+
+[TABLA 1 en página 19]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 19 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 19]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CÓDIGO POSTULANTE: |  |
+| APELLIDOS Y NOMBRES: |  |
+| MODALIDAD: | ☐ Ordinario ☐ CEPREUNAM ☐ Extraordinario ☐ Posgrado |
+| PROGRAMA: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 19]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| DOCUMENTO | SÍ | NO | OBS. |
+| DNI o Carné de Extranjería (vigente) | ☐ | ☐ |  |
+| Fotografía digital (carné, fondo blanco, JPG) | ☐ | ☐ |  |
+| Declaración Jurada de Autenticidad (Formato N° 01) | ☐ | ☐ |  |
+| Voucher de pago de derecho de inscripción | ☐ | ☐ |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 19]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| PREGRADO - ORDINARIO (Arts. 83°-85°) | SÍ | NO | N/A |
+| Certificado de Estudios Secundaria (UGEL/MINEDU) o CLA | ☐ | ☐ | ☐ |
+| Constancia de egreso (si aún no tiene certificado) | ☐ | ☐ | ☐ |
+| CEPREUNAM (Arts. 87°-89°) | SÍ | NO | N/A |
+| Declaración de APTO emitida por CEPREUNAM | ☐ | ☐ | ☐ |
+| Constancia de asistencia mínima (85%) | ☐ | ☐ | ☐ |
+| POSGRADO (Arts. 105°-106°) | SÍ | NO | N/A |
+| Diploma de Grado de Bachiller/Maestro (legalizado) | ☐ | ☐ | ☐ |
+| Currículum Vitae documentado | ☐ | ☐ | ☐ |
+-----------------------------------------------
+
+
+[TABLA 5 en página 19]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 20 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 20 de 38
+INTERNOS
+ANEXO I-02: FICHA DE VERIFICACIÓN DOCUMENTAL
+DIRECCIÓN DE ADMISIÓN – UNAM
+Revisión de Contenido de Documentos Presentados
+CÓDIGO POSTULANTE:
+APELLIDOS Y NOMBRES:
+MODALIDAD:
+PROGRAMA:
+FECHA DE VERIFICACIÓN:
+CRITERIOS DE VERIFICACIÓN DOCUMENTAL:
+CRITERIO CONFORME NO CONFORME OBSERVACIONES
+1. LEGIBILIDAD: Documentos
+claramente legibles, sin manchas, ☐ ☐
+borrones o alteraciones
+2. VIGENCIA: DNI/CE vigente.
+Certificados con fecha de emisión ☐ ☐
+válida
+3. DATOS COINCIDENTES: Nombre,
+DNI, fechas coinciden con registro en ☐ ☐
+plataforma
+4. FIRMAS Y SELLOS: Documentos
+cuentan con firmas y sellos ☐ ☐
+institucionales
+5. FORMATO VÁLIDO: PDF de
+calidad, fotografía en JPG fondo ☐ ☐
+blanco
+6. COMPLETITUD: Documentos
+☐ ☐
+completos, sin páginas faltantes
+VERIFICACIÓN ESPECÍFICA POR DOCUMENTO:
+DOCUMENTO RESULTADO OBSERVACIONES
+DNI / Carné de Extranjería ☐ CONFORME
+☐ OBSERVADO
+☐ NO CONFORME
+Certificado de Estudios / ☐ CONFORME
+Diploma de Grado
+☐ OBSERVADO
+☐ NO CONFORME
+Fotografía digital ☐ CONFORME
+☐ OBSERVADO
+☐ NO CONFORME
+Declaraciones Juradas ☐ CONFORME
+☐ OBSERVADO
+☐ NO CONFORME
+Documentos específicos de ☐ CONFORME
+modalidad
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 20 de 38
+
+[TABLA 1 en página 20]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 20 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 20]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CÓDIGO POSTULANTE: |  |
+| APELLIDOS Y NOMBRES: |  |
+| MODALIDAD: |  |
+| PROGRAMA: |  |
+| FECHA DE VERIFICACIÓN: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 20]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CRITERIO | CONFORME | NO CONFORME | OBSERVACIONES |
+| 1. LEGIBILIDAD: Documentos claramente legibles, sin manchas, borrones o alteraciones | ☐ | ☐ |  |
+| 2. VIGENCIA: DNI/CE vigente. Certificados con fecha de emisión válida | ☐ | ☐ |  |
+| 3. DATOS COINCIDENTES: Nombre, DNI, fechas coinciden con registro en plataforma | ☐ | ☐ |  |
+| 4. FIRMAS Y SELLOS: Documentos cuentan con firmas y sellos institucionales | ☐ | ☐ |  |
+| 5. FORMATO VÁLIDO: PDF de calidad, fotografía en JPG fondo blanco | ☐ | ☐ |  |
+| 6. COMPLETITUD: Documentos completos, sin páginas faltantes | ☐ | ☐ |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 20]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| DOCUMENTO | RESULTADO | OBSERVACIONES |
+| DNI / Carné de Extranjería | ☐ CONFORME ☐ OBSERVADO ☐ NO CONFORME |  |
+| Certificado de Estudios / Diploma de Grado | ☐ CONFORME ☐ OBSERVADO ☐ NO CONFORME |  |
+| Fotografía digital | ☐ CONFORME ☐ OBSERVADO ☐ NO CONFORME |  |
+| Declaraciones Juradas | ☐ CONFORME ☐ OBSERVADO ☐ NO CONFORME |  |
+| Documentos específicos de modalidad | ☐ CONFORME |  |
+-----------------------------------------------
+
+
+[TABLA 5 en página 20]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 21 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 21 de 38
+INTERNOS
+☐ OBSERVADO
+☐ NO CONFORME
+DECISIÓN FINAL:
+☐ TODOS LOS DOCUMENTOS CONFORMES → Continúa a verificación de autenticidad (Anexo
+I-03)
+☐ OBSERVACIONES SUBSANABLES → Genera notificación (Anexo I-05)
+☐ DOCUMENTOS FALSOS/ADULTERADOS → Exclusión inmediata (Anexo I-07)
+☐ DOCUMENTOS INCOMPLETOS → Notifica subsanación (Anexo I-05)
+VERIFICADO POR: REVISADO POR:
+_________________________ _________________________
+Nombre y firma Nombre y firma
+Personal DA Responsable de Verificación
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 21 de 38
+
+[TABLA 1 en página 21]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 21 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 21]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | ☐ OBSERVADO ☐ NO CONFORME |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 21]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ☐ TODOS LOS DOCUMENTOS CONFORMES → Continúa a verificación de autenticidad (Anexo I-03) |
+| ☐ OBSERVACIONES SUBSANABLES → Genera notificación (Anexo I-05) |
+| ☐ DOCUMENTOS FALSOS/ADULTERADOS → Exclusión inmediata (Anexo I-07) |
+| ☐ DOCUMENTOS INCOMPLETOS → Notifica subsanación (Anexo I-05) |
+-----------------------------------------------
+
+
+[TABLA 4 en página 21]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 22 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 22 de 38
+INTERNOS
+ANEXO I-03: CONSTANCIA DE VERIFICACIÓN DE AUTENTICIDAD
+DIRECCIÓN DE ADMISIÓN - UNAM
+Validación en Sistemas Oficiales (RENIEC, SUNEDU, MINEDU, CONADIS)
+CÓDIGO POSTULANTE:
+APELLIDOS Y NOMBRES:
+DNI / CE:
+FECHA DE VERIFICACIÓN:
+VERIFICACIÓN EN SISTEMAS OFICIALES:
+SISTEMA DATO RESULTADO EVIDENCIA OBSERVACION
+VERIFICADO ES
+DNI / Carné de ☐ VÁLIDO ☐ Captura
+Extranjería vigente
+☐ NO VÁLIDO ☐ Oficio
+RENIEC
+☐ Consulta
+web
+Grado académico ☐ VÁLIDO ☐ Captura
+(Bachiller/Maestro/D
+☐ NO VÁLIDO ☐ Oficio
+SUNEDU
+octor)
+☐ N/A ☐ Consulta
+web
+Certificado de ☐ VÁLIDO ☐ Captura
+MINEDU / Estudios ☐ NO VÁLIDO ☐ Oficio
+Secundarios
+UGEL ☐ N/A ☐ Consulta
+web
+Carné de ☐ VÁLIDO ☐ Captura
+discapacidad (si
+☐ NO VÁLIDO ☐ Oficio
+CONADIS
+aplica)
+☐ N/A ☐ Consulta
+web
+Otros documentos ☐ VÁLIDO ☐ Captura
+INSTITUCIÓ específicos ☐ NO VÁLIDO ☐ Oficio
+N EMISORA ☐ N/A ☐ Consulta
+web
+DETALLE DE CONSULTAS REALIZADAS:
+SISTEMA FECHA/HORA CONSULTA URL / CÓDIGO DE
+VERIFICACIÓN
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 22 de 38
+
+[TABLA 1 en página 22]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 22 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 22]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CÓDIGO POSTULANTE: |  |
+| APELLIDOS Y NOMBRES: |  |
+| DNI / CE: |  |
+| FECHA DE VERIFICACIÓN: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 22]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| SISTEMA | DATO VERIFICADO | RESULTADO | EVIDENCIA | OBSERVACION ES |
+| RENIEC | DNI / Carné de Extranjería vigente | ☐ VÁLIDO ☐ NO VÁLIDO | ☐ Captura ☐ Oficio ☐ Consulta web |  |
+| SUNEDU | Grado académico (Bachiller/Maestro/D octor) | ☐ VÁLIDO ☐ NO VÁLIDO ☐ N/A | ☐ Captura ☐ Oficio ☐ Consulta web |  |
+| MINEDU / UGEL | Certificado de Estudios Secundarios | ☐ VÁLIDO ☐ NO VÁLIDO ☐ N/A | ☐ Captura ☐ Oficio ☐ Consulta web |  |
+| CONADIS | Carné de discapacidad (si aplica) | ☐ VÁLIDO ☐ NO VÁLIDO ☐ N/A | ☐ Captura ☐ Oficio ☐ Consulta web |  |
+| INSTITUCIÓ N EMISORA | Otros documentos específicos | ☐ VÁLIDO ☐ NO VÁLIDO ☐ N/A | ☐ Captura ☐ Oficio ☐ Consulta web |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 22]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| SISTEMA | FECHA/HORA CONSULTA | URL / CÓDIGO DE VERIFICACIÓN |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+-----------------------------------------------
+
+
+[TABLA 5 en página 22]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 23 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 23 de 38
+INTERNOS
+RESULTADO FINAL DE AUTENTICIDAD:
+☐ TODOS LOS DOCUMENTOS VERIFICADOS SON AUTÉNTICOS → Continúa a
+Anexo I-04
+☐ INCONSISTENCIAS DETECTADAS → Notificación de observación (Anexo I-05)
+☐ DOCUMENTOS FALSOS O ADULTERADOS → Exclusión inmediata (Anexo I-07)
+VERIFICADO POR: FECHA: ____/____/2026
+HORA: ____:____
+_________________________
+Nombre y firma
+Personal DA
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 23 de 38
+
+[TABLA 1 en página 23]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 23 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 23]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ☐ TODOS LOS DOCUMENTOS VERIFICADOS SON AUTÉNTICOS → Continúa a Anexo I-04 |
+| ☐ INCONSISTENCIAS DETECTADAS → Notificación de observación (Anexo I-05) |
+| ☐ DOCUMENTOS FALSOS O ADULTERADOS → Exclusión inmediata (Anexo I-07) |
+-----------------------------------------------
+
+
+[TABLA 3 en página 23]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 24 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 24 de 38
+INTERNOS
+ANEXO I-04: FICHA DE VERIFICACIÓN DE REQUISITOS ESPECÍFICOS
+DIRECCIÓN DE ADMISIÓN - UNAM
+Validación de Requisitos por Modalidad de Admisión
+CÓDIGO POSTULANTE:
+APELLIDOS Y NOMBRES:
+MODALIDAD:
+PROGRAMA:
+FECHA DE VERIFICACIÓN:
+A. MODALIDAD ORDINARIO (Arts. 83°-85°):
+REQUISITO CUMPLE OBSERVACIONES
+Certificado de Estudios ☐ SÍ ☐ NO
+completo de secundaria
+Haber egresado de ☐ SÍ ☐ NO
+educación secundaria (5to
+año)
+No tener matrícula vigente ☐ SÍ ☐ NO
+en otra universidad
+B. MODALIDAD CEPREUNAM (Arts. 87°-89°):
+REQUISITO CUMPLE OBSERVACIONES
+Declaración de APTO ☐ SÍ ☐ NO
+emitida por CEPREUNAM
+Asistencia mínima de 85% a ☐ SÍ ☐ NO
+clases
+Estar inscrito en el ciclo ☐ SÍ ☐ NO
+correspondiente
+No haber sido separado del ☐ SÍ ☐ NO
+CEPREUNAM
+C. MODALIDAD POSGRADO (Arts. 105°-106°):
+REQUISITO CUMPLE OBSERVACIONES
+Grado de Bachiller ☐ SÍ ☐ NO ☐ N/A
+(Maestría) o Maestro
+(Doctorado)
+Currículum Vitae ☐ SÍ ☐ NO ☐ N/A
+documentado
+Proyecto de investigación ☐ SÍ ☐ NO ☐ N/A
+(formato aprobado)
+Certificado de idioma ☐ SÍ ☐ NO ☐ N/A
+extranjero (Doctorado)
+Experiencia profesional ☐ SÍ ☐ NO ☐ N/A
+mínima (según programa)
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 24 de 38
+
+[TABLA 1 en página 24]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 24 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 24]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CÓDIGO POSTULANTE: |  |
+| APELLIDOS Y NOMBRES: |  |
+| MODALIDAD: |  |
+| PROGRAMA: |  |
+| FECHA DE VERIFICACIÓN: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 24]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| REQUISITO | CUMPLE | OBSERVACIONES |
+| Certificado de Estudios completo de secundaria | ☐ SÍ ☐ NO |  |
+| Haber egresado de educación secundaria (5to año) | ☐ SÍ ☐ NO |  |
+| No tener matrícula vigente en otra universidad | ☐ SÍ ☐ NO |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 24]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| REQUISITO | CUMPLE | OBSERVACIONES |
+| Declaración de APTO emitida por CEPREUNAM | ☐ SÍ ☐ NO |  |
+| Asistencia mínima de 85% a clases | ☐ SÍ ☐ NO |  |
+| Estar inscrito en el ciclo correspondiente | ☐ SÍ ☐ NO |  |
+| No haber sido separado del CEPREUNAM | ☐ SÍ ☐ NO |  |
+-----------------------------------------------
+
+
+[TABLA 5 en página 24]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| REQUISITO | CUMPLE | OBSERVACIONES |
+| Grado de Bachiller (Maestría) o Maestro (Doctorado) | ☐ SÍ ☐ NO ☐ N/A |  |
+| Currículum Vitae documentado | ☐ SÍ ☐ NO ☐ N/A |  |
+| Proyecto de investigación (formato aprobado) | ☐ SÍ ☐ NO ☐ N/A |  |
+| Certificado de idioma extranjero (Doctorado) | ☐ SÍ ☐ NO ☐ N/A |  |
+| Experiencia profesional mínima (según programa) | ☐ SÍ ☐ NO ☐ N/A |  |
+-----------------------------------------------
+
+
+[TABLA 6 en página 24]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 25 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 25 de 38
+INTERNOS
+D. VERIFICACIÓN DE IMPEDIMENTOS:
+REQUISITO CUMPLE OBSERVACIONES
+NO tiene sanción vigente ☐ SÍ ☐ NO
+por mala conducta
+NO fue excluido de proceso ☐ SÍ ☐ NO
+anterior por documentos
+falsos
+NO tiene matrícula activa en ☐ SÍ ☐ NO
+otro programa (Posgrado)
+NO incurre en ☐ SÍ ☐ NO
+impedimentos del Art. 113°
+(Posgrado)
+DECISIÓN FINAL:
+☐ CUMPLE TODOS LOS REQUISITOS → Estado: VALIDADO. Continúa a Fase 5
+(Registro Biométrico)
+☐ NO CUMPLE REQUISITOS (subsanable) → Notificación de observación (Anexo I-05)
+☐ IMPEDIMENTO DETECTADO (no subsanable) → Exclusión (Anexo I-07)
+VERIFICADO POR: FECHA: ____/____/2026
+_________________________
+Nombre y firma
+Personal DA
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 25 de 38
+
+[TABLA 1 en página 25]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 25 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 25]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| REQUISITO | CUMPLE | OBSERVACIONES |
+| NO tiene sanción vigente por mala conducta | ☐ SÍ ☐ NO |  |
+| NO fue excluido de proceso anterior por documentos falsos | ☐ SÍ ☐ NO |  |
+| NO tiene matrícula activa en otro programa (Posgrado) | ☐ SÍ ☐ NO |  |
+| NO incurre en impedimentos del Art. 113° (Posgrado) | ☐ SÍ ☐ NO |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 25]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ☐ CUMPLE TODOS LOS REQUISITOS → Estado: VALIDADO. Continúa a Fase 5 (Registro Biométrico) |
+| ☐ NO CUMPLE REQUISITOS (subsanable) → Notificación de observación (Anexo I-05) |
+| ☐ IMPEDIMENTO DETECTADO (no subsanable) → Exclusión (Anexo I-07) |
+-----------------------------------------------
+
+
+[TABLA 4 en página 25]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 26 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 26 de 38
+INTERNOS
+ANEXO I-05: NOTIFICACIÓN DE OBSERVACIÓN AL POSTULANTE
+UNIVERSIDAD NACIONAL DE MOQUEGUA
+DIRECCIÓN DE ADMISIÓN
+CÓDIGO POSTULANTE:
+APELLIDOS Y NOMBRES:
+CORREO ELECTRÓNICO:
+FECHA NOTIFICACIÓN: ____/____/2026 HORA: ____:____
+De conformidad con el artículo 81° del Reglamento General de Admisión, se le comunica
+que su expediente de inscripción presenta la(s) siguiente(s) OBSERVACIÓN(ES):
+N° OBSERVACIÓN DOCUMENTO A
+SUBSANAR
+1
+2
+3
+4
+PLAZO PARA SUBSANACIÓN: CUARENTA Y OCHO (48) HORAS
+Fecha límite: ____/____/2026 a las ____:____ horas
+Instrucciones: Ingrese a la plataforma https://unam.edu.pe/admision con su código y
+contraseña, y cargue el(los) documento(s) subsanado(s) en la sección correspondiente.
+IMPORTANTE: Vencido el plazo sin subsanación, quedará EXCLUIDO automáticamente
+del proceso de admisión, sin lugar a reclamo posterior ni devolución de los pagos
+efectuados (Art. 81.2°).
+_______________
+Responsable DA
+Fecha: ____/____/2026
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 26 de 38
+
+[TABLA 1 en página 26]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 26 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 26]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CÓDIGO POSTULANTE: |  |
+| APELLIDOS Y NOMBRES: |  |
+| CORREO ELECTRÓNICO: |  |
+| FECHA NOTIFICACIÓN: | ____/____/2026 HORA: ____:____ |
+-----------------------------------------------
+
+
+[TABLA 3 en página 26]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| N° | OBSERVACIÓN | DOCUMENTO A SUBSANAR |
+| 1 |  |  |
+| 2 |  |  |
+| 3 |  |  |
+| 4 |  |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 26]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 27 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 27 de 38
+INTERNOS
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 27 de 38
+
+[TABLA 1 en página 27]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 27 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 27]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 28 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 28 de 38
+INTERNOS
+ANEXO I-06: FICHA DE REVISIÓN DE SUBSANACIÓN
+DIRECCIÓN DE ADMISIÓN - UNAM
+Control de Documentos Subsanados
+CÓDIGO POSTULANTE:
+APELLIDOS Y NOMBRES:
+FECHA NOTIFICACIÓN ORIGINAL:
+FECHA LÍMITE SUBSANACIÓN:
+VERIFICACIÓN DE DOCUMENTOS SUBSANADOS:
+N° OBSERVACIÓN DOCUMENTO CARGADO CUMPLE RESULTADO
+ORIGINAL REQUERIDO EN PLAZO REQUISITO
+1 ☐ SÍ ☐ SÍ ☐ APROBADO
+☐ NO ☐ NO ☐
+RECHAZADO
+2 ☐ SÍ ☐ SÍ ☐ APROBADO
+☐ NO ☐ NO ☐
+RECHAZADO
+3 ☐ SÍ ☐ SÍ ☐ APROBADO
+☐ NO ☐ NO ☐
+RECHAZADO
+4 ☐ SÍ ☐ SÍ ☐ APROBADO
+☐ NO ☐ NO ☐
+RECHAZADO
+5 ☐ SÍ ☐ SÍ ☐ APROBADO
+☐ NO ☐ NO ☐
+RECHAZADO
+CONTROL DE PLAZOS:
+Fecha/Hora de notificación:
+Fecha/Hora límite (48h después):
+Fecha/Hora de carga de subsanación:
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 28 de 38
+
+[TABLA 1 en página 28]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 28 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 28]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CÓDIGO POSTULANTE: |  |
+| APELLIDOS Y NOMBRES: |  |
+| FECHA NOTIFICACIÓN ORIGINAL: |  |
+| FECHA LÍMITE SUBSANACIÓN: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 28]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| N° | OBSERVACIÓN ORIGINAL | DOCUMENTO REQUERIDO | CARGADO EN PLAZO | CUMPLE REQUISITO | RESULTADO |
+| 1 |  |  | ☐ SÍ ☐ NO | ☐ SÍ ☐ NO | ☐ APROBADO ☐ RECHAZADO |
+| 2 |  |  | ☐ SÍ ☐ NO | ☐ SÍ ☐ NO | ☐ APROBADO ☐ RECHAZADO |
+| 3 |  |  | ☐ SÍ ☐ NO | ☐ SÍ ☐ NO | ☐ APROBADO ☐ RECHAZADO |
+| 4 |  |  | ☐ SÍ ☐ NO | ☐ SÍ ☐ NO | ☐ APROBADO ☐ RECHAZADO |
+| 5 |  |  | ☐ SÍ ☐ NO | ☐ SÍ ☐ NO | ☐ APROBADO ☐ RECHAZADO |
+-----------------------------------------------
+
+
+[TABLA 4 en página 28]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| Fecha/Hora de notificación: |  |  |  |  |  |  |
+| Fecha/Hora límite (48h después): |  |  |  |  |  |  |
+| Fecha/Hora de carga de subsanación: |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 29 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 29 de 38
+INTERNOS
+¿Cargó dentro del plazo? ☐ SÍ (Procede revisión) ☐ NO (Exclusión
+automática)
+DECISIÓN FINAL SOBRE SUBSANACIÓN:
+☐ SUBSANACIÓN APROBADA → Estado: VALIDADO. Continúa a Fase 5 (Registro
+Biométrico)
+☐ SUBSANACIÓN INCOMPLETA/INCORRECTA → Nueva notificación (si hay tiempo)
+o Exclusión
+☐ FUERA DE PLAZO → Exclusión automática (Anexo I-07)
+☐ OBSERVACIONES PERSISTEN → Exclusión (Anexo I-07)
+OBSERVACIONES ADICIONALES:
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+REVISADO POR: APROBADO POR:
+_________________________ _________________________
+Nombre y firma Responsable de Verificación
+Personal DA Fecha: ____/____/2026
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 29 de 38
+
+[TABLA 1 en página 29]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 29 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 29]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ¿Cargó dentro del plazo? | ☐ SÍ (Procede revisión) ☐ NO (Exclusión automática) |
+-----------------------------------------------
+
+
+[TABLA 3 en página 29]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ☐ SUBSANACIÓN APROBADA → Estado: VALIDADO. Continúa a Fase 5 (Registro Biométrico) |
+| ☐ SUBSANACIÓN INCOMPLETA/INCORRECTA → Nueva notificación (si hay tiempo) o Exclusión |
+| ☐ FUERA DE PLAZO → Exclusión automática (Anexo I-07) |
+| ☐ OBSERVACIONES PERSISTEN → Exclusión (Anexo I-07) |
+-----------------------------------------------
+
+
+[TABLA 4 en página 29]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 30 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 30 de 38
+INTERNOS
+ANEXO I-07: CONSTANCIA DE EXCLUSIÓN POR INCUMPLIMIENTO
+UNIVERSIDAD NACIONAL DE MOQUEGUA
+DIRECCIÓN DE ADMISIÓN
+CONSTANCIA DE EXCLUSIÓN DEL PROCESO DE ADMISIÓN
+CÓDIGO POSTULANTE:
+APELLIDOS Y NOMBRES:
+MODALIDAD:
+PROGRAMA:
+La Dirección de Admisión de la Universidad Nacional de Moquegua, en aplicación del
+artículo 81.2° del Reglamento General de Admisión, DECLARA:
+EXCLUSIÓN DEL PROCESO DE ADMISIÓN
+El/la postulante arriba identificado(a) queda EXCLUIDO(A) del proceso de admisión por:
+CAUSAL DE EXCLUSIÓN:
+☐ Vencimiento del plazo de subsanación (48 horas) sin regularizar observaciones (Art.
+81.2°)
+☐ Documentación incompleta fuera de plazo (Art. 78°)
+☐ Documentos falsos o adulterados detectados (Art. 103.2°)
+☐ Impedimento de postulación verificado (Art. 113°)
+☐ Otro: ___________________________________________________________
+OBSERVACIONES NOTIFICADAS Y NO SUBSANADAS:
+1.
+________________________________________________________________________
+2.
+________________________________________________________________________
+3.
+________________________________________________________________________
+4.
+________________________________________________________________________
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 30 de 38
+
+[TABLA 1 en página 30]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 30 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 30]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| CÓDIGO POSTULANTE: |  |
+| APELLIDOS Y NOMBRES: |  |
+| MODALIDAD: |  |
+| PROGRAMA: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 30]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ☐ Vencimiento del plazo de subsanación (48 horas) sin regularizar observaciones (Art. 81.2°) |
+| ☐ Documentación incompleta fuera de plazo (Art. 78°) |
+| ☐ Documentos falsos o adulterados detectados (Art. 103.2°) |
+| ☐ Impedimento de postulación verificado (Art. 113°) |
+| ☐ Otro: ___________________________________________________________ |
+-----------------------------------------------
+
+
+[TABLA 4 en página 30]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 31 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 31 de 38
+INTERNOS
+FECHA NOTIFICACIÓN: ____/____/2026
+FECHA VENCIMIENTO: ____/____/2026
+EFECTOS (Art. 81.2°):
+• El postulante queda impedido de rendir el examen de admisión del presente proceso.
+• NO procede la devolución de los pagos efectuados por concepto de inscripción.
+• NO procede reclamo posterior sobre esta decisión.
+RECURSOS:
+El postulante puede solicitar RECONSIDERACIÓN solo si demuestra error material en la
+notificación de observaciones o causa de fuerza mayor debidamente acreditada, dentro de
+las 48 horas siguientes a la presente notificación.
+Moquegua, ______ de ______________ de 2026
+_______________
+Director(a) de Admisión
+Fecha: ____/____/2026
+NOTIFICADO:
+☐ Correo electrónico:
+☐ Portal web del postulante:
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 31 de 38
+
+[TABLA 1 en página 31]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 31 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 31]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| FECHA NOTIFICACIÓN: | ____/____/2026 |
+| FECHA VENCIMIENTO: | ____/____/2026 |
+-----------------------------------------------
+
+
+[TABLA 3 en página 31]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| • El postulante queda impedido de rendir el examen de admisión del presente proceso. |
+| • NO procede la devolución de los pagos efectuados por concepto de inscripción. |
+| • NO procede reclamo posterior sobre esta decisión. |
+-----------------------------------------------
+
+
+[TABLA 4 en página 31]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ☐ Correo electrónico: |  |
+| ☐ Portal web del postulante: |  |
+-----------------------------------------------
+
+
+[TABLA 5 en página 31]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 32 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 32 de 38
+INTERNOS
+☐ Publicación institucional:
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 32 de 38
+
+[TABLA 1 en página 32]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 32 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 32]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| ☐ Publicación institucional: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 32]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 33 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 33 de 38
+INTERNOS
+ANEXO I-08: BASE DE DATOS DE POSTULANTES APTOS
+UNIVERSIDAD NACIONAL DE MOQUEGUA
+DIRECCIÓN DE ADMISIÓN
+RELACIÓN OFICIAL DE POSTULANTES APTOS PARA EXAMEN DE ADMISIÓN
+PROCESO:
+MODALIDAD:
+FECHA CIERRE:
+FECHA PUBLICACIÓN:
+RELACIÓN DE POSTULANTES APTOS:
+N° CÓDIGO APELLIDOS DNI PROGRAMA SEDE
+Y NOMBRES
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+TOTAL APTOS: ______
+Director(a) de Admisión Responsable OTI
+Fecha: ____/____/2026 Fecha: ____/____/2026
+NOTAS IMPORTANTES:
+• Esta es la relación OFICIAL de postulantes habilitados para rendir el examen de admisión.
+• Solo los postulantes incluidos en esta lista pueden presentarse el día del examen.
+• Es OBLIGATORIO presentar el Carné de Postulante y DNI original el día del examen.
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 33 de 38
+
+[TABLA 1 en página 33]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 33 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 33]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| PROCESO: |  |
+| MODALIDAD: |  |
+| FECHA CIERRE: |  |
+| FECHA PUBLICACIÓN: |  |
+-----------------------------------------------
+
+
+[TABLA 3 en página 33]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| N° | CÓDIGO | APELLIDOS Y NOMBRES | DNI | PROGRAMA | SEDE |
+| 1 |  |  |  |  |  |
+| 2 |  |  |  |  |  |
+| 3 |  |  |  |  |  |
+| 4 |  |  |  |  |  |
+| 5 |  |  |  |  |  |
+| 6 |  |  |  |  |  |
+| 7 |  |  |  |  |  |
+| 8 |  |  |  |  |  |
+| 9 |  |  |  |  |  |
+| 10 |  |  |  |  |  |
+| 11 |  |  |  |  |  |
+| 12 |  |  |  |  |  |
+| 13 |  |  |  |  |  |
+| 14 |  |  |  |  |  |
+| 15 |  |  |  |  |  |
+| TOTAL APTOS: ______ |  |  |  |  |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 33]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 34 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 34 de 38
+INTERNOS
+ANEXO I-09: INFORME ESTADÍSTICO DE INSCRIPCIÓN
+UNIVERSIDAD NACIONAL DE MOQUEGUA
+DIRECCIÓN DE ADMISIÓN
+INFORME ESTADÍSTICO DEL PROCESO DE INSCRIPCIÓN
+PROCESO:
+PERÍODO: Del ____/____/2026 al ____/____/2026
+RESUMEN GENERAL:
+INDICADOR CANTIDAD %
+Total de registros iniciados
+100%
+(Fase 1)
+Pagos confirmados (Fase 2)
+Documentación cargada
+(Fase 3)
+Validados sin observaciones
+Observados (en plazo
+subsanación)
+Subsanados correctamente
+EXCLUIDOS por
+incumplimiento
+Con registro biométrico (Fase
+5)
+TOTAL APTOS PARA
+EXAMEN
+POR MODALIDAD:
+MODALIDAD INSCRITOS VALIDADOS OBSERVADOS EXCLUIDOS APTOS
+Ordinario
+General
+CEPREUNAM
+Extraordinario
+Posgrado
+TOTAL
+ANÁLISIS DE OBSERVACIONES MÁS FRECUENTES:
+N° TIPO DE OBSERVACIÓN CANTIDAD
+1 Certificado de estudios ilegible
+2 Fotografía no cumple especificaciones
+3 DNI vencido o próximo a vencer
+4 Documentos sin firma/sello institucional
+5 Otros
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 34 de 38
+
+[TABLA 1 en página 34]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 34 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 34]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| PROCESO: |  |
+| PERÍODO: | Del ____/____/2026 al ____/____/2026 |
+-----------------------------------------------
+
+
+[TABLA 3 en página 34]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| INDICADOR | CANTIDAD | % |
+| Total de registros iniciados (Fase 1) |  | 100% |
+| Pagos confirmados (Fase 2) |  |  |
+| Documentación cargada (Fase 3) |  |  |
+| Validados sin observaciones |  |  |
+| Observados (en plazo subsanación) |  |  |
+| Subsanados correctamente |  |  |
+| EXCLUIDOS por incumplimiento |  |  |
+| Con registro biométrico (Fase 5) |  |  |
+| TOTAL APTOS PARA EXAMEN |  |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 34]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| MODALIDAD | INSCRITOS | VALIDADOS | OBSERVADOS | EXCLUIDOS | APTOS |
+| Ordinario General |  |  |  |  |  |
+| CEPREUNAM |  |  |  |  |  |
+| Extraordinario |  |  |  |  |  |
+| Posgrado |  |  |  |  |  |
+| TOTAL |  |  |  |  |  |
+-----------------------------------------------
+
+
+[TABLA 5 en página 34]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| N° | TIPO DE OBSERVACIÓN | CANTIDAD |
+| 1 | Certificado de estudios ilegible |  |
+| 2 | Fotografía no cumple especificaciones |  |
+| 3 | DNI vencido o próximo a vencer |  |
+| 4 | Documentos sin firma/sello institucional |  |
+| 5 | Otros |  |
+-----------------------------------------------
+
+
+[TABLA 6 en página 34]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 35 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 35 de 38
+INTERNOS
+INDICADORES DE EFICIENCIA:
+% de Conversión (Inscritos → Aptos) ______%
+% de Exclusión por incumplimiento ______%
+% de Subsanación exitosa ______%
+Tiempo promedio de validación ______ días
+Tasa de observaciones ______%
+CONCLUSIONES Y RECOMENDACIONES:
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+_______________
+Director(a) de Admisión
+Elaborado por
+Fecha: ____/____/2026
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 35 de 38
+
+[TABLA 1 en página 35]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 35 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 35]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| % de Conversión (Inscritos → Aptos) | ______% |
+| % de Exclusión por incumplimiento | ______% |
+| % de Subsanación exitosa | ______% |
+| Tiempo promedio de validación | ______ días |
+| Tasa de observaciones | ______% |
+-----------------------------------------------
+
+
+[TABLA 3 en página 35]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 36 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 36 de 38
+INTERNOS
+ANEXO I-10: ACTA DE CIERRE DEL PROCESO DE INSCRIPCIÓN
+UNIVERSIDAD NACIONAL DE MOQUEGUA
+DIRECCIÓN DE ADMISIÓN
+ACTA DE CIERRE DEL PROCESO DE INSCRIPCIÓN
+PROCESO:
+FECHA CIERRE: ____/____/2026 HORA: ____:____
+En la ciudad de Moquegua, siendo las ____:____ horas del día ____/____/2026, la
+Dirección de Admisión de la Universidad Nacional de Moquegua procede a CERRAR el
+proceso de inscripción para el examen de admisión, dejando constancia de lo siguiente:
+1. CUMPLIMIENTO DE PLAZOS:
+☐ Se cumplieron todos los plazos del cronograma aprobado.
+☐ Se otorgaron los plazos de subsanación de 48 horas (Art. 81°).
+☐ Se notificaron oportunamente las observaciones y exclusiones.
+2. RESULTADOS FINALES:
+Total de postulantes APTOS:
+Total de postulantes EXCLUIDOS:
+3. DOCUMENTACIÓN GENERADA:
+☐ Base de Datos oficial de postulantes APTOS (Anexo I-08)
+☐ Informe Estadístico de Inscripción (Anexo I-09)
+☐ Constancias de Exclusión archivadas (Anexo I-07)
+☐ Expedientes digitales respaldados
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 36 de 38
+
+[TABLA 1 en página 36]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 36 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 36]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| PROCESO: |  |
+| FECHA CIERRE: | ____/____/2026 HORA: ____:____ |
+-----------------------------------------------
+
+
+[TABLA 3 en página 36]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+| Total de postulantes APTOS: |  |
+| Total de postulantes EXCLUIDOS: |  |
+-----------------------------------------------
+
+
+[TABLA 4 en página 36]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  |  |  |  |  |  |
+-----------------------------------------------
+
+
+--- PÁGINA 37 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 37 de 38
+INTERNOS
+4. REMISIÓN DE BD:
+☐ BD remitida a CEE para cálculo de cantidad de exámenes
+☐ BD remitida a OTI para configuración de sistemas
+5. PUBLICACIÓN:
+☐ Relación de APTOS publicada en portal web institucional
+Fecha publicación: ____/____/2026 Hora: ____:____
+OBSERVACIONES:
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+Se declara formalmente CERRADO el proceso de inscripción. A partir de este
+momento:
+• NO se admitirán más inscripciones.
+• Los postulantes EXCLUIDOS quedan inhabilitados para rendir el examen.
+• SOLO los postulantes incluidos en la Base de Datos de APTOS (Anexo I-08) pueden rendir
+el examen.
+• Toda la documentación generada queda bajo custodia de la Dirección de Admisión.
+Director(a) DA Responsable OTI CCA (V°B°)
+Fecha: ____/____/2026 Fecha: ____/____/2026 Fecha: ____/____/2026
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 37 de 38
+
+[TABLA 1 en página 37]
+
+--- Tabla de Anexo (Sin interpretación LLM) ---
+|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
+|  | PROTOCOLOS INTERNOS | Version: 01 | Página 37 de 38 |
+-----------------------------------------------
+
+
+[TABLA 2 en página 37]
+
+
+--- PÁGINA 38 ---
+
+“CONTROL Y VALIDACIÓN DE INSCRIPCIÓN”
+PROTOCOLOS Version: 01 Página 38 de 38
+INTERNOS
+Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
+Página 38 de 38
+
+[TABLA 1 en página 38]
+
+
+[TABLA 2 en página 38]
+

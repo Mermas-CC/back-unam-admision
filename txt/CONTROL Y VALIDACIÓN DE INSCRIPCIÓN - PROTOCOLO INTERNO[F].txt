@@ -3570,10 +3570,6 @@ Página 37 de 38
 
 [TABLA 2 en página 37]
 
---- Tabla de Anexo (Sin interpretación LLM) ---
-|  |  |  |  |  |  |
------------------------------------------------
-
 
 --- PÁGINA 38 ---
 
@@ -3585,15 +3581,6 @@ Página 38 de 38
 
 [TABLA 1 en página 38]
 
---- Tabla de Anexo (Sin interpretación LLM) ---
-|  | “CONTROL Y VALIDACIÓN DE INSCRIPCIÓN” |  |  |
-|  | PROTOCOLOS INTERNOS | Version: 01 | Página 38 de 38 |
------------------------------------------------
-
 
 [TABLA 2 en página 38]
-
---- Tabla de Anexo (Sin interpretación LLM) ---
-|  |  |  |  |  |  |
------------------------------------------------
 

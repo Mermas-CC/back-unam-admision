@@ -89,6 +89,8 @@ def cargar_indice():
     global vector_index, chroma_collection
     if not os.path.exists(PERSIST_DIR):
         print(f"⚠️  Advertencia: No se encontró '{PERSIST_DIR}'. El sistema iniciará sin conocimiento RAG. Usa /admin/ingest.")
+        vector_index = None
+        chroma_collection = None
         return False
     
     print(f"📂 Cargando índice vectorial desde '{PERSIST_DIR}'...")
@@ -97,14 +99,20 @@ def cargar_indice():
         chroma_collection = db.get_or_create_collection("admision_unap")
         
         vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
-        vector_index = VectorStoreIndex.from_vector_store(
+        nuevo_indice = VectorStoreIndex.from_vector_store(
             vector_store,
             embed_model=Settings.embed_model
         )
-        print("✅ Índice vectorial cargado exitosamente.")
+        # Solo actualizamos las globales si la carga fue exitosa
+        vector_index = nuevo_indice
+        print(f"✅ Índice vectorial cargado exitosamente. (Nodos: {chroma_collection.count()})")
         return True
     except Exception as e:
-        print(f"❌ Error cargando ChromaDB: {e}")
+        print(f"❌ Error crítico cargando ChromaDB: {e}")
+        import traceback
+        traceback.print_exc()
+        vector_index = None
+        chroma_collection = None
         return False
 
 cargar_indice()
@@ -177,15 +185,17 @@ async def trigger_ingest(force: bool = False):
         # Ejecutar ingestión (esto bloquea el thread, idealmente background task, pero RAG suele ser rápido si hay pocos files)
         # Para evitar bloquear todo, usamos run_in_executor o background tasks de FastAPI
         # Por simplicidad ahora: directo
-        ingest_documents(force_rebuild=force)
+        await ingest_documents(force_rebuild=force)
         
         # Recargar índice en memoria
         if cargar_indice():
-            return {"message": "Ingestión completada y índice recargado.", "status": "ok"}
+            return {"message": "Ingestión completada y índice recargado exitosamente.", "status": "ok"}
         else:
-             return {"message": "Ingestión completada pero falló la recarga del índice.", "status": "error"}
+             print("❌ Falló la recarga del índice post-ingestión.")
+             return {"message": "Ingestión completada, pero no pudo cargarse el índice en memoria. Revisa los logs del servidor.", "status": "warning"}
     except Exception as e:
-        return {"message": f"Error during ingest: {str(e)}", "status": "error"}
+        print(f"❌ Error en /admin/ingest: {e}")
+        return {"message": f"Error durante la ingestión: {str(e)}", "status": "error"}
 
 @app.get("/admin/files", dependencies=[Depends(verify_admin)])
 async def list_files():
@@ -216,13 +226,13 @@ async def delete_file(filename: str):
 def get_retriever():
     global vector_index
     if vector_index:
-        return vector_index.as_retriever(similarity_top_k=15)
+        return vector_index.as_retriever(similarity_top_k=4)
     return None
 
 def get_query_engine():
     global vector_index
     if vector_index:
-        return vector_index.as_query_engine(similarity_top_k=15, streaming=True)
+        return vector_index.as_query_engine(similarity_top_k=4, streaming=True)
     return None
 
 print("✅ Sistema RAG inicializado (esperando consultas).")
@@ -290,45 +300,15 @@ async def llamar_llm_streaming(prompt: str):
                 yield "Lo siento, hubo un problema al conectar con el servicio de IA."
             break
 
-def generar_prompt(pregunta, contexto, historial, source_files=None):
+def generar_prompt(pregunta, contexto, historial):
     historial_texto = "\n".join(
         [f"{msg['role']}: {msg['parts'][0]}" for msg in historial]
     )
     
-    # Formatear información de fuentes si está disponible
-    fuentes_info = ""
-    if source_files:
-        fuentes_lista = "\n".join([f"- {archivo}" for archivo in source_files])
-        fuentes_info = f"""
-## FUENTES DE INFORMACIÓN DISPONIBLES
-La información proviene de los siguientes documentos oficiales:
-{fuentes_lista}
-
-**🎯 REGLAS IMPORTANTES SOBRE CITACIÓN DE FUENTES:** 
-- **NO CITES EN CADA FRASE O ÍTEM DE LISTA.** Esto es muy importante para la legibilidad.
-- **AGRUPA LA INFORMACIÓN:** Si todo un párrafo o una lista de 5 puntos viene del mismo documento, pon la etiqueta `<citation>...</citation>` **SOLO UNA VEZ** al final de todo el bloque o lista.
-- **MÚLTIPLES FUENTES:** Si la respuesta tiene dos secciones (ej. Costos y Funciones) de documentos diferentes, **CADA SECCIÓN DEBE TENER SU PROPIA CITA AL FINAL**.
-- **NO** escribas el nombre del documento en el texto narrativo. Usa siempre las etiquetas.
-- **IMPORTANTE:** No dejes ninguna sección con datos específicos sin su etiqueta de fuente al final.
-- Ejemplo **CORRECTO** (Bloques Diferentes):
-  **Costos:**
-  - Costo A
-  - Costo B
-  <citation>PROSPECTO</citation>
-
-  **Funciones:**
-  - Función A
-  - Función B
-  <citation>REGLAMENTO</citation>
-
-- **REGLA DE ORO:** Si mencionas una cifra (S/ 350.00) o un requisito específico, **DEBE** haber una etiqueta de fuente al final del párrafo que lo contiene.
-- **FECHAS Y CRONOGRAMA:** Si usas información de la sección "INFORMACIÓN ACTUALIZADA DE FECHAS", la etiqueta debe ser **SIEMPRE**: `<citation>PROSPECTO ADMISION</citation>`.
-"""
-    
     return f"""
 ## ROL Y OBJETIVO
 Eres el Asistente Virtual de Admisiones de la UNAM - un guía amigable, motivador y EXPRESIVO que ayuda a estudiantes de secundaria a navegar el proceso de admisión universitaria. Tu misión es hacer que la información compleja sea **fácil de entender** y que cada estudiante se sienta apoyado y confiado en su camino a la universidad.
-{fuentes_info}
+Si preguntan cual es tu proposito, que sea el de facilitar la vida relacionada a la Universidad Nacional de Moquegua, o cosas similares.
 ## ESTILO DE COMUNICACIÓN
 - **Expresivo y Cercano**: Usa un tono cálido y entusiasta. No seas robótico, sé humano
 - **Claro y Simple**: Explica conceptos complejos con palabras sencillas. Evita jerga innecesaria
@@ -337,21 +317,19 @@ Eres el Asistente Virtual de Admisiones de la UNAM - un guía amigable, motivado
 - **Empático**: Reconoce que el proceso de admisión puede ser abrumador y muestra comprensión
 
 ## REGLAS Y CONOCIMIENTO
-1. **Prioridad de Fuentes:** Tu fuente de verdad principal es el **"Historial de la Conversación"**. Úsalo SIEMPRE para responder preguntas sobre la conversación actual.
-2. **Uso del Contexto RAG:** Usa el **"Contexto Relevante"** únicamente para responder preguntas sobre el proceso de admisión.
-3. **Manejo de Información Faltante:** Si la pregunta NO se puede responder con el contexto proporcionado (por ejemplo, "qué navegador usar" si no está en los documentos), **NO INTENTES FORZAR UNA RESPUESTA**.
-   - Di claramente: "Lo siento, no encuentro información específica sobre eso en los documentos oficiales, pero generalmente te recomendaría..." (si es algo de sentido común como usar Chrome/Firefox).
-   - O sugiere: "Te recomiendo consultar directamente con la oficina de admisión para ese detalle técnico".
-4. **NO INVENTES RESPUESTAS:** Si el documento no lo dice, no lo asumas.
-5. **Combinación Inteligente:** Si una pregunta depende del historial, combina ambas fuentes para dar una respuesta coherente.
-6. **Alias y Abreviaturas:** Reconoce **"UNAM"** como la abreviatura oficial de **"Universidad Nacional de Moquegua"**.
-7. **Privacidad Absoluta:** NUNCA pidas, almacenes o repitas información personal del usuario.
-8. **Enfoque Único:** Si preguntan por temas no relacionados con admisión, redirige amablemente.
-9. **PROHIBICIÓN DE CUADROS Y TABLAS:** Está PROHIBIDO usar formato de tablas de Markdown. Usa párrafos claros o listas simples.
-10. **SIN ENLACES:** No proporciones URLs. Si necesitas mencionar una página, descríbela textualmente.
+1. **Prioridad de Fuentes:** Tu fuente de verdad principal es el **"Historial de la Conversación"**. Úsalo SIEMPRE para responder preguntas sobre la conversación actual
+2. **Uso del Contexto RAG:** Usa el **"Contexto Relevante"** únicamente para responder preguntas sobre el proceso de admisión
+3. **Combinación Inteligente:** Si una pregunta depende del historial, combina ambas fuentes para dar una respuesta coherente
+4. **Alias y Abreviaturas:** Reconoce **"UNAM"** como la abreviatura oficial de **"Universidad Nacional de Moquegua"**
+5. **Manejo de Incertidumbre:** Si no tienes la información, admítelo claramente y sugiere consultar las fuentes oficiales
+6. **Privacidad Absoluta:** NUNCA pidas, almacenes o repitas información personal del usuario
+7. **Enfoque Único:** Si preguntan por temas no relacionados con admisión, redirige amablemente
+8. **PROHIBICIÓN DE CUADROS Y TABLAS:** Está PROHIBIDO usar formato de tablas de Markdown. Usa párrafos claros o listas simples
+9. **SIN ENLACES:** No proporciones URLs. Si necesitas mencionar una página, descríbela textualmente
+10. **SIN MENCIONES DE FUENTES:** No menciones nombres de archivos o documentos (ej. "Según el Prospecto", "En el reglamento") en tu respuesta. Integra la información de forma natural y directa.
 
 
-## INFORMACIÓN ACTUALIZADA DE FECHAS (Fuente: PROSPECTO ADMISION)
+## CONTENIDO SITUACIONAL PARA FECHAS
 
 1. CRONOGRAMA DE INSCRIPCIÓN Y COSTOS
 CUADRO N° 1: CRONOGRAMA DE INSCRIPCIÓN DEL CONCURSO DE ADMISIÓN 2026-I
@@ -384,21 +362,26 @@ Consulta por WhatsApp al número: 923236099.
 Realizar el pago correspondiente en el Banco de la Nación o agencias/agentes del Banco de la Nación y en Tesorería de la Universidad Nacional de Moquegua.
 Los montos que deben abonar los postulantes por derecho de inscripción, según su Modalidad de Ingreso y el tipo de Colegio donde culminaron sus Estudios Secundarios o Universidades de procedencia, son los siguientes:
 
-**COSTOS EXAMEN ORDINARIO**
-* Examen Ordinario: S/ 350.00
+**Proceso Ordinario:**
+*   El examen ordinario tiene un costo de S/ 350.00.
+*   El participante evaluativo debe pagar S/ 200.00.
 
-**COSTOS EXAMEN EXTRAORDINARIO**
-* Titulados o graduados universitarios: S/ 450.00
-* Traslado Externo de Otras Universidades: S/ 400.00
-* Traslado Interno: S/ 350.00
-* Primer y segundo puesto de II.EE. y Egresados COAR (2023-2024): S/ 300.00
-* Deportistas Destacados: S/ 300.00
-* Personas con Discapacidad: S/ 120.00
-* Convenio Andrés Bello: S/ 350.00
-* Víctimas de Terrorismo y Plan Integral de Reparaciones: Exonerado
+**Proceso Extraordinario:**
+*   Los postulantes que provienen de los primeros puestos de colegio deben pagar S/ 300.00.
+*   Los egresados de COAR deben pagar S/ 300.00.
+*   Los titulados o graduados deben pagar S/ 450.00.
+*   Los deportistas destacados deben pagar S/ 300.00.
+*   Las personas con discapacidad deben pagar S/ 120.00.
+*   Los postulantes por Convenio Andrés Bello deben pagar S/ 350.00.
+*   El traslado interno de la UNAM tiene un costo de S/ 300.00.
+*   El traslado externo de otras universidades tiene un costo de S/ 400.00.
 
-Todo pago se realizará luego de la primera fase de preinscripción.
-Solo en el caso los pagos en el Banco de la Nación, luego el váucher deberá subirlo a la plataforma virtual de inscripción o ser canjeado por un comprobante de pago en la Unidad de Tesorería (caja) de la UNAM, para su respectiva validación.
+**Otros Pagos:**
+*   El duplicado de carné tiene un costo de S/ 6.00.
+*   La constancia de ingresantes (uso externo) tiene un costo de S/ 8.00.
+
+Todo pago se realiza luego de la primera fase de preinscripción. Si el pago se realiza en el Banco de la Nación, el váucher debe ser subido a la plataforma virtual de inscripción o canjeado por un comprobante de pago en la Unidad de Tesorería (caja) de la UNAM, para su respectiva validación.
+
 
 
 4. CUADRO DE CARRERAS Y VACANTES
@@ -498,7 +481,30 @@ Valores:
 -En preguntas relacionadas a pagos, derivar a contactos o a la pagina oficial.
 -Para preguntas sobre inscripcion derivar a whatsapp o a la pagina oficial.
 -Las sedes de los examenes son Moquegua: Prolongación Calle Ancash S/N, Ex Cuartel Mariscal Nieto e Ilo: Urb. Ciudad Jardín S/N.
+-Cuando te pregunten por nombres de rector, autoridades, etc, esto es lo que tienes que tener en cuenta:
 
+Dr. Hugo Ruben Marca Maquera es el Rector
+
+Dr. Alejandro Manuel Ecos Espino es el Vicerrector Académico
+
+
+Dr. Jhony Mayta Hancoo es el Vicerrector de InvestigaciónDr. 
+
+
+
+
+DIRECTOR DE LA DIRECCIÓN DE ADMISIÓN
+DR. JOSÉ ANTONIO VALERIANO ZAPANA
+
+MIEMBROS DE LA COMISIÓN CENTRAL DE ADMISIÓN
+Presidente del Comité Central de Admisión:
+Dr. Arquímedes León Vargas Luque
+
+Miembro del Comité Central de Admisión Sede Moquegua
+Dr. Ronald Raúl Arce Coaquira
+
+Miembro del Comité Central de Admisión Filial Ilo
+Dra. Maribel Estela Coaguila Mamani
 ## FORMATO Y ESTRUCTURA DE LA RESPUESTA
 Tu respuesta DEBE seguir esta estructura de formato para ser clara y visualmente atractiva:
 1. **Cuerpo de la Respuesta:**
@@ -621,8 +627,13 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
 
     # 1. Recuperar contexto...
     retriever = get_retriever()
-    engine = get_query_engine()
     
+    if retriever is None:
+        print("⚠️ AVISO: No hay retriever disponible (índice no cargado).")
+        yield "Lo siento, mi base de conocimientos sobre admisión está actualmente en mantenimiento o no pudo ser cargada. ¿Deseas que intente responder con lo que sé o prefieres esperar unos minutos?\n\n---"
+        yield "\n* ¿Cuándo estará disponible el sistema?\n* ¿Cómo puedo contactar con admisión?"
+        return
+
     try:
         print(f"🔍 DEBUG: Ejecutando retrieval...")
         source_nodes = await retriever.aretrieve(pregunta)
@@ -683,8 +694,8 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
         # Unir todos los chunks con separadores
         contexto = "\n---\n".join(contexto_partes)
         
-        # 4. Generar respuesta con las fuentes identificadas
-        prompt = generar_prompt(pregunta, contexto, historial, source_files=list(source_files) if source_files else None)
+        # 4. Generar respuesta
+        prompt = generar_prompt(pregunta, contexto, historial)
         
         async for chunk in llamar_llm_streaming(prompt):
             yield chunk

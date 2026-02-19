@@ -4812,29 +4812,5 @@ Protocolo – Control y Validacion de Inscripcion Dirección de Admisión
 Página 38 de 38
 
 [TABLA 1 en página 38]
-
---- Interpretación de Tabla por LLM ---
-El documento "PROTOCOLOS INTERNOS", versión 01, página 38 de 38, describe los controles y la validación de la inscripción.
----------------------------------------
-
-
-[TABLA 2 en página 38]
-
---- Interpretación de Tabla por LLM ---
-Necesito la tabla cruda para poder ayudarte a analizarla y convertirla en un formato más amigable para LLMs.  Por favor, proporciona la tabla que extrajiste del PDF. Una vez que la vea, seguiré los pasos que has descrito:
-
-1.  **Análisis:** Examinaré la estructura (número de columnas, filas, encabezados) y el tipo de datos que contiene (numéricos, categóricos, texto). Identificaré las relaciones entre las columnas y el significado general de la tabla.
-
-2.  **Conversión:** Convertiré la tabla en una representación textual.  El método exacto dependerá de la naturaleza de los datos, pero las estrategias comunes incluirán:
-
-    *   **Formato Narrativo:** Si la tabla es relativamente pequeña, puedo transformarla en un párrafo de texto que describe los datos.
-
-    *   **Formato Descriptivo (estructurado):**  Para tablas más grandes o complejas, puedo usar frases cortas y concisas para describir cada fila/columna, usando los encabezados para el contexto. Por ejemplo: "Para la categoría 'A', el valor de 'X' es 10, el valor de 'Y' es 20, y el valor de 'Z' es 30." Repetiré esta estructura para cada fila.
-
-    *   **Formato JSON:** Si la tabla tiene una estructura muy bien definida, convertirla a JSON podría ser apropiado para que la LLM pueda procesarla fácilmente.
-
-3.  **Conservación de la Información:**  Me aseguraré de que toda la información numérica y las claves (nombres, categorías, identificadores) se mantengan en la representación final.
-
-4.  **Uso de Encabezados:** Utilizaré los encabezados de las columnas como contexto para cada valor, de modo que la LLM pueda entender lo que representa cada número.
----------------------------------------
+w---------------------------------------
 

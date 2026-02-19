@@ -75,7 +75,7 @@ def get_cutoff_page(pdf_path, total_pages):
             print("\n\n⚠️  Proceso interrumpido por el usuario")
             sys.exit(0)
 
-def preprocess_pdf(pdf_path, output_path, use_llm=False, cutoff_page=None):
+def preprocess_pdf(pdf_path, output_path, use_llm=False, cutoff_page=None, start_page=1, end_page=None):
     """
     Lee un PDF, extrae texto y tablas, y guarda todo en un archivo de texto plano.
     Opcionalmente interpreta las tablas con un LLM hasta la página de corte.
@@ -85,6 +85,8 @@ def preprocess_pdf(pdf_path, output_path, use_llm=False, cutoff_page=None):
         output_path: Ruta de salida para el archivo de texto
         use_llm: Si True, usa LLM para interpretar tablas
         cutoff_page: Página límite para usar LLM. Después de esta página, todo es anexo sin LLM
+        start_page: Página inicial (1-indexed)
+        end_page: Página final (inclusive)
     """
     if not os.path.exists(pdf_path):
         print(f"❌ Error: El archivo '{pdf_path}' no existe.")
@@ -101,8 +103,14 @@ def preprocess_pdf(pdf_path, output_path, use_llm=False, cutoff_page=None):
                 cutoff_page = get_cutoff_page(pdf_path, total_pages)
             
             with open(output_path, "w", encoding="utf-8") as out_file:
-                for i, page in enumerate(pdf.pages):
-                    page_num = i + 1
+                # Ajustar rango de páginas
+                actual_end = end_page if end_page and end_page <= total_pages else total_pages
+                pages_to_process = pdf.pages[start_page-1 : actual_end]
+                
+                print(f"📑 Procesando rango de páginas: {start_page} a {actual_end}")
+                
+                for i, page in enumerate(pages_to_process):
+                    page_num = start_page + i
                     print(f"📖 Procesando página {page_num}/{total_pages}...")
                     
                     # Determinar si esta página debe procesarse con LLM
@@ -189,11 +197,42 @@ if __name__ == "__main__":
     # Si se pasa --llm o no hay argumentos suficientes para modo p2p, usamos batch
     use_llm = "--llm" in sys.argv
     
+    # Parsear start, end y cutoff si existen
+    start_page = 1
+    end_page = None
+    cutoff_page = None
+    
+    if "--start" in sys.argv:
+        try:
+            start_index = sys.argv.index("--start")
+            start_page = int(sys.argv[start_index + 1])
+        except (ValueError, IndexError):
+            pass
+            
+    if "--end" in sys.argv:
+        try:
+            end_index = sys.argv.index("--end")
+            end_page = int(sys.argv[end_index + 1])
+        except (ValueError, IndexError):
+            pass
+
+    if "--cutoff" in sys.argv:
+        try:
+            cutoff_index = sys.argv.index("--cutoff")
+            cutoff_page = int(sys.argv[cutoff_index + 1])
+        except (ValueError, IndexError):
+            pass
+
     # Si no se especifican archivos de entrada/salida (o se usa --batch), activamos modo lote
     if len(sys.argv) < 3 or "--batch" in sys.argv:
         batch_process(use_llm)
     else:
         # Modo tradicional por si el usuario quiere procesar uno solo
-        input_pdf = sys.argv[1]
-        output_txt = sys.argv[2]
-        preprocess_pdf(input_pdf, output_txt, use_llm)
+        # Filtramos los argumentos que empiezan con --
+        pos_args = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
+        if len(pos_args) >= 2:
+            input_pdf = pos_args[0]
+            output_txt = pos_args[1]
+            preprocess_pdf(input_pdf, output_txt, use_llm, cutoff_page=cutoff_page, start_page=start_page, end_page=end_page)
+        else:
+            print("Uso: python preprocess_pdf.py <input.pdf> <output.txt> [--llm] [--start N] [--end M] [--cutoff K]")
