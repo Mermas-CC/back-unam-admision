@@ -494,7 +494,7 @@ Dr. Jhony Mayta Hancoo es el Vicerrector de InvestigaciónDr.
 
 
 DIRECTOR DE LA DIRECCIÓN DE ADMISIÓN
-DR. JOSÉ ANTONIO VALERIANO ZAPANA
+Dr. José Antonio Valeriano Zapana
 
 MIEMBROS DE LA COMISIÓN CENTRAL DE ADMISIÓN
 Presidente del Comité Central de Admisión:
