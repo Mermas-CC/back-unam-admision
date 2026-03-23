@@ -198,15 +198,6 @@ Requisitos (formato digital - PDF):
 
 a) Copia fedateada o notariada del diploma de título
 
---- FIN PÁGINA 9 ---
-
-
---- INICIO PÁGINA 10 (VISION OCR) ---
-
-**PÁGINA 10**
-
-**Requisitos Generales (aplican a todas las submodalidades, según corresponda):**
-
 *   Se debe presentar un documento que acredite el grado académico:
     *   Para títulos extranjeros, se requiere una constancia de revalidación o reconocimiento emitida por SUNEDU.
     *   Para postulantes de las FFAA/PNP, se requiere la resolución de reconocimiento del grado académico.
@@ -217,7 +208,7 @@ a) Copia fedateada o notariada del diploma de título
 *   Se deben presentar los formatos de Declaraciones Juradas N.º 13, 14 y 16, firmadas digitalmente.
 *   Se debe realizar el pago por derecho de examen de admisión, conforme al tarifario vigente: S/ 450.00
 
-**Submodalidad Traslado Externo**
+b) Submodalidad Traslado Externo
 
 *   **Requisitos:** (formato digital - PDF)
     *   Se requiere un certificado de estudios universitarios que acredite el cumplimiento del requisito de créditos, habiendo aprobado por lo menos cuatro (04) periodos lectivos semestrales o dos (02) anuales o un mínimo de setenta y dos (72) créditos académicos, fedateado por la universidad de origen.
@@ -231,7 +222,7 @@ a) Copia fedateada o notariada del diploma de título
     *   Se deben presentar los Formatos de Declaraciones Juradas N.° 15, 16 y 17, firmadas digitalmente.
     *   Se debe realizar el pago por derecho de examen de admisión, conforme al tarifario vigente: S/400.00
 
-**Submodalidad Traslado Interno**
+c) Submodalidad Traslado Interno
 
 *   **Requisitos:** (formato digital - PDF)
     *   Se requiere Certificado de Estudios de Educación Secundaria o Constancia de conformidad de Documentos emitida por la DASA.
@@ -246,7 +237,7 @@ a) Copia fedateada o notariada del diploma de título
     *   Constancia de existencia de vacante en la sede de destino.
     *   Declaración Jurada de domicilio o justificación del motivo del traslado.
 
-**Submodalidad Primeros Puestos de Educación Secundaria**
+d) Submodalidad Primeros Puestos de Educación Secundaria
 
 *   **Requisitos documentarios:** (formato digital - PDF)
     *   Constancia o Certificado original otorgado por el Director del Centro Educativo que acredite el orden de mérito (primero o segundo puesto).
@@ -260,17 +251,13 @@ a) Copia fedateada o notariada del diploma de título
     *   Pago por derecho de examen de admisión, conforme al tarifario vigente: S/300.00
     *   Pueden postular quienes hayan culminado sus estudios secundarios en los dos (2) años previos al proceso de admisión.
 
-**Submodalidad Egresados de Colegios de Alto Rendimiento (COAR)**
+e) Submodalidad Egresados de Colegios de Alto Rendimiento (COAR)
 
 *   **Requisitos:** (formato digital - PDF)
     *   Constancia de haber egresado de un Colegio de Alto Rendimiento, expedida por el colegio de origen.
     *   Certificado oficial de estudios secundarios completos expedido por la UGEL, DRE O MINEDU:
         *   Para egresados recientes: Certificado digital con código de verificación QR.
 
---- FIN PÁGINA 10 ---
-
-
---- INICIO PÁGINA 11 (VISION OCR) ---
 
 **Submodalidad: Egresados de Colegios de Alto Rendimiento (COAR)**
 

@@ -6,7 +6,7 @@ import numpy as np
 # ==========================
 # CONFIGURACIÓN
 # ==========================
-API_URL = "https://back-unam-admision-1001169872215.us-central1.run.app/chat"
+API_URL = "https://chat-back-1001169872215.us-central1.run.app/chat"
 USUARIOS_POR_LOTE = 30
 INTERVALO_ENTRE_LOTES = 1
 NUMERO_DE_LOTES = 10  # Haremos 3 rondas por defecto
