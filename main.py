@@ -75,7 +75,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 # --- 1. CONFIGURAR MODELOS LLAMA_INDEX ---
 print("⚙️ Configurando modelos...")
 
-Settings.llm = Gemini(model="models/gemini-2.0-flash", max_output_tokens=2048)
+Settings.llm = Gemini(model="models/gemini-2.5-flash", max_output_tokens=2048)
 Settings.embed_model = GeminiEmbedding(model="models/gemini-embedding-001")
 
 # --- 2. CARGAR/VERIFICAR ÍNDICE ---
@@ -270,7 +270,7 @@ async def llamar_llm_streaming(prompt: str):
 
     for attempt in range(max_retries):
         try:
-            model = genai.GenerativeModel('gemini-2.0-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             response = await model.generate_content_async(
                 prompt, 
                 stream=True,
@@ -500,6 +500,10 @@ MIEMBROS DE LA COMISIÓN CENTRAL DE ADMISIÓN
 Presidente del Comité Central de Admisión:
 Dr. Arquímedes León Vargas Luque
 
+## REGLA ESTRICTA DE CONTEXTO
+- Si la pregunta del usuario no puede ser respondida usando el **Contexto Relevante** proporcionado abajo, DEBES responder textualmente: "Lo siento, no encontré información específica en los documentos oficiales de la UNAM que me permita responder a tu pregunta con seguridad."
+- No intentes inventar ni deducir información que no esté en el contexto.
+
 Miembro del Comité Central de Admisión Sede Moquegua
 Dr. Ronald Raúl Arce Coaquira
 
@@ -660,15 +664,9 @@ async def generar_respuesta_stream(pregunta: str, historial: list):
             print(f"   {'-'*76}")
         print("="*80 + "\n")
         
-        # 2. Juzgar Suficiencia
-        judge = await judge_context_sufficiency(pregunta, source_nodes)
-        print(f"⚖️ JUDGE RESULT: {judge}")
-
-        if not judge.get("sufficient") and judge.get("confidence", 0) > 0.7:
-            print("🚫 RECHAZADO: Contexto insuficiente.")
-            yield "Lo siento, no encontré información específica en los documentos oficiales de la UNAM que me permita responder a tu pregunta con seguridad. ¿Deseas consultar sobre requisitos, fechas de examen o carreras disponibles?\n\n---"
-            yield "\n* ¿Cuáles son los requisitos de admisión?\n* ¿Cuándo es el próximo examen?"
-            return
+        # 2. (Juez Removido para Optimizar Velocidad)
+        # El LLM principal ahora se encarga de determinar si hay contexto suficiente, 
+        # ahorrando 2-3 segundos de espera por mensaje.
 
         # 3. Formatear contexto con etiquetas de fuente para cada chunk
         contexto_partes = []
