@@ -11,5 +11,6 @@ __pycache__/
 venv/
 .env
 
-# Explicitly ensure chroma_db_v2 is NOT ignored
+# Explicitly ensure chroma_db is NOT ignored
+!chroma_db/
 !chroma_db_v2/
